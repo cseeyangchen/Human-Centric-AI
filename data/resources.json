@@ -1,0 +1,4881 @@
+{
+  "generated_on": "2026-08-08",
+  "summary": {
+    "unique_method_papers": 220,
+    "categorized_method_entries": 233,
+    "unique_resources": 158,
+    "categorized_resource_entries": 158
+  },
+  "method_papers": {
+    "Visual Appearance": {
+      "Generalist Human Perception": [
+        {
+          "bibkey": "khirodkarsapiens2",
+          "title": "Sapiens2",
+          "year": "2026",
+          "venue": "ICLR 2026",
+          "paper_url": "https://openreview.net/forum?id=IVAlYCqdvW",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/facebookresearch/sapiens2"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026thfm",
+          "title": "THFM: A Unified Video Foundation Model for 4D Human Perception and Beyond",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2603.25892",
+          "websites": []
+        },
+        {
+          "bibkey": "saleh2025david",
+          "title": "DAViD: Data-efficient and Accurate Vision Models from Synthetic Data",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Saleh_DAViD_Data-efficient_and_Accurate_Vision_Models_from_Synthetic_Data_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/microsoft/DAViD"
+            }
+          ]
+        },
+        {
+          "bibkey": "narayan2025facexformer",
+          "title": "FaceXFormer: A Unified Transformer for Facial Analysis",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Narayan_FaceXFormer_A_Unified_Transformer_for_Facial_Analysis_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Kartik-3004/facexformer"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2025fsfm",
+          "title": "FSFM: A Generalizable Face Security Foundation Model via Self-Supervised Facial Representation Learning",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_FSFM_A_Generalizable_Face_Security_Foundation_Model_via_Self-Supervised_Facial_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/wolo-wolo/FSFM-CVPR25"
+            }
+          ]
+        },
+        {
+          "bibkey": "han2025groundingface",
+          "title": "GroundingFace: Fine-Grained Face Understanding via Pixel Grounding Multimodal Large Language Model",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "http://openaccess.thecvf.com/content/CVPR2025/html/Han_GroundingFace_Fine-grained_Face_Understanding_via_Pixel_Grounding_Multimodal_Large_Language_CVPR_2025_paper.html",
+          "websites": []
+        },
+        {
+          "bibkey": "wang2025hulk",
+          "title": "Hulk: A Universal Knowledge Translator for Human-Centric Tasks",
+          "year": "2025",
+          "venue": "TPAMI 2025",
+          "paper_url": "https://arxiv.org/abs/2312.01697",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/OpenGVLab/Hulk"
+            }
+          ]
+        },
+        {
+          "bibkey": "zuo2025man",
+          "title": "L-Man: A Large Multi-modal Model Unifying Human-centric Tasks",
+          "year": "2025",
+          "venue": "AAAI 2025",
+          "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33206",
+          "websites": []
+        },
+        {
+          "bibkey": "li2025unif",
+          "title": "UniF^2ace: A Unified Fine-grained Face Understanding and Generation Model",
+          "year": "2025",
+          "venue": "ICLR 2026",
+          "paper_url": "https://arxiv.org/abs/2503.08120",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/tulvgengenr/UniF2ace"
+            }
+          ]
+        },
+        {
+          "bibkey": "sun2024face",
+          "title": "Face-MLLM: A Large Face Perception Model",
+          "year": "2024",
+          "venue": "arXiv 2024",
+          "paper_url": "https://arxiv.org/abs/2410.20717",
+          "websites": []
+        },
+        {
+          "bibkey": "khirodkar2024sapiens",
+          "title": "Sapiens: Foundation for Human Vision Models",
+          "year": "2024",
+          "venue": "ECCV 2024",
+          "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-73235-5_12",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/facebookresearch/sapiens"
+            }
+          ]
+        },
+        {
+          "bibkey": "yuan2023hap",
+          "title": "HAP: Structure-Aware Masked Image Modeling for Human-Centric Perception",
+          "year": "2023",
+          "venue": "NeurIPS 2023",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9ed1c94a6c87276f25ebb65231c86c3e-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/junkunyuan/HAP"
+            }
+          ]
+        },
+        {
+          "bibkey": "tang2023humanbench",
+          "title": "HumanBench: Towards General Human-Centric Perception with Projector Assisted Pretraining",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Tang_HumanBench_Towards_General_Human-Centric_Perception_With_Projector_Assisted_Pretraining_CVPR_2023_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/OpenGVLab/HumanBench"
+            }
+          ]
+        }
+      ],
+      "Discriminative Identity Understanding": [
+        {
+          "bibkey": "niu2025chatreid",
+          "title": "ChatReID: Open-ended Interactive Person Retrieval via Hierarchical Progressive Tuning for Vision Language Models",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Niu_ChatReID_Open-ended_Interactive_Person_Retrieval_via_Hierarchical_Progressive_Tuning_for_ICCV_2025_paper.pdf",
+          "websites": []
+        },
+        {
+          "bibkey": "ebrahimi2025gif",
+          "title": "GIF: Generative Inspiration for Face Recognition at Scale",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ebrahimi_GIF_Generative_Inspiration_for_Face_Recognition_at_Scale_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/msed-Ebrahimi/GIF"
+            }
+          ]
+        },
+        {
+          "bibkey": "he2025instruct",
+          "title": "Instruct-reid++: Towards universal purpose instruction-guided person re-identification",
+          "year": "2025",
+          "venue": "TPAMI 2025",
+          "paper_url": "https://arxiv.org/abs/2405.17790",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/hwz-zju/Instruct-ReID"
+            }
+          ]
+        },
+        {
+          "bibkey": "you2025lvface",
+          "title": "LVFace: Progressive Cluster Optimization for Large Vision Models in Face Recognition",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/You_LVFace_Progressive_Cluster_Optimization_for_Large_Vision_Models_in_Face_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/bytedance/LVFace"
+            }
+          ]
+        },
+        {
+          "bibkey": "jiang2025referring",
+          "title": "Referring to Any Person",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Referring_to_Any_Person_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/IDEA-Research/RexSeek"
+            }
+          ]
+        },
+        {
+          "bibkey": "zuo2026reid5o",
+          "title": "ReID5o: Achieving Omni Multi-modal Person Re-identification in a Single Model",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d4dbc5c955c5d273eed12d565335068-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Zplusdragon/ReID5o_ORBench"
+            }
+          ]
+        },
+        {
+          "bibkey": "kim2025sapiensid",
+          "title": "SapiensID: Foundation for Human Recognition",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kim_SapiensID_Foundation_for_Human_Recognition_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/mk-minchul/sapiensid"
+            }
+          ]
+        },
+        {
+          "bibkey": "he2024instruct",
+          "title": "Instruct-ReID: A Multi-purpose Person Re-identification Task with Instructions",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/He_Instruct-ReID_A_Multi-purpose_Person_Re-identification_Task_with_Instructions_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/hwz-zju/Instruct-ReID"
+            }
+          ]
+        },
+        {
+          "bibkey": "zuo2024plip",
+          "title": "PLIP: Language-Image Pre-training for Person Representation Learning",
+          "year": "2024",
+          "venue": "NeurIPS 2024",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/510ad3018bbdc5b6e3b10646e2e35771-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/zplusdragon/PLIP"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhang2024pedestrian",
+          "title": "When Pedestrian Detection Meets Multi-modal Learning: Generalist Model and Benchmark Dataset",
+          "year": "2024",
+          "venue": "ECCV 2024",
+          "paper_url": "https://arxiv.org/abs/2407.10125",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/BubblyYi/MMPedestron"
+            }
+          ]
+        }
+      ],
+      "Controllable Human Generation": [
+        {
+          "bibkey": "bao2026archon",
+          "title": "Archon: A Unified Multimodal Model for Holistic Digital Human Generation",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bao_Archon_A_Unified_Multimodal_Model_for_Holistic_Digital_Human_Generation_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://zju3dv.github.io/archon/"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2026tstars",
+          "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.19748",
+          "websites": []
+        },
+        {
+          "bibkey": "luo2025dreamactor",
+          "title": "DreamActor-M1: Holistic, Expressive and Robust Human Image Animation with Hybrid Guidance",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Luo_DreamActor-M1_Holistic_Expressive_and_Robust_Human_Image_Animation_with_Hybrid_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://grisoon.github.io/DreamActor-M1/"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2025foundhand",
+          "title": "FoundHand: Large-Scale Domain-Specific Learning for Controllable Hand Image Generation",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_FoundHand_Large-Scale_Domain-Specific_Learning_for_Controllable_Hand_Image_Generation_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/arthurchen0518/FoundHand"
+            }
+          ]
+        },
+        {
+          "bibkey": "nam2025visual",
+          "title": "Visual Persona: Foundation Model for Full-Body Human Customization",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Nam_Visual_Persona_Foundation_Model_for_Full-Body_Human_Customization_CVPR_2025_paper.pdf",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/cvlab-kaist/Visual-Persona"
+            }
+          ]
+        },
+        {
+          "bibkey": "lee2025voost",
+          "title": "Voost: A Unified and Scalable Diffusion Transformer for Bidirectional Virtual Try-On and Try-Off",
+          "year": "2025",
+          "venue": "SIGGRAPH Asia 2025",
+          "paper_url": "https://arxiv.org/abs/2508.04825",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://nxnai.github.io/Voost"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2024cosmicman",
+          "title": "CosmicMan: A Text-to-Image Foundation Model for Humans",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_CosmicMan_A_Text-to-Image_Foundation_Model_for_Humans_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/cosmicman-cvpr2024/CosmicMan"
+            }
+          ]
+        },
+        {
+          "bibkey": "cheong2023upgpt",
+          "title": "UPGPT: Universal Diffusion Model for Person Image Generation, Editing and Pose Transfer",
+          "year": "2023",
+          "venue": "ICCVW 2023",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2023W/CV4Metaverse/html/Cheong_UPGPT_Universal_Diffusion_Model_for_Person_Image_Generation_Editing_and_ICCVW_2023_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/soon-yau/upgpt"
+            }
+          ]
+        }
+      ]
+    },
+    "Spatial Geometry": {
+      "Structured Geometry Modeling": [
+        {
+          "bibkey": "bravo2026anny",
+          "title": "Anny-Fit: All-Age Human Mesh Recovery",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.04728",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/naver/anny-fit"
+            }
+          ]
+        },
+        {
+          "bibkey": "shen2026dancehmr",
+          "title": "DanceHMR: Hand-Aware Whole-Body Human Mesh Recovery from Monocular Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.18102",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://shenwenhao01.github.io/dancehmr/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026emotegpt",
+          "title": "EmoteGPT: 3D Human Facial Expressions from Natural Language Descriptions",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2607.02674",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/GenIntel/EmoteGPT"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2026large",
+          "title": "Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2604.02320",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://junxuan-li.github.io/lca/"
+            }
+          ]
+        },
+        {
+          "bibkey": "fiche2026multi",
+          "title": "Multi-HMR 2: Multi-Person Camera-Centric Human Detection, Mesh Recovery and Tracking",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.14841",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/naver/multi-hmr2"
+            }
+          ]
+        },
+        {
+          "bibkey": "wu2026pear",
+          "title": "PEAR: Pixel-Aligned Expressive Human Mesh Recovery",
+          "year": "2026",
+          "venue": "SIGGRAPH 2026",
+          "paper_url": "https://arxiv.org/abs/2601.22693",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Pixel-Talk/PEAR"
+            }
+          ]
+        },
+        {
+          "bibkey": "yang2026sam",
+          "title": "SAM 3D Body: Robust Full-Body Human Mesh Recovery",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2602.15989",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/facebookresearch/sam-3d-body"
+            }
+          ]
+        },
+        {
+          "bibkey": "shen2026vlm",
+          "title": "VLM-Guided Group Preference Alignment for Diffusion-based Human Mesh Recovery",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2602.19180",
+          "websites": []
+        },
+        {
+          "bibkey": "kim2025contextface",
+          "title": "ContextFace: Generating Facial Expressions from Emotional Contexts",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Kim_ContextFace_Generating_Facial_Expressions_from_Emotional_Contexts_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/minjung98/ContextFace_"
+            }
+          ]
+        },
+        {
+          "bibkey": "kant2025pippo",
+          "title": "Pippo: High-Resolution Multi-View Humans from a Single Image",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kant_Pippo_High-Resolution_Multi-View_Humans_from_a_Single_Image_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/facebookresearch/pippo"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2025prompthmr",
+          "title": "PromptHMR: Promptable Human Mesh Recovery",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_PromptHMR_Promptable_Human_Mesh_Recovery_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/yufu-wang/PromptHMR"
+            }
+          ]
+        },
+        {
+          "bibkey": "yin2025smplest",
+          "title": "SMPLest-X: Ultimate Scaling for Expressive Human Pose and Shape Estimation",
+          "year": "2025",
+          "venue": "TPAMI 2025",
+          "paper_url": "https://ieeexplore.ieee.org/abstract/document/11195771/",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/wqyin/SMPLest-X"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2025unipose",
+          "title": "UniPose: A Unified Multimodal Framework for Human Pose Comprehension, Generation and Editing",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_UniPose_A_Unified_Multimodal_Framework_for_Human_Pose_Comprehension_Generation_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/VIPL-VISMOD/UniPose"
+            }
+          ]
+        },
+        {
+          "bibkey": "feng2024chatpose",
+          "title": "Chatpose: Chatting about 3d Human Pose",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Feng_ChatPose_Chatting_about_3D_Human_Pose_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/yfeng95/PoseGPT"
+            }
+          ]
+        },
+        {
+          "bibkey": "delmas2024poseembroider",
+          "title": "Poseembroider: Towards a 3d, Visual, Semantic-Aware Human Pose Representation",
+          "year": "2024",
+          "venue": "ECCV 2024",
+          "paper_url": "https://arxiv.org/abs/2409.06535",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/naver/poseembroider"
+            }
+          ]
+        },
+        {
+          "bibkey": "pavlakos2024reconstructing",
+          "title": "Reconstructing Hands in 3D with Transformers",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Pavlakos_Reconstructing_Hands_in_3D_with_Transformers_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/geopavlakos/hamer"
+            }
+          ]
+        },
+        {
+          "bibkey": "cai2023smpler",
+          "title": "SMPLer-X: Scaling Up Expressive Human Pose and Shape Estimation",
+          "year": "2023",
+          "venue": "NeurIPS 2023",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/2614947a25d7c435bcd56c51958ddcb1-Abstract-Datasets_and_Benchmarks.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/caizhongang/SMPLer-X"
+            }
+          ]
+        }
+      ],
+      "Renderable Avatar Modeling": [
+        {
+          "bibkey": "zhang2026bringing",
+          "title": "Bringing Your Portrait to 3D Presence",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Bringing_Your_Portrait_to_3D_Presence_CVPR_2026_paper.html",
+          "websites": []
+        },
+        {
+          "bibkey": "liu2026dreamcharacter",
+          "title": "DreamCharacter-1: From 3D Generative Foundation Models to Product-Ready Character Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.07817",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://dreamcharacter-x.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "kocasari2026face",
+          "title": "Face Anything: 4D Face Reconstruction from Any Image Sequence",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.19702",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://kocasariumut.github.io/FaceAnything/"
+            }
+          ]
+        },
+        {
+          "bibkey": "youwang2026fica",
+          "title": "FiCA: Feed-forward instant Gaussian Codec Avatars from a Single Portrait Image",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.24232",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://kim-youwang.github.io/FiCA"
+            }
+          ]
+        },
+        {
+          "bibkey": "wu2026genlca",
+          "title": "GenLCA: 3D Diffusion for Full-Body Avatars from In-the-Wild Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.07273",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://onethousandwu.com/GenLCA-Page/"
+            }
+          ]
+        },
+        {
+          "bibkey": "hu2026humannova",
+          "title": "HumanNOVA: Photorealistic, Universal and Rapid 3D Human Avatar Modeling from a Single Image",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2606.02573",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/HumanNOVA/HumanNOVA"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2026large",
+          "title": "Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2604.02320",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://junxuan-li.github.io/lca/"
+            }
+          ]
+        },
+        {
+          "bibkey": "ntavelis2026large",
+          "title": "Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2605.04035",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://apple.github.io/ml-headsup/"
+            }
+          ]
+        },
+        {
+          "bibkey": "qiu2025anigs",
+          "title": "AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Qiu_AniGS_Animatable_Gaussian_Avatar_from_a_Single_Image_with_Inconsistent_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/aigc3d/AniGS"
+            }
+          ]
+        },
+        {
+          "bibkey": "kirschstein2025avat3r",
+          "title": "Avat3r: Large Animatable Gaussian Reconstruction Model for High-fidelity 3D Head Avatars",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Kirschstein_Avat3r_Large_Animatable_Gaussian_Reconstruction_Model_for_High-fidelity_3D_Head_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://tobias-kirschstein.github.io/avat3r/"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhuang2025idol",
+          "title": "IDOL: Instant Photorealistic 3D Human Creation from a Single Image",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_IDOL_Instant_Photorealistic_3D_Human_Creation_from_a_Single_Image_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/yiyuzhuang/IDOL"
+            }
+          ]
+        },
+        {
+          "bibkey": "xue2025infinihuman",
+          "title": "InfiniHuman: Realistic 3D Human Creation with Precise Control",
+          "year": "2025",
+          "venue": "SIGGRAPH Asia 2025",
+          "paper_url": "https://arxiv.org/abs/2510.11650",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://yuxuan-xue.com/infini-human"
+            }
+          ]
+        },
+        {
+          "bibkey": "qiu2025lhm",
+          "title": "LHM: Large Animatable Human Reconstruction Model for Single Image to 3D in Seconds",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/abs/2503.10625",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/aigc3d/LHM"
+            }
+          ]
+        },
+        {
+          "bibkey": "liu2025lucas",
+          "title": "LUCAS: Layered Universal Codec Avatars",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "http://openaccess.thecvf.com/content/CVPR2025/html/Liu_LUCAS_Layered_Universal_Codec_Avatars_CVPR_2025_paper.html",
+          "websites": []
+        },
+        {
+          "bibkey": "zhi2025mv",
+          "title": "MV-Performer: Taming Video Diffusion Model for Faithful and Synchronized Multi-view Performer Synthesis",
+          "year": "2025",
+          "venue": "SIGGRAPH Asia 2025",
+          "paper_url": "https://arxiv.org/abs/2510.07190",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/zyhbili/MV-Performer"
+            }
+          ]
+        },
+        {
+          "bibkey": "kant2025pippo",
+          "title": "Pippo: High-Resolution Multi-View Humans from a Single Image",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kant_Pippo_High-Resolution_Multi-View_Humans_from_a_Single_Image_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/facebookresearch/pippo"
+            }
+          ]
+        },
+        {
+          "bibkey": "yang2025sigman",
+          "title": "SIGMAN: Scaling 3D Human Gaussian Generation with Millions of Assets",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/abs/2504.06982",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://yyvhang.github.io/SIGMAN_3D/"
+            }
+          ]
+        }
+      ]
+    },
+    "Kinematic Dynamics": {
+      "Scalable Motion Modeling": [
+        {
+          "bibkey": "li2026anylift",
+          "title": "AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_AnyLift_Scaling_Motion_Reconstruction_from_Internet_Videos_via_2D_Diffusion_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://awfuact.github.io/anylift/"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhao2026autoregressive",
+          "title": "Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation",
+          "year": "2026",
+          "venue": "TOG 2026",
+          "paper_url": "https://arxiv.org/abs/2607.08741",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/nv-tlabs/ardy"
+            }
+          ]
+        },
+        {
+          "bibkey": "tan2026gaitdynamics",
+          "title": "GaitDynamics: A generative foundation model for analyzing human walking and running",
+          "year": "2026",
+          "venue": "NBE 2026",
+          "paper_url": "https://doi.org/10.1038/s41551-025-01565-8",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/stanfordnmbl/GaitDynamics"
+            }
+          ]
+        },
+        {
+          "bibkey": "rempe2026kimodo",
+          "title": "Kimodo: Scaling Controllable Human Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2603.15546",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/nv-tlabs/kimodo"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2026llamo",
+          "title": "LLaMo: Scaling Pretrained Language Models for Unified Motion Understanding and Generation with Continuous Autoregressive Tokens",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_LLaMo_Scaling_Pretrained_Language_Models_for_Unified_Motion_Understanding_and_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://kunkun0w0.github.io/project/LLaMo/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026motionbricks",
+          "title": "MotionBricks: Scalable Real-Time Motions with Modular Latent Generative Model and Smart Primitives",
+          "year": "2026",
+          "venue": "TOG 2026",
+          "paper_url": "https://arxiv.org/pdf/2604.24833",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://nvlabs.github.io/motionbricks/"
+            }
+          ]
+        },
+        {
+          "bibkey": "jiang2026motionmaster",
+          "title": "MotionMaster: Generalizable Text-Driven Motion Generation and Editing",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_MotionMaster_Generalizable_Text-Driven_Motion_Generation_and_Editing_CVPR_2026_paper.pdf",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Cyan-C/MT2M"
+            }
+          ]
+        },
+        {
+          "bibkey": "fan2026open",
+          "title": "Open the Motion Door: Atomic Motion Decomposition and Recomposition for Open-Vocabulary Motion Generation",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Fan_Open_the_Motion_Door_Atomic_Motion_Decomposition_and_Recomposition_for_CVPR_2026_paper.pdf",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://vankouf.github.io/OpenTheMotionDoor/"
+            }
+          ]
+        },
+        {
+          "bibkey": "cao2026opent2m",
+          "title": "OpenT2M: No-frill Motion Generation with Open-source, Large-scale, High-quality Data",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/pdf/2603.18623",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://research.beingbeyond.com/opent2m"
+            }
+          ]
+        },
+        {
+          "bibkey": "hwang2026scalemogen",
+          "title": "ScaleMoGen: Autoregressive Next-Scale Prediction for Human Motion Generation",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/pdf/2605.11704",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://inwoohwang.me/ScaleMoGen/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026superman",
+          "title": "Superman: Unifying Skeleton and Vision for Human Motion Perception and Generation",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2602.02401",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/BradleyWang0416/Superman"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026universal",
+          "title": "Universal Skeleton Understanding via Differentiable Rendering and MLLMs",
+          "year": "2026",
+          "venue": "ICML 2026",
+          "paper_url": "https://arxiv.org/pdf/2603.18003",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/wangzy01/SkeletonLLM"
+            }
+          ]
+        },
+        {
+          "bibkey": "cao2025being",
+          "title": "Being-M0.5: A Real-Time Controllable Vision-Language-Motion Model",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/pdf/2508.07863",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://beingbeyond.github.io/Being-M0.5/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2025ego4o",
+          "title": "Ego4o: Egocentric Human Motion Capture and Understanding from Multi-Modal Input",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Ego4o_Egocentric_Human_Motion_Capture_and_Understanding_from_Multi-Modal_Input_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://jianwang-mpi.github.io/ego4o"
+            }
+          ]
+        },
+        {
+          "bibkey": "hong2025egolm",
+          "title": "Egolm: Multi-modal language model of egocentric motions",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://arxiv.org/pdf/2409.18127",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://hongfz16.github.io/projects/EgoLM"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2025genmo",
+          "title": "Genmo: A generalist model for human motion",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/pdf/2505.01425",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://research.nvidia.com/labs/dair/gem/"
+            }
+          ]
+        },
+        {
+          "bibkey": "fan2025go",
+          "title": "Go to zero: Towards zero-shot motion generation with million-scale data",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/pdf/2507.07095",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/VankouF/MotionMillion-Codes"
+            }
+          ]
+        },
+        {
+          "bibkey": "hu2026hmvlm",
+          "title": "HMVLM: Human Motion-Vision-Language Model via MoE LoRA",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8cb564df771e9eacbfe9d72bd46a24a9-Abstract-Conference.html",
+          "websites": []
+        },
+        {
+          "bibkey": "li2025human",
+          "title": "Human motion instruction tuning",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Human_Motion_Instruction_Tuning_CVPR_2025_paper.pdf",
+          "websites": []
+        },
+        {
+          "bibkey": "fang2025humocon",
+          "title": "HuMoCon: Concept Discovery for Human Motion Understanding",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Fang_HuMoCon_Concept_Discovery_for_Human_Motion_Understanding_CVPR_2025_paper.html",
+          "websites": []
+        },
+        {
+          "bibkey": "wen2025hy",
+          "title": "HY-Motion 1.0: Scaling Flow Matching Models for Text-To-Motion Generation",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2512.23464",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Tencent-Hunyuan/HY-Motion-1.0"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhang2025kinmo",
+          "title": "KinMo: Kinematic-aware Human Motion Understanding and Generation",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_KinMo_Kinematic-aware_Human_Motion_Understanding_and_Generation_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://andypinxinliu.github.io/KinMo"
+            }
+          ]
+        },
+        {
+          "bibkey": "wu2025mg",
+          "title": "Mg-motionllm: A unified framework for motion comprehension and generation across multiple granularities",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://arxiv.org/pdf/2504.02478",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/CVI-SZU/MG-MotionLLM"
+            }
+          ]
+        },
+        {
+          "bibkey": "wu2025motion",
+          "title": "Motion-agent: A conversational framework for human motion generation with llms",
+          "year": "2025",
+          "venue": "ICLR 2025",
+          "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/77c6ccacfd9962e2307fc64680fc5ace-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://knoxzhao.github.io/Motion-Agent"
+            }
+          ]
+        },
+        {
+          "bibkey": "ouyang2025motion",
+          "title": "Motion-R1: Enhancing Motion Generation with Decomposed Chain-of-Thought and RL Binding",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2506.10353",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://motion-r1.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "guo2025motionlab",
+          "title": "MotionLab: Unified Human Motion Generation and Editing via the Motion-Condition-Motion Paradigm",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Guo_MotionLab_Unified_Human_Motion_Generation_and_Editing_via_the_Motion-Condition-Motion_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://diouo.github.io/motionlab.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2025motionllm",
+          "title": "Motionllm: Understanding human behaviors from human motions and videos",
+          "year": "2025",
+          "venue": "TPAMI 2025",
+          "paper_url": "https://arxiv.org/pdf/2405.20340",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://lhchen.top/MotionLLM/"
+            }
+          ]
+        },
+        {
+          "bibkey": "xiao2025motionstreamer",
+          "title": "MotionStreamer: Streaming Motion Generation via Diffusion-based Autoregressive Model in Causal Latent Space",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xiao_MotionStreamer_Streaming_Motion_Generation_via_Diffusion-based_Autoregressive_Model_in_Causal_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/zju3dv/MotionStreamer"
+            }
+          ]
+        },
+        {
+          "bibkey": "lu2025scamo",
+          "title": "Scamo: Exploring the scaling law in autoregressive motion generation model",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://arxiv.org/pdf/2412.14559",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://shunlinlu.github.io/ScaMo/"
+            }
+          ]
+        },
+        {
+          "bibkey": "ye2025silhouette",
+          "title": "Silhouette-based Gait Foundation Model",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2512.00691",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/ShiqiYu/OpenGait"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2025language",
+          "title": "The language of motion: Unifying verbal and non-verbal language of 3d human motion",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://arxiv.org/pdf/2412.10523",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://languageofmotion.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "xu2026vimorag",
+          "title": "VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/312237ba5de457df7bc8f88d4de21c4c-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://walkermitty.github.io/VimoRAG/"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhou2024avatargpt",
+          "title": "AvatarGPT: All-in-One Framework for Motion Understanding, Planning, Generation and Beyond",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Zhou_AvatarGPT_All-in-One_Framework_for_Motion_Understanding_Planning_Generation_and_Beyond_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://zixiangzhou916.github.io/AvatarGPT/"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhang2024large",
+          "title": "Large Motion Model for Unified Multi-modal Motion Generation",
+          "year": "2024",
+          "venue": "ECCV 2024",
+          "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-72624-8_23",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://mingyuan-zhang.github.io/projects/LMM.html"
+            }
+          ]
+        },
+        {
+          "bibkey": "luo2024m",
+          "title": "M^3GPT: An Advanced Multimodal, Multitask Framework for Motion Comprehension and Generation",
+          "year": "2024",
+          "venue": "NeurIPS 2024",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/316648eb8b4ffb6010f531b07848c300-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/luomingshuang/M3GPT"
+            }
+          ]
+        },
+        {
+          "bibkey": "guo2024momask",
+          "title": "MoMask: Generative Masked Modeling of 3D Human Motions",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Guo_MoMask_Generative_Masked_Modeling_of_3D_Human_Motions_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/EricGuo5513/momask-codes"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2024scaling",
+          "title": "Scaling large motion models with million-level human motions",
+          "year": "2024",
+          "venue": "ICML 2025",
+          "paper_url": "https://arxiv.org/pdf/2410.03311",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://beingbeyond.github.io/Being-M0/"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhu2023motionbert",
+          "title": "MotionBERT: A Unified Perspective on Learning Human Motion Representations",
+          "year": "2023",
+          "venue": "ICCV 2023",
+          "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Zhu_MotionBERT_A_Unified_Perspective_on_Learning_Human_Motion_Representations_ICCV_2023_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://motionbert.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "jiang2023motiongpt",
+          "title": "MotionGPT: Human Motion as a Foreign Language",
+          "year": "2023",
+          "venue": "NeurIPS 2023",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/3fbf0c1ea0716c03dea93bb6be78dd6f-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/OpenMotionLab/MotionGPT"
+            }
+          ]
+        }
+      ],
+      "Human Video Animation": [
+        {
+          "bibkey": "bao2026archon",
+          "title": "Archon: A Unified Multimodal Model for Holistic Digital Human Generation",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bao_Archon_A_Unified_Multimodal_Model_for_Holistic_Digital_Human_Generation_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://zju3dv.github.io/archon/"
+            }
+          ]
+        },
+        {
+          "bibkey": "liang2026avatar",
+          "title": "Avatar V: Scaling Video-Reference Avatar Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.13872",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://www.heygen.com/research/avatar-v-model"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhao2026comovi",
+          "title": "CoMoVi: Co-Generation of 3D Human Motions and Realistic Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2601.10632",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/IGL-HKUST/CoMoVi"
+            }
+          ]
+        },
+        {
+          "bibkey": "guo2026dreamid",
+          "title": "DreamID-Omni: Unified Framework for Controllable Human-Centric Audio-Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2602.12160",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://guoxu1233.github.io/DreamID-Omni/"
+            }
+          ]
+        },
+        {
+          "bibkey": "meng2026echomimicv3",
+          "title": "EchoMimicV3: 1.3B Parameters Are All You Need for Unified Multi-Modal and Multi-Task Human Animation",
+          "year": "2026",
+          "venue": "AAAI 2026",
+          "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37746",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/antgroup/echomimic_v3"
+            }
+          ]
+        },
+        {
+          "bibkey": "pallotta2026egocontrol",
+          "title": "EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Pallotta_EgoControl_Controllable_Egocentric_Video_Generation_via_3D_Full-Body_Poses_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://cvg-bonn.github.io/EgoControl/"
+            },
+            {
+              "label": "Code",
+              "url": "https://github.com/CVG-Bonn/EgoControl/"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2026human",
+          "title": "Human-centric video generation via collaborative multi-modal conditioning",
+          "year": "2026",
+          "venue": "AAAI 2026",
+          "paper_url": "https://arxiv.org/pdf/2509.08519",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://phantom-video.github.io/HuMo/"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2026infinityhuman",
+          "title": "InfinityHuman: Towards Long-Term Audio-Driven Human Animation",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/pdf/2508.20210",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://infinityhuman.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "ding2026mtvcrafttokenizing4dmotion",
+          "title": "MTVCraft: Tokenizing 4D Motion for Arbitrary Character Animation",
+          "year": "2026",
+          "venue": "ICLR 2026",
+          "paper_url": "https://arxiv.org/abs/2505.10238",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/DINGYANB/MTVCrafter"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhang2026soul",
+          "title": "Soul: Breathe Life into Digital Human for High-fidelity Long-term Multimodal Animation",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/pdf/2512.13495",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://zhangzjn.github.io/projects/Soul/"
+            }
+          ]
+        },
+        {
+          "bibkey": "luo2025dreamactor",
+          "title": "DreamActor-M1: Holistic, Expressive and Robust Human Image Animation with Hybrid Guidance",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Luo_DreamActor-M1_Holistic_Expressive_and_Robust_Human_Image_Animation_with_Hybrid_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://grisoon.github.io/DreamActor-M1/"
+            }
+          ]
+        },
+        {
+          "bibkey": "yang2025echomotion",
+          "title": "EchoMotion: Unified Human Video and Motion Generation via Dual-Modality Diffusion Transformer",
+          "year": "2025",
+          "venue": "ICLR 2026",
+          "paper_url": "https://arxiv.org/pdf/2512.18814",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://yuxiaoyang23.github.io/EchoMotion-webpage/"
+            }
+          ]
+        },
+        {
+          "bibkey": "gan2025humandit",
+          "title": "Humandit: Pose-guided diffusion transformer for long-form human motion video generation",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2502.04847",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://agnjason.github.io/HumanDiT-page/"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2025hunyuanvideo",
+          "title": "Hunyuanvideo-avatar: High-fidelity audio-driven human animation for multiple characters",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2505.20156v2",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://hunyuanvideo-avatar.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "team2025klingavatar",
+          "title": "Klingavatar 2.0 technical report",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2512.13313",
+          "websites": []
+        },
+        {
+          "bibkey": "gan2025omniavatar",
+          "title": "Omniavatar: Efficient Audio-Driven Avatar Video Generation with Adaptive Body Animation",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2506.18866",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://omni-avatar.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "jiang2025omnihuman",
+          "title": "OmniHuman-1.5: Instilling an Active Mind in Avatars via Cognitive Simulation",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2508.19209",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://omnihuman-lab.github.io/v1_5/"
+            }
+          ]
+        },
+        {
+          "bibkey": "pang2025unimo",
+          "title": "UniMo: Unifying 2D Video and 3D Human Motion with an Autoregressive Framework",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2512.03918",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://carlyx.github.io/UniMo/"
+            }
+          ]
+        },
+        {
+          "bibkey": "cheng2025wan",
+          "title": "Wan-Animate: Unified Character Animation and Replacement with Holistic Replication",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2509.14055",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Wan-Video/Wan2.2"
+            }
+          ]
+        }
+      ]
+    },
+    "Interaction Modeling": {
+      "Human-Object Interaction": [
+        {
+          "bibkey": "wang2026arthoi",
+          "title": "ArtHOI: Taming Foundation Models for Monocular 4D Reconstruction of Hand-Articulated-Object Interactions",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_ArtHOI_Taming_Foundation_Models_for_Monocular_4D_Reconstruction_of_Hand-Articulated-Object_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/ArtHOI-reconstruction/ArtHOI"
+            }
+          ]
+        },
+        {
+          "bibkey": "luo2026cointeract",
+          "title": "CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.19636",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://xinxiaozhe12345.github.io/CoInteract_Project"
+            }
+          ]
+        },
+        {
+          "bibkey": "xu2026interprior",
+          "title": "InterPrior: Scaling generative control for physics-based human-object interactions",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_InterPrior_Scaling_Generative_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2026_paper.html",
+          "websites": []
+        },
+        {
+          "bibkey": "zhou2026omnishow",
+          "title": "OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation",
+          "year": "2026",
+          "venue": "ICML 2026",
+          "paper_url": "https://arxiv.org/abs/2604.11804",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Correr-Zhou/OmniShow"
+            }
+          ]
+        },
+        {
+          "bibkey": "hoe2026onehoi",
+          "title": "OneHOI: Unifying Human-Object Interaction Generation and Editing",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hoe_OneHOI_Unifying_Human-Object_Interaction_Generation_and_Editing_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://jiuntian.github.io/OneHOI/"
+            }
+          ]
+        },
+        {
+          "bibkey": "xu2026regenhoi",
+          "title": "ReGenHOI: Unifying Reconstruction and Generation for 3D Human-Object Interaction Understanding",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_ReGenHOI_Unifying_Reconstruction_and_Generation_for_3D_Human-Object_Interaction_Understanding_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/xumiao66/ReGenHOI"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhang2026uni",
+          "title": "Uni-HOI: A Unified framework for Learning the Joint distribution of Text and Human-Object Interaction",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/pdf/2604.27491",
+          "websites": []
+        },
+        {
+          "bibkey": "cai2026vihoi",
+          "title": "ViHOI: Human-Object Interaction Synthesis with Visual Priors",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2603.24383",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/MPI-Lab/ViHOI"
+            }
+          ]
+        },
+        {
+          "bibkey": "liu2025byteloom",
+          "title": "ByteLoom: Weaving Geometry-Consistent Human-Object Interactions through Progressive Curriculum Learning",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2512.22854",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://neutrinoliu.github.io/byteloom/"
+            }
+          ]
+        },
+        {
+          "bibkey": "liu2025easyhoi",
+          "title": "EasyHOI: Unleashing the Power of Large Models for Reconstructing Hand-Object Interactions in the Wild",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "http://openaccess.thecvf.com/content/CVPR2025/html/Liu_EasyHOI_Unleashing_the_Power_of_Large_Models_for_Reconstructing_Hand-Object_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/lym29/EasyHOI"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2025hoi",
+          "title": "HOI-PAGE: Zero-Shot Human-Object Interaction Generation with Part Affordance Guidance",
+          "year": "2025",
+          "venue": "ICML 2026",
+          "paper_url": "https://arxiv.org/pdf/2506.07209",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/craigleili/HOI-PAGE"
+            }
+          ]
+        },
+        {
+          "bibkey": "huang2025hoigpt",
+          "title": "HOIGPT: Learning Long Sequence Hand-Object Interaction with Language Models",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_HOIGPT_Learning_Long-Sequence_Hand-Object_Interaction_with_Language_Models_CVPR_2025_paper.html",
+          "websites": []
+        },
+        {
+          "bibkey": "zhang2026openhoi",
+          "title": "OpenHOI: Open-World Hand-Object Interaction Synthesis with Multimodal Large Language Model",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f376f5dff6f6ec6364aea7a46ab49574-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Zhenhao-Zhang/OpenHOI"
+            }
+          ]
+        },
+        {
+          "bibkey": "jia2025primhoi",
+          "title": "PrimHOI: Compositional Human-Object Interaction via Reusable Primitives",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jia_PrimHOI_Compositional_Human-Object_Interaction_via_Reusable_Primitives_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Kairobo/PrimitiveHOI"
+            }
+          ]
+        },
+        {
+          "bibkey": "petrov2025tridi",
+          "title": "TriDi: Trilateral Diffusion of 3D Humans, Objects, and Interactions",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Petrov_TriDi_Trilateral_Diffusion_of_3D_Humans_Objects_and_Interactions_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/ptrvilya/tridi"
+            }
+          ]
+        }
+      ],
+      "Human-Scene Interaction": [
+        {
+          "bibkey": "luo2026cointeract",
+          "title": "CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.19636",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://xinxiaozhe12345.github.io/CoInteract_Project"
+            }
+          ]
+        },
+        {
+          "bibkey": "nagano2026dyaplex",
+          "title": "DyaPlex: Full-Duplex Speech-Motion Model for Dyadic Interaction",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.03874",
+          "websites": []
+        },
+        {
+          "bibkey": "wang2026hsi",
+          "title": "HSI-GPT2: A Dual-Granularity Large Motion Reasoning Model with Diffusion Refinement for Human-Scene Interaction",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_HSI-GPT2_A_Dual-Granularity_Large_Motion_Reasoning_Model_with_Diffusion_Refinement_CVPR_2026_paper.pdf",
+          "websites": []
+        },
+        {
+          "bibkey": "bai2026humanomni",
+          "title": "HumanOmni-Speaker: Identifying Who said What and When",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2603.21664",
+          "websites": []
+        },
+        {
+          "bibkey": "kister2026inhabit",
+          "title": "InHabit: Leveraging Image Foundation Models for Scalable 3D Human Placement",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.19673",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/nibox/Inhabit"
+            }
+          ]
+        },
+        {
+          "bibkey": "liu2026open",
+          "title": "Open-Vocabulary Functional 3D Human-Scene Interaction Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2601.20835",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://jliu4ai.github.io/projects/funhsi/"
+            }
+          ]
+        },
+        {
+          "bibkey": "shi2026scene",
+          "title": "Scene and Human in One World: Reconstruction in a Feedforward Pass",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.27720",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://bowieshi.github.io/SHOW-project-page/"
+            }
+          ]
+        },
+        {
+          "bibkey": "hsu2026seeing",
+          "title": "Seeing Without Eyes: 4D Human-Scene Understanding from Wearable IMUs",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.21926",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://tianhang-cheng.github.io/IMU4D/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026social",
+          "title": "Social Structure Matters in 3D Human-Human Interaction Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.24255",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/EngineeringAI-LAB/SocialStructureHHI"
+            }
+          ]
+        },
+        {
+          "bibkey": "sur2026unicon3r",
+          "title": "UniCon3R: Contact-aware 3D Human-Scene Reconstruction from Monocular Video",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/pdf/2604.19923",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/surtantheta/UniCon3R"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2026unish",
+          "title": "UniSH: Unifying Scene and Human Reconstruction in a Feed-Forward Pass",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2601.01222",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/murphylmf/UniSH"
+            }
+          ]
+        },
+        {
+          "bibkey": "cai2026vihoi",
+          "title": "ViHOI: Human-Object Interaction Synthesis with Visual Priors",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2603.24383",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/MPI-Lab/ViHOI"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhao2025his",
+          "title": "His-gpt: Towards 3d human-in-scene multimodal understanding",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/pdf/2503.12955",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/ZJHTerry18/HumanInScene"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2025hsi",
+          "title": "HSI-GPT: A General-Purpose Large Scene-Motion-Language Model for Human Scene Interaction",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_HSI-GPT_A_General-Purpose_Large_Scene-Motion-Language_Model_for_Human_Scene_Interaction_CVPR_2025_paper.html",
+          "websites": []
+        },
+        {
+          "bibkey": "chen2025human3r",
+          "title": "Human3r: Everyone everywhere all at once",
+          "year": "2025",
+          "venue": "ICLR 2026",
+          "paper_url": "https://arxiv.org/pdf/2510.06219",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://fanegg.github.io/Human3R/"
+            }
+          ]
+        },
+        {
+          "bibkey": "liu2025uni",
+          "title": "Uni-Inter: Unifying 3D Human Motion Synthesis Across Diverse Interaction Contexts",
+          "year": "2025",
+          "venue": "SIGGRAPH Asia 2025",
+          "paper_url": "https://arxiv.org/pdf/2511.13032",
+          "websites": []
+        },
+        {
+          "bibkey": "jiang2024scaling",
+          "title": "Scaling Up Dynamic Human-Scene Interaction Modeling",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/jnnan/trumans_utils"
+            }
+          ]
+        }
+      ],
+      "Social Interaction": [
+        {
+          "bibkey": "nagano2026dyaplex",
+          "title": "DyaPlex: Full-Duplex Speech-Motion Model for Dyadic Interaction",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.03874",
+          "websites": []
+        },
+        {
+          "bibkey": "bai2026humanomni",
+          "title": "HumanOmni-Speaker: Identifying Who said What and When",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2603.21664",
+          "websites": []
+        },
+        {
+          "bibkey": "li2026omni",
+          "title": "Omni-MMSI: Toward Identity-attributed Social Interaction Understanding",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/pdf/2604.00267",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://sampson-lee.github.io/omni-mmsi-project-page/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026social",
+          "title": "Social Structure Matters in 3D Human-Human Interaction Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.24255",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/EngineeringAI-LAB/SocialStructureHHI"
+            }
+          ]
+        },
+        {
+          "bibkey": "ouyang2026socialdirector",
+          "title": "SocialDirector: Training-Free Social Interaction Control for Multi-Person Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/pdf/2605.10079",
+          "websites": []
+        },
+        {
+          "bibkey": "zhang2026vibes",
+          "title": "Vibes: A conversational agent with behaviorally-intelligent 3d virtual body",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/pdf/2512.14234",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://ai.stanford.edu/~juze/ViBES/"
+            }
+          ]
+        },
+        {
+          "bibkey": "park2025unified",
+          "title": "A Unified Framework for Motion Reasoning and Generation in Human Interaction",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Park_A_Unified_Framework_for_Motion_Reasoning_and_Generation_in_Human_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://vim-motion-language.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "luo2026omniresponse",
+          "title": "OmniResponse: Online Multimodal Conversational Response Generation in Dyadic Interactions",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b734c30b9c955c535e333f0301f5e45c-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/awakening-ai/OmniResponse"
+            }
+          ]
+        },
+        {
+          "bibkey": "Jiang_2025_CVPR",
+          "title": "SOLAMI: Social Vision-Language-Action Modeling for Immersive Interaction with 3D Autonomous Characters",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Jiang_SOLAMI_Social_Vision-Language-Action_Modeling_for_Immersive_Interaction_with_3D_Autonomous_CVPR_2025_paper.pdf",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://solami-ai.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "cai2025towards",
+          "title": "Towards Interactive Intelligence for Digital Humans",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2512.13674",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://shandaai.github.io/project_mio_page/"
+            }
+          ]
+        },
+        {
+          "bibkey": "xie2025x",
+          "title": "X-streamer: Unified human world modeling with audiovisual interaction",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2509.21574",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://byteaigc.github.io/X-Streamer/"
+            }
+          ]
+        }
+      ]
+    },
+    "World Simulation": {
+      "Human-Centered World Generation": [
+        {
+          "bibkey": "li2026anchorworld",
+          "title": "AnchorWorld: Embodied Egocentric World Simulation with View-based Evolution Customization",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/pdf/2606.07326",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://yuli0103.github.io/AnchorWorld/"
+            }
+          ]
+        },
+        {
+          "bibkey": "kim2026dexterous",
+          "title": "Dexterous world models",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Dexterous_World_Models_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/snuvclab/dwm"
+            }
+          ]
+        },
+        {
+          "bibkey": "pallotta2026egocontrol",
+          "title": "EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Pallotta_EgoControl_Controllable_Egocentric_Video_Generation_via_3D_Full-Body_Poses_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://cvg-bonn.github.io/EgoControl/"
+            },
+            {
+              "label": "Code",
+              "url": "https://github.com/CVG-Bonn/EgoControl/"
+            }
+          ]
+        },
+        {
+          "bibkey": "shen2026egoforge",
+          "title": "EgoForge: Goal-Directed Egocentric World Simulator",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2603.20169",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://plan-lab.github.io/projects/egoforge/"
+            }
+          ]
+        },
+        {
+          "bibkey": "xiuegotwin",
+          "title": "EgoTwin: Dreaming Body and View in First Person",
+          "year": "2026",
+          "venue": "ICLR 2026",
+          "paper_url": "https://openreview.net/forum?id=QFJkvv3zMi",
+          "websites": []
+        },
+        {
+          "bibkey": "kang2026egox",
+          "title": "EgoX: Egocentric Video Generation from a Single Exocentric Video",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kang_EgoX_Egocentric_Video_Generation_from_a_Single_Exocentric_Video_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/DAVIAN-Robotics/EgoX"
+            }
+          ]
+        },
+        {
+          "bibkey": "xie2026generated",
+          "title": "Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control",
+          "year": "2026",
+          "venue": "CVPRF 2026",
+          "paper_url": "https://arxiv.org/abs/2602.18422",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://codeysun.github.io/generated-reality/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026hand2world",
+          "title": "Hand2World: Autoregressive Egocentric Interaction Generation via Free-Space Hand Gestures",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2602.09600",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/NTUYWANG103/Hand2World"
+            }
+          ]
+        },
+        {
+          "bibkey": "park2025egoworld",
+          "title": "EgoWorld: Translating Exocentric View to Egocentric View using Rich Exocentric Observations",
+          "year": "2025",
+          "venue": "ICLR 2026",
+          "paper_url": "https://arxiv.org/abs/2506.17896",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/redorangeyellowy/EgoWorld"
+            }
+          ]
+        },
+        {
+          "bibkey": "tu2025playerone",
+          "title": "Playerone: Egocentric World Simulator",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d607a260b3bc0b9a704a1a04dd64040a-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/yuanpengtu/PlayerOne"
+            }
+          ]
+        }
+      ],
+      "Actionable World Planning": [
+        {
+          "bibkey": "gao2026dreamdojo",
+          "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2602.06949",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/NVIDIA/DreamDojo"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2026egocentric",
+          "title": "Egocentric World Model for Photorealistic Hand-Object Interaction Synthesis",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2603.13615",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/phai-lab/egohoi"
+            }
+          ]
+        },
+        {
+          "bibkey": "tran2026egoexo",
+          "title": "EgoExo-WM: Unlocking Exo Video for Ego World Models",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/pdf/2605.15477v1",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://vision.cs.utexas.edu/projects/EgoExo-WM/"
+            }
+          ]
+        },
+        {
+          "bibkey": "hao2026egosim",
+          "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.01001",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/jinkun-hao/EgoSim"
+            }
+          ]
+        },
+        {
+          "bibkey": "xiuegotwin",
+          "title": "EgoTwin: Dreaming Body and View in First Person",
+          "year": "2026",
+          "venue": "ICLR 2026",
+          "paper_url": "https://openreview.net/forum?id=QFJkvv3zMi",
+          "websites": []
+        },
+        {
+          "bibkey": "sun2026handworld",
+          "title": "HandWorld: Hand-Centric Unified Video Action Generation",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_HandWorld_Hand-Centric_Unified_Video_Action_Generation_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://sunzhihao18.github.io/HandWorld"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2026humanclaw",
+          "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.27180",
+          "websites": []
+        },
+        {
+          "bibkey": "qi2026humanoid",
+          "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2606.03985",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/GalaxyGeneralRobotics/Humanoid-GPT/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wang2026lifting",
+          "title": "Lifting Embodied World Models for Planning and Control",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.26182",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/alexnwang/lifted-world-model"
+            }
+          ]
+        },
+        {
+          "bibkey": "gao2026lome",
+          "title": "LOME: Learning Human-Object Manipulation with Action-Conditioned Egocentric World Model",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2603.27449",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Zerg-Overmind/LOME"
+            }
+          ]
+        },
+        {
+          "bibkey": "goswami2026worldmodelslearningdexterous",
+          "title": "World Models for Learning Dexterous Hand-Object Interactions from Human Videos",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2512.13644",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://raktimgg.github.io/dexwm/"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2025egoagent",
+          "title": "EgoAgent: A Joint Predictive Agent Model in Egocentric Worlds",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_EgoAgent_A_Joint_Predictive_Agent_Model_in_Egocentric_Worlds_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/zju3dv/EgoAgent"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2025flowing",
+          "title": "Flowing from reasoning to motion: Learning 3d hand trajectory prediction from egocentric human interaction videos",
+          "year": "2025",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/pdf/2512.16907",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://egoman-project.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "bai2026whole",
+          "title": "Whole-Body Conditioned Egocentric Video Prediction",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f0552f14388d95b19740dee809f5cad1-Abstract-Conference.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://dannytran123.github.io/PEVA/"
+            }
+          ]
+        }
+      ]
+    },
+    "Embodied Agency": {
+      "Generalist Humanoid Control": [
+        {
+          "bibkey": "li2026you",
+          "title": "Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Do_You_Have_Freestyle_Expressive_Humanoid_Locomotion_via_Audio_Control_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/gentlefress/RoboPerform"
+            }
+          ]
+        },
+        {
+          "bibkey": "shi2026gpc",
+          "title": "GPC: Large-Scale Generative Pretraining for Transferable Motor Control",
+          "year": "2026",
+          "venue": "SIGGRAPH 2026",
+          "paper_url": "https://arxiv.org/abs/2606.29148",
+          "websites": []
+        },
+        {
+          "bibkey": "qi2026humanoid",
+          "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2606.03985",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/GalaxyGeneralRobotics/Humanoid-GPT/"
+            }
+          ]
+        },
+        {
+          "bibkey": "xu2026iterative",
+          "title": "Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Iterative_Closed-Loop_Motion_Synthesis_for_Scaling_the_Capabilities_of_Humanoid_CVPR_2026_paper.html",
+          "websites": []
+        },
+        {
+          "bibkey": "zhang2026script",
+          "title": "SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.22894",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://zhanglele12138.github.io/SCRIPT/"
+            }
+          ]
+        },
+        {
+          "bibkey": "yin2026unitracker",
+          "title": "UniTracker: Learning Universal Whole-Body Motion Tracker for Humanoid Robots",
+          "year": "2026",
+          "venue": "RA-L 2025",
+          "paper_url": "https://ieeexplore.ieee.org/abstract/document/11513991",
+          "websites": []
+        },
+        {
+          "bibkey": "ye2026visually",
+          "title": "Visually-grounded Humanoid Agents",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.08509",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/alvinyh/VGHuman"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2025bfm",
+          "title": "BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2511.04131",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/LeCAR-Lab/BFM-Zero"
+            }
+          ]
+        },
+        {
+          "bibkey": "jian2025endowing",
+          "title": "Endowing GPT-4 with a Humanoid Body: Building the Bridge Between Off-the-Shelf VLMs and the Physical World",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2511.00041",
+          "websites": []
+        },
+        {
+          "bibkey": "wang2026experts",
+          "title": "From Experts to a Generalist: Toward General Whole-Body Control for Humanoid Robots",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d8f9cd02831dac9717c1c00329a49cd0-Abstract-Conference.html",
+          "websites": []
+        },
+        {
+          "bibkey": "li2025language",
+          "title": "From language to locomotion: Retargeting-free humanoid control via motion latent guidance",
+          "year": "2025",
+          "venue": "ICLR 2026",
+          "paper_url": "https://arxiv.org/abs/2510.14952",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/gentlefress/RoboGhost"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2025gmt",
+          "title": "GMT: General Motion Tracking for Humanoid Whole-Body Control",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2506.14770",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/zixuan417/humanoid-general-motion-tracking"
+            }
+          ]
+        },
+        {
+          "bibkey": "bjorck2025gr00t",
+          "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2503.14734",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/NVIDIA/Isaac-GR00T"
+            }
+          ]
+        },
+        {
+          "bibkey": "wu2025human",
+          "title": "Human-Object Interaction from Human-Level Instructions",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/abs/2406.17840",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/zhenkirito123/hoifhli_release"
+            }
+          ]
+        },
+        {
+          "bibkey": "deng2025human",
+          "title": "Human-Object Interaction via Automatically Designed VLM-Guided Motion Policy",
+          "year": "2025",
+          "venue": "ICLR 2026",
+          "paper_url": "https://arxiv.org/abs/2503.18349",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://vlm-rmd.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "xu2025intermimic",
+          "title": "Intermimic: Towards Universal Whole-body Control for Physics-based Human-object Interactions",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_InterMimic_Towards_Universal_Whole-Body_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2025_paper.pdf",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://sirui-xu.github.io/InterMimic"
+            }
+          ]
+        },
+        {
+          "bibkey": "luo2025sonic",
+          "title": "SONIC: Supersizing Motion Tracking for Natural Humanoid Whole-Body Control",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2511.07820",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/NVlabs/GR00T-WholeBodyControl"
+            }
+          ]
+        },
+        {
+          "bibkey": "pan2025tokenhsi",
+          "title": "TokenHSI: Unified Synthesis of Physical Human-Scene Interactions through Task Tokenization",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://liangpan99.github.io/TokenHSI"
+            }
+          ]
+        },
+        {
+          "bibkey": "wu2025uniphys",
+          "title": "UniPhys: Unified Planner and Controller with Diffusion for Flexible Physics-Based Character Control",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wu_UniPhys_Unified_Planner_and_Controller_with_Diffusion_for_Flexible_Physics-Based_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/wuyan01/UniPhys"
+            }
+          ]
+        },
+        {
+          "bibkey": "jiang2025wholebodyvla",
+          "title": "WholeBodyVLA: Towards Unified Latent VLA for Whole-body Loco-manipulation Control",
+          "year": "2025",
+          "venue": "ICLR 2026",
+          "paper_url": "https://arxiv.org/abs/2512.11047",
+          "websites": []
+        },
+        {
+          "bibkey": "tessler2024maskedmimic",
+          "title": "MaskedMimic: Unified Physics-Based Character Control Through Masked Motion Inpainting",
+          "year": "2024",
+          "venue": "TOG 2024",
+          "paper_url": "https://dl.acm.org/doi/abs/10.1145/3687951",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/NVlabs/ProtoMotions"
+            }
+          ]
+        },
+        {
+          "bibkey": "xiao2024unified",
+          "title": "Unified Human-Scene Interaction via Prompted Chain-of-Contacts",
+          "year": "2024",
+          "venue": "ICLR 2024",
+          "paper_url": "https://arxiv.org/abs/2309.07918",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/OpenRobotLab/UniHSI"
+            }
+          ]
+        }
+      ],
+      "Human-to-Agent Skill Transfer": [
+        {
+          "bibkey": "lin2026activemimic",
+          "title": "ActiveMimic: Egocentric Video Pretraining with Active Perception",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.06194",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://activemimic.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "luo2026being",
+          "title": "Being-H0. 7: A Latent World-Action Model from Egocentric Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.00078",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/BeingBeyond/Being-H"
+            }
+          ]
+        },
+        {
+          "bibkey": "gao2026dreamdojo",
+          "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2602.06949",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/NVIDIA/DreamDojo"
+            }
+          ]
+        },
+        {
+          "bibkey": "zheng2026egoscale",
+          "title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/pdf/2602.16710v1",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://research.nvidia.com/labs/gear/egoscale/"
+            }
+          ]
+        },
+        {
+          "bibkey": "wu2026human",
+          "title": "Human Universal Grasping",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.17054",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/kevinywu/HUG"
+            }
+          ]
+        },
+        {
+          "bibkey": "he2026humanego",
+          "title": "HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.24934",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/TX-Leo/HumanEgo"
+            }
+          ]
+        },
+        {
+          "bibkey": "ma2026humanscale",
+          "title": "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.20521",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/DAGroup-PKU/HumanNet/"
+            }
+          ]
+        },
+        {
+          "bibkey": "liu2026lara",
+          "title": "LARA: Latent Action Representation Alignment for Vision-Language-Action Models",
+          "year": "2026",
+          "venue": "ICML 2026",
+          "paper_url": "https://arxiv.org/abs/2606.07100",
+          "websites": []
+        },
+        {
+          "bibkey": "feng2026spatial",
+          "title": "Spatial-Aware VLA Pretraining through Visual-Physical Alignment from Human Videos",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Feng_Spatial-Aware_VLA_Pretraining_through_Visual-Physical_Alignment_from_Human_Videos_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/BeingBeyond/VIPA-VLA"
+            }
+          ]
+        },
+        {
+          "bibkey": "wu2026sugar",
+          "title": "SUGAR: A Scalable Human-Video-Driven Generalizable Humanoid Loco-Manipulation Learning Framework",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.20373",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/tianshuwu/SUGAR"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhang2026unidex",
+          "title": "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/unidex-ai/UniDex"
+            }
+          ]
+        },
+        {
+          "bibkey": "zeng2025activeumi",
+          "title": "ActiveUMI: Robotic Manipulation with Active Perception from Robot-Free Human Demonstrations",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2510.01607",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://activeumi.github.io/"
+            }
+          ]
+        },
+        {
+          "bibkey": "luo2025being",
+          "title": "Being-H0: Vision-Language-Action Pretraining from Large-Scale Human Videos",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2507.15597",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/BeingBeyond/Being-H0"
+            }
+          ]
+        },
+        {
+          "bibkey": "kareer2025egomimic",
+          "title": "EgoMimic: Scaling Imitation Learning via Egocentric Video",
+          "year": "2025",
+          "venue": "ICRA 2025",
+          "paper_url": "https://ieeexplore.ieee.org/abstract/document/11127989/",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/SimarKareer/EgoMimic"
+            }
+          ]
+        },
+        {
+          "bibkey": "yang2025egovla",
+          "title": "EgoVLA: Learning Vision-Language-Action Models from Egocentric Human Videos",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2507.12440",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/RchalYang/EgoVLA_Release"
+            }
+          ]
+        },
+        {
+          "bibkey": "cai2025n",
+          "title": "In-N-On: Scaling Egocentric Manipulation with In-the-Wild and On-task Data",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2511.15704",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://xiongyicai.github.io/In-N-On"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2025maniptrans",
+          "title": "ManipTrans: Efficient Dexterous Bimanual Manipulation Transfer via Residual Learning",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/ManipTrans/ManipTrans.git"
+            }
+          ]
+        },
+        {
+          "bibkey": "zhou2025mitigating",
+          "title": "Mitigating the Human-Robot Domain Discrepancy in Visual Pre-training for Robotic Manipulation",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/jiaming-zhou/HumanRobotAlign"
+            }
+          ]
+        },
+        {
+          "bibkey": "chen2025moto",
+          "title": "Moto: Latent Motion Token as the Bridging Language for Learning Robot Manipulation from Videos",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Moto_Latent_Motion_Token_as_the_Bridging_Language_for_Learning_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/TencentARC/Moto"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2025scalable",
+          "title": "Scalable Vision-Language-Action Model Pretraining for Robotic Manipulation with Real-Life Human Activity Videos",
+          "year": "2025",
+          "venue": "ICRA 2026",
+          "paper_url": "https://arxiv.org/abs/2510.21571",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/microsoft/VITRA/"
+            }
+          ]
+        },
+        {
+          "bibkey": "shi2025zeromimic",
+          "title": "ZeroMimic: Distilling Robotic Manipulation Skills from Web Videos",
+          "year": "2025",
+          "venue": "ICRA 2025",
+          "paper_url": "https://ieeexplore.ieee.org/abstract/document/11128283/",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/junyaoshi/ZeroMimic"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "datasets_and_benchmarks": {
+    "Human Subject Resources": {
+      "Visual Human Observation": [
+        {
+          "bibkey": "wang2026mhpr",
+          "title": "MHPR: Multidimensional Human Perception and Reasoning Benchmark for Large Vision-Languate Models",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.03485",
+          "websites": [],
+          "name": "MHPR",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "qin2026face",
+          "title": "Face-Human-Bench: A Comprehensive Benchmark of Face and Human Understanding for Multi-Modal Assistants",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://doi.org/10.52202/085713-0322",
+          "websites": [],
+          "name": "Face-Human-Bench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "wang2025facebench",
+          "title": "FaceBench: A Multi-View Multi-Level Facial Attribute VQA Dataset for Benchmarking Face Perception MLLMs",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00855",
+          "websites": [],
+          "name": "FaceBench",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "kapitanov2024hagrid",
+          "title": "HaGRID-HAnd Gesture Recognition Image Dataset",
+          "year": "2024",
+          "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024",
+          "paper_url": "https://doi.org/10.1109/wacv57701.2024.00451",
+          "websites": [],
+          "name": "HaGRID",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "yu2023celebv",
+          "title": "CelebV-Text: A Large-Scale Facial Text-Video Dataset",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_CelebV-Text_A_Large-Scale_Facial_Text-Video_Dataset_CVPR_2023_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://celebv-text.github.io/"
+            }
+          ],
+          "name": "CelebV-Text",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zhu2022celebv",
+          "title": "CelebV-HQ: A Large-Scale Video Facial Attributes Dataset",
+          "year": "2022",
+          "venue": "ECCV 2022",
+          "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_38",
+          "websites": [],
+          "name": "CelebV-HQ",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "fu2022stylegan",
+          "title": "StyleGAN-Human: A Data-Centric Odyssey of Human Generation",
+          "year": "2022",
+          "venue": "ECCV 2022",
+          "paper_url": "https://arxiv.org/abs/2204.11823",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/stylegan-human/StyleGAN-Human"
+            }
+          ],
+          "name": "StyleGAN-Human",
+          "type": "Dataset"
+        }
+      ],
+      "Multisensory Human Sensing": [
+        {
+          "bibkey": "fan2026m4human",
+          "title": "M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://doi.org/10.48550/arxiv.2512.12378",
+          "websites": [],
+          "name": "M4Human",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "rahman2024mmvr",
+          "title": "MMVR: Millimeter-wave Multi-View Radar Dataset and Benchmark for Indoor Perception",
+          "year": "2024",
+          "venue": "ECCV 2024",
+          "paper_url": "https://doi.org/10.1007/978-3-031-72986-7_18",
+          "websites": [],
+          "name": "MMVR",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "yan2024reli11d",
+          "title": "RELI11D: A Comprehensive Multimodal Human Motion Dataset and Method",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00219",
+          "websites": [],
+          "name": "RELI11D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "ho2024rt",
+          "title": "RT-Pose: A 4D Radar Tensor-based 3D Human Pose Estimation and Localization Benchmark",
+          "year": "2024",
+          "venue": "ECCV 2024",
+          "paper_url": "https://doi.org/10.1007/978-3-031-73036-8_7",
+          "websites": [],
+          "name": "RT-Pose",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "lee2023hupr",
+          "title": "Hupr: A benchmark for human pose estimation using millimeter wave radar",
+          "year": "2023",
+          "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2023",
+          "paper_url": "https://doi.org/10.1109/wacv56688.2023.00567",
+          "websites": [],
+          "name": "HuPR",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "yang2023mm",
+          "title": "MM-Fi: Multi-Modal Non-Intrusive 4D Human Dataset for Versatile Wireless Sensing",
+          "year": "2023",
+          "venue": "NeurIPS 2023",
+          "paper_url": "https://doi.org/10.48550/arxiv.2305.10345",
+          "websites": [],
+          "name": "MM-Fi",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "cai2022humman",
+          "title": "HuMMan: Multi-Modal 4D Human Dataset for Versatile Sensing and Modeling",
+          "year": "2022",
+          "venue": "ECCV 2022",
+          "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_33",
+          "websites": [],
+          "name": "HuMMan",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "chen2022mmbody",
+          "title": "mmbody benchmark: 3d body reconstruction dataset and analysis for millimeter wave radar",
+          "year": "2022",
+          "venue": "ACM MM 2022",
+          "paper_url": "https://doi.org/10.1145/3503161.3548262",
+          "websites": [],
+          "name": "mmBody",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "an2022mri",
+          "title": "mRI: Multi-modal 3D Human Pose Estimation Dataset using mmWave, RGB-D, and Inertial Sensors",
+          "year": "2022",
+          "venue": "NeurIPS 2022",
+          "paper_url": "https://doi.org/10.48550/arxiv.2210.08394",
+          "websites": [],
+          "name": "mRI",
+          "type": "Dataset"
+        }
+      ],
+      "Human Identity Understanding": [
+        {
+          "bibkey": "nguyen2025ag",
+          "title": "AG-VPReID: A Challenging Large-Scale Benchmark for Aerial-Ground Video-based Person Re-Identification",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00124",
+          "websites": [],
+          "name": "AG-VPReID",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "jiang2025laboratory",
+          "title": "From Laboratory to Real World: A New Benchmark Towards Privacy-Preserved Visible-Infrared Person Re-Identification",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00825",
+          "websites": [],
+          "name": "L2RW",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "ha2025multi",
+          "title": "Multi-modal Multi-platform Person Re-Identification: Benchmark and Method",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://doi.org/10.1109/iccv51701.2025.00955",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://mp-reid.github.io/"
+            }
+          ],
+          "name": "MP-ReID",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "zhang2023diverse",
+          "title": "Diverse Embedding Expansion Network and Low-Light Cross-Modality Benchmark for Visible-Infrared Person Re-identification",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00214",
+          "websites": [],
+          "name": "LLCM",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "yang2023towards",
+          "title": "Towards Unified Text-based Person Retrieval: A Large-Scale Multi-Attribute and Language Search Benchmark",
+          "year": "2023",
+          "venue": "ACM MM 2023",
+          "paper_url": "https://doi.org/10.1145/3581783.3611709",
+          "websites": [],
+          "name": "MALS",
+          "type": "Benchmark"
+        }
+      ],
+      "Renderable Human Geometry": [
+        {
+          "bibkey": "li2026mvhumannet++",
+          "title": "MVHumanNet++: A Large-scale Dataset of Multi-view Daily Dressing Human Captures with Richer Annotations for 3D Human Digitization",
+          "year": "2026",
+          "venue": "TPAMI 2026",
+          "paper_url": "https://arxiv.org/abs/2505.01838",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://kevinlee09.github.io/research/MVHumanNet++/"
+            }
+          ],
+          "name": "MVHumanNet++",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "martinelli2026volhume",
+          "title": "VolHuMe: a High-Resolution Large Scale Dataset of Volumetric Human Meshes",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.23062",
+          "websites": [],
+          "name": "VolHuMe",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "teufel2025humanolat",
+          "title": "HumanOLAT: A Large-Scale Dataset for Full-Body Human Relighting and Novel-View Synthesis",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Teufel_HumanOLAT_A_Large-Scale_Dataset_for_Full-Body_Human_Relighting_and_Novel-View_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://vcai.mpi-inf.mpg.de/projects/HumanOLAT/"
+            }
+          ],
+          "name": "HumanOLAT",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "zhuang2025idol",
+          "title": "IDOL: Instant Photorealistic 3D Human Creation from a Single Image",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_IDOL_Instant_Photorealistic_3D_Human_Creation_from_a_Single_Image_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/yiyuzhuang/IDOL"
+            }
+          ],
+          "name": "HuGe100K",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "huang2025wildavatar",
+          "title": "WildAvatar: Learning In-the-wild 3D Avatars from the Web",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_WildAvatar_Learning_In-the-wild_3D_Avatars_from_the_Web_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://wildavatar.github.io/"
+            }
+          ],
+          "name": "WildAvatar",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "martinez2024codec",
+          "title": "Codec Avatar Studio: Paired Human Captures for Complete, Driveable, and Generalizable Avatars",
+          "year": "2024",
+          "venue": "NeurIPS 2024",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9712b78386cebdc3db7f1a48c2d20edb-Abstract-Datasets_and_Benchmarks_Track.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/facebookresearch/goliath"
+            }
+          ],
+          "name": "Codec Avatar Studio",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zheng2024pku",
+          "title": "PKU-DyMVHumans: A Multi-View Video Benchmark for High-Fidelity Dynamic Human Modeling",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://arxiv.org/abs/2403.16080",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://pku-dymvhumans.github.io/"
+            }
+          ],
+          "name": "PKU-DyMVHumans",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "cheng2023dna",
+          "title": "DNA-Rendering: A Diverse Neural Actor Repository for High-Fidelity Human-centric Rendering",
+          "year": "2023",
+          "venue": "ICCV 2023",
+          "paper_url": "https://arxiv.org/abs/2307.10173",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://dna-rendering.github.io/"
+            }
+          ],
+          "name": "DNA-Rendering",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "icsik2023humanrf",
+          "title": "HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion",
+          "year": "2023",
+          "venue": "2023",
+          "paper_url": "https://doi.org/10.1145/3592415",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://actors-hq.com/"
+            }
+          ],
+          "name": "HumanRF",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "kirschstein2023nersemble",
+          "title": "NeRSemble: Multi-view Radiance Field Reconstruction of Human Heads",
+          "year": "2023",
+          "venue": "TOG 2023",
+          "paper_url": "https://doi.org/10.1145/3592455",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://tobias-kirschstein.github.io/nersemble/"
+            }
+          ],
+          "name": "NeRSemble",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "yang2023synbody",
+          "title": "SynBody: Synthetic Dataset with Layered Human Models for 3D Human Perception and Modeling",
+          "year": "2023",
+          "venue": "ICCV 2023",
+          "paper_url": "https://arxiv.org/abs/2303.17368",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://maoxie.github.io/SynBody/"
+            }
+          ],
+          "name": "SynBody",
+          "type": "Dataset"
+        }
+      ]
+    },
+    "Human Dynamics Resources": {
+      "Human Video Generation and Animation": [
+        {
+          "bibkey": "yang2026avbench",
+          "title": "AVBench: Human-Aligned and Automated Evaluation Benchmark for Audio-Video Generative Models",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.24652",
+          "websites": [],
+          "name": "AVBench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "fang2026humanscore",
+          "title": "HumanScore: Benchmarking Human Motions in Generated Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.20157",
+          "websites": [],
+          "name": "HumanScore",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "zhu2026omnihuman",
+          "title": "OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.18326",
+          "websites": [],
+          "name": "OmniHuman",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "di2025dh",
+          "title": "DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://doi.org/10.1109/iccv51701.2025.01127",
+          "websites": [],
+          "name": "DH-FaceVid-1K",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "li2025openhumanvid",
+          "title": "OpenHumanVid: A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00726",
+          "websites": [],
+          "name": "OpenHumanVid",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "wang2024humanvid",
+          "title": "HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation",
+          "year": "2024",
+          "venue": "NeurIPS 2024",
+          "paper_url": "https://doi.org/10.52202/079017-0635",
+          "websites": [],
+          "name": "HumanVid",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zhou2022responsive",
+          "title": "Responsive Listening Head Generation: A Benchmark Dataset and Baseline",
+          "year": "2022",
+          "venue": "ECCV 2022",
+          "paper_url": "https://doi.org/10.1007/978-3-031-19839-7_8",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://project.mhzhou.com/vico/"
+            }
+          ],
+          "name": "ViCo",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "zhang2021flow",
+          "title": "Flow-Guided One-Shot Talking Face Generation With a High-Resolution Audio-Visual Dataset",
+          "year": "2021",
+          "venue": "CVPR 2021",
+          "paper_url": "https://doi.org/10.1109/cvpr46437.2021.00366",
+          "websites": [],
+          "name": "HDTF",
+          "type": "Dataset"
+        }
+      ],
+      "Human Video Behavior Understanding": [
+        {
+          "bibkey": "faure2026finebench",
+          "title": "FineBench: Benchmarking and Enhancing Vision-Language Models for Fine-grained Human Activity Understanding",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.19846",
+          "websites": [],
+          "name": "FineBench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "gera2026humanmovevqa",
+          "title": "HumanMoveVQA: Can Video MLLMs Reason about Human Movement in Videos?",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.27999",
+          "websites": [],
+          "name": "HumanMoveVQA",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "deng2026humannet",
+          "title": "HumanNet: Scaling Human-centric Video Learning to One Million Hours",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.06747",
+          "websites": [],
+          "name": "HumanNet",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zhou2026humanvbench",
+          "title": "HumanVBench: Probing Human-Centric Video Understanding in MLLMs with Automatically Synthesized Benchmarks",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://doi.org/10.48550/arxiv.2412.17574",
+          "websites": [],
+          "name": "HumanVBench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "chang2026omg",
+          "title": "OMG-Bench: A New Challenging Benchmark for Skeleton-based Online Micro Hand Gesture Recognition",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://doi.org/10.48550/arxiv.2512.16727",
+          "websites": [],
+          "name": "OMG-Bench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "yadav2026videonet",
+          "title": "VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2605.02834",
+          "websites": [],
+          "name": "VideoNet",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "cai2025humanvideo",
+          "title": "HumanVideo-MME: Benchmarking MLLMs for Human-Centric Video Understanding",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2507.04909",
+          "websites": [],
+          "name": "HumanVideo-MME",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "li2025mmad",
+          "title": "MMAD: Multi-label Micro-Action Detection in Videos",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://doi.org/10.1109/iccv51701.2025.01229",
+          "websites": [],
+          "name": "MMAD",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "hong2025motionbench",
+          "title": "MotionBench: Benchmarking and Improving Fine-grained Video Motion Understanding for Vision Language Models",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00791",
+          "websites": [],
+          "name": "MotionBench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "yuan2026octonet",
+          "title": "OctoNet: A Large-Scale Multi-Modal Dataset for Human Activity Understanding Grounded in Motion-Captured 3D Pose Labels",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://doi.org/10.52202/085713-0469",
+          "websites": [],
+          "name": "OctoNet",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "salehi2024actionatlas",
+          "title": "ActionAtlas: A VideoQA Benchmark for Domain-specialized Action Recognition",
+          "year": "2024",
+          "venue": "NeurIPS 2024",
+          "paper_url": "https://doi.org/10.52202/079017-4364",
+          "websites": [],
+          "name": "ActionAtlas",
+          "type": "Benchmark"
+        }
+      ],
+      "Human Kinematic Motion Resources": [
+        {
+          "bibkey": "cao2026opent2m",
+          "title": "OpenT2M: No-frill Motion Generation with Open-source, Large-scale, High-quality Data",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/pdf/2603.18623",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://research.beingbeyond.com/opent2m"
+            }
+          ],
+          "name": "OpenT2M",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "zhang2026romo",
+          "title": "RoMo: A Large-Scale, Richly Organized Dataset and Semantic Taxonomy for Human Motion Generation",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2605.26241",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://davidzhang73.github.io/romo-website/"
+            }
+          ],
+          "name": "RoMo",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "tesch2026bedlam2",
+          "title": "BEDLAM2.0: Synthetic Humans and Cameras in Motion",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://openreview.net/forum?id=ii9kVwf95a",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://bedlam2.is.tue.mpg.de/"
+            }
+          ],
+          "name": "BEDLAM2.0",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "cao2025being",
+          "title": "Being-M0.5: A Real-Time Controllable Vision-Language-Motion Model",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/pdf/2508.07863",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://beingbeyond.github.io/Being-M0.5/"
+            }
+          ],
+          "name": "HuMo100M",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "fan2025go",
+          "title": "Go to zero: Towards zero-shot motion generation with million-scale data",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/pdf/2507.07095",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/VankouF/MotionMillion-Codes"
+            }
+          ],
+          "name": "MotionMillion",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "gupta2025mdd",
+          "title": "MDD: A Dataset for Text-and-Music Conditioned Duet Dance Generation",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Gupta_MDD_A_Dataset_for_Text-and-Music_Conditioned_Duet_Dance_Generation_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://gprerit96.github.io/mdd-page"
+            }
+          ],
+          "name": "MDD",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "zhang2025motion",
+          "title": "Motion anything: Any to motion generation",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2503.06955",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://steve-zeyu-zhang.github.io/MotionAnything/"
+            }
+          ],
+          "name": "TMD",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zhang2025motionxplusplus",
+          "title": "Motion-X++: A Large-Scale Multimodal 3D Whole-Body Human Motion Dataset",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2501.05098",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://motion-x-dataset.github.io/"
+            }
+          ],
+          "name": "Motion-X++",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "guo2025snapmogen",
+          "title": "SnapMoGen: Human Motion Generation from Expressive Texts",
+          "year": "2025",
+          "venue": "2025",
+          "paper_url": "https://openreview.net/forum?id=pdE9onSn2h",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://snap-research.github.io/SnapMoGen/"
+            }
+          ],
+          "name": "SnapMoGen",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "lin2025quest",
+          "title": "The Quest for Generalizable Motion Generation: Data, Model, and Evaluation",
+          "year": "2025",
+          "venue": "ICLR 2026",
+          "paper_url": "https://openreview.net/forum?id=KNke6Pkq4o",
+          "websites": [],
+          "name": "ViMoGen/MBench",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "wang2024scaling",
+          "title": "Scaling large motion models with million-level human motions",
+          "year": "2024",
+          "venue": "ICML 2025",
+          "paper_url": "https://arxiv.org/pdf/2410.03311",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://beingbeyond.github.io/Being-M0/"
+            }
+          ],
+          "name": "MotionLib",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "black2023bedlam",
+          "title": "BEDLAM: A Synthetic Dataset of Bodies Exhibiting Detailed Lifelike Animated Motion",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Black_BEDLAM_A_Synthetic_Dataset_of_Bodies_Exhibiting_Detailed_Lifelike_Animated_Motion_CVPR_2023_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://bedlam.is.tue.mpg.de/"
+            }
+          ],
+          "name": "BEDLAM",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "li2023finedance",
+          "title": "FineDance: A Fine-grained Choreography Dataset for 3D Full Body Dance Generation",
+          "year": "2023",
+          "venue": "2023",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_FineDance_A_Fine-grained_Choreography_Dataset_for_3D_Full_Body_Dance_Generation_ICCV_2023_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/li-ronghui/FineDance"
+            }
+          ],
+          "name": "FineDance",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "yi2023generating",
+          "title": "Generating Holistic 3D Human Motion from Speech",
+          "year": "2023",
+          "venue": "2023",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yi_Generating_Holistic_3D_Human_Motion_From_Speech_CVPR_2023_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://talkshow.is.tue.mpg.de/"
+            }
+          ],
+          "name": "TalkSHOW",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "lin2023motion",
+          "title": "Motion-X: A Large-Scale 3D Expressive Whole-Body Human Motion Dataset",
+          "year": "2023",
+          "venue": "NeurIPS 2023",
+          "paper_url": "https://arxiv.org/abs/2307.00818",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://motion-x-dataset.github.io/"
+            }
+          ],
+          "name": "Motion-X",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "guo2022generating",
+          "title": "Generating Diverse and Natural 3d Human Motions from Text",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/EricGuo5513/HumanML3D"
+            }
+          ],
+          "name": "HumanML3D",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "li2021ai",
+          "title": "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++",
+          "year": "2021",
+          "venue": "2021",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Li_AI_Choreographer_Music_Conditioned_3D_Dance_Generation_With_AIST_ICCV_2021_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://google.github.io/aichoreographer/"
+            }
+          ],
+          "name": "AIST++",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "punnakkal2021babel",
+          "title": "BABEL: Bodies, Action and Behavior with English Labels",
+          "year": "2021",
+          "venue": "CVPR 2021",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Punnakkal_BABEL_Bodies_Action_and_Behavior_With_English_Labels_CVPR_2021_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://babel.is.tue.mpg.de/"
+            }
+          ],
+          "name": "BABEL",
+          "type": "Dataset + Benchmark"
+        }
+      ],
+      "Human Gait Understanding": [
+        {
+          "bibkey": "cai2026barbiegait",
+          "title": "BarbieGait: An Identity-Consistent Synthetic Human Dataset with Versatile Cloth-Changing for Gait Recognition",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cai_BarbieGait_An_Identity-Consistent_Synthetic_Human_Dataset_with_Versatile_Cloth-Changing_for_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://barbiegait.github.io/"
+            }
+          ],
+          "name": "BarbieGait",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "wang2026mmgait",
+          "title": "MMGait: Towards Multi-Modal Gait Recognition",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://arxiv.org/abs/2604.15979",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/BNU-IVC/MMGait"
+            }
+          ],
+          "name": "MMGait",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "zou2024cross",
+          "title": "Cross-Covariate Gait Recognition: A Benchmark",
+          "year": "2024",
+          "venue": "AAAI 2024",
+          "paper_url": "https://doi.org/10.1609/aaai.v38i7.28621",
+          "websites": [],
+          "name": "Cross-Covariate Gait Recognition",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "li2023depth",
+          "title": "An In-Depth Exploration of Person Re-Identification and Gait Recognition in Cloth-Changing Conditions",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01328",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/BNU-IVC/CCPG"
+            }
+          ],
+          "name": "CCPG",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "fan2023learning",
+          "title": "Learning Gait Representation from Massive Unlabelled Walking Videos: A Benchmark",
+          "year": "2023",
+          "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 2023",
+          "paper_url": "https://doi.org/10.1109/tpami.2023.3312419",
+          "websites": [],
+          "name": "GaitLU-1M",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "shen2023lidargait",
+          "title": "LidarGait: Benchmarking 3D Gait Recognition with Point Clouds",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00108",
+          "websites": [],
+          "name": "LidarGait",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "fan2023opengait",
+          "title": "OpenGait: Revisiting Gait Recognition Toward Better Practicality",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00936",
+          "websites": [],
+          "name": "OpenGait",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "song2022casia",
+          "title": "CASIA-E: A Large Comprehensive Dataset for Gait Recognition",
+          "year": "2022",
+          "venue": "IEEE transactions on pattern analysis and machine intelligence 2022",
+          "paper_url": "https://doi.org/10.1109/tpami.2022.3183288",
+          "websites": [],
+          "name": "CASIA-E",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zheng2022gait",
+          "title": "Gait Recognition in the Wild with Dense 3D Representations and A Benchmark",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01959",
+          "websites": [],
+          "name": "Gait3D",
+          "type": "Dataset + Benchmark"
+        }
+      ],
+      "Sport Analysis": [
+        {
+          "bibkey": "elsharkawi2026soccerlens",
+          "title": "SoccerLens: Grounded Soccer Video Understanding Beyond Accuracy",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.09598",
+          "websites": [],
+          "name": "SoccerLens",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "gao2025fsbench",
+          "title": "FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01269",
+          "websites": [],
+          "name": "FSBench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "xu2025m3gym",
+          "title": "M3GYM: A Large-Scale Multimodal Multi-view Multi-person Pose Dataset for Fitness Activity Understanding in Real-world Settings",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01147",
+          "websites": [],
+          "name": "M3GYM",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "xu2024finesports",
+          "title": "FineSports: A Multi-Person Hierarchical Sports Video Dataset for Fine-Grained Action Understanding",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02057",
+          "websites": [],
+          "name": "FineSports",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "xu2022finediving",
+          "title": "FineDiving: A Fine-Grained Dataset for Procedure-Aware Action Quality Assessment",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://doi.org/10.1109/cvpr52688.2022.00296",
+          "websites": [],
+          "name": "FineDiving",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "fieraru2021aifit",
+          "title": "AIFit: Automatic 3D Human-Interpretable Feedback Models for Fitness Training",
+          "year": "2021",
+          "venue": "CVPR 2021",
+          "paper_url": "https://doi.org/10.1109/cvpr46437.2021.00979",
+          "websites": [],
+          "name": "AIFit",
+          "type": "Dataset"
+        }
+      ],
+      "Virtual Try-On": [
+        {
+          "bibkey": "shao2026tripvvt",
+          "title": "TripVVT: A Large-Scale Triplet Dataset and a Coarse-Mask Baseline for In-the-Wild Video Virtual Try-On",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.27958",
+          "websites": [],
+          "name": "TripVVT",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "chen2026tstars",
+          "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.19748",
+          "websites": [],
+          "name": "Tstars-Tryon 1.0",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "li2026shoefit",
+          "title": "ShoeFit: A New Dataset and Dual-image-stream DiT Framework for Virtual Footwear Try-On",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://doi.org/10.52202/085713-1088",
+          "websites": [],
+          "name": "ShoeFit",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "cui2025street",
+          "title": "Street Tryon: Learning In-the-Wild Virtual Try-On from Unpaired Person Images",
+          "year": "2025",
+          "venue": "Proceedings of the Winter Conference on Applications of Computer Vision 2025",
+          "paper_url": "https://doi.org/10.1109/wacv61041.2025.00145",
+          "websites": [],
+          "name": "Street Tryon",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "fang2024vivid",
+          "title": "ViViD: Video Virtual Try-on using Diffusion Models",
+          "year": "2024",
+          "venue": "arXiv 2024",
+          "paper_url": "https://arxiv.org/abs/2405.11794",
+          "websites": [],
+          "name": "ViViD",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "morelli2022dress",
+          "title": "Dress Code: High-Resolution Multi-Category Virtual Try-On",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://doi.org/10.1109/cvprw56347.2022.00243",
+          "websites": [],
+          "name": "Dress Code",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "choi2021viton",
+          "title": "VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization",
+          "year": "2021",
+          "venue": "CVPR 2021",
+          "paper_url": "https://doi.org/10.1109/cvpr46437.2021.01391",
+          "websites": [],
+          "name": "VITON-HD",
+          "type": "Dataset"
+        }
+      ]
+    },
+    "Human Interaction Resources": {
+      "Egocentric Procedural Activities": [
+        {
+          "bibkey": "ran2026egopro",
+          "title": "EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2605.07299",
+          "websites": [],
+          "name": "EgoPro-Bench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "lei2026egosat",
+          "title": "EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.24422",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://leiyj23.github.io/EgoSAT/"
+            }
+          ],
+          "name": "EgoSAT",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "nagrani2026minerva",
+          "title": "Minerva-Ego: Spatiotemporal Hints for Egocentric Video Understanding",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Nagrani_Minerva-Ego_Spatiotemporal_Hints_for_Egocentric_Video_Understanding_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/google-deepmind/neptune"
+            }
+          ],
+          "name": "Minerva-Ego",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "kundu2026plan",
+          "title": "Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.04970",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://huggingface.co/datasets/facebook/wearable-ai"
+            }
+          ],
+          "name": "EgoProactive/Pro2Bench",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "he2026egoexobench",
+          "title": "EgoExoBench: A Benchmark for First- and Third-person View Video Understanding in MLLMs",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a974bceb4d1af7d46673d1876482bd4f-Abstract-Datasets_and_Benchmarks_Track.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/ayiyayi/EgoExoBench"
+            }
+          ],
+          "name": "EgoExoBench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "yang2025egolife",
+          "title": "EgoLife: Towards Egocentric Life Assistant",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lin_EgoLife_Towards_Egocentric_Life_Assistant_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://egolife-ai.github.io/"
+            }
+          ],
+          "name": "EgoLife",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "wang2026egovid",
+          "title": "EgoVid-5M: A Large-Scale Video-Action Dataset for Egocentric Videos Generation",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3ef2b740cb22dcce67c20989cb3d3fce-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://egovid.github.io"
+            }
+          ],
+          "name": "EgoVid-5M",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "yi2026exact",
+          "title": "ExAct: A Video-Language Benchmark for Expert Action Analysis",
+          "year": "2025",
+          "venue": "NeurIPS 2025",
+          "paper_url": "https://arxiv.org/abs/2506.06277",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Texaser/Exact"
+            }
+          ],
+          "name": "ExAct",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "perrett2025hd",
+          "title": "HD-EPIC: A Highly-Detailed Egocentric Video Dataset",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Damen_HD-EPIC_A_Highly-Detailed_Egocentric_Video_Dataset_CVPR_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "http://hd-epic.github.io"
+            }
+          ],
+          "name": "HD-EPIC",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "xu2025perceiving",
+          "title": "Perceiving and Acting in First-Person: A Dataset and Benchmark for Egocentric Human-Object-Human Interactions",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Perceiving_and_Acting_in_First-Person_A_Dataset_and_Benchmark_for_Egocentric_ICCV_2025_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://liangxuy.github.io/InterVLA/"
+            }
+          ],
+          "name": "InterVLA",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "peddi2024captaincook4d",
+          "title": "CaptainCook4D: A Dataset for Understanding Errors in Procedural Activities",
+          "year": "2024",
+          "venue": "NeurIPS 2024",
+          "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/7f55e6b053cc5f7d024b111c0a13f604-Abstract-Datasets_and_Benchmarks_Track.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://rohithpeddi.github.io/captaincook"
+            }
+          ],
+          "name": "CaptainCook4D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "grauman2024ego",
+          "title": "Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Grauman_Ego-Exo4D_Understanding_Skilled_Human_Activity_from_First-_and_Third-Person_Perspectives_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://ego-exo4d-data.org/"
+            }
+          ],
+          "name": "Ego-Exo4D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "huang2024egoexolearn",
+          "title": "EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_EgoExoLearn_A_Diverse_Large-Scale_Dataset_for_Egocentric_and_Exocentric_Video_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/OpenGVLab/EgoExoLearn"
+            }
+          ],
+          "name": "EgoExoLearn",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "ma2024nymeria",
+          "title": "Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild",
+          "year": "2024",
+          "venue": "ECCV 2024",
+          "paper_url": "https://arxiv.org/abs/2406.09905",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://www.projectaria.com/datasets/nymeria/"
+            }
+          ],
+          "name": "Nymeria",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "pan2023aria",
+          "title": "Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception",
+          "year": "2023",
+          "venue": "ICCV 2023",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Pan_Aria_Digital_Twin_A_New_Benchmark_Dataset_for_Egocentric_3D_Machine_ICCV_2023_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://www.projectaria.com/datasets/adt/"
+            }
+          ],
+          "name": "Aria Digital Twin",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "ohkawa2023assemblyhands",
+          "title": "AssemblyHands: Towards Egocentric Activity Understanding via 3D Hand Pose Estimation",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Ohkawa_AssemblyHands_Towards_Egocentric_Activity_Understanding_via_3D_Hand_Pose_Estimation_CVPR_2023_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://assemblyhands.github.io/"
+            }
+          ],
+          "name": "AssemblyHands",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "wang2023holoassist",
+          "title": "HoloAssist: an Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World",
+          "year": "2023",
+          "venue": "ICCV 2023",
+          "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wang_HoloAssist_an_Egocentric_Human_Interaction_Dataset_for_Interactive_AI_Assistants_ICCV_2023_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://holoassist.github.io/"
+            }
+          ],
+          "name": "HoloAssist",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "sener2022assembly101",
+          "title": "Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Sener_Assembly101_A_Large-Scale_Multi-View_Video_Dataset_for_Understanding_Procedural_Activities_CVPR_2022_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://assembly-101.github.io/"
+            }
+          ],
+          "name": "Assembly101",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "grauman2022ego4d",
+          "title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Grauman_Ego4D_Around_the_World_in_3_000_Hours_of_Egocentric_Video_CVPR_2022_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://ego4d-data.org/"
+            }
+          ],
+          "name": "Ego4D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "jia2022egotaskqa",
+          "title": "EgoTaskQA: Understanding Human Tasks in Egocentric Videos",
+          "year": "2022",
+          "venue": "NeurIPS 2022",
+          "paper_url": "https://openreview.net/forum?id=ttxAvIQA4i_",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://sites.google.com/view/egotaskqa"
+            }
+          ],
+          "name": "EgoTaskQA",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "damen2022rescaling",
+          "title": "Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100",
+          "year": "2022",
+          "venue": "IJCV 2022",
+          "paper_url": "https://link.springer.com/article/10.1007/s11263-021-01531-2",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://epic-kitchens.github.io/"
+            }
+          ],
+          "name": "EPIC-KITCHENS-100",
+          "type": "Benchmark"
+        }
+      ],
+      "Human-Object Interaction Data": [
+        {
+          "bibkey": "lei2026crosshoi",
+          "title": "CrossHOI-Bench: A Unified Benchmark for HOI Evaluation across Vision-Language Models and HOI-Specific Methods",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://doi.org/10.48550/arxiv.2508.18753",
+          "websites": [],
+          "name": "CrossHOI-Bench",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "tateno2026handyvqa",
+          "title": "HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://doi.org/10.48550/arxiv.2512.00885",
+          "websites": [],
+          "name": "HanDyVQA",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "liu2025core4d",
+          "title": "CORE4D: A 4D Human-Object-Human Interaction Dataset for Collaborative Object Rearrangement",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00172",
+          "websites": [],
+          "name": "CORE4D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "fu2025gigahands",
+          "title": "GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01627",
+          "websites": [],
+          "name": "GigaHands",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "liu2025hoigen",
+          "title": "HOIGen-1M: A Large-scale Dataset for Human-Object Interaction Video Generation",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.02235",
+          "websites": [],
+          "name": "HOIGen-1M",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "banerjee2025hot3d",
+          "title": "HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00662",
+          "websites": [],
+          "name": "HOT3D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "lu2025humoto",
+          "title": "HUMOTO: A 4D Dataset of Mocap Human Object Interactions",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://doi.org/10.1109/iccv51701.2025.01013",
+          "websites": [],
+          "name": "HUMOTO",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "kim2025parahome",
+          "title": "ParaHome: Parameterizing Everyday Home Activities Towards 3D Generative Modeling of Human-Object Interactions",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00176",
+          "websites": [],
+          "name": "ParaHome",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "huang2024intercap",
+          "title": "InterCap: Joint Markerless 3D Tracking of Humans and Objects in Interaction from Multi-view RGB-D Images",
+          "year": "2024",
+          "venue": "International Journal of Computer Vision 2024",
+          "paper_url": "https://doi.org/10.1007/s11263-024-01984-1",
+          "websites": [],
+          "name": "InterCap",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zhan2024oakink2",
+          "title": "OAKINK2: A Dataset of Bimanual Hands-Object Manipulation in Complex Task Completion",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00050",
+          "websites": [],
+          "name": "OAKINK2",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "liu2024taco",
+          "title": "TACO: Benchmarking Generalizable Bimanual Tool-Action-Object Understanding",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02054",
+          "websites": [],
+          "name": "TACO",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "fan2023arctic",
+          "title": "ARCTIC: A Dataset for Dexterous Bimanual Hand-Object Manipulation",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01244",
+          "websites": [],
+          "name": "ARCTIC",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "jiang2023full",
+          "title": "Full-Body Articulated Human-Object Interaction",
+          "year": "2023",
+          "venue": "ICCV 2023",
+          "paper_url": "https://doi.org/10.1109/iccv51070.2023.00859",
+          "websites": [],
+          "name": "CHAIRS",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "bhatnagar2022behave",
+          "title": "BEHAVE: Dataset and Method for Tracking Human Object Interactions",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01547",
+          "websites": [],
+          "name": "BEHAVE",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "liu2022hoi4d",
+          "title": "HOI4D: A 4D Egocentric Dataset for Category-Level Human-Object Interaction",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://doi.org/10.1109/cvpr52688.2022.02034",
+          "websites": [],
+          "name": "HOI4D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "chao2021dexycb",
+          "title": "DexYCB: A Benchmark for Capturing Hand Grasping of Objects",
+          "year": "2021",
+          "venue": "CVPR 2021",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Chao_DexYCB_A_Benchmark_for_Capturing_Hand_Grasping_of_Objects_CVPR_2021_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://dex-ycb.github.io/"
+            }
+          ],
+          "name": "DexYCB",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "kwon2021h2o",
+          "title": "H2O: Two Hands Manipulating Objects for First Person Interaction Recognition",
+          "year": "2021",
+          "venue": "ICCV 2021",
+          "paper_url": "https://doi.org/10.1109/iccv48922.2021.00998",
+          "websites": [],
+          "name": "H2O",
+          "type": "Dataset"
+        }
+      ],
+      "Human-Scene Interaction Data": [
+        {
+          "bibkey": "jiang2024scaling",
+          "title": "Scaling Up Dynamic Human-Scene Interaction Modeling",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.html",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/jnnan/trumans_utils"
+            }
+          ],
+          "name": "TRUMANS",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "huang2022capturing",
+          "title": "Capturing and Inferring Dense Full-Body Human-Scene Contact",
+          "year": "2022",
+          "venue": "CVPR 2022",
+          "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01292",
+          "websites": [],
+          "name": "RICH",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zhang2022egobody",
+          "title": "EgoBody: Human Body Shape and Motion of Interacting People from Head-Mounted Devices",
+          "year": "2022",
+          "venue": "ECCV 2022",
+          "paper_url": "https://doi.org/10.1007/978-3-031-20068-7_11",
+          "websites": [],
+          "name": "EgoBody",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "wang2022humanise",
+          "title": "HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes",
+          "year": "2022",
+          "venue": "NeurIPS 2022",
+          "paper_url": "https://doi.org/10.48550/arxiv.2210.09729",
+          "websites": [],
+          "name": "HUMANISE",
+          "type": "Dataset"
+        }
+      ],
+      "Social Interaction Data": [
+        {
+          "bibkey": "jin2026sentiavatar",
+          "title": "SentiAvatar: Towards Expressive and Interactive Digital Humans",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/pdf/2604.02908",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://sentiavatar.github.io/"
+            }
+          ],
+          "name": "SentiAvatar",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "mclean2025embody",
+          "title": "Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2510.16258",
+          "websites": [],
+          "name": "Embody 3D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zhu2025infp",
+          "title": "INFP: Audio-Driven Interactive Head Generation in Dyadic Conversations",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00997",
+          "websites": [],
+          "name": "INFP",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "ho2025interact",
+          "title": "InterAct: A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios",
+          "year": "2025",
+          "venue": "SIGGRAPH 2025",
+          "paper_url": "https://doi.org/10.1145/3747871",
+          "websites": [],
+          "name": "InterAct",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "agrawal2025seamless",
+          "title": "Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2506.22554",
+          "websites": [],
+          "name": "Seamless Interaction",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "cao2025socialgesture",
+          "title": "SocialGesture: Delving into Multi-person Gesture Understanding",
+          "year": "2025",
+          "venue": "CVPR 2025",
+          "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01817",
+          "websites": [],
+          "name": "SocialGesture",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "zhang2025speakervid",
+          "title": "SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual Dyadic Interactive Human Generation",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2507.09862",
+          "websites": [],
+          "name": "SpeakerVid-5M",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "ng2024audio",
+          "title": "From audio to photoreal embodiment: Synthesizing humans in conversations",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00101",
+          "websites": [],
+          "name": "From audio to photoreal embodiment",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "khirodkar2024harmony4d",
+          "title": "Harmony4D: A Video Dataset for In-The-Wild Close Human Interactions",
+          "year": "2024",
+          "venue": "NeurIPS 2024",
+          "paper_url": "https://doi.org/10.52202/079017-3407",
+          "websites": [],
+          "name": "Harmony4D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "xu2024inter",
+          "title": "Inter-X: Towards Versatile Human-Human Interaction Analysis",
+          "year": "2024",
+          "venue": "CVPR 2024",
+          "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02101",
+          "websites": [],
+          "name": "Inter-X",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "khirodkar2023ego",
+          "title": "EgoHumans: An Egocentric 3D Multi-Human Benchmark",
+          "year": "2023",
+          "venue": "ICCV 2023",
+          "paper_url": "https://doi.org/10.1109/iccv51070.2023.01814",
+          "websites": [],
+          "name": "EgoHumans",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "yin2023hi4d",
+          "title": "Hi4D: 4D Instance Segmentation of Close Human Interaction",
+          "year": "2023",
+          "venue": "CVPR 2023",
+          "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01632",
+          "websites": [],
+          "name": "Hi4D",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "reece2023candor",
+          "title": "The CANDOR Corpus: Insights from a Large Multimodal Dataset of Naturalistic Conversation",
+          "year": "2023",
+          "venue": "Science advances 2023",
+          "paper_url": "https://doi.org/10.1126/sciadv.adf3197",
+          "websites": [],
+          "name": "The CANDOR Corpus",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "liu2022beat",
+          "title": "BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis",
+          "year": "2022",
+          "venue": "ECCV 2022",
+          "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_36",
+          "websites": [],
+          "name": "BEAT",
+          "type": "Dataset"
+        }
+      ]
+    },
+    "Human Embodiment Resources": {
+      "Human Data for Embodied AI": [
+        {
+          "bibkey": "li2026egolive",
+          "title": "EgoLive: A Large-Scale Egocentric Dataset from Real-World Human Tasks",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.23570",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://robotdata-market.jdcloud.com/console/market"
+            }
+          ],
+          "name": "EgoLive",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "punamiya2026egoverse",
+          "title": "EgoVerse: An Egocentric Human Dataset for Robot Learning from Around the World",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.07607",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/GaTech-RL2/EgoVerse"
+            }
+          ],
+          "name": "EgoVerse",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "engelbracht2026hoi",
+          "title": "Hoi!-A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation",
+          "year": "2026",
+          "venue": "CVPR 2025",
+          "paper_url": "https://arxiv.org/abs/2512.04884",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/timengelbracht/hoi-dataset-tools"
+            }
+          ],
+          "name": "Hoi!",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "lim2026hrdexdb",
+          "title": "HRDexDB: A Large-Scale Dataset of Dexterous Human and Robotic Hand Grasps",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2604.14944",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/snuvclab/HRDexDB"
+            }
+          ],
+          "name": "HRDexDB",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "li2026watchact",
+          "title": "WatchAct: A Benchmark for Behavior-Grounded Robot Manipulation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2606.26443",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/Baiqi-Li/WatchAct"
+            }
+          ],
+          "name": "WatchAct",
+          "type": "Benchmark"
+        },
+        {
+          "bibkey": "wang2025dexh2r",
+          "title": "DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/abs/2506.23152",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/4DVLab/DexH2R"
+            }
+          ],
+          "name": "DexH2R",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "hoque2025egodex",
+          "title": "EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2505.11709",
+          "websites": [
+            {
+              "label": "Code",
+              "url": "https://github.com/apple/ml-egodex"
+            }
+          ],
+          "name": "EgoDex",
+          "type": "Dataset"
+        },
+        {
+          "bibkey": "cai2025n",
+          "title": "In-N-On: Scaling Egocentric Manipulation with In-the-Wild and On-task Data",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2511.15704",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://xiongyicai.github.io/In-N-On"
+            }
+          ],
+          "name": "Human0 / PHSD",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "jawaid2025openego",
+          "title": "OpenEgo: A Large-Scale Multimodal Egocentric Dataset for Dexterous Manipulation",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2509.05513",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "https://www.openegocentric.com"
+            }
+          ],
+          "name": "OpenEgo",
+          "type": "Dataset"
+        }
+      ],
+      "Physical Humanoid Control": [
+        {
+          "bibkey": "li2026towardsmotion",
+          "title": "Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots",
+          "year": "2026",
+          "venue": "CVPR 2026",
+          "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Motion_Turing_Test_Evaluating_Human-Likeness_in_Humanoid_Robots_CVPR_2026_paper.html",
+          "websites": [
+            {
+              "label": "Project",
+              "url": "http://www.lidarhumanmotion.net/mtt/"
+            }
+          ],
+          "name": "HHMotion",
+          "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "lee2025phuma",
+          "title": "PHUMA: Physically-Grounded Humanoid Locomotion Dataset",
+          "year": "2025",
+          "venue": "arXiv 2025",
+          "paper_url": "https://arxiv.org/abs/2510.26236",
+          "websites": [],
+          "name": "PHUMA",
+          "type": "Dataset"
+        }
+      ]
+    }
+  },
+  "audit": {
+    "missing_bib_entries": [],
+    "unassigned_method_citations": {},
+    "method_entries_without_paper_url": [],
+    "resource_entries_without_paper_url": []
+  }
+}

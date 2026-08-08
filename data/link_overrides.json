@@ -1,0 +1,546 @@
+{
+  "an2022mri": {
+    "paper_url": "https://doi.org/10.48550/arxiv.2210.08394",
+    "matched_title": "mRI: Multi-modal 3D Human Pose Estimation Dataset using mmWave, RGB-D, and Inertial Sensors",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "banerjee2025hot3d": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00662",
+    "matched_title": "HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "bhatnagar2022behave": {
+    "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01547",
+    "matched_title": "BEHAVE: Dataset and Method for Tracking Human Object Interactions",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "cai2022humman": {
+    "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_33",
+    "matched_title": "HuMMan: Multi-modal 4D Human Dataset for Versatile Sensing and Modeling",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "cao2025socialgesture": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01817",
+    "matched_title": "SocialGesture: Delving into Multi-person Gesture Understanding",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "chang2026omg": {
+    "paper_url": "https://doi.org/10.48550/arxiv.2512.16727",
+    "matched_title": "OMG-Bench: A New Challenging Benchmark for Skeleton-based Online Micro Hand Gesture Recognition",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "chen2022mmbody": {
+    "paper_url": "https://doi.org/10.1145/3503161.3548262",
+    "name": "mmBody",
+    "matched_title": "mmBody Benchmark: 3D Body Reconstruction Dataset and Analysis for Millimeter Wave Radar",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "choi2021viton": {
+    "paper_url": "https://doi.org/10.1109/cvpr46437.2021.01391",
+    "matched_title": "VITON-HD: High-Resolution Virtual Try-On via Misalignment-Aware Normalization",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "cui2025street": {
+    "paper_url": "https://doi.org/10.1109/wacv61041.2025.00145",
+    "matched_title": "Street TryOn: Learning In-the-Wild Virtual Try-On from Unpaired Person Images",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "di2025dh": {
+    "paper_url": "https://doi.org/10.1109/iccv51701.2025.01127",
+    "matched_title": "DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "fan2023arctic": {
+    "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01244",
+    "matched_title": "ARCTIC: A Dataset for Dexterous Bimanual Hand-Object Manipulation",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "fan2023learning": {
+    "paper_url": "https://doi.org/10.1109/tpami.2023.3312419",
+    "name": "GaitLU-1M",
+    "type": "Dataset + Benchmark",
+    "matched_title": "Learning Gait Representation From Massive Unlabelled Walking Videos: A Benchmark",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "fan2023opengait": {
+    "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00936",
+    "type": "Benchmark",
+    "matched_title": "OpenGait: Revisiting Gait Recognition Toward Better Practicality",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "fan2026m4human": {
+    "paper_url": "https://doi.org/10.48550/arxiv.2512.12378",
+    "matched_title": "M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "fieraru2021aifit": {
+    "paper_url": "https://doi.org/10.1109/cvpr46437.2021.00979",
+    "matched_title": "AIFit: Automatic 3D Human-Interpretable Feedback Models for Fitness Training",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "fu2025gigahands": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01627",
+    "matched_title": "GigaHands: A Massive Annotated Dataset of Bimanual Hand Activities",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "gao2025fsbench": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01269",
+    "matched_title": "FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "ha2025multi": {
+    "paper_url": "https://doi.org/10.1109/iccv51701.2025.00955",
+    "name": "MP-ReID",
+    "websites": [
+      "https://mp-reid.github.io/"
+    ],
+    "matched_title": "Multi-Modal Multi-Platform Person Re-Identification: Benchmark and Method",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "ho2024rt": {
+    "paper_url": "https://doi.org/10.1007/978-3-031-73036-8_7",
+    "matched_title": "RT-Pose: A 4D Radar Tensor-Based 3D Human Pose Estimation and Localization Benchmark",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "ho2025interact": {
+    "paper_url": "https://doi.org/10.1145/3747871",
+    "matched_title": "InterAct: A Large-Scale Dataset of Dynamic, Expressive and Interactive Activities between Two People in Daily Scenarios 53",
+    "source": "OpenAlex",
+    "confidence": 0.9745
+  },
+  "hong2025motionbench": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00791",
+    "matched_title": "MotionBench: Benchmarking and Improving Fine-Grained Video Motion Understanding for Vision Language Models",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "huang2022capturing": {
+    "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01292",
+    "name": "RICH",
+    "matched_title": "Capturing and Inferring Dense Full-Body Human-Scene Contact",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "huang2024intercap": {
+    "paper_url": "https://doi.org/10.1007/s11263-024-01984-1",
+    "matched_title": "InterCap: Joint Markerless 3D Tracking of Humans and Objects in Interaction from Multi-view RGB-D Images",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "jiang2023full": {
+    "paper_url": "https://doi.org/10.1109/iccv51070.2023.00859",
+    "name": "CHAIRS",
+    "matched_title": "Full-Body Articulated Human-Object Interaction",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "jiang2025laboratory": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00825",
+    "name": "L2RW",
+    "matched_title": "From Laboratory to Real World: A New Benchmark Towards Privacy-Preserved Visible-Infrared Person Re-Identification",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "kapitanov2024hagrid": {
+    "paper_url": "https://doi.org/10.1109/wacv57701.2024.00451",
+    "name": "HaGRID",
+    "matched_title": "HaGRID – HAnd Gesture Recognition Image Dataset",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "khirodkar2023ego": {
+    "paper_url": "https://doi.org/10.1109/iccv51070.2023.01814",
+    "matched_title": "EgoHumans: An Egocentric 3D Multi-Human Benchmark",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "khirodkar2024harmony4d": {
+    "paper_url": "https://doi.org/10.52202/079017-3407",
+    "matched_title": "Harmony4D: A Video Dataset for In-The-Wild Close Human Interactions",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "kim2025parahome": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00176",
+    "matched_title": "ParaHome: Parameterizing Everyday Home Activities Towards 3D Generative Modeling of Human-Object Interactions",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "kwon2021h2o": {
+    "paper_url": "https://doi.org/10.1109/iccv48922.2021.00998",
+    "matched_title": "H2O: Two Hands Manipulating Objects for First Person Interaction Recognition",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "lee2023hupr": {
+    "paper_url": "https://doi.org/10.1109/wacv56688.2023.00567",
+    "name": "HuPR",
+    "matched_title": "HuPR: A Benchmark for Human Pose Estimation Using Millimeter Wave Radar",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "lei2026crosshoi": {
+    "paper_url": "https://doi.org/10.48550/arxiv.2508.18753",
+    "matched_title": "CrossHOI-Bench: A Unified Benchmark for HOI Evaluation across Vision-Language Models and HOI-Specific Methods",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "li2023depth": {
+    "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01328",
+    "name": "CCPG",
+    "type": "Dataset + Benchmark",
+    "websites": [
+      "https://github.com/BNU-IVC/CCPG"
+    ],
+    "matched_title": "An In-Depth Exploration of Person Re-Identification and Gait Recognition in Cloth-Changing Conditions",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "li2025mmad": {
+    "paper_url": "https://doi.org/10.1109/iccv51701.2025.01229",
+    "matched_title": "MMAD: Multi-Label Micro-Action Detection in Videos",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "li2025openhumanvid": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00726",
+    "matched_title": "OpenHumanVid: A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "li2026shoefit": {
+    "paper_url": "https://doi.org/10.52202/085713-1088",
+    "matched_title": "ShoeFit: A New Dataset and Dual-image-stream DiT Framework for Virtual Footwear Try-On",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "liu2022beat": {
+    "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_36",
+    "matched_title": "BEAT: A Large-Scale Semantic and Emotional Multi-modal Dataset for Conversational Gestures Synthesis",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "liu2022hoi4d": {
+    "paper_url": "https://doi.org/10.1109/cvpr52688.2022.02034",
+    "matched_title": "HOI4D: A 4D Egocentric Dataset for Category-Level Human-Object Interaction",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "liu2024taco": {
+    "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02054",
+    "matched_title": "TACO: Benchmarking Generalizable Bimanual Tool-ACtion-Object Understanding",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "liu2025core4d": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00172",
+    "matched_title": "CORE4D: A 4D Human-Object-Human Interaction Dataset for Collaborative Object REarrangement",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "liu2025hoigen": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.02235",
+    "matched_title": "HOIGen-1M: A Large-scale Dataset for Human-Object Interaction Video Generation",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "lu2025humoto": {
+    "paper_url": "https://doi.org/10.1109/iccv51701.2025.01013",
+    "matched_title": "Humoto: A 4D Dataset of Mocap Human Object Interactions",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "morelli2022dress": {
+    "paper_url": "https://doi.org/10.1109/cvprw56347.2022.00243",
+    "matched_title": "Dress Code: High-Resolution Multi-Category Virtual Try-On",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "ng2024audio": {
+    "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00101",
+    "matched_title": "From Audio to Photoreal Embodiment: Synthesizing Humans in Conversations",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "nguyen2025ag": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00124",
+    "matched_title": "AG-VPReID: A Challenging Large-Scale Benchmark for Aerial-Ground Video-based Person Re-Identification",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "qin2026face": {
+    "paper_url": "https://doi.org/10.52202/085713-0322",
+    "matched_title": "Face-Human-Bench: A Comprehensive Benchmark of Face and Human Understanding for Multi-modal Assistants",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "rahman2024mmvr": {
+    "paper_url": "https://doi.org/10.1007/978-3-031-72986-7_18",
+    "matched_title": "MMVR: Millimeter-Wave Multi-view Radar Dataset and Benchmark for Indoor Perception",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "reece2023candor": {
+    "paper_url": "https://doi.org/10.1126/sciadv.adf3197",
+    "matched_title": "The CANDOR corpus: Insights from a large multimodal dataset of naturalistic conversation",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "salehi2024actionatlas": {
+    "paper_url": "https://doi.org/10.52202/079017-4364",
+    "matched_title": "ActionAtlas: A VideoQA Benchmark for Domain-specialized Action Recognition",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "shen2023lidargait": {
+    "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00108",
+    "matched_title": "LidarGait: Benchmarking 3D Gait Recognition with Point Clouds",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "song2022casia": {
+    "paper_url": "https://doi.org/10.1109/tpami.2022.3183288",
+    "matched_title": "CASIA-E: A Large Comprehensive Dataset for Gait Recognition",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "tateno2026handyvqa": {
+    "paper_url": "https://doi.org/10.48550/arxiv.2512.00885",
+    "matched_title": "HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "wang2022humanise": {
+    "paper_url": "https://doi.org/10.48550/arxiv.2210.09729",
+    "matched_title": "HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "wang2024humanvid": {
+    "paper_url": "https://doi.org/10.52202/079017-0635",
+    "matched_title": "HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "wang2025facebench": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00855",
+    "matched_title": "FaceBench: A Multi-View Multi-Level Facial Attribute VQA Dataset for Benchmarking Face Perception MLLMs",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "xu2022finediving": {
+    "paper_url": "https://doi.org/10.1109/cvpr52688.2022.00296",
+    "matched_title": "FineDiving: A Fine-grained Dataset for Procedure-aware Action Quality Assessment",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "xu2024finesports": {
+    "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02057",
+    "matched_title": "FineSports: A Multi-Person Hierarchical Sports Video Dataset for Fine-Grained Action Understanding",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "xu2024inter": {
+    "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02101",
+    "matched_title": "Inter-X: Towards Versatile Human-Human Interaction Analysis",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "xu2025m3gym": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01147",
+    "matched_title": "M3GYM: A Large-Scale Multimodal Multi-view Multi-person Pose Dataset for Fitness Activity Understanding in Real-world Settings",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "yadav2026videonet": {
+    "paper_url": "https://arxiv.org/abs/2605.02834",
+    "matched_title": "VideoNet: A Large-Scale Dataset for Domain-Specific Action Recognition",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "yan2024reli11d": {
+    "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00219",
+    "matched_title": "RELI11D: A Comprehensive Multimodal Human Motion Dataset and Method",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "yang2023mm": {
+    "paper_url": "https://doi.org/10.48550/arxiv.2305.10345",
+    "matched_title": "MM-Fi: Multi-Modal Non-Intrusive 4D Human Dataset for Versatile Wireless Sensing",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "yang2023towards": {
+    "paper_url": "https://doi.org/10.1145/3581783.3611709",
+    "name": "MALS",
+    "matched_title": "Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "yin2023hi4d": {
+    "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01632",
+    "matched_title": "Hi4D: 4D Instance Segmentation of Close Human Interaction",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "yuan2026octonet": {
+    "paper_url": "https://doi.org/10.52202/085713-0469",
+    "matched_title": "OctoNet: A Large-Scale Multi-Modal Dataset for Human Activity Understanding Grounded in Motion-Captured 3D Pose Labels",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "zhan2024oakink2": {
+    "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00050",
+    "matched_title": "OakInk2 : A Dataset of Bimanual Hands-Object Manipulation in Complex Task Completion",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "zhang2021flow": {
+    "paper_url": "https://doi.org/10.1109/cvpr46437.2021.00366",
+    "name": "HDTF",
+    "matched_title": "Flow-guided One-shot Talking Face Generation with a High-resolution Audio-visual Dataset",
+    "source": "Crossref",
+    "confidence": 1.0
+  },
+  "zhang2022egobody": {
+    "paper_url": "https://doi.org/10.1007/978-3-031-20068-7_11",
+    "matched_title": "EgoBody: Human Body Shape and Motion of Interacting People from Head-Mounted Devices",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "zhang2023diverse": {
+    "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00214",
+    "name": "LLCM",
+    "matched_title": "Diverse Embedding Expansion Network and Low-Light Cross-Modality Benchmark for Visible-Infrared Person Re-identification",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "zheng2022gait": {
+    "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01959",
+    "name": "Gait3D",
+    "type": "Dataset + Benchmark",
+    "matched_title": "Gait Recognition in the Wild with Dense 3D Representations and A Benchmark",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "zhou2022responsive": {
+    "paper_url": "https://doi.org/10.1007/978-3-031-19839-7_8",
+    "name": "ViCo",
+    "type": "Dataset + Benchmark",
+    "websites": [
+      "https://project.mhzhou.com/vico/"
+    ],
+    "matched_title": "Responsive Listening Head Generation: A Benchmark Dataset and Baseline",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "zhou2026humanvbench": {
+    "paper_url": "https://doi.org/10.48550/arxiv.2412.17574",
+    "matched_title": "HumanVBench: Probing Human-Centric Video Understanding in MLLMs with Automatically Synthesized Benchmarks",
+    "source": "OpenAlex",
+    "confidence": 0.88
+  },
+  "zhu2022celebv": {
+    "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_38",
+    "matched_title": "CelebV-HQ: A Large-Scale Video Facial Attributes Dataset",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "zhu2025infp": {
+    "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00997",
+    "matched_title": "INFP: Audio-Driven Interactive Head Generation in Dyadic Conversations",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "zou2024cross": {
+    "paper_url": "https://doi.org/10.1609/aaai.v38i7.28621",
+    "matched_title": "Cross-Covariate Gait Recognition: A Benchmark",
+    "source": "OpenAlex",
+    "confidence": 1.0
+  },
+  "cai2026barbiegait": {
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cai_BarbieGait_An_Identity-Consistent_Synthetic_Human_Dataset_with_Versatile_Cloth-Changing_for_CVPR_2026_paper.html",
+    "websites": [
+      "https://barbiegait.github.io/"
+    ],
+    "type": "Dataset + Benchmark",
+    "matched_title": "BarbieGait: An Identity-Consistent Synthetic Human Dataset with Versatile Cloth-Changing for Gait Recognition",
+    "source": "CVF Open Access",
+    "confidence": 1.0
+  },
+  "chao2021dexycb": {
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Chao_DexYCB_A_Benchmark_for_Capturing_Hand_Grasping_of_Objects_CVPR_2021_paper.html",
+    "websites": [
+      "https://dex-ycb.github.io/"
+    ],
+    "matched_title": "DexYCB: A Benchmark for Capturing Hand Grasping of Objects",
+    "source": "CVF Open Access",
+    "confidence": 1.0
+  },
+  "fu2022stylegan": {
+    "paper_url": "https://arxiv.org/abs/2204.11823",
+    "websites": [
+      "https://github.com/stylegan-human/StyleGAN-Human"
+    ],
+    "matched_title": "StyleGAN-Human: A Data-Centric Odyssey of Human Generation",
+    "source": "arXiv",
+    "confidence": 1.0
+  },
+  "li2026towardsmotion": {
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Motion_Turing_Test_Evaluating_Human-Likeness_in_Humanoid_Robots_CVPR_2026_paper.html",
+    "websites": [
+      "http://www.lidarhumanmotion.net/mtt/"
+    ],
+    "name": "HHMotion",
+    "type": "Dataset + Benchmark",
+    "matched_title": "Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots",
+    "source": "CVF Open Access",
+    "confidence": 1.0
+  },
+  "yu2023celebv": {
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_CelebV-Text_A_Large-Scale_Facial_Text-Video_Dataset_CVPR_2023_paper.html",
+    "websites": [
+      "https://celebv-text.github.io/"
+    ],
+    "matched_title": "CelebV-Text: A Large-Scale Facial Text-Video Dataset",
+    "source": "CVF Open Access",
+    "confidence": 1.0
+  },
+  "cai2025n": {
+    "name": "Human0 / PHSD"
+  },
+  "gera2026humanmovevqa": {
+    "name": "HumanMoveVQA",
+    "type": "Benchmark"
+  },
+  "elsharkawi2026soccerlens": {
+    "name": "SoccerLens",
+    "type": "Benchmark"
+  },
+  "wang2026mmgait": {
+    "name": "MMGait",
+    "type": "Dataset + Benchmark",
+    "websites": [
+      "https://github.com/BNU-IVC/MMGait"
+    ]
+  }
+}
