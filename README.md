@@ -22,7 +22,6 @@ This repository is organized around the six-level framework introduced in **Huma
 - [Paper Resources](#paper-resources)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Contributing](#contributing)
-- [Citation](#citation)
 
 <a id="paper-resources"></a>
 
@@ -721,7 +720,9 @@ Resources follow the organization used in Chapter 7 of the survey. Each resource
 
 ## 🤝 Contributing
 
-Corrections and additions are welcome. Please open an issue or pull request and include the paper title, category, publication venue, paper page, and project or code link. See [CONTRIBUTING.md](CONTRIBUTING.md) for the expected format.
+Corrections and additions are welcome. Please open an issue or pull request and include the paper title, category, publication venue, paper page, and project or code link. 
+<!-- See [CONTRIBUTING.md](CONTRIBUTING.md) for the expected format. -->
+
 
 <a id="citation"></a>
 
@@ -730,17 +731,10 @@ Corrections and additions are welcome. Please open an issue or pull request and 
 If this resource collection is useful in your research, please cite the accompanying survey:
 
 ```bibtex
-@misc{chen2026humancentricintelligence,
-  title  = {Human-Centric Intelligence in the Era of Foundation Models: A Survey},
-  author = {Chen, Yang and Wang, Tianqi and Jiang, Xiaorui and Man, Yilei and
-            Shao, Yihua and Guo, Chuan and Liu, Mengyuan and Chen, Zhi and
-            Cao, Xiaofeng and Zhao, Qibin and Sebe, Nicu and Tao, Dacheng and
-            Zhou, Jingren and Zomaya, Albert Y. and Guo, Song and Guo, Jingcai},
-  year   = {2026},
-  note   = {Survey manuscript},
-  url    = {https://github.com/cseeyangchen/Human-Centric-AI}
-}
+
 ```
+
+
 
 ## 🙏 Acknowledgment
 
