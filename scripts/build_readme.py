@@ -771,6 +771,10 @@ def render_readme(index: dict) -> str:
 
     lines.extend(
         [
+            "## 📧 Contact",
+            "",
+            "For any questions or suggestions, please contact **Yang Chen** at [cs-yang.chen@connect.polyu.hk](mailto:cs-yang.chen@connect.polyu.hk).",
+            "",
             "## 🙏 Acknowledgment",
             "",
             "This repository indexes third-party research artifacts. Copyright and licenses remain with the original authors and project maintainers.",
