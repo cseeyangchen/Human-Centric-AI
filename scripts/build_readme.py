@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the Human-Centric AI Resources README from the survey sources.
+"""Build the Human-Centric AI Resources Markdown pages from the survey sources.
 
 The script treats the survey as the source of truth. It combines citations from
 Chapters 4--6 with active rows in the method tables, and combines citations from
@@ -611,7 +611,7 @@ def blockquote(markdown: str) -> str:
     return "\n".join(f"> {line}" if line else ">" for line in markdown.splitlines())
 
 
-def render_readme(index: dict) -> str:
+def render_markdown_pages(index: dict) -> dict[str, str]:
     arxiv_badge_image = '<img src="https://img.shields.io/badge/arXiv-Survey-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">'
     arxiv_badge = arxiv_badge_image
     if SURVEY_ARXIV_URL:
@@ -653,24 +653,48 @@ def render_readme(index: dict) -> str:
         "## 🧭 Contents",
         "",
         "- [News](#news)",
-        "- [Paper Resources](#paper-resources)",
-        "- [Datasets and Benchmarks](#datasets-and-benchmarks)",
+        "- [Resource Collections](#resource-collections)",
         "- [Contributing](#contributing)",
+        "- [Citation](#citation)",
+        "- [Contact](#contact)",
         "",
-        '<a id="paper-resources"></a>',
+        '<a id="resource-collections"></a>',
         "",
-        "## 📚 Paper Resources",
+        "## 🗂️ Resource Collections",
+        "",
+        "The detailed resource indexes are maintained as separate pages so that papers, datasets, and benchmarks can be browsed and updated independently.",
+        "",
+        "| Collection | Coverage |",
+        "|---|---|",
+        "| [📚 **Paper Resources**](resources/papers.md) | Methods organized by the six human-context levels and their subcategories. |",
+        "| [🗃️ **Datasets and Benchmarks**](resources/datasets-and-benchmarks.md) | Datasets and benchmarks organized by resource family and task category. |",
+        "",
+    ]
+
+    paper_lines = [
+        '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+        "",
+        "# 📚 Paper Resources",
         "",
         "The paper index contains the union of works cited in the Chapter 4--6 method discussions and works listed in the corresponding method tables. Each level and subcategory is collapsed by default for faster navigation.",
+        "",
+        "## Contents",
+        "",
+        *[
+            f"- [{ROMAN_NUMERALS[level_number - 1]}. {level}](#{anchor(level)})"
+            for level_number, level in enumerate(METHOD_LEVELS, start=1)
+        ],
         "",
     ]
 
     for level_number, (level, categories) in enumerate(METHOD_LEVELS.items(), start=1):
         level_records = index["method_papers"][level]
         level_index = ROMAN_NUMERALS[level_number - 1]
-        level_icon = METHOD_LEVEL_ICONS[level]
-        lines.extend(
+        level_icon = f"../{METHOD_LEVEL_ICONS[level]}"
+        paper_lines.extend(
             [
+                f'<a id="{anchor(level)}"></a>',
+                "",
                 "<details>",
                 f'<summary><img src="{level_icon}" width="28" height="28" align="absmiddle" alt=""> &nbsp; <b>{level_index}. {level}</b></summary>',
                 "",
@@ -688,29 +712,45 @@ def render_readme(index: dict) -> str:
                     "</details>",
                 ]
             )
-            lines.extend(
+            paper_lines.extend(
                 [
                     blockquote(category_block),
                     "",
                 ]
             )
-        lines.extend(["</details>", ""])
+        paper_lines.extend(["</details>", ""])
 
-    lines.extend(
+    paper_lines.extend(
         [
-            '<a id="datasets-and-benchmarks"></a>',
+            "---",
             "",
-            "## 🗂️ Datasets and Benchmarks",
-            "",
-            "Resources follow the organization used in Chapter 7 of the survey. Each resource group and subcategory is collapsed by default, and duplicate BibTeX entries are removed within each table.",
+            '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
             "",
         ]
     )
+
+    dataset_lines = [
+        '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+        "",
+        "# 🗃️ Datasets and Benchmarks",
+        "",
+        "Resources follow the organization used in Chapter 7 of the survey. Each resource group and subcategory is collapsed by default, and duplicate BibTeX entries are removed within each table.",
+        "",
+        "## Contents",
+        "",
+        *[
+            f"- [{ROMAN_NUMERALS[group_number - 1]}. {group}](#{anchor(group)})"
+            for group_number, group in enumerate(DATA_GROUPS, start=1)
+        ],
+        "",
+    ]
     for group_number, (group, categories) in enumerate(DATA_GROUPS.items(), start=1):
         group_index = ROMAN_NUMERALS[group_number - 1]
-        group_icon = DATA_GROUP_ICONS[group]
-        lines.extend(
+        group_icon = f"../{DATA_GROUP_ICONS[group]}"
+        dataset_lines.extend(
             [
+                f'<a id="{anchor(group)}"></a>',
+                "",
                 "<details>",
                 f'<summary><img src="{group_icon}" width="24" height="24" align="absmiddle" alt=""> &nbsp; <b>{group_index}. {group}</b></summary>',
                 "",
@@ -728,13 +768,22 @@ def render_readme(index: dict) -> str:
                     "</details>",
                 ]
             )
-            lines.extend(
+            dataset_lines.extend(
                 [
                     blockquote(category_block),
                     "",
                 ]
             )
-        lines.extend(["</details>", ""])
+        dataset_lines.extend(["</details>", ""])
+
+    dataset_lines.extend(
+        [
+            "---",
+            "",
+            '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+            "",
+        ]
+    )
 
     lines.extend(
         [
@@ -742,36 +791,26 @@ def render_readme(index: dict) -> str:
             "",
             "## 🤝 Contributing",
             "",
-            "Corrections and additions are welcome. Please open an issue or pull request and include the paper title, category, publication venue, paper page, and project or code link. See [CONTRIBUTING.md](CONTRIBUTING.md) for the expected format.",
+            "Corrections and additions are welcome. Please open an issue or pull request and include the paper title, category, publication venue, paper page, and project or code link.",
+            "<!-- See [CONTRIBUTING.md](CONTRIBUTING.md) for the expected format. -->",
             "",
         ]
     )
 
-    citation_lines = [
-        '<a id="citation"></a>',
-        "",
-        "## ✍️ Citation",
-        "",
-        "If this resource collection is useful in your research, please cite the accompanying survey:",
-        "",
-        "```bibtex",
-        "@misc{chen2026humancentricintelligence,",
-        "  title  = {Human-Centric Intelligence in the Era of Foundation Models: A Survey},",
-        "  author = {Chen, Yang and Wang, Tianqi and Jiang, Xiaorui and Man, Yilei and",
-        "            Shao, Yihua and Guo, Chuan and Liu, Mengyuan and Chen, Zhi and",
-        "            Cao, Xiaofeng and Zhao, Qibin and Sebe, Nicu and Tao, Dacheng and",
-        "            Zhou, Jingren and Zomaya, Albert Y. and Guo, Song and Guo, Jingcai},",
-        "  year   = {2026},",
-        "  note   = {Survey manuscript},",
-        f"  url    = {{{GITHUB_REPOSITORY_URL}}}",
-        "}",
-        "```",
-        "",
-    ]
-    lines.extend(["<!--", *citation_lines, "-->", ""])
-
     lines.extend(
         [
+            '<a id="citation"></a>',
+            "",
+            "## ✍️ Citation",
+            "",
+            "If this resource collection is useful in your research, please cite the accompanying survey:",
+            "",
+            "```bibtex",
+            "",
+            "```",
+            "",
+            '<a id="contact"></a>',
+            "",
             "## 📧 Contact",
             "",
             "For any questions or suggestions, please contact **Yang Chen** at [cs-yang.chen@connect.polyu.hk](mailto:cs-yang.chen@connect.polyu.hk).",
@@ -789,7 +828,11 @@ def render_readme(index: dict) -> str:
             "",
         ]
     )
-    return "\n".join(lines)
+    return {
+        "README.md": "\n".join(lines),
+        "resources/papers.md": "\n".join(paper_lines),
+        "resources/datasets-and-benchmarks.md": "\n".join(dataset_lines),
+    }
 
 
 def build_index(survey_root: Path, overrides: dict[str, dict] | None = None) -> dict:
@@ -932,7 +975,10 @@ def main() -> None:
     (repo_root / "data" / "resources.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    (repo_root / "README.md").write_text(render_readme(index), encoding="utf-8")
+    for relative_path, content in render_markdown_pages(index).items():
+        output_path = repo_root / relative_path
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(content, encoding="utf-8")
     print(json.dumps(index["summary"], indent=2))
     print(json.dumps(index["audit"], indent=2))
 

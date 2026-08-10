@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit source coverage and generated README structure."""
+"""Audit source coverage and generated Markdown structure."""
 
 from __future__ import annotations
 
@@ -23,8 +23,22 @@ def main() -> None:
     survey_root = args.survey_root.resolve()
     repo_root = args.repo_root.resolve()
     index = json.loads((repo_root / "data" / "resources.json").read_text(encoding="utf-8"))
-    readme = (repo_root / "README.md").read_text(encoding="utf-8")
     errors: list[str] = []
+    markdown_paths = {
+        "README": repo_root / "README.md",
+        "paper resources": repo_root / "resources" / "papers.md",
+        "datasets and benchmarks": repo_root / "resources" / "datasets-and-benchmarks.md",
+    }
+    markdown: dict[str, str] = {}
+    for label, path in markdown_paths.items():
+        if not path.is_file():
+            errors.append(f"Missing generated Markdown page: {path.relative_to(repo_root)}")
+            markdown[label] = ""
+        else:
+            markdown[label] = path.read_text(encoding="utf-8")
+    readme = markdown["README"]
+    papers = markdown["paper resources"]
+    datasets = markdown["datasets and benchmarks"]
 
     method_source_keys: set[str] = set()
     for relative in build_readme.METHOD_SECTION_FILES + build_readme.METHOD_TABLE_FILES:
@@ -84,33 +98,70 @@ def main() -> None:
     if invalid_paper_page:
         errors.append(f"Entries with invalid paper page: {invalid_paper_page}")
 
-    expected_rows = index["summary"]["categorized_method_entries"] + index["summary"]["categorized_resource_entries"]
-    if readme.count("[Paper](") != expected_rows:
+    expected_method_rows = index["summary"]["categorized_method_entries"]
+    expected_resource_rows = index["summary"]["categorized_resource_entries"]
+    expected_rows = expected_method_rows + expected_resource_rows
+    if papers.count("[Paper](") != expected_method_rows:
         errors.append(
-            f"README row/link mismatch: expected {expected_rows}, found {readme.count('[Paper](')}"
+            "Paper-resource row/link mismatch: expected {}, found {}".format(
+                expected_method_rows, papers.count("[Paper](")
+            )
         )
-    expected_details = len(build_readme.METHOD_LEVELS)
-    expected_details += sum(len(categories) for categories in build_readme.METHOD_LEVELS.values())
-    expected_details += len(build_readme.DATA_GROUPS)
-    expected_details += sum(len(categories) for categories in build_readme.DATA_GROUPS.values())
-    if readme.count("<details>") != expected_details:
-        errors.append("README does not contain the expected level and subcategory collapsed blocks")
-    expected_nested_details = sum(len(categories) for categories in build_readme.METHOD_LEVELS.values())
-    expected_nested_details += sum(len(categories) for categories in build_readme.DATA_GROUPS.values())
-    if readme.count("> <details>") != expected_nested_details:
-        errors.append("README subcategory blocks are not consistently rendered at the nested level")
-    if "<details open" in readme:
-        errors.append("README contains a details block that is open by default")
-    if readme.count("<details>") != readme.count("</details>"):
-        errors.append("README contains unbalanced details blocks")
-    if readme.count("| Paper | Venue | Paper Page | Website |") != sum(
+    if datasets.count("[Paper](") != expected_resource_rows:
+        errors.append(
+            "Dataset-resource row/link mismatch: expected {}, found {}".format(
+                expected_resource_rows, datasets.count("[Paper](")
+            )
+        )
+    if "[Paper](" in readme:
+        errors.append("README still contains generated resource rows")
+
+    expected_method_details = len(build_readme.METHOD_LEVELS) + sum(
+        len(categories) for categories in build_readme.METHOD_LEVELS.values()
+    )
+    expected_resource_details = len(build_readme.DATA_GROUPS) + sum(
+        len(categories) for categories in build_readme.DATA_GROUPS.values()
+    )
+    if papers.count("<details>") != expected_method_details:
+        errors.append("Paper resources do not contain the expected collapsed blocks")
+    if datasets.count("<details>") != expected_resource_details:
+        errors.append("Datasets and benchmarks do not contain the expected collapsed blocks")
+    expected_nested_method_details = sum(
+        len(categories) for categories in build_readme.METHOD_LEVELS.values()
+    )
+    expected_nested_resource_details = sum(
+        len(categories) for categories in build_readme.DATA_GROUPS.values()
+    )
+    if papers.count("> <details>") != expected_nested_method_details:
+        errors.append("Paper subcategory blocks are not consistently nested")
+    if datasets.count("> <details>") != expected_nested_resource_details:
+        errors.append("Dataset subcategory blocks are not consistently nested")
+    for label, content in (("paper resources", papers), ("datasets and benchmarks", datasets)):
+        if "<details open" in content:
+            errors.append(f"{label.title()} contains a details block that is open by default")
+        if content.count("<details>") != content.count("</details>"):
+            errors.append(f"{label.title()} contains unbalanced details blocks")
+
+    if papers.count("| Paper | Venue | Paper Page | Website |") != sum(
         len(categories) for categories in build_readme.METHOD_LEVELS.values()
     ):
-        errors.append("README method-table count does not match the taxonomy")
-    if readme.count("| Resource | Type | Year | Paper | Paper Page | Website |") != sum(
+        errors.append("Paper-resource table count does not match the taxonomy")
+    if datasets.count("| Resource | Type | Year | Paper | Paper Page | Website |") != sum(
         len(categories) for categories in build_readme.DATA_GROUPS.values()
     ):
-        errors.append("README resource-table count does not match Chapter 7 organization")
+        errors.append("Dataset-resource table count does not match Chapter 7 organization")
+
+    required_root_links = [
+        "[📚 **Paper Resources**](resources/papers.md)",
+        "[🗃️ **Datasets and Benchmarks**](resources/datasets-and-benchmarks.md)",
+    ]
+    for link in required_root_links:
+        if link not in readme:
+            errors.append(f"README is missing resource-page link: {link}")
+    if papers.count('<a href="../README.md">') < 2:
+        errors.append("Paper resources are missing top or bottom README navigation")
+    if datasets.count('<a href="../README.md">') < 2:
+        errors.append("Datasets and benchmarks are missing top or bottom README navigation")
     required_images = [
         "assets/survey-overview.png",
         "assets/human-centric-resources-logo-v4.png",
@@ -119,14 +170,20 @@ def main() -> None:
     ]
     for image in required_images:
         if not (repo_root / image).is_file():
-            errors.append(f"Missing README image: {image}")
+            errors.append(f"Missing resource image: {image}")
+    for image in build_readme.METHOD_LEVEL_ICONS.values():
+        if f'../{image}' not in papers:
+            errors.append(f"Paper resources do not reference expected icon: {image}")
+    for image in build_readme.DATA_GROUP_ICONS.values():
+        if f'../{image}' not in datasets:
+            errors.append(f"Datasets and benchmarks do not reference expected icon: {image}")
 
     report = {
         "method_source_papers": len(method_source_keys),
         "method_index_papers": len(method_index_keys),
         "resource_source_entries": len(resource_source_keys),
         "resource_index_entries": len(resource_index_keys),
-        "categorized_readme_rows": expected_rows,
+        "categorized_markdown_rows": expected_rows,
         "errors": errors,
     }
     print(json.dumps(report, indent=2))
