@@ -620,6 +620,7 @@ def render_readme(index: dict) -> str:
     badge_line = " ".join(
         [
             '<a href="https://awesome.re"><img src="https://img.shields.io/badge/Awesome-fc60a8?logo=awesomelists&logoColor=white" alt="Awesome"></a>',
+            '<a href="https://cseeyangchen.github.io/Human-Centric-AI/homepage/"><img src="https://img.shields.io/badge/Homepage-2f766f?logo=githubpages&logoColor=white" alt="Homepage"></a>',
             f'<img src="https://komarev.com/ghpvc/?username={VISITOR_COUNTER_ID}&label=Visitors&color=2563eb&style=flat" alt="Visitors">',
             f'<a href="{GITHUB_REPOSITORY_URL}/stargazers"><img src="https://img.shields.io/github/stars/{GITHUB_REPOSITORY}?label=Stars&logo=github&color=f59e0b" alt="Stars"></a>',
             f'<a href="{GITHUB_REPOSITORY_URL}/forks"><img src="https://img.shields.io/github/forks/{GITHUB_REPOSITORY}?label=Forks&logo=github&color=0f766e" alt="Forks"></a>',
