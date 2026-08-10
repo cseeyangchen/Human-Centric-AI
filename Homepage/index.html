@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Project page for Human-Centric Intelligence in the Era of Foundation Models: A Survey."
+    >
+    <meta name="theme-color" content="#174944">
+    <meta property="og:title" content="Human-Centric Intelligence in the Era of Foundation Models: A Survey">
+    <meta
+      property="og:description"
+      content="A full-spectrum survey and living resource collection for human-centric intelligence."
+    >
+    <meta property="og:image" content="../assets/teaser.png">
+    <title>Human-Centric Intelligence in the Era of Foundation Models: A Survey</title>
+    <link rel="icon" type="image/png" href="../assets/human-centric-resources-logo-v4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600;700&family=Rubik&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+    <script src="app.js?v=7" defer></script>
+  </head>
+  <body>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+    <a class="skip-link" href="#article">Skip to article</a>
+
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Human-Centric AI home">
+          <img src="../assets/human-centric-resources-logo-v4.png" alt="">
+          <span>Human-Centric AI</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Toggle navigation"
+        >
+          <i data-lucide="menu" aria-hidden="true"></i>
+        </button>
+
+        <nav class="header-nav" id="primary-navigation" aria-label="Primary navigation">
+          <a href="#abstract">Abstract</a>
+          <a href="#overview">Overview</a>
+          <a href="#taxonomy">Taxonomy</a>
+          <a href="#citation">Citation</a>
+          <a class="github-link" href="https://github.com/cseeyangchen/Human-Centric-AI" target="_blank" rel="noreferrer">
+            <i data-lucide="github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Header structure adapted from the WorldBench survey page. See THIRD_PARTY_NOTICES.md. -->
+      <section class="hero" id="top">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1>Human-Centric Intelligence in the<span class="title-wide-break"><br></span> Era of Foundation Models: <span>A Survey</span></h1>
+
+            <div class="author-list" aria-label="Authors">
+              <span><a href="https://cseeyangchen.github.io/" target="_blank" rel="noreferrer">Yang Chen</a><sup>1,&dagger;</sup></span>
+              <span><a href="https://tianqi-wang1.github.io/" target="_blank" rel="noreferrer">Tianqi Wang</a><sup>1</sup></span>
+              <span><a href="https://xiaorui-jiang.github.io/" target="_blank" rel="noreferrer">Xiaorui Jiang</a><sup>1</sup></span>
+              <span>Yilei Man<sup>1</sup></span>
+              <span><a href="https://github.com/YihuaJerry" target="_blank" rel="noreferrer">Yihua Shao</a><sup>1</sup></span>
+              <span><a href="https://ericguo5513.github.io/" target="_blank" rel="noreferrer">Chuan Guo</a><sup>2</sup></span>
+              <span><a href="https://www.ai.pku.edu.cn/en/info/1407/2090.htm" target="_blank" rel="noreferrer">Mengyuan Liu</a><sup>3</sup></span>
+              <span><a href="https://uqzhichen.github.io/" target="_blank" rel="noreferrer">Zhi Chen</a><sup>4</sup></span>
+              <span><a href="https://xiaofengcaoml.github.io/index.html" target="_blank" rel="noreferrer">Xiaofeng Cao</a><sup>5</sup></span>
+              <span><a href="https://qibinzhao.github.io/" target="_blank" rel="noreferrer">Qibin Zhao</a><sup>6</sup></span>
+              <span><a href="https://disi.unitn.it/~sebe/" target="_blank" rel="noreferrer">Nicu Sebe</a><sup>7</sup></span>
+              <span><a href="https://dr.ntu.edu.sg/entities/person/Tao-Dacheng" target="_blank" rel="noreferrer">Dacheng Tao</a><sup>8</sup></span>
+              <span><a href="https://scholar.google.com/citations?user=64zxhRUAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Jingren Zhou</a><sup>9</sup></span>
+              <span><a href="https://albertzomaya.github.io/My-WebPage/bio.html" target="_blank" rel="noreferrer">Albert Y. Zomaya</a><sup>10</sup></span>
+              <span><a href="https://home.cse.ust.hk/~songguo/" target="_blank" rel="noreferrer">Song Guo</a><sup>11</sup></span>
+              <span><a href="https://jingcaiguo.github.io/" target="_blank" rel="noreferrer">Jingcai Guo</a><sup>1,&dagger;,&Dagger;</sup></span>
+            </div>
+
+            <p class="affiliations">
+              <span><sup>1</sup>The Hong Kong Polytechnic University</span>
+              <span><sup>2</sup>Meta Reality Labs</span>
+              <span><sup>3</sup>Peking University</span>
+              <span><sup>4</sup>University of Southern Queensland</span>
+              <span><sup>5</sup>Tongji University</span>
+              <span><sup>6</sup>RIKEN AIP</span>
+              <span><sup>7</sup>University of Trento</span>
+              <span><sup>8</sup>Nanyang Technological University</span>
+              <span><sup>9</sup>Alibaba Group</span>
+              <span><sup>10</sup>The University of Sydney</span>
+              <span><sup>11</sup>The Hong Kong University of Science and Technology</span>
+            </p>
+            <p class="author-note">
+              <span><strong>&dagger;</strong> Project lead</span>
+              <span class="role-divider" aria-hidden="true"></span>
+              <span><strong>&Dagger;</strong> Corresponding author</span>
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#abstract" aria-label="Read the survey PDF">
+                <i data-lucide="file-text" aria-hidden="true"></i>
+                PDF
+              </a>
+              <a class="button button-secondary" href="https://github.com/cseeyangchen/Human-Centric-AI" target="_blank" rel="noreferrer">
+                <i data-lucide="github" aria-hidden="true"></i>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <figure
+            class="hero-figure"
+            aria-label="Human-centric intelligence evolving from observable subjects to dynamic actors and situated agents"
+          >
+            <div class="hero-figure-stage">
+              <div
+                class="context-evolution"
+                data-active-stage="0"
+              >
+                <div class="evolution-frame evolution-frame-one">
+                  <img src="../assets/hero-context-stage-1.webp" alt="">
+                </div>
+                <div class="evolution-frame evolution-frame-two">
+                  <img src="../assets/hero-context-stage-2.webp" alt="">
+                </div>
+                <div class="evolution-frame evolution-frame-three">
+                  <img src="../assets/hero-context-stage-3.webp" alt="">
+                </div>
+                <div class="evolution-frame evolution-frame-four">
+                  <img src="../assets/hero-context-stage-4-v2.webp" alt="">
+                  <img class="evolution-wordmark" src="../assets/human-centric-ai-wordmark.png" alt="">
+                </div>
+
+                <div class="evolution-labels" aria-hidden="true">
+                  <span class="evolution-label evolution-label-one"><strong>01</strong> Observable Subjects</span>
+                  <span class="evolution-label evolution-label-two"><strong>02</strong> Dynamic Actors</span>
+                  <span class="evolution-label evolution-label-three"><strong>03</strong> Situated Agents</span>
+                  <span class="evolution-label evolution-label-four"><strong>04</strong> Full Context Spectrum</span>
+                </div>
+
+                <div class="evolution-progress" role="group" aria-label="Choose an animation stage">
+                  <button
+                    class="evolution-progress-one"
+                    type="button"
+                    data-evolution-step="0"
+                    aria-label="Show Observable Subjects"
+                    aria-pressed="true"
+                    title="Observable Subjects"
+                  ></button>
+                  <button
+                    class="evolution-progress-two"
+                    type="button"
+                    data-evolution-step="1"
+                    aria-label="Show Dynamic Actors"
+                    aria-pressed="false"
+                    title="Dynamic Actors"
+                  ></button>
+                  <button
+                    class="evolution-progress-three"
+                    type="button"
+                    data-evolution-step="2"
+                    aria-label="Show Situated Agents"
+                    aria-pressed="false"
+                    title="Situated Agents"
+                  ></button>
+                  <button
+                    class="evolution-progress-four"
+                    type="button"
+                    data-evolution-step="3"
+                    aria-label="Show Full Context Spectrum"
+                    aria-pressed="false"
+                    title="Full Context Spectrum"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <div class="spectrum-rule" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <div class="article-layout">
+        <article class="survey-article" id="article">
+          <section id="abstract">
+            <h2>Human-centric intelligence across the full context spectrum</h2>
+            <p class="abstract">
+              Human-centric intelligence is evolving in the foundation-model era, with growing emphasis on scale,
+              transferability, and general-purpose modeling. Yet advances across this broad landscape remain fragmented
+              across tasks, modalities, and research communities, leaving their conceptual and methodological connections
+              unclear. To bridge these divides, we introduce a <strong>full-spectrum human context taxonomy</strong> that
+              integrates six interconnected levels by viewing humans as <strong>observable subjects</strong> through visual
+              appearance and spatial geometry, as <strong>dynamic actors</strong> through kinematic dynamics and interaction
+              modeling, and as <strong>situated agents</strong> through world simulation and embodied agency. We next present
+              the methodological foundations of the field, covering human-centric data families, computational architecture
+              paradigms, and representative training and inference optimization strategies. We then systematically review
+              representative methods across these levels and organize the associated datasets, benchmarks, and evaluation
+              metrics. We further discuss open challenges and promising research directions toward human-centric intelligence
+              that is scalable, trustworthy, physically grounded, and deployable, aiming to provide a coherent framework and
+              practical reference for advancing the field. Finally, we provide a systematically organized and continuously
+              updated collection of human-centric AI literature and resources on our project page.
+            </p>
+            <figure class="wide-figure">
+              <img
+                src="../assets/survey-teaser.png"
+                alt="Outline of the survey from human context and methodological foundations to evaluation and future directions"
+                width="1611"
+                height="417"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+          </section>
+
+          <section id="overview">
+            <h2>Survey Overview</h2>
+            <p>
+              Human-centric intelligence concerns how computational systems characterize humans, connect knowledge across
+              human contexts, and transform that knowledge into useful capabilities. Existing surveys typically organize
+              this landscape around individual tasks, leaving the relationships among different human contexts and their
+              methodological evolution in the foundation-model era largely unexplored. This survey instead connects these
+              contexts across a progressive expansion from visible and structural properties to temporal behavior,
+              interaction, world evolution, and executable action.
+            </p>
+            <figure class="wide-figure">
+              <img
+                src="../assets/survey-overview.png"
+                alt="Full-spectrum overview of the six human context levels"
+                width="1985"
+                height="662"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+            <p>
+              Our scope covers methods that characterize humans as <strong>observable subjects</strong>,
+              <strong>dynamic actors</strong>, and <strong>situated agents</strong>. It includes both human-specialized
+              foundation models and recent methods that reflect the broader foundation-era shift through scalable learning,
+              reusable pretraining, multimodal interfaces, cross-task generalization, or transferable human priors. Broader
+              topics such as human-computer interaction, human-oriented language modeling, and policy studies of
+              human-centered AI fall outside this scope.
+            </p>
+          </section>
+
+          <section id="taxonomy">
+            <h2>Human Context Taxonomy</h2>
+            <p>
+              We organize the literature according to its primary human context rather than a single architecture,
+              modality, or application. Three complementary perspectives integrate the six interconnected levels.
+            </p>
+
+            <figure class="wide-figure taxonomy-figure">
+              <img
+                src="../assets/human-context-tasks.png"
+                alt="Representative task families and selected works across the six human context levels"
+                width="1929"
+                height="687"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+
+            <section class="perspective-group" aria-labelledby="observable-subjects-heading">
+              <header class="perspective-intro">
+                <div>
+                  <span>Perspective 01</span>
+                  <h3 id="observable-subjects-heading">Observable Subjects</h3>
+                </div>
+                <p>
+                  Observable subjects concern properties that can be perceived from visual evidence or recovered as explicit
+                  body structure. <strong>Visual appearance</strong> focuses on image-space characteristics, while
+                  <strong>spatial geometry</strong> makes the organization of the body explicit in two-dimensional or
+                  three-dimensional space.
+                </p>
+              </header>
+
+              <div class="level-grid">
+                <article class="level-card level-visual" id="visual-appearance">
+                  <header class="level-card-header">
+                    <img src="../assets/level-icons/visual-appearance.png" alt="">
+                    <div><span>Level I</span><h4>Visual Appearance</h4></div>
+                  </header>
+                  <div class="level-scope">
+                    <div class="card-section-label"><i data-lucide="focus" aria-hidden="true"></i><span>Conceptual Scope</span></div>
+                    <p>Visual appearance focuses on visible human characteristics in images and videos, ranging from low-level body and surface cues to identity-bearing attributes and controllable appearance.</p>
+                  </div>
+                  <div class="level-tasks">
+                    <div class="card-section-label"><i data-lucide="list" aria-hidden="true"></i><span>Representative Task Families</span></div>
+                    <ul class="task-chips">
+                      <li>Generalist human perception</li>
+                      <li>Discriminative identity understanding</li>
+                      <li>Controllable human generation</li>
+                    </ul>
+                  </div>
+                  <aside class="era-note">
+                    <div class="trajectory-label"><i data-lucide="trending-up" aria-hidden="true"></i><strong>Foundation-Era Trajectory</strong></div>
+                    <p>Human-specialized data, multimodal query interfaces, and shared backbones are connecting perception, identity understanding, and controllable generation within more reusable systems.</p>
+                  </aside>
+                </article>
+
+                <article class="level-card level-spatial" id="spatial-geometry">
+                  <header class="level-card-header">
+                    <img src="../assets/level-icons/spatial-geometry.png" alt="">
+                    <div><span>Level II</span><h4>Spatial Geometry</h4></div>
+                  </header>
+                  <div class="level-scope">
+                    <div class="card-section-label"><i data-lucide="focus" aria-hidden="true"></i><span>Conceptual Scope</span></div>
+                    <p>Spatial geometry moves beyond image-space characteristics to capture pose, shape, surface geometry, and spatial correspondence that remain meaningful across viewpoints.</p>
+                  </div>
+                  <div class="level-tasks">
+                    <div class="card-section-label"><i data-lucide="list" aria-hidden="true"></i><span>Representative Task Families</span></div>
+                    <ul class="task-chips">
+                      <li>Structured geometry modeling</li>
+                      <li>Renderable avatar modeling</li>
+                    </ul>
+                  </div>
+                  <aside class="era-note">
+                    <div class="trajectory-label"><i data-lucide="trending-up" aria-hidden="true"></i><strong>Foundation-Era Trajectory</strong></div>
+                    <p>Scalable human priors, feed-forward reconstruction, and semantic interfaces are linking geometric recovery with reasoning, generation, animation, and rendering.</p>
+                  </aside>
+                </article>
+              </div>
+            </section>
+
+            <section class="perspective-group" aria-labelledby="dynamic-actors-heading">
+              <header class="perspective-intro">
+                <div>
+                  <span>Perspective 02</span>
+                  <h3 id="dynamic-actors-heading">Dynamic Actors</h3>
+                </div>
+                <p>
+                  Dynamic actors extend human-centric intelligence from observable states to behavior over time.
+                  <strong>Kinematic dynamics</strong> models the intrinsic temporal evolution of the body, whereas
+                  <strong>interaction modeling</strong> treats objects, scenes, and other people as integral components of
+                  human behavior.
+                </p>
+              </header>
+
+              <div class="level-grid">
+                <article class="level-card level-kinematic" id="kinematic-dynamics">
+                  <header class="level-card-header">
+                    <img src="../assets/level-icons/kinematic-dynamics.png" alt="">
+                    <div><span>Level III</span><h4>Kinematic Dynamics</h4></div>
+                  </header>
+                  <div class="level-scope">
+                    <div class="card-section-label"><i data-lucide="focus" aria-hidden="true"></i><span>Conceptual Scope</span></div>
+                    <p>Kinematic dynamics models humans as temporally evolving subjects through structured motion sequences, sensory measurements, and photorealistic videos.</p>
+                  </div>
+                  <div class="level-tasks">
+                    <div class="card-section-label"><i data-lucide="list" aria-hidden="true"></i><span>Representative Task Families</span></div>
+                    <ul class="task-chips">
+                      <li>Scalable motion modeling</li>
+                      <li>Human video animation</li>
+                    </ul>
+                  </div>
+                  <aside class="era-note">
+                    <div class="trajectory-label"><i data-lucide="trending-up" aria-hidden="true"></i><strong>Foundation-Era Trajectory</strong></div>
+                    <p>Large motion and video corpora, language-aligned interfaces, and pretrained generators increasingly connect motion understanding, generation, editing, and animation.</p>
+                  </aside>
+                </article>
+
+                <article class="level-card level-interaction" id="interaction-modeling">
+                  <header class="level-card-header">
+                    <img src="../assets/level-icons/interaction-modeling.png" alt="">
+                    <div><span>Level IV</span><h4>Interaction Modeling</h4></div>
+                  </header>
+                  <div class="level-scope">
+                    <div class="card-section-label"><i data-lucide="focus" aria-hidden="true"></i><span>Conceptual Scope</span></div>
+                    <p>Interaction modeling represents humans as relational participants whose behavior is jointly shaped by contact, object affordances, scene constraints, and communicative intent.</p>
+                  </div>
+                  <div class="level-tasks">
+                    <div class="card-section-label"><i data-lucide="list" aria-hidden="true"></i><span>Representative Task Families</span></div>
+                    <ul class="task-chips">
+                      <li>Human-object interaction</li>
+                      <li>Human-scene interaction</li>
+                      <li>Social interaction</li>
+                    </ul>
+                  </div>
+                  <aside class="era-note">
+                    <div class="trajectory-label"><i data-lucide="trending-up" aria-hidden="true"></i><strong>Foundation-Era Trajectory</strong></div>
+                    <p>Multimodal and generative priors are enabling more unified and open-ended interfaces, while physical compatibility and social coordination remain essential sources of grounding.</p>
+                  </aside>
+                </article>
+              </div>
+            </section>
+
+            <section class="perspective-group" aria-labelledby="situated-agents-heading">
+              <header class="perspective-intro">
+                <div>
+                  <span>Perspective 03</span>
+                  <h3 id="situated-agents-heading">Situated Agents</h3>
+                </div>
+                <p>
+                  Situated agents connect human behavior with changing environments and executable capabilities.
+                  <strong>World simulation</strong> models how actions and world states evolve together, while
+                  <strong>embodied agency</strong> converts human knowledge and experience into physically or operationally
+                  executable behavior.
+                </p>
+              </header>
+
+              <div class="level-grid">
+                <article class="level-card level-world" id="world-simulation">
+                  <header class="level-card-header">
+                    <img src="../assets/level-icons/world-simulation.png" alt="">
+                    <div><span>Level V</span><h4>World Simulation</h4></div>
+                  </header>
+                  <div class="level-scope">
+                    <div class="card-section-label"><i data-lucide="focus" aria-hidden="true"></i><span>Conceptual Scope</span></div>
+                    <p>World simulation models how human actions, observations, and surrounding states co-develop, supporting future generation, consequence prediction, simulation, and planning.</p>
+                  </div>
+                  <div class="level-tasks">
+                    <div class="card-section-label"><i data-lucide="list" aria-hidden="true"></i><span>Representative Task Families</span></div>
+                    <ul class="task-chips">
+                      <li>Human-centered world generation</li>
+                      <li>Actionable world planning</li>
+                    </ul>
+                  </div>
+                  <aside class="era-note">
+                    <div class="trajectory-label"><i data-lucide="trending-up" aria-hidden="true"></i><strong>Foundation-Era Trajectory</strong></div>
+                    <p>Pretrained video generators and predictive world models are moving beyond passive synthesis toward action-conditioned simulators connected to decision making.</p>
+                  </aside>
+                </article>
+
+                <article class="level-card level-embodied" id="embodied-agency">
+                  <header class="level-card-header">
+                    <img src="../assets/level-icons/embodied-agency.png" alt="">
+                    <div><span>Level VI</span><h4>Embodied Agency</h4></div>
+                  </header>
+                  <div class="level-scope">
+                    <div class="card-section-label"><i data-lucide="focus" aria-hidden="true"></i><span>Conceptual Scope</span></div>
+                    <p>Embodied agency transforms human motion, demonstrations, videos, and interaction experience into behavior that can be physically or operationally executed.</p>
+                  </div>
+                  <div class="level-tasks">
+                    <div class="card-section-label"><i data-lucide="list" aria-hidden="true"></i><span>Representative Task Families</span></div>
+                    <ul class="task-chips">
+                      <li>Generalist humanoid control</li>
+                      <li>Human-to-agent skill transfer</li>
+                    </ul>
+                  </div>
+                  <aside class="era-note">
+                    <div class="trajectory-label"><i data-lucide="trending-up" aria-hidden="true"></i><strong>Foundation-Era Trajectory</strong></div>
+                    <p>Large-scale human experience and increasingly generalist control policies are opening new pathways for transfer across tasks and embodiments.</p>
+                  </aside>
+                </article>
+              </div>
+            </section>
+          </section>
+
+          <section id="citation">
+            <h2>Citation</h2>
+            <p class="citation-intro">
+              If you find this survey and its accompanying resources useful, please consider citing our work.
+            </p>
+            <div class="citation-panel">
+              <div class="citation-toolbar">
+                <span>BibTeX</span>
+                <button
+                  class="citation-copy"
+                  type="button"
+                  aria-label="Citation not available yet"
+                  title="Citation not available yet"
+                  disabled
+                >
+                  <i data-lucide="copy" aria-hidden="true"></i>
+                </button>
+              </div>
+              <pre class="citation-code"><code id="citation-text"></code></pre>
+              <span class="visually-hidden" id="citation-copy-status" aria-live="polite"></span>
+            </div>
+          </section>
+
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-star">
+        <i data-lucide="star" aria-hidden="true"></i>
+        <span>
+          If this project helps you, please give us a
+          <a href="https://github.com/cseeyangchen/Human-Centric-AI" target="_blank" rel="noreferrer">Star</a>!
+        </span>
+      </p>
+      <p class="footer-credit">
+        Curated and maintained by
+        <a href="https://lumen-lab-polyu.github.io/" target="_blank" rel="noreferrer">Lumen Lab</a>
+        @
+        <a href="https://www.polyu.edu.hk/" target="_blank" rel="noreferrer">The Hong Kong Polytechnic University</a>
+      </p>
+    </footer>
+  </body>
+</html>
