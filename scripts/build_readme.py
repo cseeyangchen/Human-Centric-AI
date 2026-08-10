@@ -778,7 +778,7 @@ def render_readme(index: dict) -> str:
             "---",
             "",
             '<p align="center">',
-            f'  <strong>&#9734; If this project helps you, please give us a <a href="{GITHUB_REPOSITORY_URL}">Star</a>!</strong><br>',
+            '  <strong>⭐ If this project helps you, please give us a Star!</strong><br>',
             '  <sub>Curated and maintained by <a href="https://lumen-lab-polyu.github.io/"><strong>Lumen Lab</strong></a> @ <a href="https://www.polyu.edu.hk/"><strong>The Hong Kong Polytechnic University</strong></a></sub>',
             "</p>",
             "",

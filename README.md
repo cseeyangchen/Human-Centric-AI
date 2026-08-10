@@ -743,6 +743,6 @@ This repository indexes third-party research artifacts. Copyright and licenses r
 ---
 
 <p align="center">
-  <strong>&#9734; If this project helps you, please give us a <a href="https://github.com/cseeyangchen/Human-Centric-AI">Star</a>!</strong><br>
+  <strong>⭐ If this project helps you, please give us a Star!</strong><br>
   <sub>Curated and maintained by <a href="https://lumen-lab-polyu.github.io/"><strong>Lumen Lab</strong></a> @ <a href="https://www.polyu.edu.hk/"><strong>The Hong Kong Polytechnic University</strong></a></sub>
 </p>
