@@ -15,7 +15,7 @@ This repository is organized around the six-level framework introduced in **Huma
 ## 📢 News
 
 - **2026-08-10:** Our [project homepage](https://cseeyangchen.github.io/Human-Centric-AI/homepage/) is now live.
-- **2026-08-08:** Initial resource release.
+- **2026-08-08:** First resource release.
 
 ## 🧭 Contents
 
@@ -31,6 +31,8 @@ This repository is organized around the six-level framework introduced in **Huma
 
 - 📚 [**Awesome Human-Centric AI Research**](resources/awesome-human-centric-research-lists.md)
 - 🧑‍🏫 [**Human-Centric AI Workshops**](resources/workshops.md)
+- 📖 [**Open Courseware**](resources/open-courseware.md)
+- 🎥 [**Academic Presentations**](resources/academic-presentations.md)
 
 <a id="contributing"></a>
 
