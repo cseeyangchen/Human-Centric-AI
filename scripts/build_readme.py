@@ -45,6 +45,394 @@ DATA_GROUP_ICONS = {
 }
 
 
+AWESOME_RESEARCH_LISTS = OrderedDict(
+    [
+        (
+            "General Human-Centric AI",
+            [
+                (
+                    "Awesome Human-Centric AI Survey Resources (Our Survey)",
+                    "awesome-human-centric-ai-survey-resources.md",
+                    "list",
+                ),
+                (
+                    "Awesome Human-Centric Foundation Models",
+                    "https://github.com/HumanCentricModels/Awesome-Human-Centric-Foundation-Models",
+                    "repository",
+                ),
+            ],
+        ),
+        (
+            "Digital Humans and Generative Content",
+            [
+                ("Awesome Digital Human", "https://github.com/weihaox/awesome-digital-human", "repository"),
+                (
+                    "Awesome 3D Human Reconstruction",
+                    "https://github.com/rlczddl/awesome-3d-human-reconstruction",
+                    "repository",
+                ),
+                (
+                    "Awesome Human Video Generation",
+                    "https://github.com/wentaoL86/Awesome-Human-Video-Generation",
+                    "repository",
+                ),
+                ("Awesome Pose Transfer", "https://github.com/Zhangjinso/Awesome-pose-transfer", "repository"),
+                ("Awesome Avatars", "https://github.com/pansanity666/Awesome-Avatars", "repository"),
+                (
+                    "Awesome Conditional Content Generation",
+                    "https://github.com/haofanwang/awesome-conditional-content-generation",
+                    "repository",
+                ),
+            ],
+        ),
+        (
+            "Human Motion, Activity, and Sensing",
+            [
+                (
+                    "Awesome Human Activity Recognition",
+                    "https://github.com/haoranD/Awesome-Human-Activity-Recognition",
+                    "repository",
+                ),
+                ("Awesome Human Motion", "https://github.com/Foruck/Awesome-Human-Motion", "repository"),
+                (
+                    "Awesome Human Motion Video Generation",
+                    "https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation",
+                    "repository",
+                ),
+                (
+                    "Awesome Human Interaction Motion Generation",
+                    "https://github.com/soraproducer/Awesome-Human-Interaction-Motion-Generation",
+                    "repository",
+                ),
+                (
+                    "Awesome Skeleton-based Action Recognition",
+                    "https://github.com/firework8/Awesome-Skeleton-based-Action-Recognition",
+                    "repository",
+                ),
+                (
+                    "Awesome WiFi-based Human Sensing",
+                    "https://github.com/NTUMARS/Awesome-WiFi-CSI-Sensing",
+                    "repository",
+                ),
+            ],
+        ),
+        (
+            "Human Interaction and Mobility",
+            [
+                (
+                    "Awesome Human-Agent Collaboration and Interaction Systems",
+                    "https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems",
+                    "repository",
+                ),
+                (
+                    "Awesome Human-Human Interaction",
+                    "https://github.com/liangxuy/awesome-human-human-interaction",
+                    "repository",
+                ),
+                (
+                    "Awesome Human Mobility Science Paper List",
+                    "https://github.com/Star607/Awesome-Human-Mobility-Science-Paper-List",
+                    "repository",
+                ),
+            ],
+        ),
+        (
+            "Humanoid Intelligence",
+            [
+                (
+                    "Awesome Humanoid Robot Learning",
+                    "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
+                    "repository",
+                ),
+                (
+                    "Awesome Humanoid Learning",
+                    "https://github.com/jonyzhang2023/awesome-humanoid-learning",
+                    "repository",
+                ),
+            ],
+        ),
+    ]
+)
+
+
+WORKSHOPS_BY_YEAR = OrderedDict(
+    [
+        (
+            "2026",
+            [
+                ("The 2nd Workshop on Advancing Artificial Intelligence through Theory of Mind", "AAAI 2026", "https://tom4ai.github.io/events/AAAI2026/"),
+                ("AERO-HPR: Human Perception and Recognition in Aerial Surveillance", "CVPR 2026", "https://aero-hpr.github.io/"),
+                ("The 3rd Workshop on Human Motion Generation (HuMoGen): New Perspectives on Simulation, Animation, and VR Applications", "CVPR 2026", "https://humogen.github.io/"),
+                ("The 2nd Workshop on Photorealistic 3D Head Avatars", "CVPR 2026", "https://kaldir.vc.cit.tum.de/nersemble_benchmark/cvpr2026"),
+                ("Workshop on Multimodal Human Motion Analysis", "CVPR 2026", "https://hri.iit.it/en/cvpr2026-workshop"),
+                ("PhysHuman: Physically Grounded Human Perception and Modeling", "CVPR 2026", "https://physhuman.github.io/"),
+                ("Computer Vision for Biomechanics Workshop", "CVPR 2026", "https://cvbw2026.github.io/"),
+                ("Humans of Generative AI", "CVPR 2026", "https://humansofgenerativeai.github.io/"),
+                ("The 2nd Workshop on Human-Interactive Generation and Editing", "CVPR 2026", "https://cvpr.thecvf.com/Conferences/2026/Workshops"),
+                ("The 10th Workshop on Affective & Behavior Analysis in-the-Wild", "CVPR 2026", "https://cvpr.thecvf.com/Conferences/2026/Workshops"),
+                ("The 7th International Workshop on Eye and Gaze in Computer Vision", "CVPR 2026", "https://cvpr.thecvf.com/Conferences/2026/Workshops"),
+                ("The 2nd Workshop on Agents in Interaction, from Humans to Robots", "CVPR 2026", "https://agents-in-interactions.github.io/"),
+                ("Third Joint Egocentric Vision (EgoVis) Workshop", "CVPR 2026", "https://egovis.github.io/cvpr26/"),
+                ("The 7th Embodied AI Workshop", "CVPR 2026", "https://embodied-ai.org/"),
+                ("The 2nd Workshop on Foundation Models Meet Embodied Agents", "CVPR 2026", "https://cvpr.thecvf.com/Conferences/2026/Workshops"),
+                ("The 2nd Workshop on Foundation & Generative Models in Biometrics", "CVPR 2026", "https://foundgen-bio.github.io/"),
+                ("Workshop on Vision-based Assistants in the Real-World", "CVPR 2026", "https://varworkshop.github.io/"),
+                ("The 1st Workshop on Vision for Intelligent Task Assistants", "CVPR 2026", "https://cvpr.thecvf.com/Conferences/2026/Workshops"),
+                ("Second Workshop on Skilled Activity Understanding, Assessment & Feedback Generation", "CVPR 2026", "https://sauafg-workshop.github.io/"),
+                ("Generative AI for Sign Language", "CVPR 2026", "https://genai4sl.github.io/"),
+                ("The 2nd Workshop on Multimodal Sign Language Recognition", "CVPR 2026", "https://cvpr.thecvf.com/Conferences/2026/Workshops"),
+                ("Generative AI for XR and Identity-based Applications", "CVPR 2026", "https://bmdj-vt.github.io/workshops/cvpr_2026"),
+                ("Rediscovering Intelligence: Can AI Still Learn from Humans?", "CVPR 2026", "https://cvpr.thecvf.com/Conferences/2026/Workshops"),
+                ("IPA: Interactive Physical AI Workshop", "CVPR 2026", "https://research.nvidia.com/labs/amri/projects/IPA/2026/"),
+                ("Bridging Vision, Language, and Action: What's Missing in Actionable Visual Perception for Robotics", "CVPR 2026", "https://activis-workshop.github.io/"),
+                ("From Lab Demos to Daily Tasks: Embodied Intelligence in the Wild", "CVPR 2026", "https://opendrivelab.com/cvpr2026/workshop"),
+                ("Sense of Space: Multi-Sensory Modeling for Embodied Intelligence", "CVPR 2026", "https://sense-of-space.github.io/"),
+                ("The 1st Workshop on Multi-Agent Robotic Systems: Scaling with Compositional Intelligence", "CVPR 2026", "https://mars-eai.github.io/CVPR-SCI-MARS-Webpage/"),
+                ("Embodied Reasoning in Action: Embodied Reasoning for Robotic Manipulation", "CVPR 2026", "https://embodied-reasoning.github.io/"),
+                ("4D Digital Twins: Real-to-Sim-to-Real for Physical AI", "CVPR 2026", "https://research.nvidia.com/labs/amri/projects/4DDT/2026/"),
+                ("RobustifAI: Robustifying Generative AI for Reliable, Safe, and Human-Centric Systems", "IJCAI-ECAI 2026", "https://sites.google.com/view/robustifai-workshop"),
+                ("AI-Based Humanoid Robot Design and Control through the Lens of HRI, Evolution, and Biomechanics", "IJCAI-ECAI 2026", "https://hominoid-robot.dfki-bremen.de/"),
+                ("The First Joint Workshop on Human Behavior Analysis and Interaction for Emotional Intelligence, with the 4th MiGA Challenge", "IJCAI-ECAI 2026", "https://ei-miga.github.io/"),
+                ("3D Human Understanding: Towards Human-Centric World Models", "ECCV 2026", "https://sites.google.com/view/3d-humans-eccv2026"),
+                ("Human-Centered Multimodal Intelligence in the Wild: Foundation Models and Beyond", "ECCV 2026", "https://eccv.ecva.net/Conferences/2026/Workshops"),
+                ("Human Motion-Informed World Models and Socially Intelligent Action", "ECCV 2026", "https://eccv.ecva.net/Conferences/2026/Workshops"),
+                ("Human-Scene Interaction: Towards Scene-Aware Motion, Communication, and Embodied Agents", "ECCV 2026", "https://www.hsi-workshop.com/"),
+                ("CONTEXTUS: Understanding Multi-Actor Scene Interaction in Context", "ECCV 2026", "https://lap.chalearn.eu/public/ECCV26-CONTEXTUS"),
+                ("Interactive Social Avatars with the 4th GENEA Gesture Generation Challenge", "ECCV 2026", "https://interactive-social-avatars.github.io/"),
+                ("Observing and Acting as Dexterous Hands", "ECCV 2026", "https://hands-workshop.org/workshop2026.html"),
+                ("Multimodal Digital Agents Workshop", "ECCV 2026", "https://mda-workshop.allen.ai/"),
+                ("Wearables AI: Towards Building Real-Time Multimodal Contextual Assistants", "ECCV 2026", "https://wearable-ai-workshop.github.io/"),
+                ("The 3rd Workshop on Foundation & Generative Models in Biometrics", "ECCV 2026", "https://foundgen-bio.github.io/"),
+                ("The 11th Workshop on Affective & Behavior Analysis in-the-Wild", "ECCV 2026", "https://eccv.ecva.net/Conferences/2026/Workshops"),
+                ("The 14th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2026", "https://eccv.ecva.net/Conferences/2026/Workshops"),
+                ("The 3rd Workshop on Human-Inspired Computer Vision", "ECCV 2026", "https://eccv.ecva.net/Conferences/2026/Workshops"),
+                ("Human Motion in Real-World and Clinical Settings", "ECCV 2026", "https://mocha.care-pd.ca/"),
+                ("Workshop on Human-AI Co-Creation", "ECCV 2026", "https://eccv.ecva.net/Conferences/2026/Workshops"),
+                ("Agent in World: Living Worlds with Interactive Agents", "ECCV 2026", "https://eccv.ecva.net/Conferences/2026/Workshops"),
+                ("Embodied Agent and Dialog", "ECCV 2026", "https://ead-workshop.github.io/"),
+                ("The 8th Workshop on Long-Term Human Motion Prediction", "ICRA 2026", "https://motionpredictionicra2026.github.io/"),
+                ("A User-Centered Perspective on Human-Robot Sensorimotor Augmentation", "ICRA 2026", "https://2026.ieee-icra.org/workshops-and-tutorials/"),
+                ("Multimodal Embodied Interaction in Robots", "ICRA 2026", "https://2026.ieee-icra.org/workshops-and-tutorials/"),
+                ("Shared Challenges in Human-Centered and Resilient Robotic Autonomy", "ICRA 2026", "https://2026.ieee-icra.org/workshops-and-tutorials/"),
+                ("Beyond Teleoperation: Learning from Diverse Human and Simulation Data", "ICRA 2026", "https://2026.ieee-icra.org/workshops-and-tutorials/"),
+                ("Bridging the Gap between Robot Learning and Human-Robot Interaction", "ICRA 2026", "https://2026.ieee-icra.org/workshops-and-tutorials/"),
+                ("Workshop on Pedestrian Behavior Prediction", "ICRA 2026", "https://workshop-pbp2026.github.io/"),
+                ("Human-Inspired Principles for Robotic Dexterous Manipulation", "ICRA 2026", "https://2026.ieee-icra.org/workshops-and-tutorials/"),
+                ("The 4th Workshop on NeuroDesign in Human-Robot Interaction: The making of engaging HRI technology your brain can't resist", "ICRA 2026", "https://neurodesign-in-hri.webflow.io/"),
+                ("Perception and Decision Making for Athletic Humanoid Robotics", "IROS 2026", "https://iros-2026-athletic-humanoid.github.io/workshop/"),
+                ("Beyond the Lab: Human Behavior Monitoring and Modeling in In-the-Wild Human-Robot Interaction", "RSS 2026", "https://sites.google.com/view/rss26-beyond-the-lab-hri/home"),
+                ("It's the Demos: The Role of Demonstration Quality in Imitation-Based Robot Manipulation", "RSS 2026", "https://its-the-demos.github.io/"),
+                ("The 4th Workshop on Dexterous Manipulation: Scalable Learning for Human-Level Skills", "RSS 2026", "https://dex-manipulation.github.io/rss2026/"),
+                ("Whole-Body Control and Bimanual Manipulation: Applications in Humanoids and Beyond", "RSS 2026", "https://wcbm-workshop.github.io/rss2026/"),
+                ("Human-Centric Mobile Manipulation Workshop", "RSS 2026", "https://adacompnus.github.io/human-centric-mobile-manipulation/"),
+                ("Differentiable Physics for Graphics and AI", "SIGGRAPH 2026", "https://s2026.conference-schedule.org/presentation/?id=twork_111&sess=sess224"),
+            ],
+        ),
+        (
+            "2025",
+            [
+                ("Advancing Artificial Intelligence through Theory of Mind: Bridging Human Cognition and Artificial Intelligence", "AAAI 2025", "https://aaai.org/conference/aaai/aaai-25/workshop-list/"),
+                ("3D Digital Twin: Progress, Challenges, and Future Directions", "CVPR 2025", "https://cvpr.thecvf.com/virtual/2025/workshop/32303"),
+                ("The 1st Workshop on Photorealistic 3D Head Avatars", "CVPR 2025", "https://kaldir.vc.cit.tum.de/nersemble_benchmark/cvpr2025"),
+                ("The 2nd Workshop on Human Motion Generation (HuMoGen)", "CVPR 2025", "https://humogen.github.io/2025/"),
+                ("Second Joint Egocentric Vision (EgoVis) Workshop", "CVPR 2025", "https://egovis.github.io/cvpr25/"),
+                ("Computer Vision for Mixed Reality", "CVPR 2025", "https://cv4mr.github.io/"),
+                ("Workshop on Vision-based Assistants in the Real-World", "CVPR 2025", "https://varworkshop.github.io/2025/schedule/"),
+                ("The 6th Embodied AI Workshop", "CVPR 2025", "https://embodied-ai.org/"),
+                ("Embodied Intelligence for Autonomous Systems on the Horizon", "CVPR 2025", "https://cvpr.thecvf.com/Conferences/2025/workshop-list"),
+                ("The 2nd Workshop on Multi-Agent Embodied Intelligent Systems Meet Generative-AI Era", "CVPR 2025", "https://openreview.net/group?id=thecvf.com%2FCVPR%2F2025%2FWorkshop%2FMEIS"),
+                ("The 1st Workshop on Agents in Interaction, from Humans to Robots", "CVPR 2025", "https://agents-in-interactions.github.io/"),
+                ("The 2nd Workshop on Embodied Humans: Symbiotic Intelligence between Virtual Humans and Humanoid Robots", "CVPR 2025", "https://cvpr.thecvf.com/virtual/2025/workshop/32359"),
+                ("The 8th Workshop on Affective & Behavior Analysis in-the-Wild", "CVPR 2025", "https://cvpr.thecvf.com/Conferences/2025/workshop-list"),
+                ("Global 3D Human Poses", "CVPR 2025", "https://g3p-workshop.github.io/"),
+                ("The 3rd RHOBIN Challenge on Reconstruction of Human-Object Interaction", "CVPR 2025", "https://rhobin-challenge.github.io/"),
+                ("The 1st Workshop on Humanoid Agents", "CVPR 2025", "https://humanoid-agents.github.io/"),
+                ("The 2nd Workshop on 3D Human Understanding", "CVPR 2025", "https://sites.google.com/view/3d-humans-cvpr2025"),
+                ("The 1st Workshop on Foundation Models Meet Embodied Agents", "CVPR 2025", "https://cvpr.thecvf.com/Conferences/2025/workshop-list"),
+                ("The 1st Workshop on Interactive Human-Centric Foundation Models", "ICCV 2025", "https://i-hfm-2025.github.io/I-HFM-2025/"),
+                ("Human-Robot-Scene Interaction and Collaboration", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/workshop/2837"),
+                ("The 1st Workshop on Foundation & Generative Models in Biometrics", "ICCV 2025", "https://foundgen-bio.github.io/"),
+                ("The 1st Workshop on Human-Interactive Generation and Editing", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/workshop/2772"),
+                ("The 2nd EgoMotion Workshop", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/workshop/2800"),
+                ("Binocular Egocentric-360 Multimodal Scene Understanding in the Wild", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/events/workshop"),
+                ("First Workshop on Skilled Activity Understanding, Assessment and Feedback Generation", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/events/workshop"),
+                ("The 1st Embodied Spatial Reasoning Workshop", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/workshop/2746"),
+                ("Artificial Social Intelligence Workshop", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/events/workshop"),
+                ("Multimodal AI Agents", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/events/workshop"),
+                ("The 9th Workshop on Affective & Behavior Analysis in-the-Wild", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/events/workshop"),
+                ("The 13th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/workshop/2836"),
+                ("The 2nd Workshop on Human-Inspired Computer Vision", "ICCV 2025", "https://iccv.thecvf.com/virtual/2025/workshop/2725"),
+                ("The 8th Workshop on AI for Aging Rehabilitation and Intelligent Assisted Living", "IJCAI 2025", "https://sites.google.com/view/arial2025/home"),
+                ("User-Aligned Assessment of Adaptive AI Systems", "IJCAI 2025", "https://aair-lab.github.io/aia2025/"),
+                ("Generative AI and Theory of Mind in Communicating Agents", "IJCAI 2025", "https://tomworkshop.github.io/"),
+                ("The 3rd Workshop and Challenge on Human Behavior Analysis for Emotion Understanding", "IJCAI 2025", "https://cv-ac.github.io/MiGA2025/"),
+                ("Foundation Models for the Brain and Body", "NeurIPS 2025", "https://neurips.cc/virtual/2025/workshop/109571"),
+                ("Embodied World Models for Decision Making", "NeurIPS 2025", "https://neurips.cc/virtual/2025/workshop/109532"),
+                ("Embodied and Safe-Assured Robotic Systems", "NeurIPS 2025", "https://neurips.cc/virtual/2025/workshop/127833"),
+                ("The 6th GENEA Workshop", "ACM MM 2025", "https://genea-workshop.github.io/2025/workshop/"),
+                ("The 7th Workshop on Long-Term Human Motion Prediction", "ICRA 2025", "https://motionpredictionicra2025.github.io/"),
+                ("Human-Centered Robot Learning in the Era of Big Data and Large Models", "ICRA 2025", "https://2025.ieee-icra.org/event/human-centered-robot-learning-in-the-era-of-big-data-and-large-models/"),
+                ("Advances in Social Robot Navigation: Planning, HRI, and Beyond", "ICRA 2025", "https://socialnav2025.pages.dev/"),
+                ("Multi-Agent Embodied Intelligent Systems Meet Foundation Models and Large-scale Datasets", "ICRA 2025", "https://maeismaeis.github.io/"),
+                ("Building a Common Humanoid Platform Infrastructure for AI-Based Testing", "ICRA 2025", "https://2025.ieee-icra.org/workshops-and-tutorials/"),
+                ("Nonverbal Cues for Human-Robot Cooperative Intelligence", "ICRA 2025", "https://2025.ieee-icra.org/events/category/sessions/workshops-tutorials/day/2025-05-23/"),
+                ("Enhancing Human Engagement in Social Assistive Robotics", "IROS 2025", "https://iros25.org/WorkshopsTutorials.html"),
+                ("Action and Interaction: Humans and Robots in Collaboration", "IROS 2025", "https://iros25.org/WorkshopsTutorials.html"),
+                ("Augmentative Human-Robot Interaction", "IROS 2025", "https://iros25.org/WorkshopsTutorials.html"),
+                ("Shared Autonomy and Sense of Agency", "IROS 2025", "https://iros25.org/WorkshopsTutorials.html"),
+                ("Workshop on Continual Robot Learning from Humans", "RSS 2025", "https://continual-robot-learning-from-humans.github.io/"),
+                ("EgoAct: The 1st Workshop on Egocentric Perception and Action for Robot Learning", "RSS 2025", "https://egoact.github.io/rss2025"),
+                ("Human-Robot Contact and Manipulation", "RSS 2025", "https://hrcm-workshop.github.io/2025/"),
+                ("The 2nd Workshop on Generative Modeling Meets Human-Robot Interaction", "RSS 2025", "https://sites.google.com/view/gai-hri"),
+                ("Human-in-the-Loop Robot Learning: Teaching, Correcting, and Adapting", "RSS 2025", "https://hitl-robot-learning.github.io/"),
+                ("Large Foundation Models for Interactive Robot Learning", "RSS 2025", "https://lfmrss2025.weebly.com/"),
+                ("Whole-Body Control and Bimanual Manipulation: Applications in Humanoids and Beyond", "RSS 2025", "https://wcbm-workshop.github.io/"),
+                ("Generalizing Natural Behavior: Retargeting Human or Animal Motion to Robotic Forms", "SIGGRAPH 2025", "https://s2025.conference-schedule.org/presentation/?id=twork_105&sess=sess277"),
+                ("Hybrid Dance Xplorations: Artist-Centric XR/AI Sandbox for Co-Creation and Performance", "SIGGRAPH 2025", "https://s2025.conference-schedule.org/presentation/?id=fwork_112&sess=sess248"),
+            ],
+        ),
+        (
+            "2024",
+            [
+                ("Human-Centric Representation Learning", "AAAI 2024", "https://hcrl-workshop.github.io/2024/schedule.html"),
+                ("AI for Digital Human", "AAAI 2024", "https://digitalhumanworkshop.github.io/"),
+                ("Machine Learning for Cognitive and Mental Health", "AAAI 2024", "https://aaai.org/aaai-24-conference/aaai-24-workshop-list/"),
+                ("The 1st Workshop on Human Motion Generation (HuMoGen)", "CVPR 2024", "https://humogen.github.io/2024/"),
+                ("The 1st EgoMotion Workshop", "CVPR 2024", "https://cvpr.thecvf.com/virtual/2024/events/workshop"),
+                ("First Joint Egocentric Vision (EgoVis) Workshop", "CVPR 2024", "https://egovis.github.io/cvpr24/"),
+                ("The 2nd Workshop on Computer Vision for Mixed Reality", "CVPR 2024", "https://cv4mr.github.io/"),
+                ("The 5th Embodied AI Workshop", "CVPR 2024", "https://embodied-ai.org/"),
+                ("The 2nd Workshop on Embodied Humans: Symbiotic Intelligence between Virtual Humans and Humanoid Robots", "CVPR 2024", "https://cvpr.thecvf.com/virtual/2024/workshop/23651"),
+                ("The 6th Workshop on Affective & Behavior Analysis in-the-Wild", "CVPR 2024", "https://cvpr.thecvf.com/Conferences/2024/workshop-list"),
+                ("The 6th International Workshop on Eye and Gaze in Computer Vision", "CVPR 2024", "https://cvpr.thecvf.com/Conferences/2024/workshop-list"),
+                ("The 2nd RHOBIN Challenge on Reconstruction of Human-Object Interaction", "CVPR 2024", "https://rhobin-challenge.github.io/"),
+                ("New Challenges in 3D Human Understanding", "CVPR 2024", "https://cvpr.thecvf.com/Conferences/2024/workshop-list"),
+                ("Social Presence with Codec Avatars", "CVPR 2024", "https://cvpr.thecvf.com/virtual/2024/events/workshop"),
+                ("The 5th Workshop on Robot Visual Perception in Human-Crowded Environments", "CVPR 2024", "https://cvpr.thecvf.com/virtual/2024/events/workshop"),
+                ("Workshop on Virtual Try-On", "CVPR 2024", "https://cvpr.thecvf.com/Conferences/2024/workshop-list"),
+                ("New Trends in Multimodal Human Action Perception, Understanding, and Generation", "CVPR 2024", "https://cvpr.thecvf.com/Conferences/2024/workshop-list"),
+                ("Computer Vision with Humans in the Loop", "CVPR 2024", "https://cvpr.thecvf.com/Conferences/2024/workshop-list"),
+                ("Populating Empty Cities: Virtual Humans for Robotics and Autonomous Driving", "CVPR 2024", "https://poets2024.github.io/"),
+                ("Foundation Models for 3D Humans", "ECCV 2024", "https://human-foundation.github.io/workshop-eccv-2024/"),
+                ("T-CAP: Towards Human-Centric AI through Continual and Active Perception", "ECCV 2024", "https://eccv2024.ecva.net/virtual/2024/events/workshop"),
+                ("Artificial Social Intelligence", "ECCV 2024", "https://eccv2024.ecva.net/virtual/2024/events/workshop"),
+                ("Expressive Encounters: Computational Modeling of Human and Animal Social Behavior", "ECCV 2024", "https://eccv2024.ecva.net/virtual/2024/events/workshop"),
+                ("Observing and Understanding Hands in Action", "ECCV 2024", "https://eccv2024.ecva.net/virtual/2024/events/workshop"),
+                ("The 7th Workshop on Affective & Behavior Analysis in-the-Wild", "ECCV 2024", "https://eccv2024.ecva.net/virtual/2024/events/workshop"),
+                ("The 12th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2024", "https://eccv2024.ecva.net/virtual/2024/events/workshop"),
+                ("The 1st Workshop on Human-Inspired Computer Vision", "ECCV 2024", "https://openreview.net/group?id=thecvf.com%2FECCV%2F2024%2FWorkshop%2FHCV"),
+                ("Multimodal Agents", "ECCV 2024", "https://eccv2024.ecva.net/virtual/2024/events/workshop"),
+                ("The Eyes of the Future: Smart Eyewear for Egocentric Vision", "ECCV 2024", "https://eccv2024.ecva.net/virtual/2024/events/workshop"),
+                ("The 4th International Workshop on Deep Learning for Human Activity Recognition", "IJCAI 2024", "https://ijcai24.org/workshops/index.html"),
+                ("The 2nd Challenge and Workshop on Micro-Gesture Analysis for Hidden Emotion Understanding", "IJCAI 2024", "https://ijcai24.org/workshops/index.html"),
+                ("The 5th International Workshop on Human-Centric Multimedia Analysis", "ACM MM 2024", "https://hcma2024.github.io/"),
+                ("Models of Human Feedback for AI Alignment", "ICML 2024", "https://icml.cc/virtual/2024/events/workshop"),
+                ("Humans, Algorithmic Decision-Making and Society: Modeling Interactions and Impact", "ICML 2024", "https://icml.cc/virtual/2024/events/workshop"),
+                ("Pluralistic Alignment Workshop", "NeurIPS 2024", "https://neurips.cc/virtual/2024/events/workshop"),
+                ("Generative AI and Creativity: A Dialogue between Machine Learning Researchers and Creative Professionals", "NeurIPS 2024", "https://neurips.cc/virtual/2024/events/workshop"),
+                ("The 6th Workshop on Long-Term Human Motion Prediction", "ICRA 2024", "https://motionpredictionicra2024.github.io/"),
+                ("Humanoid Whole-Body Control: From Human Motion Understanding to Humanoid Locomotion", "ICRA 2024", "https://icra-2024-humanoid.github.io/"),
+                ("Towards Collaborative Partners: Physical Human-Robot Interaction", "ICRA 2024", "https://sites.google.com/view/icra24-physical-hri"),
+                ("Workshop on Human-Aligned Reinforcement Learning for Autonomous Agents and Robots", "ICRA 2024", "https://harlworkshop.github.io/"),
+                ("The 2nd Workshop on NeuroDesign in Human-Robot Interaction: The making of engaging HRI technology your brain can't resist", "ICRA 2024", "https://www.neurodesign-hri.ws/"),
+                ("Safety and Normative Behaviors in Human-Robot Interaction", "RSS 2024", "https://sites.google.com/view/safe-hri/"),
+                ("Mechanisms for Mapping Human Input to Robots: From Robot Learning to Shared Control and Autonomy", "RSS 2024", "https://mechanisms-hri.github.io"),
+                ("Workshop on Embodied Voices", "RSS 2024", "https://rosielab.github.io/wev/"),
+                ("Unsolved Problems in Social Robot Navigation", "RSS 2024", "https://unsolvedsocialnav.org"),
+                ("Robots That Help and Ask for Help", "RSS 2024", "https://sites.google.com/unisi.it/robots-that-ask-for-help"),
+                ("Social Intelligence in Humans and Robots", "RSS 2024", "https://social-intelligence-human-ai.github.io/proposal.html"),
+                ("GROUND: Advancing Group Understanding and Robots' Adaptive Behavior", "RSS 2024", "https://ground-hri.github.io/workshop/"),
+            ],
+        ),
+        (
+            "2023",
+            [
+                ("Recent Trends in Human-Centric AI", "AAAI 2023", "https://r2hcai.github.io/"),
+                ("User-Centric AI for Assistance in At-Home Tasks", "AAAI 2023", "https://ai4athome.github.io/"),
+                ("Workshop on High-Fidelity Neural Actors", "CVPR 2023", "https://hfna-workshop.github.io/"),
+                ("The 1st Workshop on Computer Vision for Mixed Reality", "CVPR 2023", "https://cvpr.thecvf.com/Conferences/2023/workshop-list"),
+                ("Accessibility, Vision, and Autonomy Meet", "CVPR 2023", "https://cvpr.thecvf.com/Conferences/2023/workshop-list"),
+                ("4D Hand-Object Interaction", "CVPR 2023", "https://cvpr.thecvf.com/Conferences/2023/workshop-list"),
+                ("The 1st RHOBIN Challenge on Reconstruction of Human-Object Interaction", "CVPR 2023", "https://rhobin-challenge.github.io/"),
+                ("Joint 3rd Ego4D and 11th EPIC Workshop on Egocentric Vision", "CVPR 2023", "https://cvpr.thecvf.com/virtual/2023/workshop/18537"),
+                ("The 5th Workshop on Affective & Behavior Analysis in-the-Wild", "CVPR 2023", "https://cvpr.thecvf.com/Conferences/2023/workshop-list"),
+                ("The 5th International Workshop on Eye and Gaze in Computer Vision", "CVPR 2023", "https://cvpr.thecvf.com/Conferences/2023/workshop-list"),
+                ("The 4th Embodied AI Workshop", "CVPR 2023", "https://embodied-ai.org/"),
+                ("Visual Pre-training for Robotics", "CVPR 2023", "https://vispr-workshop.github.io/"),
+                ("To NeRF or Not to NeRF: A View Synthesis Challenge for Human Heads", "ICCV 2023", "https://sites.google.com/view/vschh/home"),
+                ("Artificial Social Intelligence Workshop and Challenge", "ICCV 2023", "https://openaccess.thecvf.com/ICCV2023_workshops/menu"),
+                ("Analysis and Modeling of Faces and Gestures", "ICCV 2023", "https://openaccess.thecvf.com/ICCV2023_workshops/menu"),
+                ("The 4th Workshop on Visual Perception for Navigation in Human Environments", "ICCV 2023", "https://jrdb.erc.monash.edu.au/workshops/iccv2023"),
+                ("The 11th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2023", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+                ("Ethics and Trust in Human-AI Collaboration: Socio-Technical Approaches", "IJCAI 2023", "https://sites.google.com/view/ethaics-2023/"),
+                ("The 1st Workshop on Micro-Gesture Analysis for Hidden Emotion Understanding", "IJCAI 2023", "https://cv-ac.github.io/MiGA2023/"),
+                ("AI & Human-Computer Interaction", "ICML 2023", "https://icml.cc/virtual/2023/workshop/21491"),
+                ("Interactive Learning with Implicit Human Feedback", "ICML 2023", "https://icml.cc/virtual/2023/events/workshop"),
+                ("Theory of Mind in Communicating Agents", "ICML 2023", "https://icml.cc/virtual/2023/events/workshop"),
+                ("Gaze Meets Machine Learning", "NeurIPS 2023", "https://neurips.cc/virtual/2023/events/workshop"),
+                ("The 4th International Workshop on Human-Centric Multimedia Analysis", "ACM MM 2023", "https://www.acmmm2023.org/workshops"),
+                ("The 5th Workshop on Long-Term Human Motion Prediction", "ICRA 2023", "https://motionpredictionicra2023.github.io/"),
+                ("Communicating Robot Learning across Human-Robot Interaction", "ICRA 2023", "https://www.icra2023.org/programme/workshops-tutorials"),
+                ("The 2nd Workshop on Social Robot Navigation", "IROS 2023", "https://2023.ieee-iros.org/workshops-tutorials/"),
+                ("The Next Step for Humanoids", "IROS 2023", "https://2023.ieee-iros.org/workshops-tutorials/"),
+                ("Human Multi-Robot Interaction", "IROS 2023", "https://2023.ieee-iros.org/workshops-tutorials/"),
+                ("The 6th Workshop on Ergonomic Physical Human-Robot Collaboration", "IROS 2023", "https://2023.ieee-iros.org/workshops-tutorials/"),
+                ("Assistive Robotics for Citizens", "IROS 2023", "https://2023.ieee-iros.org/workshops-tutorials/"),
+                ("Social Intelligence in Humans and Robots", "RSS 2023", "https://roboticsconference.org/2023/program/workshops/"),
+                ("Toward Natural Motion Generation", "RSS 2023", "https://roboticsconference.org/2023/program/workshops/"),
+                ("Frontiers Workshop: Digital Avatars: Risks, Harms, Barriers, Opportunities", "SIGGRAPH 2023", "https://faculty.eng.ufl.edu/jain/teaching/frontiers-workshop-digital-avatars-risks-harms-barriers-opportunities/"),
+            ],
+        ),
+        (
+            "2022",
+            [
+                ("Human-Centric Self-Supervised Learning", "AAAI 2022", "https://aaai.org/conference/aaai/aaai-22/ws22workshops/"),
+                ("Interactive Machine Learning", "AAAI 2022", "https://aaai.org/conference/aaai/aaai-22/ws22workshops/"),
+                ("Artificial Social Intelligence", "CVPR 2022", "https://cvpr2022.thecvf.com/workshop-schedule"),
+                ("Joint 1st Ego4D and 10th EPIC Workshop on Egocentric Vision", "CVPR 2022", "https://ego4d-data.org/workshops/cvpr22/"),
+                ("Human-Centered Intelligent Services", "CVPR 2022", "https://cvpr2022.thecvf.com/workshop-schedule"),
+                ("The 3rd Workshop on Affective & Behavior Analysis in-the-Wild", "CVPR 2022", "https://cvpr2022.thecvf.com/workshop-schedule"),
+                ("The 4th International Workshop on Eye and Gaze in Computer Vision", "CVPR 2022", "https://cvpr2022.thecvf.com/workshop-schedule"),
+                ("The 3rd Embodied AI Workshop", "CVPR 2022", "https://embodied-ai.org/"),
+                ("Human-Machine Collaboration and Teaming", "ICML 2022", "https://icml.cc/virtual/2022/workshop/13478"),
+                ("Human-Centered AI", "NeurIPS 2022", "https://neurips.cc/virtual/2022/events/workshop"),
+                ("Gaze Meets Machine Learning", "NeurIPS 2022", "https://gaze-meets-ml.github.io/gaze_ml_2022/"),
+                ("Human Evaluation of Generative Models", "NeurIPS 2022", "https://neurips.cc/virtual/2022/workshop/49978"),
+                ("Trustworthy and Socially Responsible Machine Learning for Embodied AI", "NeurIPS 2022", "https://neurips.cc/virtual/2022/workshop/49972"),
+                ("The 3rd International Workshop on Human-Centric Multimedia Analysis", "ACM MM 2022", "https://hcma2022.github.io/"),
+                ("The 4th Person in Context Workshop and Challenge", "ACM MM 2022", "https://www.sigmm.org/opentoc/PIC2022-TOC"),
+                ("Facial Micro-Expression Analysis", "ACM MM 2022", "https://2022.acmmm.org/workshops/"),
+                ("The 4th Workshop on Sensing, Understanding and Synthesizing Humans", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("People Analysis: From Face, Body and Fashion to 3D Virtual Avatars", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("Human Body, Hands, and Activities from Egocentric and Multi-View Cameras", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("Observing and Understanding Hands in Action", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("The 2nd Workshop on Cross-Modal Human-Robot Interaction", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("The 2nd International Ego4D Workshop", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("The 3rd Workshop on Visual Perception for Navigation in Human Environments", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("Sign Language Understanding", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("The 4th Workshop on Affective & Behavior Analysis in-the-Wild", "ECCV 2022", "https://eccv2022.ecva.net/program/workshop-schedule/"),
+                ("The 10th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2022", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+                ("Communication in Human-AI Interactions", "IJCAI-ECAI 2022", "https://chai-workshop.github.io/"),
+                ("The 4th Workshop on Long-Term Human Motion Prediction", "ICRA 2022", "https://motionpredictionicra2022.github.io/"),
+                ("Social Robot Navigation: Advances and Evaluation", "ICRA 2022", "https://seanavbench.interactive-machines.com/"),
+                ("Reinforcement Learning Meets Human-Robot Interaction, Control, and Formal Methods", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Social and Cognitive Interactions for Assistive Robotics", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Ergonomic Human-Robot Collaboration", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Artificial Intelligence for Social Robots Interacting with Humans in the Real World", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Robot Trust for Symbiotic Societies", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Human-Multi-Robot Systems: Challenges for Real World Applications", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Human Theory of Machines and Machine Theory of Mind for Human-Agent Teams", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Soft Robots for Humanity", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Assistive Robots in the Real World", "IROS 2022", "https://iros2022.org/program/workshops-and-tutorials/"),
+                ("Close-Proximity Human-Robot Collaboration: Challenges and Opportunities", "RSS 2022", "https://roboticsconference.org/2022/program/workshops/"),
+                ("Workshop on Social Intelligence in Humans and Robots", "RSS 2022", "https://social-intelligence-human-ai.github.io/"),
+                ("Toward Robot Avatars: Perspectives on the ANA Avatar XPRIZE Competition", "RSS 2022", "https://roboticsconference.org/2022/program/workshops/"),
+            ],
+        ),
+    ]
+)
+
+
 METHOD_LEVELS = OrderedDict(
     [
         (
@@ -611,6 +999,406 @@ def blockquote(markdown: str) -> str:
     return "\n".join(f"> {line}" if line else ">" for line in markdown.splitlines())
 
 
+HISTORICAL_WORKSHOPS = (
+    ("2014", "The 2nd International Workshop on Assistive Computer Vision and Robotics", "ECCV 2014", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+    ("2015", "The 3rd International Workshop on Assistive Computer Vision and Robotics", "ICCV 2015", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+    ("2016", "The 4th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2016", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+    ("2017", "The 5th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2017", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+    ("2018", "The 6th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2018", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+    ("2019", "The 7th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2019", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+    ("2019", "The 1st Workshop on Gaze Estimation and Prediction in the Wild (GAZE 2019)", "ICCV 2019", "https://gazeworkshop.github.io/2019/"),
+    ("2019", "The 1st Workshop on Sensing, Understanding and Synthesizing Humans", "ICCV 2019", "https://sense-human.github.io/index_2019.html"),
+    ("2019", "The 1st Workshop on Long-Term Human Motion Prediction", "ICRA 2019", "https://motionpredictionicra2019.github.io/"),
+    ("2020", "The 8th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2020", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+    ("2020", "The 2nd International Workshop on Gaze Estimation and Prediction in the Wild (GAZE 2020)", "ECCV 2020", "https://eccv2020.eu/workshops/"),
+    ("2020", "The 1st Embodied AI Workshop", "CVPR 2020", "https://embodied-ai.org/cvpr2020/"),
+    ("2020", "The 2nd Workshop on Sensing, Understanding and Synthesizing Humans", "ECCV 2020", "https://sense-human.github.io/index_2020.html"),
+    ("2020", "The 1st International Workshop on Human-centric Multimedia Analysis", "ACM MM 2020", "https://hcma2020.github.io/"),
+    ("2020", "The 2nd Workshop on Long-Term Human Motion Prediction", "ICRA 2020", "https://motionpredictionicra2020.github.io/"),
+    ("2021", "The 9th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2021", "https://iplab.dmi.unict.it/acvr2024/previous-editions.html"),
+    ("2021", "The 3rd International Workshop on Gaze Estimation and Prediction in the Wild (GAZE 2021)", "CVPR 2021", "https://gazeworkshop.github.io/2021/"),
+    ("2021", "The 2nd Embodied AI Workshop", "CVPR 2021", "https://embodied-ai.org/cvpr2021/"),
+    ("2021", "The 3rd Workshop on Sensing, Understanding and Synthesizing Humans", "ICCV 2021", "https://sense-human.github.io/index_2021.html"),
+    ("2021", "The 2nd International Workshop on Human-centric Multimedia Analysis", "ACM MM 2021", "https://hcma2021.github.io/"),
+    ("2021", "The 3rd Workshop on Long-Term Human Motion Prediction", "ICRA 2021", "https://motionpredictionicra2021.github.io/"),
+)
+
+
+# A conference-wide list can verify that an event existed, but it is not a
+# usable workshop link. Keep those records in the discovery inventory above
+# while excluding them from the public page until a dedicated homepage or an
+# exact conference-hosted event page is available.
+GENERIC_WORKSHOP_PATHS = tuple(
+    re.compile(pattern, flags=re.IGNORECASE)
+    for pattern in (
+        r"/conferences/\d{4}/(?:workshops|workshop-list)/?",
+        r"/conference/aaai/aaai-\d+/workshop-list/?",
+        r"/conference/aaai/aaai-\d+/ws\d+workshops/?",
+        r"/aaai-\d+-conference/aaai-\d+-workshop-list/?",
+        r"/virtual/\d{4}/events/workshop/?",
+        r"/program/workshop-schedule/?",
+        r"/workshop-schedule/?",
+        r"/program/workshops/?",
+        r"/\d{4}/program/workshops/?",
+        r"/workshops/?",
+        r"/workshops/index\.html",
+        r"/workshops-and-tutorials/?",
+        r"/workshops-tutorials/?",
+        r"/program/workshops-and-tutorials/?",
+        r"/programme/workshops-tutorials/?",
+        r"/events/category/sessions/workshops-tutorials(?:/.*)?",
+        r"/workshopstutorials\.html",
+        r"/full-program/?",
+        r"/program/technical-workshops/?",
+        r"/iccv\d{4}_workshops/menu/?",
+    )
+)
+
+
+EXCLUDED_WORKSHOP_RECORDS = {
+    # The original domain now resolves to an unrelated page, and no active
+    # workshop-specific replacement could be verified.
+    ("Unsolved Problems in Social Robot Navigation", "RSS 2024"),
+    # Entries removed during manual curation of the public workshop list.
+    ("The 2nd International Workshop on Assistive Computer Vision and Robotics", "ECCV 2014"),
+    ("The 3rd International Workshop on Assistive Computer Vision and Robotics", "ICCV 2015"),
+    ("The 4th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2016"),
+    ("The 5th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2017"),
+    ("The 6th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2018"),
+    ("The 7th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2019"),
+    ("The 1st Workshop on Gaze Estimation and Prediction in the Wild (GAZE 2019)", "ICCV 2019"),
+    ("The 8th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2020"),
+    ("The 9th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2021"),
+    ("The 3rd International Workshop on Gaze Estimation and Prediction in the Wild (GAZE 2021)", "CVPR 2021"),
+    ("The 2nd Workshop on Advancing Artificial Intelligence through Theory of Mind", "AAAI 2026"),
+    ("The 1st Workshop on Multi-Agent Robotic Systems: Scaling with Compositional Intelligence", "CVPR 2026"),
+    ("4D Digital Twins: Real-to-Sim-to-Real for Physical AI", "CVPR 2026"),
+    ("AI-Based Humanoid Robot Design and Control through the Lens of HRI, Evolution, and Biomechanics", "IJCAI-ECAI 2026"),
+    ("The 4th Workshop on NeuroDesign in Human-Robot Interaction: The making of engaging HRI technology your brain can't resist", "ICRA 2026"),
+    ("It's the Demos: The Role of Demonstration Quality in Imitation-Based Robot Manipulation", "RSS 2026"),
+    ("Differentiable Physics for Graphics and AI", "SIGGRAPH 2026"),
+    ("3D Digital Twin: Progress, Challenges, and Future Directions", "CVPR 2025"),
+    ("Computer Vision for Mixed Reality", "CVPR 2025"),
+    ("The 2nd Workshop on Multi-Agent Embodied Intelligent Systems Meet Generative-AI Era", "CVPR 2025"),
+    ("The 1st Embodied Spatial Reasoning Workshop", "ICCV 2025"),
+    ("The 13th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2025"),
+    ("User-Aligned Assessment of Adaptive AI Systems", "IJCAI 2025"),
+    ("Generative AI and Theory of Mind in Communicating Agents", "IJCAI 2025"),
+    ("Embodied World Models for Decision Making", "NeurIPS 2025"),
+    ("Embodied and Safe-Assured Robotic Systems", "NeurIPS 2025"),
+    ("Advances in Social Robot Navigation: Planning, HRI, and Beyond", "ICRA 2025"),
+    ("Multi-Agent Embodied Intelligent Systems Meet Foundation Models and Large-scale Datasets", "ICRA 2025"),
+    ("Large Foundation Models for Interactive Robot Learning", "RSS 2025"),
+    ("The 2nd Workshop on Computer Vision for Mixed Reality", "CVPR 2024"),
+    ("Workshop on Human-Aligned Reinforcement Learning for Autonomous Agents and Robots", "ICRA 2024"),
+    ("The 2nd Workshop on NeuroDesign in Human-Robot Interaction: The making of engaging HRI technology your brain can't resist", "ICRA 2024"),
+    ("Workshop on Embodied Voices", "RSS 2024"),
+    ("Robots That Help and Ask for Help", "RSS 2024"),
+    ("Visual Pre-training for Robotics", "CVPR 2023"),
+    ("The 11th International Workshop on Assistive Computer Vision and Robotics", "ICCV 2023"),
+    ("Ethics and Trust in Human-AI Collaboration: Socio-Technical Approaches", "IJCAI 2023"),
+    ("Human Evaluation of Generative Models", "NeurIPS 2022"),
+    ("Trustworthy and Socially Responsible Machine Learning for Embodied AI", "NeurIPS 2022"),
+    ("The 10th International Workshop on Assistive Computer Vision and Robotics", "ECCV 2022"),
+    ("Communication in Human-AI Interactions", "IJCAI-ECAI 2022"),
+    ("Social Robot Navigation: Advances and Evaluation", "ICRA 2022"),
+}
+
+
+def has_direct_workshop_page(title: str, venue: str, url: str) -> bool:
+    """Return whether a record links to a workshop-specific public page."""
+    if (title, venue) in EXCLUDED_WORKSHOP_RECORDS:
+        return False
+    path = urllib.parse.urlparse(url).path or "/"
+    return not any(pattern.fullmatch(path) for pattern in GENERIC_WORKSHOP_PATHS)
+
+
+ORDINAL_WORDS = {
+    "first": "1st",
+    "second": "2nd",
+    "third": "3rd",
+    "fourth": "4th",
+    "fifth": "5th",
+    "sixth": "6th",
+    "seventh": "7th",
+    "eighth": "8th",
+    "ninth": "9th",
+    "tenth": "10th",
+    "eleventh": "11th",
+    "twelfth": "12th",
+    "thirteenth": "13th",
+    "fourteenth": "14th",
+}
+
+
+def conference_name(venue: str) -> str:
+    conference = re.sub(r"\s+\d{4}$", "", venue)
+    return "IJCAI" if conference == "IJCAI-ECAI" else conference
+
+
+def split_workshop_edition(title: str) -> tuple[str | None, int | None, str]:
+    """Separate a leading official edition marker without rewriting the title."""
+    numeric = re.match(r"^(?:The\s+)?(\d+(?:st|nd|rd|th))\s+(.+)$", title, flags=re.IGNORECASE)
+    if numeric:
+        label = numeric.group(1).lower()
+        return label, int(re.match(r"\d+", label).group()), numeric.group(2).strip()
+
+    words = "|".join(ORDINAL_WORDS)
+    word = re.match(rf"^(?:The\s+)?({words})\s+(.+)$", title, flags=re.IGNORECASE)
+    if word:
+        label = ORDINAL_WORDS[word.group(1).lower()]
+        return label, int(re.match(r"\d+", label).group()), word.group(2).strip()
+    return None, None, title.strip()
+
+
+WORKSHOP_SERIES_NAMES = {
+    "joint 1st ego4d and 10th epic workshop on egocentric vision": "Joint Ego4D and EPIC Workshop on Egocentric Vision",
+    "joint 3rd ego4d and 11th epic workshop on egocentric vision": "Joint Ego4D and EPIC Workshop on Egocentric Vision",
+    "social intelligence in humans and robots": "Social Intelligence in Humans and Robots",
+    "workshop on social intelligence in humans and robots": "Social Intelligence in Humans and Robots",
+    "workshop on human motion generation (humogen)": "Workshop on Human Motion Generation (HuMoGen)",
+    "workshop on human motion generation (humogen): new perspectives on simulation, animation, and vr applications": "Workshop on Human Motion Generation (HuMoGen)",
+}
+
+
+WORKSHOP_CATEGORIES = OrderedDict(
+    [
+        (
+            "Human Perception and Understanding",
+            (
+                "AERO-HPR: Human Perception and Recognition in Aerial Surveillance",
+                "Computer Vision for Biomechanics Workshop",
+                "Gaze Meets Machine Learning",
+                "Global 3D Human Poses",
+                "International Workshop on Human-centric Multimedia Analysis",
+                "Person in Context Workshop and Challenge",
+                "PhysHuman: Physically Grounded Human Perception and Modeling",
+                "Workshop on 3D Human Understanding",
+                "Workshop on Human-Inspired Computer Vision",
+                "Workshop on Micro-Gesture Analysis for Hidden Emotion Understanding",
+                "Workshop on Sensing, Understanding and Synthesizing Humans",
+            ),
+        ),
+        (
+            "Digital Humans and Generative Modeling",
+            (
+                "3D Human Understanding: Towards Human-Centric World Models",
+                "AI for Digital Human",
+                "Frontiers Workshop: Digital Avatars: Risks, Harms, Barriers, Opportunities",
+                "GENEA Workshop",
+                "Generative AI for XR and Identity-based Applications",
+                "Hybrid Dance Xplorations: Artist-Centric XR/AI Sandbox for Co-Creation and Performance",
+                "Interactive Social Avatars with the 4th GENEA Gesture Generation Challenge",
+                "Populating Empty Cities: Virtual Humans for Robotics and Autonomous Driving",
+                "To NeRF or Not to NeRF: A View Synthesis Challenge for Human Heads",
+                "Workshop on High-Fidelity Neural Actors",
+                "Workshop on Human-Interactive Generation and Editing",
+                "Workshop on Human Motion Generation (HuMoGen)",
+                "Workshop on Photorealistic 3D Head Avatars",
+            ),
+        ),
+        (
+            "Human Motion, Behavior, and Social Interaction",
+            (
+                "CONTEXTUS: Understanding Multi-Actor Scene Interaction in Context",
+                "Generalizing Natural Behavior: Retargeting Human or Animal Motion to Robotic Forms",
+                "GROUND: Advancing Group Understanding and Robots' Adaptive Behavior",
+                "Human Motion in Real-World and Clinical Settings",
+                "Human-Scene Interaction: Towards Scene-Aware Motion, Communication, and Embodied Agents",
+                "Joint Workshop on Human Behavior Analysis and Interaction for Emotional Intelligence, with the 4th MiGA Challenge",
+                "RHOBIN Challenge on Reconstruction of Human-Object Interaction",
+                "Social Intelligence in Humans and Robots",
+                "Workshop and Challenge on Human Behavior Analysis for Emotion Understanding",
+                "Workshop on Long-Term Human Motion Prediction",
+                "Workshop on Multimodal Human Motion Analysis",
+                "Workshop on Pedestrian Behavior Prediction",
+                "Workshop on Skilled Activity Understanding, Assessment & Feedback Generation",
+            ),
+        ),
+        (
+            "Egocentric, Assistive, and Multimodal Intelligence",
+            (
+                "AI & Human-Computer Interaction",
+                "EgoAct: The 1st Workshop on Egocentric Perception and Action for Robot Learning",
+                "EgoMotion Workshop",
+                "Generative AI for Sign Language",
+                "Joint Ego4D and EPIC Workshop on Egocentric Vision",
+                "Joint Egocentric Vision (EgoVis) Workshop",
+                "Sense of Space: Multi-Sensory Modeling for Embodied Intelligence",
+                "User-Centric AI for Assistance in At-Home Tasks",
+                "Wearables AI: Towards Building Real-Time Multimodal Contextual Assistants",
+                "Workshop on AI for Aging Rehabilitation and Intelligent Assisted Living",
+                "Workshop on Vision-based Assistants in the Real-World",
+                "Workshop on Visual Perception for Navigation in Human Environments",
+            ),
+        ),
+        (
+            "Human-Robot Interaction and Collaboration",
+            (
+                "Beyond the Lab: Human Behavior Monitoring and Modeling in In-the-Wild Human-Robot Interaction",
+                "Human-Centered Robot Learning in the Era of Big Data and Large Models",
+                "Human-in-the-Loop Robot Learning: Teaching, Correcting, and Adapting",
+                "Human-Machine Collaboration and Teaming",
+                "Human-Robot Contact and Manipulation",
+                "Human-Robot-Scene Interaction and Collaboration",
+                "Mechanisms for Mapping Human Input to Robots: From Robot Learning to Shared Control and Autonomy",
+                "Safety and Normative Behaviors in Human-Robot Interaction",
+                "Towards Collaborative Partners: Physical Human-Robot Interaction",
+                "Workshop on Agents in Interaction, from Humans to Robots",
+                "Workshop on Continual Robot Learning from Humans",
+                "Workshop on Generative Modeling Meets Human-Robot Interaction",
+            ),
+        ),
+        (
+            "Embodied AI and Humanoid Robotics",
+            (
+                "Bridging Vision, Language, and Action: What's Missing in Actionable Visual Perception for Robotics",
+                "Embodied Agent and Dialog",
+                "Embodied AI Workshop",
+                "Embodied Reasoning in Action: Embodied Reasoning for Robotic Manipulation",
+                "From Lab Demos to Daily Tasks: Embodied Intelligence in the Wild",
+                "Human-Centric Mobile Manipulation Workshop",
+                "Humanoid Whole-Body Control: From Human Motion Understanding to Humanoid Locomotion",
+                "IPA: Interactive Physical AI Workshop",
+                "Observing and Acting as Dexterous Hands",
+                "Perception and Decision Making for Athletic Humanoid Robotics",
+                "Whole-Body Control and Bimanual Manipulation: Applications in Humanoids and Beyond",
+                "Workshop on Dexterous Manipulation: Scalable Learning for Human-Level Skills",
+                "Workshop on Embodied Humans: Symbiotic Intelligence between Virtual Humans and Humanoid Robots",
+                "Workshop on Humanoid Agents",
+            ),
+        ),
+        (
+            "Foundation Models and Human-Centered AI",
+            (
+                "Foundation Models for 3D Humans",
+                "Foundation Models for the Brain and Body",
+                "Human-Centric Representation Learning",
+                "Humans of Generative AI",
+                "Multimodal Digital Agents Workshop",
+                "Recent Trends in Human-Centric AI",
+                "RobustifAI: Robustifying Generative AI for Reliable, Safe, and Human-Centric Systems",
+                "Workshop on Foundation & Generative Models in Biometrics",
+                "Workshop on Interactive Human-Centric Foundation Models",
+            ),
+        ),
+    ]
+)
+
+
+def workshop_series_name(core_title: str) -> str:
+    """Normalize verified title variants that refer to the same series."""
+    return WORKSHOP_SERIES_NAMES.get(core_title.casefold(), core_title)
+
+
+def render_research_lists_page() -> str:
+    lines = [
+        '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+        "",
+        "# 📚 Awesome Human-Centric AI Research",
+        "",
+        "This page collects maintained paper lists and resource indexes spanning human-centric AI, digital humans, human motion, interaction, sensing, and humanoid intelligence.",
+        "",
+        "> **Organization note.** Resources are grouped by their primary research focus. Each entry links to the original list maintained by its respective authors or community.",
+        "",
+    ]
+
+    for category, resources in AWESOME_RESEARCH_LISTS.items():
+        lines.extend([f"## {category}", ""])
+        for name, url, link_label in resources:
+            lines.append(f"- **{name}**: [{link_label}]({url}).")
+        lines.append("")
+
+    lines.extend(
+        [
+            "---",
+            "",
+            '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_workshop_page() -> str:
+    discovered_rows = list(HISTORICAL_WORKSHOPS) + [
+        (year, title, venue, url)
+        for year, workshops in WORKSHOPS_BY_YEAR.items()
+        for title, venue, url in workshops
+    ]
+    raw_rows = [
+        row
+        for row in discovered_rows
+        if has_direct_workshop_page(row[1], row[2], row[3])
+    ]
+    candidates: dict[str, list[dict]] = {}
+    for year, title, venue, url in raw_rows:
+        conference = conference_name(venue)
+        _, _, core_title = split_workshop_edition(title)
+        series_name = workshop_series_name(core_title)
+        candidates.setdefault(series_name.casefold(), []).append(
+            {
+                "title": title,
+                "core_title": series_name,
+                "conference": conference,
+                "year": int(year),
+                "url": url,
+            }
+        )
+
+    workshops = []
+    for records in candidates.values():
+        records.sort(key=lambda item: (-item["year"], item["conference"], item["url"]))
+        workshops.append(
+            {
+                "name": records[0]["core_title"],
+                "latest_year": max(record["year"] for record in records),
+                "records": records,
+            }
+        )
+
+    category_by_name = {
+        name.casefold(): category
+        for category, names in WORKSHOP_CATEGORIES.items()
+        for name in names
+    }
+    categorized_workshops = OrderedDict(
+        (category, []) for category in WORKSHOP_CATEGORIES
+    )
+    for workshop in workshops:
+        category = category_by_name.get(workshop["name"].casefold())
+        if category is None:
+            raise ValueError(f"Uncategorized workshop series: {workshop['name']}")
+        categorized_workshops[category].append(workshop)
+
+    lines = [
+        '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+        "",
+        "# 🧑‍🏫 Human-Centric AI Workshops",
+        "",
+        "This page presents a thematic collection of human-centric, egocentric, and embodied AI workshops. Recurring workshops are consolidated across host conferences after removing edition markers and reconciling verified title variants from the same series.",
+        "",
+        "> **Organization note.** Each workshop appears under one broad research theme. Within each theme, series are ordered by their most recent year, while editions within each series are listed from newest to oldest. Every link is labeled by its host conference and year.",
+        "",
+    ]
+
+    for category, category_workshops in categorized_workshops.items():
+        lines.extend([f"## {category}", ""])
+        for workshop in sorted(
+            category_workshops,
+            key=lambda item: (-item["latest_year"], item["name"].casefold()),
+        ):
+            edition_links = ", ".join(
+                f"[{record['conference']}{record['year']}]({record['url']})"
+                for record in workshop["records"]
+            )
+            lines.append(f"- **{workshop['name']}**: {edition_links}.")
+        lines.append("")
+
+    lines.extend(["---", "", '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>', ""])
+    return "\n".join(lines)
+
+
 def render_markdown_pages(index: dict) -> dict[str, str]:
     arxiv_badge_image = '<img src="https://img.shields.io/badge/arXiv-Survey-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">'
     arxiv_badge = arxiv_badge_image
@@ -648,37 +1436,44 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         "## 📢 News",
         "",
         "- **2026-08-10:** Our [project homepage](https://cseeyangchen.github.io/Human-Centric-AI/homepage/) is now live.",
-        "- **2026-08-08:** Initial resource release with complete Chapter 4--7 coverage.",
+        "- **2026-08-08:** First resource release.",
         "",
         "## 🧭 Contents",
         "",
         "- [News](#news)",
-        "- [Resource Collections](#resource-collections)",
+        "- [Academic Knowledge](#academic-knowledge)",
         "- [Contributing](#contributing)",
         "- [Citation](#citation)",
         "- [Contact](#contact)",
         "",
-        '<a id="resource-collections"></a>',
+        '<a id="academic-knowledge"></a>',
         "",
-        "## 🗂️ Resource Collections",
+        "## 🎓 Academic Knowledge",
         "",
-        "The detailed resource indexes are maintained as separate pages so that papers, datasets, and benchmarks can be browsed and updated independently.",
-        "",
-        "| Collection | Coverage |",
-        "|---|---|",
-        "| [📚 **Paper Resources**](resources/papers.md) | Methods organized by the six human-context levels and their subcategories. |",
-        "| [🗃️ **Datasets and Benchmarks**](resources/datasets-and-benchmarks.md) | Datasets and benchmarks organized by resource family and task category. |",
+        "- 📚 [**Awesome Human-Centric AI Research**](resources/awesome-human-centric-research-lists.md)",
+        "- 🧑‍🏫 [**Human-Centric AI Workshops**](resources/workshops.md)",
         "",
     ]
 
     paper_lines = [
         '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
         "",
-        "# 📚 Paper Resources",
+        "# 📚 Awesome Human-Centric AI Survey Resources",
+        "",
+        "This page brings together the papers, datasets, and benchmarks organized in **Human-Centric Intelligence in the Era of Foundation Models: A Survey**.",
+        "",
+        "## Contents",
+        "",
+        "- [Paper Resources](#paper-resources)",
+        "- [Datasets and Benchmarks](#datasets-and-benchmarks)",
+        "",
+        '<a id="paper-resources"></a>',
+        "",
+        "## Paper Resources",
         "",
         "The paper index contains the union of works cited in the Chapter 4--6 method discussions and works listed in the corresponding method tables. Each level and subcategory is collapsed by default for faster navigation.",
         "",
-        "## Contents",
+        "### Contents",
         "",
         *[
             f"- [{ROMAN_NUMERALS[level_number - 1]}. {level}](#{anchor(level)})"
@@ -724,19 +1519,17 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         [
             "---",
             "",
-            '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
-            "",
         ]
     )
 
     dataset_lines = [
-        '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+        '<a id="datasets-and-benchmarks"></a>',
         "",
-        "# 🗃️ Datasets and Benchmarks",
+        "## Datasets and Benchmarks",
         "",
         "Resources follow the organization used in Chapter 7 of the survey. Each resource group and subcategory is collapsed by default, and duplicate BibTeX entries are removed within each table.",
         "",
-        "## Contents",
+        "### Contents",
         "",
         *[
             f"- [{ROMAN_NUMERALS[group_number - 1]}. {group}](#{anchor(group)})"
@@ -830,8 +1623,9 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
     )
     return {
         "README.md": "\n".join(lines),
-        "resources/papers.md": "\n".join(paper_lines),
-        "resources/datasets-and-benchmarks.md": "\n".join(dataset_lines),
+        "resources/awesome-human-centric-research-lists.md": render_research_lists_page(),
+        "resources/awesome-human-centric-ai-survey-resources.md": "\n".join(paper_lines + dataset_lines),
+        "resources/workshops.md": render_workshop_page(),
     }
 
 

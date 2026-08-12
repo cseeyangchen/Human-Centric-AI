@@ -15,26 +15,22 @@ This repository is organized around the six-level framework introduced in **Huma
 ## 📢 News
 
 - **2026-08-10:** Our [project homepage](https://cseeyangchen.github.io/Human-Centric-AI/homepage/) is now live.
-- **2026-08-08:** Initial resource release with complete Chapter 4--7 coverage. 
+- **2026-08-08:** Initial resource release.
 
 ## 🧭 Contents
 
 - [News](#news)
-- [Resource Collections](#resource-collections)
+- [Academic Knowledge](#academic-knowledge)
 - [Contributing](#contributing)
 - [Citation](#citation)
 - [Contact](#contact)
 
-<a id="resource-collections"></a>
+<a id="academic-knowledge"></a>
 
-## 🗂️ Resource Collections
+## 🎓 Academic Knowledge
 
-The detailed resource indexes are maintained as separate pages so that papers, datasets, and benchmarks can be browsed and updated independently.
-
-| Collection | Coverage |
-|---|---|
-| [📚 **Paper Resources**](resources/papers.md) | Methods organized by the six human-context levels and their subcategories. |
-| [🗃️ **Datasets and Benchmarks**](resources/datasets-and-benchmarks.md) | Datasets and benchmarks organized by resource family and task category. |
+- 📚 [**Awesome Human-Centric AI Research**](resources/awesome-human-centric-research-lists.md)
+- 🧑‍🏫 [**Human-Centric AI Workshops**](resources/workshops.md)
 
 <a id="contributing"></a>
 

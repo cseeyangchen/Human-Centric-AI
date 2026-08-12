@@ -26,8 +26,9 @@ def main() -> None:
     errors: list[str] = []
     markdown_paths = {
         "README": repo_root / "README.md",
-        "paper resources": repo_root / "resources" / "papers.md",
-        "datasets and benchmarks": repo_root / "resources" / "datasets-and-benchmarks.md",
+        "research lists": repo_root / "resources" / "awesome-human-centric-research-lists.md",
+        "survey resources": repo_root / "resources" / "awesome-human-centric-ai-survey-resources.md",
+        "workshops": repo_root / "resources" / "workshops.md",
     }
     markdown: dict[str, str] = {}
     for label, path in markdown_paths.items():
@@ -37,8 +38,13 @@ def main() -> None:
         else:
             markdown[label] = path.read_text(encoding="utf-8")
     readme = markdown["README"]
-    papers = markdown["paper resources"]
-    datasets = markdown["datasets and benchmarks"]
+    research_lists = markdown["research lists"]
+    survey_resources = markdown["survey resources"]
+    workshops = markdown["workshops"]
+    papers = survey_resources.split('<a id="paper-resources"></a>', 1)[-1].split(
+        '<a id="datasets-and-benchmarks"></a>', 1
+    )[0]
+    datasets = survey_resources.split('<a id="datasets-and-benchmarks"></a>', 1)[-1]
 
     method_source_keys: set[str] = set()
     for relative in build_readme.METHOD_SECTION_FILES + build_readme.METHOD_TABLE_FILES:
@@ -152,16 +158,47 @@ def main() -> None:
         errors.append("Dataset-resource table count does not match Chapter 7 organization")
 
     required_root_links = [
-        "[📚 **Paper Resources**](resources/papers.md)",
-        "[🗃️ **Datasets and Benchmarks**](resources/datasets-and-benchmarks.md)",
+        "resources/awesome-human-centric-research-lists.md",
+        "resources/workshops.md",
     ]
     for link in required_root_links:
         if link not in readme:
             errors.append(f"README is missing resource-page link: {link}")
-    if papers.count('<a href="../README.md">') < 2:
-        errors.append("Paper resources are missing top or bottom README navigation")
-    if datasets.count('<a href="../README.md">') < 2:
-        errors.append("Datasets and benchmarks are missing top or bottom README navigation")
+    expected_research_lists = [
+        (name, url)
+        for resources in build_readme.AWESOME_RESEARCH_LISTS.values()
+        for name, url, _ in resources
+    ]
+    research_list_rows = re.findall(r"^- \*\*(.+?)\*\*:", research_lists, re.MULTILINE)
+    if len(research_list_rows) != len(expected_research_lists):
+        errors.append(
+            "Research-list row mismatch: expected {}, found {}".format(
+                len(expected_research_lists), len(research_list_rows)
+            )
+        )
+    for name, url in expected_research_lists:
+        if f"**{name}**" not in research_lists or f"]({url})" not in research_lists:
+            errors.append(f"Research-list page is missing entry or link: {name}")
+    if research_lists.count('<a href="../README.md">') < 2:
+        errors.append("Research lists are missing top or bottom README navigation")
+    if survey_resources.count('<a href="../README.md">') < 2:
+        errors.append("Survey resources are missing top or bottom README navigation")
+    workshop_urls = re.findall(r"\]\((https?://[^)]+)\)", workshops)
+    generic_workshop_urls = sorted(
+        {
+            url
+            for url in workshop_urls
+            if not build_readme.has_direct_workshop_page("", "", url)
+        }
+    )
+    if generic_workshop_urls:
+        errors.append(
+            f"Workshop page contains conference-wide directory links: {generic_workshop_urls}"
+        )
+    if "unsolvedsocialnav.org" in workshops:
+        errors.append("Workshop page contains a domain that no longer hosts the listed event")
+    if workshops.count('<a href="../README.md">') < 2:
+        errors.append("Workshop resources are missing top or bottom README navigation")
     required_images = [
         "assets/survey-overview.png",
         "assets/human-centric-resources-logo-v4.png",
@@ -184,6 +221,7 @@ def main() -> None:
         "resource_source_entries": len(resource_source_keys),
         "resource_index_entries": len(resource_index_keys),
         "categorized_markdown_rows": expected_rows,
+        "verified_workshop_links": len(workshop_urls),
         "errors": errors,
     }
     print(json.dumps(report, indent=2))

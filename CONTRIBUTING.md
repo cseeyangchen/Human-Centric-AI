@@ -28,7 +28,7 @@ Reason for inclusion or correction:
 
 ## Category Guide
 
-Method papers should use one of the fourteen categories under the six human context levels in `resources/papers.md`. Datasets and benchmarks should follow the sixteen resource categories in `resources/datasets-and-benchmarks.md` used in Chapter 7 of the survey.
+Method papers should use one of the fourteen categories under the six human context levels in `resources/awesome-human-centric-ai-survey-resources.md`. Datasets and benchmarks should follow the sixteen resource categories in the same file used in Chapter 7 of the survey.
 
 When a work spans several categories, select its primary contribution and mention any secondary category in the pull-request description. Existing survey entries may remain in multiple categories when the manuscript explicitly discusses them in more than one context.
 
@@ -40,4 +40,4 @@ The generated index is stored in `data/resources.json`. Link corrections that ar
 python3 scripts/build_readme.py --survey-root /path/to/survey/source
 ```
 
-Please do not edit generated tables in `resources/papers.md` or `resources/datasets-and-benchmarks.md` without updating the corresponding structured source.
+Please do not edit generated tables in `resources/awesome-human-centric-ai-survey-resources.md` without updating the corresponding structured source.
