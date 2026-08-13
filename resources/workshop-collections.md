@@ -1,6 +1,6 @@
 <p align="center"><a href="../README.md">&larr; Back to the main README</a></p>
 
-# 🧑‍🏫 Human-Centric AI Workshops
+# 🧑‍🏫 Workshop Collections
 
 This page presents a thematic collection of human-centric, egocentric, and embodied AI workshops. Recurring workshops are consolidated across host conferences after removing edition markers and reconciling verified title variants from the same series.
 

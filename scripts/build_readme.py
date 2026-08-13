@@ -1749,7 +1749,7 @@ def render_research_lists_page() -> str:
     lines = [
         '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
         "",
-        "# 📚 Awesome Human-Centric AI Research",
+        "# 📚 Awesome Research",
         "",
         "This page collects maintained paper lists and resource indexes spanning human-centric AI, digital humans, human motion, interaction, sensing, and humanoid intelligence.",
         "",
@@ -1918,7 +1918,7 @@ def render_workshop_page() -> str:
     lines = [
         '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
         "",
-        "# 🧑‍🏫 Human-Centric AI Workshops",
+        "# 🧑‍🏫 Workshop Collections",
         "",
         "This page presents a thematic collection of human-centric, egocentric, and embodied AI workshops. Recurring workshops are consolidated across host conferences after removing edition markers and reconciling verified title variants from the same series.",
         "",
@@ -1994,8 +1994,8 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         "",
         "## 🎓 Academic Knowledge",
         "",
-        "- 📚 [**Awesome Human-Centric AI Research**](resources/awesome-human-centric-research-lists.md)",
-        "- 🧑‍🏫 [**Human-Centric AI Workshops**](resources/workshops.md)",
+        "- 📚 [**Awesome Research**](resources/awesome-research.md)",
+        "- 🧑‍🏫 [**Workshop Collections**](resources/workshop-collections.md)",
         "- 📖 [**Open Courseware**](resources/open-courseware.md)",
         "- 🎥 [**Academic Presentations**](resources/academic-presentations.md)",
         "",
@@ -2169,11 +2169,11 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
     )
     return {
         "README.md": "\n".join(lines),
-        "resources/awesome-human-centric-research-lists.md": render_research_lists_page(),
+        "resources/awesome-research.md": render_research_lists_page(),
         "resources/awesome-human-centric-ai-survey-resources.md": "\n".join(paper_lines + dataset_lines),
         "resources/open-courseware.md": render_open_courseware_page(),
         "resources/academic-presentations.md": render_academic_presentations_page(),
-        "resources/workshops.md": render_workshop_page(),
+        "resources/workshop-collections.md": render_workshop_page(),
     }
 
 

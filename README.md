@@ -29,8 +29,8 @@ This repository is organized around the six-level framework introduced in **Huma
 
 ## 🎓 Academic Knowledge
 
-- 📚 [**Awesome Human-Centric AI Research**](resources/awesome-human-centric-research-lists.md)
-- 🧑‍🏫 [**Human-Centric AI Workshops**](resources/workshops.md)
+- 📚 [**Awesome Research**](resources/awesome-research.md)
+- 🧑‍🏫 [**Workshop Collections**](resources/workshop-collections.md)
 - 📖 [**Open Courseware**](resources/open-courseware.md)
 - 🎥 [**Academic Presentations**](resources/academic-presentations.md)
 

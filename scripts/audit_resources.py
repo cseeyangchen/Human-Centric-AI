@@ -26,9 +26,9 @@ def main() -> None:
     errors: list[str] = []
     markdown_paths = {
         "README": repo_root / "README.md",
-        "research lists": repo_root / "resources" / "awesome-human-centric-research-lists.md",
+        "awesome research": repo_root / "resources" / "awesome-research.md",
         "survey resources": repo_root / "resources" / "awesome-human-centric-ai-survey-resources.md",
-        "workshops": repo_root / "resources" / "workshops.md",
+        "workshop collections": repo_root / "resources" / "workshop-collections.md",
     }
     markdown: dict[str, str] = {}
     for label, path in markdown_paths.items():
@@ -38,9 +38,9 @@ def main() -> None:
         else:
             markdown[label] = path.read_text(encoding="utf-8")
     readme = markdown["README"]
-    research_lists = markdown["research lists"]
+    research_lists = markdown["awesome research"]
     survey_resources = markdown["survey resources"]
-    workshops = markdown["workshops"]
+    workshops = markdown["workshop collections"]
     papers = survey_resources.split('<a id="paper-resources"></a>', 1)[-1].split(
         '<a id="datasets-and-benchmarks"></a>', 1
     )[0]
@@ -158,8 +158,8 @@ def main() -> None:
         errors.append("Dataset-resource table count does not match Chapter 7 organization")
 
     required_root_links = [
-        "resources/awesome-human-centric-research-lists.md",
-        "resources/workshops.md",
+        "resources/awesome-research.md",
+        "resources/workshop-collections.md",
     ]
     for link in required_root_links:
         if link not in readme:

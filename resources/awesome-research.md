@@ -1,6 +1,6 @@
 <p align="center"><a href="../README.md">&larr; Back to the main README</a></p>
 
-# 📚 Awesome Human-Centric AI Research
+# 📚 Awesome Research
 
 This page collects maintained paper lists and resource indexes spanning human-centric AI, digital humans, human motion, interaction, sensing, and humanoid intelligence.
 
