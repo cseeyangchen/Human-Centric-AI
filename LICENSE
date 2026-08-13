@@ -16,8 +16,7 @@ License. See [`LICENSES/MIT.txt`](LICENSES/MIT.txt).
 The following original materials are licensed under the Creative Commons
 Attribution 4.0 International License (CC BY 4.0):
 
-- documentation and editorial content in `README.md`, `CONTRIBUTING.md`, and
-  `resources/`;
+- documentation and editorial content in `README.md` and `resources/`;
 - original curated metadata and database organization in `data/`;
 - original editorial text presented through the project homepage; and
 - the authorized survey figures listed below:

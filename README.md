@@ -2,13 +2,16 @@
 
 <p align="center"><b>An open, community-driven hub for human-centric AI.</b></p>
 
-<p align="center"><a href="https://awesome.re"><img src="https://img.shields.io/badge/Awesome-fc60a8?logo=awesomelists&logoColor=white" alt="Awesome"></a> <a href="https://cseeyangchen.github.io/Human-Centric-AI/homepage/"><img src="https://img.shields.io/badge/Homepage-2f766f?logo=homeassistant&logoColor=white" alt="Homepage"></a> <img src="https://komarev.com/ghpvc/?username=cseeyangchen-Human-Centric-AI&label=Visitors&color=2563eb&style=flat" alt="Visitors"> <a href="https://github.com/cseeyangchen/Human-Centric-AI/stargazers"><img src="https://img.shields.io/github/stars/cseeyangchen/Human-Centric-AI?label=Stars&logo=github&color=f59e0b" alt="Stars"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/forks"><img src="https://img.shields.io/github/forks/cseeyangchen/Human-Centric-AI?label=Forks&logo=github&color=0f766e" alt="Forks"></a> <img src="https://img.shields.io/badge/arXiv-Survey-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"> <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/commits/main"><img src="https://img.shields.io/github/last-commit/cseeyangchen/Human-Centric-AI?label=Last%20updated&color=64748b" alt="Last updated"></a></p>
+<p align="center"><a href="https://awesome.re"><img src="https://img.shields.io/badge/Awesome-fc60a8?logo=awesomelists&logoColor=white" alt="Awesome"></a> <a href="https://cseeyangchen.github.io/Human-Centric-AI/homepage/"><img src="https://img.shields.io/badge/Homepage-2f766f?logo=homeassistant&logoColor=white" alt="Homepage"></a> <img src="https://komarev.com/ghpvc/?username=cseeyangchen-Human-Centric-AI&label=Visitors&color=2563eb&style=flat" alt="Visitors"> <a href="https://github.com/cseeyangchen/Human-Centric-AI"><img src="https://img.shields.io/github/stars/cseeyangchen/Human-Centric-AI?label=Stars&logo=github&color=f59e0b" alt="Stars"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/forks"><img src="https://img.shields.io/github/forks/cseeyangchen/Human-Centric-AI?label=Forks&logo=github&color=0f766e" alt="Forks"></a> <img src="https://img.shields.io/badge/arXiv-Survey-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"> <a href="https://github.com/cseeyangchen/Human-Centric-AI/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/commits/main"><img src="https://img.shields.io/github/last-commit/cseeyangchen/Human-Centric-AI?label=Last%20updated&color=64748b" alt="Last updated"></a></p>
 
 <p align="center">
   <img src="assets/survey-overview.png" width="100%" alt="Overview of Human-Centric Intelligence in the Era of Foundation Models">
 </p>
 
-This repository is organized around the six-level framework introduced in **Human-Centric Intelligence in the Era of Foundation Models: A Survey**. Beyond preserving the survey bibliography, it is intended as an evolving community resource for discovering research artifacts and tracking new progress in human-centric AI.
+Human-Centric AI Resources is an open and evolving hub that brings together academic knowledge, research infrastructure, community learning materials, and curated literature across human-centric AI. The accompanying survey provides a structured perspective through its six-level human context taxonomy, while this repository extends beyond the survey to support broader resource discovery and community curation.
+
+> [!TIP]
+> **Join the community.** We welcome everyone interested in human-centric AI to help maintain and enrich this open resource hub. If you are interested in getting involved, feel free to contact us using the details at the bottom of this page.
 
 <a id="news"></a>
 
@@ -46,7 +49,7 @@ This repository is organized around the six-level framework introduced in **Huma
 
 <a id="community-learning-hubs"></a>
 
-## 🧭 Community Learning Hubs
+## 🌐 Community Learning Hubs
 
 - 🧑 [**LearningHumans**](https://github.com/IsshikiHugh/LearningHumans)
 - 🏃 [**LearningMotion**](https://github.com/phj128/LearningMotion)
