@@ -1986,9 +1986,9 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         "",
         "- [News](#news)",
         "- [Academic Knowledge](#academic-knowledge)",
-        "- [Contributing](#contributing)",
         "- [Citation](#citation)",
         "- [Contact](#contact)",
+        "- [License](#license)",
         "",
         '<a id="academic-knowledge"></a>',
         "",
@@ -2126,18 +2126,6 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
 
     lines.extend(
         [
-            '<a id="contributing"></a>',
-            "",
-            "## 🤝 Contributing",
-            "",
-            "Corrections and additions are welcome. Please open an issue or pull request and include the paper title, category, publication venue, paper page, and project or code link.",
-            "<!-- See [CONTRIBUTING.md](CONTRIBUTING.md) for the expected format. -->",
-            "",
-        ]
-    )
-
-    lines.extend(
-        [
             '<a id="citation"></a>',
             "",
             "## ✍️ Citation",
@@ -2152,11 +2140,16 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
             "",
             "## 📧 Contact",
             "",
-            "For any questions or suggestions, please contact **Yang Chen** at [cs-yang.chen@connect.polyu.hk](mailto:cs-yang.chen@connect.polyu.hk).",
+            "For questions, suggestions, or collaboration inquiries, please contact the project lead, **Yang Chen**:",
             "",
-            "## 🙏 Acknowledgment",
+            "- **Email:** [cs-yang.chen@connect.polyu.hk](mailto:cs-yang.chen@connect.polyu.hk)",
+            "- **WeChat:** `cs-yangchen` (please include your name, institutional affiliation, and reason for contacting in the friend request)",
             "",
-            "This repository indexes third-party research artifacts. Copyright and licenses remain with the original authors and project maintainers.",
+            '<a id="license"></a>',
+            "",
+            "## 📜 License",
+            "",
+            "Source code is licensed under the [MIT License](LICENSES/MIT.txt). Original documentation, curated resource metadata, and the authorized survey figures are licensed under [CC BY 4.0](LICENSES/CC-BY-4.0.txt). Logos, unlisted visual assets, and third-party materials may be subject to separate terms. See [LICENSE](LICENSE) and [Third-Party Notices](homepage/THIRD_PARTY_NOTICES.md) for the complete scope.",
             "",
             "---",
             "",

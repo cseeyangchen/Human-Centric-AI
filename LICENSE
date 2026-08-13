@@ -1,0 +1,48 @@
+# Licensing
+
+Copyright (c) 2026 Human-Centric AI Resources contributors.
+
+This repository uses separate licenses for software and original resource
+content. Unless a file states otherwise, the following terms apply.
+
+## Software: MIT License
+
+The source code in `scripts/` and the software portions of `homepage/`,
+including its HTML structure, CSS, and JavaScript, are licensed under the MIT
+License. See [`LICENSES/MIT.txt`](LICENSES/MIT.txt).
+
+## Content and curated metadata: CC BY 4.0
+
+The following original materials are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0):
+
+- documentation and editorial content in `README.md`, `CONTRIBUTING.md`, and
+  `resources/`;
+- original curated metadata and database organization in `data/`;
+- original editorial text presented through the project homepage; and
+- the authorized survey figures listed below:
+  - `assets/survey-overview.png`;
+  - `assets/survey-teaser.png`; and
+  - `assets/human-context-tasks.png`.
+
+See [`LICENSES/CC-BY-4.0.txt`](LICENSES/CC-BY-4.0.txt).
+
+When reusing a survey figure, please attribute the authors of
+*Human-Centric Intelligence in the Era of Foundation Models: A Survey* and
+link to this repository until the public paper record is available.
+
+## Exclusions and third-party material
+
+The licenses above do not grant rights to:
+
+- the project logo, wordmark, other images, or icons under `assets/` unless
+  they are expressly listed above or carry their own license notice;
+- papers, datasets, benchmarks, repositories, websites, or other external
+  resources indexed or linked by this repository; or
+- third-party code, designs, images, trademarks, and other materials included
+  under separate terms.
+
+Those materials remain subject to the rights and license terms of their
+respective owners. Third-party components used by the homepage are documented
+in [`homepage/THIRD_PARTY_NOTICES.md`](homepage/THIRD_PARTY_NOTICES.md), and
+all applicable attribution and notice requirements must be preserved.

@@ -41,3 +41,16 @@ python3 scripts/build_readme.py --survey-root /path/to/survey/source
 ```
 
 Please do not edit generated tables in `resources/awesome-human-centric-ai-survey-resources.md` without updating the corresponding structured source.
+
+## Licensing Contributions
+
+By submitting a contribution, you agree that it may be distributed under the
+license applicable to the files you modify, as described in `LICENSE`:
+
+- software contributions are licensed under the MIT License; and
+- original documentation, resource descriptions, curated metadata, and
+  authorized survey figures are licensed under CC BY 4.0.
+
+Only submit material that you have the right to contribute. Identify any
+third-party material and preserve its copyright, attribution, and license
+notices.
