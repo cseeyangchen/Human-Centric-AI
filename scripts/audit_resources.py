@@ -37,6 +37,14 @@ def main() -> None:
             markdown[label] = ""
         else:
             markdown[label] = path.read_text(encoding="utf-8")
+    required_infrastructure_pages = [
+        "resources/human-models-and-toolkits.md",
+        "resources/practical-tools.md",
+        "resources/simulation-and-evaluation.md",
+    ]
+    for relative in required_infrastructure_pages:
+        if not (repo_root / relative).is_file():
+            errors.append(f"Missing infrastructure page: {relative}")
     readme = markdown["README"]
     research_lists = markdown["awesome research"]
     survey_resources = markdown["survey resources"]
@@ -122,6 +130,22 @@ def main() -> None:
     if "[Paper](" in readme:
         errors.append("README still contains generated resource rows")
 
+    required_resource_links = [
+        "#academic-knowledge",
+        "#research-infrastructure",
+        "#community-learning-hubs",
+        "resources/awesome-research.md",
+        "resources/workshop-collections.md",
+        "resources/open-courseware.md",
+        "resources/academic-presentations.md",
+        "resources/human-models-and-toolkits.md",
+        "resources/practical-tools.md",
+        "resources/simulation-and-evaluation.md",
+    ]
+    for link in required_resource_links:
+        if link not in readme:
+            errors.append(f"README resource navigation is missing link: {link}")
+
     expected_method_details = len(build_readme.METHOD_LEVELS) + sum(
         len(categories) for categories in build_readme.METHOD_LEVELS.values()
     )
@@ -160,6 +184,9 @@ def main() -> None:
     required_root_links = [
         "resources/awesome-research.md",
         "resources/workshop-collections.md",
+        "resources/human-models-and-toolkits.md",
+        "resources/practical-tools.md",
+        "resources/simulation-and-evaluation.md",
     ]
     for link in required_root_links:
         if link not in readme:

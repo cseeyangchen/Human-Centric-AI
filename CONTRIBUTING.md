@@ -10,6 +10,7 @@ Please open an issue or pull request for:
 - an incorrect title, venue, year, or category;
 - a broken paper, project, code, or dataset link;
 - a duplicate entry or a resource that has moved.
+- a reusable practical tool or independently maintained learning hub.
 
 ## Required Information
 
@@ -26,11 +27,25 @@ Code or dataset page:
 Reason for inclusion or correction:
 ```
 
+For practical tools or learning hubs, replace the paper-specific fields with:
+
+```text
+Resource name:
+Official URL:
+Resource type: Practical Tool or Learning Hub
+Primary workflow or learning scope:
+Interface or learning format:
+License and access notes:
+Reason for inclusion:
+```
+
 ## Category Guide
 
 Method papers should use one of the fourteen categories under the six human context levels in `resources/awesome-human-centric-ai-survey-resources.md`. Datasets and benchmarks should follow the sixteen resource categories in the same file used in Chapter 7 of the survey.
 
 When a work spans several categories, select its primary contribution and mention any secondary category in the pull-request description. Existing survey entries may remain in multiple categories when the manuscript explicitly discusses them in more than one context.
+
+Practical tools should support a reusable research workflow beyond one paper implementation. Learning hubs should organize multiple concepts or exercises into a maintained self-study entry point. Formal multi-lecture courses belong under Open Courseware, while individual talks and tutorials belong under Academic Presentations.
 
 ## Repository Maintenance
 

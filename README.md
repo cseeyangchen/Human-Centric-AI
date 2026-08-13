@@ -21,6 +21,8 @@ This repository is organized around the six-level framework introduced in **Huma
 
 - [News](#news)
 - [Academic Knowledge](#academic-knowledge)
+- [Research Infrastructure](#research-infrastructure)
+- [Community Learning Hubs](#community-learning-hubs)
 - [Citation](#citation)
 - [Contact](#contact)
 - [License](#license)
@@ -29,10 +31,26 @@ This repository is organized around the six-level framework introduced in **Huma
 
 ## 🎓 Academic Knowledge
 
-- 📚 [**Awesome Research**](resources/awesome-research.md)
-- 🧑‍🏫 [**Workshop Collections**](resources/workshop-collections.md)
+- 🔭 [**Awesome Research**](resources/awesome-research.md)
+- 🎟️ [**Workshop Collections**](resources/workshop-collections.md)
 - 📖 [**Open Courseware**](resources/open-courseware.md)
-- 🎥 [**Academic Presentations**](resources/academic-presentations.md)
+- 🎙️ [**Academic Presentations**](resources/academic-presentations.md)
+
+<a id="research-infrastructure"></a>
+
+## 🧰 Research Infrastructure
+
+- 🧍 [**Human Models and Toolkits**](resources/human-models-and-toolkits.md)
+- 🔧 [**Practical Tools**](resources/practical-tools.md)
+- 🧪 [**Simulation and Evaluation**](resources/simulation-and-evaluation.md)
+
+<a id="community-learning-hubs"></a>
+
+## 🧭 Community Learning Hubs
+
+- 🧑 [**LearningHumans**](https://github.com/IsshikiHugh/LearningHumans)
+- 🏃 [**LearningMotion**](https://github.com/phj128/LearningMotion)
+- 📘 [**Meshcapade Body Modeling Wiki**](https://github.com/Meshcapade/wiki)
 
 <a id="citation"></a>
 

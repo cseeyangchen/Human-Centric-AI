@@ -2,11 +2,11 @@
 
 # 📖 Open Courseware
 
-This page collects publicly accessible courses with coherent, multi-lecture curricula related to human-centric AI. The collection spans digital humans, human motion, human feedback, embodied intelligence, humanoid systems, and human-robot interaction.
+This page collects publicly accessible courses and full-length instructional tutorials with coherent curricula related to human-centric AI. The collection spans digital humans, human motion, activity recognition, human feedback, embodied intelligence, humanoid systems, and human-robot interaction.
 
 Individual tutorials, keynotes, seminars, and invited lectures are collected separately under [Academic Presentations](academic-presentations.md).
 
-> **Inclusion scope.** A resource is included when it offers a sustained curriculum across multiple classes or modules and provides meaningful public learning materials, such as lecture videos, slides, assignments, readings, or practical exercises.
+> **Inclusion scope.** A resource is included when it offers a sustained curriculum across multiple classes or a coherent full-length tutorial with meaningful public learning materials, such as videos, slides, assignments, readings, notebooks, or practical exercises.
 
 ## Human Modeling, Avatars, and Motion
 
@@ -72,6 +72,26 @@ A focused course on human motion representations, pose and motion models, tracki
 **Access:** Syllabus, readings, mini-projects, and final-project materials
 
 A mathematically oriented course on simulation, analysis, and control of dynamic systems, with an emphasis on human motion, physics simulation, character control, and statistical motion modeling.
+
+### [SMPL Made Simple](https://smpl-made-simple.is.tuebingen.mpg.de/)
+
+**Offering:** CVPR 2021 full-day tutorial<br>
+**Instructors:** Naureen Mahmood, Timo Bolkart, Ahmed A. A. Osman, Joachim Tesch, Dimitrios Tzionas, Michael J. Black, and invited speakers<br>
+**Access:** [Tutorial website and recordings](https://smpl-made-simple.is.tuebingen.mpg.de/)<br>
+**Materials:** Recorded presentations, slides, frequently asked questions, implementation guidance, and application examples
+
+A comprehensive tutorial on the foundations and practical use of SMPL and related body models. It connects model construction and fitting with datasets, software integration, reconstruction, neural rendering, scene interaction, clothing, health, and visual imitation.
+
+## Human Activity Recognition and Sensing
+
+### [Deep Learning for Human Activity Recognition](https://mariusbock.github.io/dl-for-har/)
+
+**Offering:** ISWC and UbiComp 2021 tutorial<br>
+**Instructors:** Marius Bock, Alexander Hölzemann, Michael Möller, and Kristof Van Laerhoven<br>
+**Access:** [Tutorial website](https://mariusbock.github.io/dl-for-har/) | [Tutorial paper](https://arxiv.org/abs/2110.06663)<br>
+**Materials:** Slides, Jupyter notebooks, Google Colab exercises, data-processing examples, and evaluation exercises
+
+A hands-on introduction to building deep-learning pipelines for sensor-based human activity recognition. It follows the complete workflow from dataset inspection and preprocessing to model design, validation, testing, and reproducible evaluation.
 
 ## Human Feedback and Human-AI Interaction
 
