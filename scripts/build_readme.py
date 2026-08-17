@@ -100,6 +100,16 @@ AWESOME_RESEARCH_LISTS = OrderedDict(
                     "repository",
                 ),
                 (
+                    "Deep Learning-based Human Pose Estimation: A Survey",
+                    "https://github.com/zczcwh/DL-HPE",
+                    "repository",
+                ),
+                (
+                    "Recovering 3D Human Mesh from Monocular Images: A Survey",
+                    "https://github.com/tinatiansjz/hmr-survey",
+                    "repository",
+                ),
+                (
                     "Awesome Human Video Generation",
                     "https://github.com/wentaoL86/Awesome-Human-Video-Generation",
                     "repository",
@@ -147,6 +157,11 @@ AWESOME_RESEARCH_LISTS = OrderedDict(
         (
             "Human Interaction and Mobility",
             [
+                (
+                    "Hand-Object Interaction in the Age of Large Foundation Models: Reconstruction, Generation, and Embodied Transfer",
+                    "https://github.com/SeanChenxy/Hand3DResearch/tree/hoi-survey",
+                    "repository",
+                ),
                 (
                     "Awesome Human-Agent Collaboration and Interaction Systems",
                     "https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems",

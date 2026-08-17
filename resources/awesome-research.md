@@ -15,6 +15,8 @@ This page collects maintained paper lists and resource indexes spanning human-ce
 
 - **Awesome Digital Human**: [repository](https://github.com/weihaox/awesome-digital-human).
 - **Awesome 3D Human Reconstruction**: [repository](https://github.com/rlczddl/awesome-3d-human-reconstruction).
+- **Deep Learning-based Human Pose Estimation: A Survey**: [repository](https://github.com/zczcwh/DL-HPE).
+- **Recovering 3D Human Mesh from Monocular Images: A Survey**: [repository](https://github.com/tinatiansjz/hmr-survey).
 - **Awesome Human Video Generation**: [repository](https://github.com/wentaoL86/Awesome-Human-Video-Generation).
 - **Awesome Pose Transfer**: [repository](https://github.com/Zhangjinso/Awesome-pose-transfer).
 - **Awesome Avatars**: [repository](https://github.com/pansanity666/Awesome-Avatars).
@@ -31,6 +33,7 @@ This page collects maintained paper lists and resource indexes spanning human-ce
 
 ## Human Interaction and Mobility
 
+- **Hand-Object Interaction in the Age of Large Foundation Models: Reconstruction, Generation, and Embodied Transfer**: [repository](https://github.com/SeanChenxy/Hand3DResearch/tree/hoi-survey).
 - **Awesome Human-Agent Collaboration and Interaction Systems**: [repository](https://github.com/HenryPengZou/Awesome-Human-Agent-Collaboration-Interaction-Systems).
 - **Awesome Human-Human Interaction**: [repository](https://github.com/liangxuy/awesome-human-human-interaction).
 - **Awesome Human Mobility Science Paper List**: [repository](https://github.com/Star607/Awesome-Human-Mobility-Science-Paper-List).
