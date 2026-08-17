@@ -1425,6 +1425,7 @@ def build_record(key: str, bib: dict[str, dict[str, str]], metadata: dict[str, d
     table_venue = meta.get("meta_venue") if resource and meta.get("meta_venue") else meta.get("venue", "")
     record = {
         "bibkey": key,
+        "name": meta.get("name") or title_prefix(title),
         "title": title,
         "year": year,
         "venue": normalize_venue(table_venue or "", entry),
@@ -1432,14 +1433,14 @@ def build_record(key: str, bib: dict[str, dict[str, str]], metadata: dict[str, d
         "websites": website_links(meta.get("web_links", [])),
     }
     if resource:
-        record["name"] = meta.get("name") or title_prefix(title)
         record["type"] = infer_resource_type(title, meta.get("resource_type"))
     return record
 
 
 def record_sort_key(record: dict) -> tuple[int, str]:
+    venue_years = [int(year) for year in re.findall(r"\b20\d{2}\b", record.get("venue", ""))]
     year_match = re.search(r"\d{4}", record.get("year", ""))
-    year = int(year_match.group()) if year_match else 0
+    year = max(venue_years) if venue_years else (int(year_match.group()) if year_match else 0)
     return (-year, record.get("title", "").lower())
 
 
@@ -1448,28 +1449,37 @@ def md_escape(value: str) -> str:
 
 
 def paper_link(url: str) -> str:
-    return f"[Paper]({url})" if url else "-"
+    return f'[:page_facing_up:]({url} "Paper page")' if url else "-"
 
 
 def web_link_cell(websites: list[dict[str, str]]) -> str:
     if not websites:
         return "-"
     labels = {
-        "github": ":octocat: GitHub",
-        "homepage": ":house: Homepage",
-        "huggingface": "🤗 Hugging Face",
+        "github": ":octocat:",
+        "homepage": ":house:",
+        "huggingface": "🤗",
     }
-    return " / ".join(f"[{labels[item['kind']]}]({item['url']})" for item in websites)
+    tooltips = {
+        "github": "GitHub",
+        "homepage": "Homepage",
+        "huggingface": "Hugging Face",
+    }
+    return " ".join(
+        f'[{labels[item["kind"]]}]({item["url"]} "{tooltips[item["kind"]]}")'
+        for item in websites
+    )
 
 
 def method_table(records: list[dict]) -> str:
     lines = [
-        "| Paper | Venue | Paper Page | Website |",
-        "|---|:---:|:---:|:---:|",
+        "| Method | Paper | Venue | Paper Page | Website |",
+        "|---|---|:---:|:---:|:---:|",
     ]
     for record in records:
         lines.append(
-            "| {title} | {venue} | {paper} | {website} |".format(
+            "| {name} | {title} | {venue} | {paper} | {website} |".format(
+                name=md_escape(record["name"]),
                 title=md_escape(record["title"]),
                 venue=md_escape(record["venue"]),
                 paper=paper_link(record["paper_url"]),
@@ -1481,15 +1491,15 @@ def method_table(records: list[dict]) -> str:
 
 def resource_table(records: list[dict]) -> str:
     lines = [
-        "| Resource | Type | Year | Paper | Paper Page | Website |",
+        "| Resource | Type | Venue | Paper | Paper Page | Website |",
         "|---|:---:|:---:|---|:---:|:---:|",
     ]
     for record in records:
         lines.append(
-            "| {name} | {type} | {year} | {title} | {paper} | {website} |".format(
+            "| {name} | {type} | {venue} | {title} | {paper} | {website} |".format(
                 name=md_escape(record["name"]),
                 type=md_escape(record["type"]),
-                year=md_escape(record["year"] or "-"),
+                venue=md_escape(record["venue"]),
                 title=md_escape(record["title"]),
                 paper=paper_link(record["paper_url"]),
                 website=web_link_cell(record["websites"]),
@@ -2239,7 +2249,6 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         "README.md": "\n".join(lines),
         "resources/awesome-research.md": render_research_lists_page(),
         "resources/awesome-human-centric-ai-survey-resources.md": "\n".join(paper_lines + dataset_lines),
-        "resources/open-courseware.md": render_open_courseware_page(),
         "resources/academic-presentations.md": render_academic_presentations_page(),
         "resources/workshop-collections.md": render_workshop_page(),
     }
@@ -2385,7 +2394,7 @@ def main() -> None:
 
     repo_root = args.repo_root.resolve()
     overrides: dict[str, dict] = {}
-    for filename in ("link_overrides.json", "website_overrides.json"):
+    for filename in ("link_overrides.json", "website_overrides.json", "venue_overrides.json"):
         overrides_path = repo_root / "data" / filename
         if not overrides_path.exists():
             continue

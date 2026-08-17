@@ -115,19 +115,20 @@ def main() -> None:
     expected_method_rows = index["summary"]["categorized_method_entries"]
     expected_resource_rows = index["summary"]["categorized_resource_entries"]
     expected_rows = expected_method_rows + expected_resource_rows
-    if papers.count("[Paper](") != expected_method_rows:
+    paper_icon = "[:page_facing_up:]("
+    if papers.count(paper_icon) != expected_method_rows:
         errors.append(
             "Paper-resource row/link mismatch: expected {}, found {}".format(
-                expected_method_rows, papers.count("[Paper](")
+                expected_method_rows, papers.count(paper_icon)
             )
         )
-    if datasets.count("[Paper](") != expected_resource_rows:
+    if datasets.count(paper_icon) != expected_resource_rows:
         errors.append(
             "Dataset-resource row/link mismatch: expected {}, found {}".format(
-                expected_resource_rows, datasets.count("[Paper](")
+                expected_resource_rows, datasets.count(paper_icon)
             )
         )
-    if "[Paper](" in readme:
+    if paper_icon in readme:
         errors.append("README still contains generated resource rows")
 
     required_resource_links = [
@@ -172,11 +173,11 @@ def main() -> None:
         if content.count("<details>") != content.count("</details>"):
             errors.append(f"{label.title()} contains unbalanced details blocks")
 
-    if papers.count("| Paper | Venue | Paper Page | Website |") != sum(
+    if papers.count("| Method | Paper | Venue | Paper Page | Website |") != sum(
         len(categories) for categories in build_readme.METHOD_LEVELS.values()
     ):
         errors.append("Paper-resource table count does not match the taxonomy")
-    if datasets.count("| Resource | Type | Year | Paper | Paper Page | Website |") != sum(
+    if datasets.count("| Resource | Type | Venue | Paper | Paper Page | Website |") != sum(
         len(categories) for categories in build_readme.DATA_GROUPS.values()
     ):
         errors.append("Dataset-resource table count does not match Chapter 7 organization")
