@@ -44,6 +44,34 @@ DATA_GROUP_ICONS = {
     "Human Embodiment Resources": "assets/resource-icons/human-embodiment-resources.png",
 }
 
+# Some works are discussed outside the main method prose but still belong in
+# the survey resource index. Apply these corrections after automatic parsing.
+METHOD_CATEGORY_OVERRIDES = {
+    "li2026humanclaw": "Generalist Humanoid Control",
+}
+
+# Official links that appeared in the manuscript or earlier metadata but no
+# longer resolve. Replacements are supplied through website_overrides.json
+# when the authors provide a current location.
+DEAD_WEBSITE_URLS = {
+    "https://cuiaiyu.github.io/streettryon",
+    "https://github.com/arthoi-reconstruction/arthoi",
+    "https://github.com/cyan-c/mt2m",
+    "https://github.com/msed-ebrahimi/gif",
+    "https://github.com/yanghfu/sigman",
+    "https://hot3d.github.io",
+    "https://jnnan.github.io/project/chairs",
+    "https://lsn33096.github.io/lucas",
+    "https://maoxie.github.io/synbody",
+    "https://ntu-aiot-lab.github.io/mm-fi",
+    "https://rohithpeddi.github.io/captaincook",
+    "https://robotdata-market.jdcloud.com/console/market",
+    "https://shandaai.github.io/project_mio_page",
+    "https://sizhean.github.io/mri",
+    "https://sunzhihao18.github.io/handworld",
+    "https://yanghfu.github.io/sigman",
+}
+
 
 AWESOME_RESEARCH_LISTS = OrderedDict(
     [
@@ -1219,6 +1247,7 @@ def parse_all_table_rows(path: Path) -> dict[str, dict]:
 def merge_metadata(existing: dict | None, incoming: dict) -> dict:
     if not existing:
         return {
+            "title": incoming.get("title", ""),
             "name": incoming.get("name", ""),
             "venue": incoming.get("venue", ""),
             "paper_links": list(incoming.get("paper_links", [])),
@@ -1227,7 +1256,7 @@ def merge_metadata(existing: dict | None, incoming: dict) -> dict:
             "meta_venue": incoming.get("meta_venue", ""),
         }
     merged = dict(existing)
-    for field in ("name", "venue", "resource_type", "meta_venue"):
+    for field in ("title", "name", "venue", "resource_type", "meta_venue"):
         if not merged.get(field) and incoming.get(field):
             merged[field] = incoming[field]
     for field in ("paper_links", "web_links"):
@@ -1235,14 +1264,27 @@ def merge_metadata(existing: dict | None, incoming: dict) -> dict:
     return merged
 
 
+def strip_float_environments(text: str) -> str:
+    """Remove floats whose citations describe illustrations rather than methods."""
+    for environment in ("figure", "figure*", "wrapfigure", "table", "table*", "wraptable"):
+        text = re.sub(
+            rf"\\begin\{{{re.escape(environment)}\}}.*?\\end\{{{re.escape(environment)}\}}",
+            "",
+            text,
+            flags=re.S,
+        )
+    return text
+
+
 def extract_subsubsection_citations(path: Path, allowed: set[str]) -> tuple[dict[str, set[str]], set[str]]:
-    text = strip_comments(path.read_text(encoding="utf-8"))
+    text = strip_float_environments(strip_comments(path.read_text(encoding="utf-8")))
     matches = list(re.finditer(r"\\subsubsection\{([^}]+)\}", text))
     result = {name: set() for name in allowed}
     assigned: set[str] = set()
     for index, match in enumerate(matches):
         title = latex_to_text(match.group(1))
-        end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+        next_heading = re.search(r"\\(?:subsubsection|subsection|section)\{", text[match.end() :])
+        end = match.end() + next_heading.start() if next_heading else len(text)
         if title not in allowed:
             continue
         keys = set(citation_keys(text[match.end() : end]))
@@ -1357,19 +1399,26 @@ def website_links(links: Iterable[str]) -> list[dict[str, str]]:
     seen = set()
     for url in (link for link in links if link.startswith("http")):
         canonical = url.rstrip("/").removesuffix(".git").lower()
+        if canonical in DEAD_WEBSITE_URLS:
+            continue
         if canonical in seen:
             continue
         seen.add(canonical)
         host = urllib.parse.urlparse(url).netloc.lower()
-        label = "Code" if "github.com" in host or "gitlab" in host else "Project"
-        result.append({"label": label, "url": url})
+        if "github.com" in host or "gitlab" in host:
+            kind = "github"
+        elif "huggingface.co" in host:
+            kind = "huggingface"
+        else:
+            kind = "homepage"
+        result.append({"kind": kind, "url": url})
     return result
 
 
 def build_record(key: str, bib: dict[str, dict[str, str]], metadata: dict[str, dict], resource: bool) -> dict:
     entry = bib.get(key, {})
     meta = metadata.get(key, {})
-    title = latex_to_text(entry.get("title", "")) or meta.get("name") or key
+    title = meta.get("title") or latex_to_text(entry.get("title", "")) or meta.get("name") or key
     paper_links = meta.get("paper_links", [])
     paper_url = paper_links[0] if paper_links else bib_paper_url(entry)
     year = latex_to_text(entry.get("year", ""))
@@ -1405,7 +1454,12 @@ def paper_link(url: str) -> str:
 def web_link_cell(websites: list[dict[str, str]]) -> str:
     if not websites:
         return "-"
-    return " / ".join(f"[{item['label']}]({item['url']})" for item in websites)
+    labels = {
+        "github": ":octocat: GitHub",
+        "homepage": ":house: Homepage",
+        "huggingface": "🤗 Hugging Face",
+    }
+    return " / ".join(f"[{labels[item['kind']]}]({item['url']})" for item in websites)
 
 
 def method_table(records: list[dict]) -> str:
@@ -2216,6 +2270,11 @@ def build_index(survey_root: Path, overrides: dict[str, dict] | None = None) -> 
         for key, meta in active_meta.items():
             all_table_metadata[key] = merge_metadata(all_table_metadata.get(key), meta)
 
+    for key, category in METHOD_CATEGORY_OVERRIDES.items():
+        for keys in method_keys.values():
+            keys.discard(key)
+        method_keys[category].add(key)
+
     evaluation_text = (survey_root / "sections/7_evaluation.tex").read_text(encoding="utf-8")
     data_keys = extract_marked_citations(
         evaluation_text,
@@ -2245,6 +2304,7 @@ def build_index(survey_root: Path, overrides: dict[str, dict] | None = None) -> 
     # links can refine automatically parsed table metadata without touching TeX.
     for key, override in (overrides or {}).items():
         override_meta = {
+            "title": override.get("title", ""),
             "paper_links": [override["paper_url"]] if override.get("paper_url") else [],
             "web_links": override.get("websites", []),
             "name": override.get("name", ""),
@@ -2253,7 +2313,7 @@ def build_index(survey_root: Path, overrides: dict[str, dict] | None = None) -> 
             "meta_venue": override.get("venue", ""),
         }
         merged = merge_metadata(all_table_metadata.get(key), override_meta)
-        for field in ("name", "resource_type", "venue", "meta_venue"):
+        for field in ("title", "name", "resource_type", "venue", "meta_venue"):
             if override_meta.get(field):
                 merged[field] = override_meta[field]
         all_table_metadata[key] = merged
@@ -2324,8 +2384,13 @@ def main() -> None:
     args = parser.parse_args()
 
     repo_root = args.repo_root.resolve()
-    overrides_path = repo_root / "data" / "link_overrides.json"
-    overrides = json.loads(overrides_path.read_text(encoding="utf-8")) if overrides_path.exists() else {}
+    overrides: dict[str, dict] = {}
+    for filename in ("link_overrides.json", "website_overrides.json"):
+        overrides_path = repo_root / "data" / filename
+        if not overrides_path.exists():
+            continue
+        for key, value in json.loads(overrides_path.read_text(encoding="utf-8")).items():
+            overrides[key] = {**overrides.get(key, {}), **value}
     index = build_index(args.survey_root.resolve(), overrides)
     (repo_root / "data").mkdir(parents=True, exist_ok=True)
     (repo_root / "data" / "resources.json").write_text(

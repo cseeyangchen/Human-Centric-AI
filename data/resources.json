@@ -1,10 +1,10 @@
 {
-  "generated_on": "2026-08-12",
+  "generated_on": "2026-08-17",
   "summary": {
-    "unique_method_papers": 220,
-    "categorized_method_entries": 233,
-    "unique_resources": 158,
-    "categorized_resource_entries": 158
+    "unique_method_papers": 225,
+    "categorized_method_entries": 229,
+    "unique_resources": 163,
+    "categorized_resource_entries": 163
   },
   "method_papers": {
     "Visual Appearance": {
@@ -17,7 +17,7 @@
           "paper_url": "https://openreview.net/forum?id=IVAlYCqdvW",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/facebookresearch/sapiens2"
             }
           ]
@@ -38,7 +38,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Saleh_DAViD_Data-efficient_and_Accurate_Vision_Models_from_Synthetic_Data_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/microsoft/DAViD"
             }
           ]
@@ -51,7 +51,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Narayan_FaceXFormer_A_Unified_Transformer_for_Facial_Analysis_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Kartik-3004/facexformer"
             }
           ]
@@ -64,7 +64,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_FSFM_A_Generalizable_Face_Security_Foundation_Model_via_Self-Supervised_Facial_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/wolo-wolo/FSFM-CVPR25"
             }
           ]
@@ -85,7 +85,7 @@
           "paper_url": "https://arxiv.org/abs/2312.01697",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/OpenGVLab/Hulk"
             }
           ]
@@ -106,7 +106,7 @@
           "paper_url": "https://arxiv.org/abs/2503.08120",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/tulvgengenr/UniF2ace"
             }
           ]
@@ -127,7 +127,7 @@
           "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-73235-5_12",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/facebookresearch/sapiens"
             }
           ]
@@ -140,7 +140,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9ed1c94a6c87276f25ebb65231c86c3e-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/junkunyuan/HAP"
             }
           ]
@@ -153,13 +153,21 @@
           "paper_url": "http://openaccess.thecvf.com/content/CVPR2023/html/Tang_HumanBench_Towards_General_Human-Centric_Perception_With_Projector_Assisted_Pretraining_CVPR_2023_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/OpenGVLab/HumanBench"
             }
           ]
         }
       ],
       "Discriminative Identity Understanding": [
+        {
+          "bibkey": "su2026sapiensid",
+          "title": "SapiensID 2.0: Aligning Human Recognition Foundation Models with Human Perception",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.10497",
+          "websites": []
+        },
         {
           "bibkey": "niu2025chatreid",
           "title": "ChatReID: Open-ended Interactive Person Retrieval via Hierarchical Progressive Tuning for Vision Language Models",
@@ -174,12 +182,7 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ebrahimi_GIF_Generative_Inspiration_for_Face_Recognition_at_Scale_CVPR_2025_paper.html",
-          "websites": [
-            {
-              "label": "Code",
-              "url": "https://github.com/msed-Ebrahimi/GIF"
-            }
-          ]
+          "websites": []
         },
         {
           "bibkey": "he2025instruct",
@@ -189,7 +192,7 @@
           "paper_url": "https://arxiv.org/abs/2405.17790",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/hwz-zju/Instruct-ReID"
             }
           ]
@@ -202,7 +205,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/You_LVFace_Progressive_Cluster_Optimization_for_Large_Vision_Models_in_Face_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/bytedance/LVFace"
             }
           ]
@@ -215,7 +218,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Referring_to_Any_Person_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/IDEA-Research/RexSeek"
             }
           ]
@@ -228,7 +231,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/4d4dbc5c955c5d273eed12d565335068-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Zplusdragon/ReID5o_ORBench"
             }
           ]
@@ -241,7 +244,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kim_SapiensID_Foundation_for_Human_Recognition_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/mk-minchul/sapiensid"
             }
           ]
@@ -254,7 +257,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/He_Instruct-ReID_A_Multi-purpose_Person_Re-identification_Task_with_Instructions_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/hwz-zju/Instruct-ReID"
             }
           ]
@@ -267,7 +270,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/510ad3018bbdc5b6e3b10646e2e35771-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/zplusdragon/PLIP"
             }
           ]
@@ -280,7 +283,7 @@
           "paper_url": "https://arxiv.org/abs/2407.10125",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/BubblyYi/MMPedestron"
             }
           ]
@@ -295,8 +298,21 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bao_Archon_A_Unified_Multimodal_Model_for_Holistic_Digital_Human_Generation_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://zju3dv.github.io/archon/"
+            }
+          ]
+        },
+        {
+          "bibkey": "liu2026oxygen",
+          "title": "Oxygen-TryOn: Fashion-Native Foundation Model for Any-item Virtual Try-On",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.21694",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://oxygenvision.github.io/Oxygen-TryOn/"
             }
           ]
         },
@@ -306,7 +322,12 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2604.19748",
-          "websites": []
+          "websites": [
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/TaobaoTmall-AlgorithmProducts/Tstars-VTON"
+            }
+          ]
         },
         {
           "bibkey": "luo2025dreamactor",
@@ -316,7 +337,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Luo_DreamActor-M1_Holistic_Expressive_and_Robust_Human_Image_Animation_with_Hybrid_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://grisoon.github.io/DreamActor-M1/"
             }
           ]
@@ -329,7 +350,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_FoundHand_Large-Scale_Domain-Specific_Learning_for_Controllable_Hand_Image_Generation_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/arthurchen0518/FoundHand"
             }
           ]
@@ -342,7 +363,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Nam_Visual_Persona_Foundation_Model_for_Full-Body_Human_Customization_CVPR_2025_paper.pdf",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/cvlab-kaist/Visual-Persona"
             }
           ]
@@ -355,7 +376,7 @@
           "paper_url": "https://arxiv.org/abs/2508.04825",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://nxnai.github.io/Voost"
             }
           ]
@@ -368,7 +389,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_CosmicMan_A_Text-to-Image_Foundation_Model_for_Humans_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/cosmicman-cvpr2024/CosmicMan"
             }
           ]
@@ -381,7 +402,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2023W/CV4Metaverse/html/Cheong_UPGPT_Universal_Diffusion_Model_for_Person_Image_Generation_Editing_and_ICCVW_2023_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/soon-yau/upgpt"
             }
           ]
@@ -398,7 +419,7 @@
           "paper_url": "https://arxiv.org/abs/2605.04728",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/naver/anny-fit"
             }
           ]
@@ -411,10 +432,18 @@
           "paper_url": "https://arxiv.org/abs/2605.18102",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://shenwenhao01.github.io/dancehmr/"
             }
           ]
+        },
+        {
+          "bibkey": "lee2026detram",
+          "title": "DETRAM: End-to-end DEtection, Tracking and Recovery of HumAn Meshes",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.09089",
+          "websites": []
         },
         {
           "bibkey": "wang2026emotegpt",
@@ -424,21 +453,8 @@
           "paper_url": "https://arxiv.org/abs/2607.02674",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/GenIntel/EmoteGPT"
-            }
-          ]
-        },
-        {
-          "bibkey": "li2026large",
-          "title": "Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining",
-          "year": "2026",
-          "venue": "CVPR 2026",
-          "paper_url": "https://arxiv.org/abs/2604.02320",
-          "websites": [
-            {
-              "label": "Project",
-              "url": "https://junxuan-li.github.io/lca/"
             }
           ]
         },
@@ -450,7 +466,7 @@
           "paper_url": "https://arxiv.org/abs/2606.14841",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/naver/multi-hmr2"
             }
           ]
@@ -463,7 +479,7 @@
           "paper_url": "https://arxiv.org/abs/2601.22693",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Pixel-Talk/PEAR"
             }
           ]
@@ -476,7 +492,7 @@
           "paper_url": "https://arxiv.org/abs/2602.15989",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/facebookresearch/sam-3d-body"
             }
           ]
@@ -497,21 +513,8 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Kim_ContextFace_Generating_Facial_Expressions_from_Emotional_Contexts_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/minjung98/ContextFace_"
-            }
-          ]
-        },
-        {
-          "bibkey": "kant2025pippo",
-          "title": "Pippo: High-Resolution Multi-View Humans from a Single Image",
-          "year": "2025",
-          "venue": "CVPR 2025",
-          "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kant_Pippo_High-Resolution_Multi-View_Humans_from_a_Single_Image_CVPR_2025_paper.html",
-          "websites": [
-            {
-              "label": "Code",
-              "url": "https://github.com/facebookresearch/pippo"
             }
           ]
         },
@@ -523,7 +526,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_PromptHMR_Promptable_Human_Mesh_Recovery_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/yufu-wang/PromptHMR"
             }
           ]
@@ -536,7 +539,7 @@
           "paper_url": "https://ieeexplore.ieee.org/abstract/document/11195771/",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/wqyin/SMPLest-X"
             }
           ]
@@ -549,7 +552,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_UniPose_A_Unified_Multimodal_Framework_for_Human_Pose_Comprehension_Generation_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/VIPL-VISMOD/UniPose"
             }
           ]
@@ -562,7 +565,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Feng_ChatPose_Chatting_about_3D_Human_Pose_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/yfeng95/PoseGPT"
             }
           ]
@@ -575,7 +578,7 @@
           "paper_url": "https://arxiv.org/abs/2409.06535",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/naver/poseembroider"
             }
           ]
@@ -588,7 +591,7 @@
           "paper_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Pavlakos_Reconstructing_Hands_in_3D_with_Transformers_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/geopavlakos/hamer"
             }
           ]
@@ -601,7 +604,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/2614947a25d7c435bcd56c51958ddcb1-Abstract-Datasets_and_Benchmarks.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/caizhongang/SMPLer-X"
             }
           ]
@@ -624,7 +627,7 @@
           "paper_url": "https://arxiv.org/abs/2607.07817",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://dreamcharacter-x.github.io/"
             }
           ]
@@ -637,7 +640,7 @@
           "paper_url": "https://arxiv.org/abs/2604.19702",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://kocasariumut.github.io/FaceAnything/"
             }
           ]
@@ -650,7 +653,7 @@
           "paper_url": "https://arxiv.org/abs/2606.24232",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://kim-youwang.github.io/FiCA"
             }
           ]
@@ -663,7 +666,7 @@
           "paper_url": "https://arxiv.org/abs/2604.07273",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://onethousandwu.com/GenLCA-Page/"
             }
           ]
@@ -676,7 +679,7 @@
           "paper_url": "https://arxiv.org/abs/2606.02573",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/HumanNOVA/HumanNOVA"
             }
           ]
@@ -689,7 +692,7 @@
           "paper_url": "https://arxiv.org/abs/2604.02320",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://junxuan-li.github.io/lca/"
             }
           ]
@@ -702,7 +705,7 @@
           "paper_url": "https://arxiv.org/abs/2605.04035",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://apple.github.io/ml-headsup/"
             }
           ]
@@ -715,7 +718,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Qiu_AniGS_Animatable_Gaussian_Avatar_from_a_Single_Image_with_Inconsistent_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/aigc3d/AniGS"
             }
           ]
@@ -728,7 +731,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Kirschstein_Avat3r_Large_Animatable_Gaussian_Reconstruction_Model_for_High-fidelity_3D_Head_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://tobias-kirschstein.github.io/avat3r/"
             }
           ]
@@ -741,7 +744,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_IDOL_Instant_Photorealistic_3D_Human_Creation_from_a_Single_Image_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/yiyuzhuang/IDOL"
             }
           ]
@@ -754,7 +757,7 @@
           "paper_url": "https://arxiv.org/abs/2510.11650",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://yuxuan-xue.com/infini-human"
             }
           ]
@@ -767,7 +770,7 @@
           "paper_url": "https://arxiv.org/abs/2503.10625",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/aigc3d/LHM"
             }
           ]
@@ -788,7 +791,7 @@
           "paper_url": "https://arxiv.org/abs/2510.07190",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/zyhbili/MV-Performer"
             }
           ]
@@ -801,7 +804,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kant_Pippo_High-Resolution_Multi-View_Humans_from_a_Single_Image_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/facebookresearch/pippo"
             }
           ]
@@ -814,7 +817,7 @@
           "paper_url": "https://arxiv.org/abs/2504.06982",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://yyvhang.github.io/SIGMAN_3D/"
             }
           ]
@@ -831,7 +834,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_AnyLift_Scaling_Motion_Reconstruction_from_Internet_Videos_via_2D_Diffusion_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://awfuact.github.io/anylift/"
             }
           ]
@@ -844,7 +847,7 @@
           "paper_url": "https://arxiv.org/abs/2607.08741",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/nv-tlabs/ardy"
             }
           ]
@@ -857,7 +860,7 @@
           "paper_url": "https://doi.org/10.1038/s41551-025-01565-8",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/stanfordnmbl/GaitDynamics"
             }
           ]
@@ -870,7 +873,7 @@
           "paper_url": "https://arxiv.org/abs/2603.15546",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/nv-tlabs/kimodo"
             }
           ]
@@ -883,7 +886,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_LLaMo_Scaling_Pretrained_Language_Models_for_Unified_Motion_Understanding_and_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://kunkun0w0.github.io/project/LLaMo/"
             }
           ]
@@ -896,7 +899,7 @@
           "paper_url": "https://arxiv.org/pdf/2604.24833",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://nvlabs.github.io/motionbricks/"
             }
           ]
@@ -909,8 +912,8 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_MotionMaster_Generalizable_Text-Driven_Motion_Generation_and_Editing_CVPR_2026_paper.pdf",
           "websites": [
             {
-              "label": "Code",
-              "url": "https://github.com/Cyan-C/MT2M"
+              "kind": "github",
+              "url": "https://github.com/liyanhu666666/MotionMaster"
             }
           ]
         },
@@ -922,7 +925,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Fan_Open_the_Motion_Door_Atomic_Motion_Decomposition_and_Recomposition_for_CVPR_2026_paper.pdf",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://vankouf.github.io/OpenTheMotionDoor/"
             }
           ]
@@ -935,7 +938,7 @@
           "paper_url": "https://arxiv.org/pdf/2603.18623",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://research.beingbeyond.com/opent2m"
             }
           ]
@@ -948,7 +951,7 @@
           "paper_url": "https://arxiv.org/pdf/2605.11704",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://inwoohwang.me/ScaleMoGen/"
             }
           ]
@@ -961,7 +964,7 @@
           "paper_url": "https://arxiv.org/abs/2602.02401",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/BradleyWang0416/Superman"
             }
           ]
@@ -974,7 +977,7 @@
           "paper_url": "https://arxiv.org/pdf/2603.18003",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/wangzy01/SkeletonLLM"
             }
           ]
@@ -987,7 +990,7 @@
           "paper_url": "https://arxiv.org/pdf/2508.07863",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://beingbeyond.github.io/Being-M0.5/"
             }
           ]
@@ -1000,7 +1003,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Ego4o_Egocentric_Human_Motion_Capture_and_Understanding_from_Multi-Modal_Input_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://jianwang-mpi.github.io/ego4o"
             }
           ]
@@ -1013,7 +1016,7 @@
           "paper_url": "https://arxiv.org/pdf/2409.18127",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://hongfz16.github.io/projects/EgoLM"
             }
           ]
@@ -1026,7 +1029,7 @@
           "paper_url": "https://arxiv.org/pdf/2505.01425",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://research.nvidia.com/labs/dair/gem/"
             }
           ]
@@ -1039,7 +1042,7 @@
           "paper_url": "https://arxiv.org/pdf/2507.07095",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/VankouF/MotionMillion-Codes"
             }
           ]
@@ -1058,7 +1061,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Human_Motion_Instruction_Tuning_CVPR_2025_paper.pdf",
-          "websites": []
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/ILGLJ/LLaMo"
+            }
+          ]
         },
         {
           "bibkey": "fang2025humocon",
@@ -1066,7 +1074,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Fang_HuMoCon_Concept_Discovery_for_Human_Motion_Understanding_CVPR_2025_paper.html",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://qhfang.github.io/papers/humocon.html"
+            }
+          ]
         },
         {
           "bibkey": "wen2025hy",
@@ -1076,7 +1089,7 @@
           "paper_url": "https://arxiv.org/pdf/2512.23464",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Tencent-Hunyuan/HY-Motion-1.0"
             }
           ]
@@ -1089,7 +1102,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_KinMo_Kinematic-aware_Human_Motion_Understanding_and_Generation_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://andypinxinliu.github.io/KinMo"
             }
           ]
@@ -1102,7 +1115,7 @@
           "paper_url": "https://arxiv.org/pdf/2504.02478",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/CVI-SZU/MG-MotionLLM"
             }
           ]
@@ -1115,7 +1128,7 @@
           "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/77c6ccacfd9962e2307fc64680fc5ace-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://knoxzhao.github.io/Motion-Agent"
             }
           ]
@@ -1128,7 +1141,7 @@
           "paper_url": "https://arxiv.org/pdf/2506.10353",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://motion-r1.github.io/"
             }
           ]
@@ -1141,7 +1154,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Guo_MotionLab_Unified_Human_Motion_Generation_and_Editing_via_the_Motion-Condition-Motion_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://diouo.github.io/motionlab.github.io/"
             }
           ]
@@ -1154,7 +1167,7 @@
           "paper_url": "https://arxiv.org/pdf/2405.20340",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://lhchen.top/MotionLLM/"
             }
           ]
@@ -1167,7 +1180,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xiao_MotionStreamer_Streaming_Motion_Generation_via_Diffusion-based_Autoregressive_Model_in_Causal_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/zju3dv/MotionStreamer"
             }
           ]
@@ -1180,7 +1193,7 @@
           "paper_url": "https://arxiv.org/pdf/2412.14559",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://shunlinlu.github.io/ScaMo/"
             }
           ]
@@ -1193,7 +1206,7 @@
           "paper_url": "https://arxiv.org/abs/2512.00691",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/ShiqiYu/OpenGait"
             }
           ]
@@ -1206,7 +1219,7 @@
           "paper_url": "https://arxiv.org/pdf/2412.10523",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://languageofmotion.github.io/"
             }
           ]
@@ -1219,7 +1232,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/312237ba5de457df7bc8f88d4de21c4c-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://walkermitty.github.io/VimoRAG/"
             }
           ]
@@ -1232,7 +1245,7 @@
           "paper_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Zhou_AvatarGPT_All-in-One_Framework_for_Motion_Understanding_Planning_Generation_and_Beyond_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://zixiangzhou916.github.io/AvatarGPT/"
             }
           ]
@@ -1245,7 +1258,7 @@
           "paper_url": "https://link.springer.com/chapter/10.1007/978-3-031-72624-8_23",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://mingyuan-zhang.github.io/projects/LMM.html"
             }
           ]
@@ -1258,7 +1271,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/316648eb8b4ffb6010f531b07848c300-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/luomingshuang/M3GPT"
             }
           ]
@@ -1271,7 +1284,7 @@
           "paper_url": "http://openaccess.thecvf.com/content/CVPR2024/html/Guo_MoMask_Generative_Masked_Modeling_of_3D_Human_Motions_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/EricGuo5513/momask-codes"
             }
           ]
@@ -1284,7 +1297,7 @@
           "paper_url": "https://arxiv.org/pdf/2410.03311",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://beingbeyond.github.io/Being-M0/"
             }
           ]
@@ -1297,7 +1310,7 @@
           "paper_url": "http://openaccess.thecvf.com/content/ICCV2023/html/Zhu_MotionBERT_A_Unified_Perspective_on_Learning_Human_Motion_Representations_ICCV_2023_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://motionbert.github.io/"
             }
           ]
@@ -1310,7 +1323,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/3fbf0c1ea0716c03dea93bb6be78dd6f-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/OpenMotionLab/MotionGPT"
             }
           ]
@@ -1325,7 +1338,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Bao_Archon_A_Unified_Multimodal_Model_for_Holistic_Digital_Human_Generation_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://zju3dv.github.io/archon/"
             }
           ]
@@ -1338,7 +1351,7 @@
           "paper_url": "https://arxiv.org/abs/2606.13872",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://www.heygen.com/research/avatar-v-model"
             }
           ]
@@ -1351,7 +1364,7 @@
           "paper_url": "https://arxiv.org/abs/2601.10632",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/IGL-HKUST/CoMoVi"
             }
           ]
@@ -1364,7 +1377,7 @@
           "paper_url": "https://arxiv.org/abs/2602.12160",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://guoxu1233.github.io/DreamID-Omni/"
             }
           ]
@@ -1377,7 +1390,7 @@
           "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/37746",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/antgroup/echomimic_v3"
             }
           ]
@@ -1390,11 +1403,11 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Pallotta_EgoControl_Controllable_Egocentric_Video_Generation_via_3D_Full-Body_Poses_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://cvg-bonn.github.io/EgoControl/"
             },
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/CVG-Bonn/EgoControl/"
             }
           ]
@@ -1407,7 +1420,7 @@
           "paper_url": "https://arxiv.org/pdf/2509.08519",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://phantom-video.github.io/HuMo/"
             }
           ]
@@ -1420,7 +1433,7 @@
           "paper_url": "https://arxiv.org/pdf/2508.20210",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://infinityhuman.github.io/"
             }
           ]
@@ -1433,7 +1446,7 @@
           "paper_url": "https://arxiv.org/abs/2505.10238",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/DINGYANB/MTVCrafter"
             }
           ]
@@ -1446,7 +1459,7 @@
           "paper_url": "https://arxiv.org/pdf/2512.13495",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://zhangzjn.github.io/projects/Soul/"
             }
           ]
@@ -1459,7 +1472,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Luo_DreamActor-M1_Holistic_Expressive_and_Robust_Human_Image_Animation_with_Hybrid_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://grisoon.github.io/DreamActor-M1/"
             }
           ]
@@ -1472,7 +1485,7 @@
           "paper_url": "https://arxiv.org/pdf/2512.18814",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://yuxiaoyang23.github.io/EchoMotion-webpage/"
             }
           ]
@@ -1485,7 +1498,7 @@
           "paper_url": "https://arxiv.org/pdf/2502.04847",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://agnjason.github.io/HumanDiT-page/"
             }
           ]
@@ -1498,7 +1511,7 @@
           "paper_url": "https://arxiv.org/pdf/2505.20156v2",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://hunyuanvideo-avatar.github.io/"
             }
           ]
@@ -1509,7 +1522,12 @@
           "year": "2025",
           "venue": "arXiv 2025",
           "paper_url": "https://arxiv.org/pdf/2512.13313",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://app.klingai.com/global/ai-human/image/new/"
+            }
+          ]
         },
         {
           "bibkey": "gan2025omniavatar",
@@ -1519,7 +1537,7 @@
           "paper_url": "https://arxiv.org/pdf/2506.18866",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://omni-avatar.github.io/"
             }
           ]
@@ -1532,7 +1550,7 @@
           "paper_url": "https://arxiv.org/pdf/2508.19209",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://omnihuman-lab.github.io/v1_5/"
             }
           ]
@@ -1545,7 +1563,7 @@
           "paper_url": "https://arxiv.org/abs/2512.03918",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://carlyx.github.io/UniMo/"
             }
           ]
@@ -1558,7 +1576,7 @@
           "paper_url": "https://arxiv.org/abs/2509.14055",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Wan-Video/Wan2.2"
             }
           ]
@@ -1575,8 +1593,8 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_ArtHOI_Taming_Foundation_Models_for_Monocular_4D_Reconstruction_of_Hand-Articulated-Object_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Code",
-              "url": "https://github.com/ArtHOI-reconstruction/ArtHOI"
+              "kind": "homepage",
+              "url": "https://arthoi-reconstruction.github.io/"
             }
           ]
         },
@@ -1588,8 +1606,25 @@
           "paper_url": "https://arxiv.org/abs/2604.19636",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://xinxiaozhe12345.github.io/CoInteract_Project"
+            }
+          ]
+        },
+        {
+          "bibkey": "cai2026homie",
+          "title": "HOMIE: Human-Object Centric Video Personalization via Multimodal Intelligent Enhancement",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.18217",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/YIYANGCAI/HOMIE"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://yiyangcai.github.io/homie-page.github.io/"
             }
           ]
         },
@@ -1599,7 +1634,12 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_InterPrior_Scaling_Generative_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2026_paper.html",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://sirui-xu.github.io/InterPrior/"
+            }
+          ]
         },
         {
           "bibkey": "zhou2026omnishow",
@@ -1609,7 +1649,7 @@
           "paper_url": "https://arxiv.org/abs/2604.11804",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Correr-Zhou/OmniShow"
             }
           ]
@@ -1622,7 +1662,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hoe_OneHOI_Unifying_Human-Object_Interaction_Generation_and_Editing_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://jiuntian.github.io/OneHOI/"
             }
           ]
@@ -1635,7 +1675,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_ReGenHOI_Unifying_Reconstruction_and_Generation_for_3D_Human-Object_Interaction_Understanding_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/xumiao66/ReGenHOI"
             }
           ]
@@ -1656,7 +1696,7 @@
           "paper_url": "https://arxiv.org/abs/2603.24383",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/MPI-Lab/ViHOI"
             }
           ]
@@ -1669,7 +1709,7 @@
           "paper_url": "https://arxiv.org/pdf/2512.22854",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://neutrinoliu.github.io/byteloom/"
             }
           ]
@@ -1682,7 +1722,7 @@
           "paper_url": "http://openaccess.thecvf.com/content/CVPR2025/html/Liu_EasyHOI_Unleashing_the_Power_of_Large_Models_for_Reconstructing_Hand-Object_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/lym29/EasyHOI"
             }
           ]
@@ -1695,7 +1735,7 @@
           "paper_url": "https://arxiv.org/pdf/2506.07209",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/craigleili/HOI-PAGE"
             }
           ]
@@ -1706,7 +1746,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_HOIGPT_Learning_Long-Sequence_Hand-Object_Interaction_with_Language_Models_CVPR_2025_paper.html",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://www.mingzhenhuang.com/projects/hoigpt.html"
+            }
+          ]
         },
         {
           "bibkey": "zhang2026openhoi",
@@ -1716,7 +1761,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f376f5dff6f6ec6364aea7a46ab49574-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Zhenhao-Zhang/OpenHOI"
             }
           ]
@@ -1729,7 +1774,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Jia_PrimHOI_Compositional_Human-Object_Interaction_via_Reusable_Primitives_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Kairobo/PrimitiveHOI"
             }
           ]
@@ -1742,7 +1787,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Petrov_TriDi_Trilateral_Diffusion_of_3D_Humans_Objects_and_Interactions_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/ptrvilya/tridi"
             }
           ]
@@ -1750,40 +1795,11 @@
       ],
       "Human-Scene Interaction": [
         {
-          "bibkey": "luo2026cointeract",
-          "title": "CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
-          "year": "2026",
-          "venue": "arXiv 2026",
-          "paper_url": "https://arxiv.org/abs/2604.19636",
-          "websites": [
-            {
-              "label": "Project",
-              "url": "https://xinxiaozhe12345.github.io/CoInteract_Project"
-            }
-          ]
-        },
-        {
-          "bibkey": "nagano2026dyaplex",
-          "title": "DyaPlex: Full-Duplex Speech-Motion Model for Dyadic Interaction",
-          "year": "2026",
-          "venue": "arXiv 2026",
-          "paper_url": "https://arxiv.org/abs/2606.03874",
-          "websites": []
-        },
-        {
           "bibkey": "wang2026hsi",
           "title": "HSI-GPT2: A Dual-Granularity Large Motion Reasoning Model with Diffusion Refinement for Human-Scene Interaction",
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_HSI-GPT2_A_Dual-Granularity_Large_Motion_Reasoning_Model_with_Diffusion_Refinement_CVPR_2026_paper.pdf",
-          "websites": []
-        },
-        {
-          "bibkey": "bai2026humanomni",
-          "title": "HumanOmni-Speaker: Identifying Who said What and When",
-          "year": "2026",
-          "venue": "arXiv 2026",
-          "paper_url": "https://arxiv.org/abs/2603.21664",
           "websites": []
         },
         {
@@ -1794,7 +1810,7 @@
           "paper_url": "https://arxiv.org/abs/2604.19673",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/nibox/Inhabit"
             }
           ]
@@ -1807,7 +1823,7 @@
           "paper_url": "https://arxiv.org/abs/2601.20835",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://jliu4ai.github.io/projects/funhsi/"
             }
           ]
@@ -1820,7 +1836,7 @@
           "paper_url": "https://arxiv.org/abs/2606.27720",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://bowieshi.github.io/SHOW-project-page/"
             }
           ]
@@ -1833,21 +1849,8 @@
           "paper_url": "https://arxiv.org/abs/2604.21926",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://tianhang-cheng.github.io/IMU4D/"
-            }
-          ]
-        },
-        {
-          "bibkey": "wang2026social",
-          "title": "Social Structure Matters in 3D Human-Human Interaction Generation",
-          "year": "2026",
-          "venue": "arXiv 2026",
-          "paper_url": "https://arxiv.org/abs/2606.24255",
-          "websites": [
-            {
-              "label": "Code",
-              "url": "https://github.com/EngineeringAI-LAB/SocialStructureHHI"
             }
           ]
         },
@@ -1859,7 +1862,7 @@
           "paper_url": "https://arxiv.org/pdf/2604.19923",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/surtantheta/UniCon3R"
             }
           ]
@@ -1872,21 +1875,8 @@
           "paper_url": "https://arxiv.org/abs/2601.01222",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/murphylmf/UniSH"
-            }
-          ]
-        },
-        {
-          "bibkey": "cai2026vihoi",
-          "title": "ViHOI: Human-Object Interaction Synthesis with Visual Priors",
-          "year": "2026",
-          "venue": "CVPR 2026",
-          "paper_url": "https://arxiv.org/abs/2603.24383",
-          "websites": [
-            {
-              "label": "Code",
-              "url": "https://github.com/MPI-Lab/ViHOI"
             }
           ]
         },
@@ -1898,7 +1888,7 @@
           "paper_url": "https://arxiv.org/pdf/2503.12955",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/ZJHTerry18/HumanInScene"
             }
           ]
@@ -1919,7 +1909,7 @@
           "paper_url": "https://arxiv.org/pdf/2510.06219",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://fanegg.github.io/Human3R/"
             }
           ]
@@ -1940,7 +1930,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/jnnan/trumans_utils"
             }
           ]
@@ -1953,7 +1943,12 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2606.03874",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://research.nvidia.com/labs/amri/projects/DyaPlex/"
+            }
+          ]
         },
         {
           "bibkey": "bai2026humanomni",
@@ -1971,7 +1966,7 @@
           "paper_url": "https://arxiv.org/pdf/2604.00267",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://sampson-lee.github.io/omni-mmsi-project-page/"
             }
           ]
@@ -1984,7 +1979,7 @@
           "paper_url": "https://arxiv.org/abs/2606.24255",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/EngineeringAI-LAB/SocialStructureHHI"
             }
           ]
@@ -2005,7 +2000,7 @@
           "paper_url": "https://arxiv.org/pdf/2512.14234",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://ai.stanford.edu/~juze/ViBES/"
             }
           ]
@@ -2018,7 +2013,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Park_A_Unified_Framework_for_Motion_Reasoning_and_Generation_in_Human_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://vim-motion-language.github.io/"
             }
           ]
@@ -2031,7 +2026,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/b734c30b9c955c535e333f0301f5e45c-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/awakening-ai/OmniResponse"
             }
           ]
@@ -2044,7 +2039,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Jiang_SOLAMI_Social_Vision-Language-Action_Modeling_for_Immersive_Interaction_with_3D_Autonomous_CVPR_2025_paper.pdf",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://solami-ai.github.io/"
             }
           ]
@@ -2055,12 +2050,7 @@
           "year": "2025",
           "venue": "arXiv 2025",
           "paper_url": "https://arxiv.org/abs/2512.13674",
-          "websites": [
-            {
-              "label": "Project",
-              "url": "https://shandaai.github.io/project_mio_page/"
-            }
-          ]
+          "websites": []
         },
         {
           "bibkey": "xie2025x",
@@ -2070,7 +2060,7 @@
           "paper_url": "https://arxiv.org/pdf/2509.21574",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://byteaigc.github.io/X-Streamer/"
             }
           ]
@@ -2087,7 +2077,7 @@
           "paper_url": "https://arxiv.org/pdf/2606.07326",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://yuli0103.github.io/AnchorWorld/"
             }
           ]
@@ -2100,7 +2090,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Dexterous_World_Models_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/snuvclab/dwm"
             }
           ]
@@ -2113,11 +2103,11 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Pallotta_EgoControl_Controllable_Egocentric_Video_Generation_via_3D_Full-Body_Poses_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://cvg-bonn.github.io/EgoControl/"
             },
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/CVG-Bonn/EgoControl/"
             }
           ]
@@ -2130,7 +2120,7 @@
           "paper_url": "https://arxiv.org/abs/2603.20169",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://plan-lab.github.io/projects/egoforge/"
             }
           ]
@@ -2141,7 +2131,12 @@
           "year": "2026",
           "venue": "ICLR 2026",
           "paper_url": "https://openreview.net/forum?id=QFJkvv3zMi",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://egotwin.pages.dev/"
+            }
+          ]
         },
         {
           "bibkey": "kang2026egox",
@@ -2151,7 +2146,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kang_EgoX_Egocentric_Video_Generation_from_a_Single_Exocentric_Video_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/DAVIAN-Robotics/EgoX"
             }
           ]
@@ -2164,7 +2159,7 @@
           "paper_url": "https://arxiv.org/abs/2602.18422",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://codeysun.github.io/generated-reality/"
             }
           ]
@@ -2177,8 +2172,21 @@
           "paper_url": "https://arxiv.org/abs/2602.09600",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/NTUYWANG103/Hand2World"
+            }
+          ]
+        },
+        {
+          "bibkey": "ji2026real",
+          "title": "Real-Time Human-Centric World Modeling for Upper-Body Human-Object Interaction",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.23517",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://bjkim95.github.io/rofacto/"
             }
           ]
         },
@@ -2190,7 +2198,7 @@
           "paper_url": "https://arxiv.org/abs/2506.17896",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/redorangeyellowy/EgoWorld"
             }
           ]
@@ -2203,26 +2211,13 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d607a260b3bc0b9a704a1a04dd64040a-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/yuanpengtu/PlayerOne"
             }
           ]
         }
       ],
       "Actionable World Planning": [
-        {
-          "bibkey": "gao2026dreamdojo",
-          "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
-          "year": "2026",
-          "venue": "arXiv 2026",
-          "paper_url": "https://arxiv.org/abs/2602.06949",
-          "websites": [
-            {
-              "label": "Code",
-              "url": "https://github.com/NVIDIA/DreamDojo"
-            }
-          ]
-        },
         {
           "bibkey": "li2026egocentric",
           "title": "Egocentric World Model for Photorealistic Hand-Object Interaction Synthesis",
@@ -2231,7 +2226,7 @@
           "paper_url": "https://arxiv.org/abs/2603.13615",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/phai-lab/egohoi"
             }
           ]
@@ -2244,7 +2239,7 @@
           "paper_url": "https://arxiv.org/pdf/2605.15477v1",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://vision.cs.utexas.edu/projects/EgoExo-WM/"
             }
           ]
@@ -2257,7 +2252,7 @@
           "paper_url": "https://arxiv.org/abs/2604.01001",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/jinkun-hao/EgoSim"
             }
           ]
@@ -2268,7 +2263,12 @@
           "year": "2026",
           "venue": "ICLR 2026",
           "paper_url": "https://openreview.net/forum?id=QFJkvv3zMi",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://egotwin.pages.dev/"
+            }
+          ]
         },
         {
           "bibkey": "sun2026handworld",
@@ -2276,33 +2276,7 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sun_HandWorld_Hand-Centric_Unified_Video_Action_Generation_CVPR_2026_paper.html",
-          "websites": [
-            {
-              "label": "Project",
-              "url": "https://sunzhihao18.github.io/HandWorld"
-            }
-          ]
-        },
-        {
-          "bibkey": "li2026humanclaw",
-          "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
-          "year": "2026",
-          "venue": "arXiv 2026",
-          "paper_url": "https://arxiv.org/abs/2607.27180",
           "websites": []
-        },
-        {
-          "bibkey": "qi2026humanoid",
-          "title": "Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking",
-          "year": "2026",
-          "venue": "CVPR 2026",
-          "paper_url": "https://arxiv.org/abs/2606.03985",
-          "websites": [
-            {
-              "label": "Code",
-              "url": "https://github.com/GalaxyGeneralRobotics/Humanoid-GPT/"
-            }
-          ]
         },
         {
           "bibkey": "wang2026lifting",
@@ -2312,7 +2286,7 @@
           "paper_url": "https://arxiv.org/abs/2604.26182",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/alexnwang/lifted-world-model"
             }
           ]
@@ -2325,7 +2299,7 @@
           "paper_url": "https://arxiv.org/abs/2603.27449",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Zerg-Overmind/LOME"
             }
           ]
@@ -2338,7 +2312,7 @@
           "paper_url": "https://arxiv.org/abs/2512.13644",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://raktimgg.github.io/dexwm/"
             }
           ]
@@ -2351,7 +2325,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_EgoAgent_A_Joint_Predictive_Agent_Model_in_Egocentric_Worlds_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/zju3dv/EgoAgent"
             }
           ]
@@ -2364,7 +2338,7 @@
           "paper_url": "https://arxiv.org/pdf/2512.16907",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://egoman-project.github.io/"
             }
           ]
@@ -2377,7 +2351,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/f0552f14388d95b19740dee809f5cad1-Abstract-Conference.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://dannytran123.github.io/PEVA/"
             }
           ]
@@ -2394,7 +2368,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Do_You_Have_Freestyle_Expressive_Humanoid_Locomotion_via_Audio_Control_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/gentlefress/RoboPerform"
             }
           ]
@@ -2405,7 +2379,29 @@
           "year": "2026",
           "venue": "SIGGRAPH 2026",
           "paper_url": "https://arxiv.org/abs/2606.29148",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://yi-shi94.github.io/gpc-page/"
+            }
+          ]
+        },
+        {
+          "bibkey": "li2026humanclaw",
+          "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.27180",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Human-CLAW/HumanCLAW"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://human-claw.github.io/"
+            }
+          ]
         },
         {
           "bibkey": "qi2026humanoid",
@@ -2415,7 +2411,7 @@
           "paper_url": "https://arxiv.org/abs/2606.03985",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/GalaxyGeneralRobotics/Humanoid-GPT/"
             }
           ]
@@ -2426,7 +2422,12 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Iterative_Closed-Loop_Motion_Synthesis_for_Scaling_the_Capabilities_of_Humanoid_CVPR_2026_paper.html",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://wesleyxu224.github.io/CLAIMS/"
+            }
+          ]
         },
         {
           "bibkey": "zhang2026script",
@@ -2436,7 +2437,7 @@
           "paper_url": "https://arxiv.org/abs/2605.22894",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://zhanglele12138.github.io/SCRIPT/"
             }
           ]
@@ -2447,7 +2448,12 @@
           "year": "2026",
           "venue": "RA-L 2025",
           "paper_url": "https://ieeexplore.ieee.org/abstract/document/11513991",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://yinkangning0124.github.io/Humanoid-UniTracker/"
+            }
+          ]
         },
         {
           "bibkey": "ye2026visually",
@@ -2457,7 +2463,7 @@
           "paper_url": "https://arxiv.org/abs/2604.08509",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/alvinyh/VGHuman"
             }
           ]
@@ -2470,7 +2476,7 @@
           "paper_url": "https://arxiv.org/abs/2511.04131",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/LeCAR-Lab/BFM-Zero"
             }
           ]
@@ -2489,7 +2495,12 @@
           "year": "2025",
           "venue": "NeurIPS 2025",
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d8f9cd02831dac9717c1c00329a49cd0-Abstract-Conference.html",
-          "websites": []
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://beingbeyond.github.io/BumbleBee/"
+            }
+          ]
         },
         {
           "bibkey": "li2025language",
@@ -2499,7 +2510,7 @@
           "paper_url": "https://arxiv.org/abs/2510.14952",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/gentlefress/RoboGhost"
             }
           ]
@@ -2512,7 +2523,7 @@
           "paper_url": "https://arxiv.org/abs/2506.14770",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/zixuan417/humanoid-general-motion-tracking"
             }
           ]
@@ -2525,7 +2536,7 @@
           "paper_url": "https://arxiv.org/abs/2503.14734",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/NVIDIA/Isaac-GR00T"
             }
           ]
@@ -2538,7 +2549,7 @@
           "paper_url": "https://arxiv.org/abs/2406.17840",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/zhenkirito123/hoifhli_release"
             }
           ]
@@ -2551,7 +2562,7 @@
           "paper_url": "https://arxiv.org/abs/2503.18349",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://vlm-rmd.github.io/"
             }
           ]
@@ -2564,7 +2575,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xu_InterMimic_Towards_Universal_Whole-Body_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2025_paper.pdf",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://sirui-xu.github.io/InterMimic"
             }
           ]
@@ -2577,7 +2588,7 @@
           "paper_url": "https://arxiv.org/abs/2511.07820",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/NVlabs/GR00T-WholeBodyControl"
             }
           ]
@@ -2590,7 +2601,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Pan_TokenHSI_Unified_Synthesis_of_Physical_Human-Scene_Interactions_through_Task_Tokenization_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://liangpan99.github.io/TokenHSI"
             }
           ]
@@ -2603,7 +2614,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Wu_UniPhys_Unified_Planner_and_Controller_with_Diffusion_for_Flexible_Physics-Based_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/wuyan01/UniPhys"
             }
           ]
@@ -2614,7 +2625,16 @@
           "year": "2025",
           "venue": "ICLR 2026",
           "paper_url": "https://arxiv.org/abs/2512.11047",
-          "websites": []
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/OpenDriveLab/WholebodyVLA"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://wholebodyvla.github.io/"
+            }
+          ]
         },
         {
           "bibkey": "tessler2024maskedmimic",
@@ -2624,7 +2644,7 @@
           "paper_url": "https://dl.acm.org/doi/abs/10.1145/3687951",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/NVlabs/ProtoMotions"
             }
           ]
@@ -2637,7 +2657,7 @@
           "paper_url": "https://arxiv.org/abs/2309.07918",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/OpenRobotLab/UniHSI"
             }
           ]
@@ -2652,7 +2672,7 @@
           "paper_url": "https://arxiv.org/abs/2606.06194",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://activemimic.github.io/"
             }
           ]
@@ -2665,7 +2685,7 @@
           "paper_url": "https://arxiv.org/abs/2605.00078",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/BeingBeyond/Being-H"
             }
           ]
@@ -2678,7 +2698,7 @@
           "paper_url": "https://arxiv.org/abs/2602.06949",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/NVIDIA/DreamDojo"
             }
           ]
@@ -2691,7 +2711,7 @@
           "paper_url": "https://arxiv.org/pdf/2602.16710v1",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://research.nvidia.com/labs/gear/egoscale/"
             }
           ]
@@ -2704,7 +2724,7 @@
           "paper_url": "https://arxiv.org/abs/2606.17054",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/kevinywu/HUG"
             }
           ]
@@ -2717,7 +2737,7 @@
           "paper_url": "https://arxiv.org/abs/2605.24934",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/TX-Leo/HumanEgo"
             }
           ]
@@ -2730,7 +2750,7 @@
           "paper_url": "https://arxiv.org/abs/2606.20521",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/DAGroup-PKU/HumanNet/"
             }
           ]
@@ -2741,7 +2761,16 @@
           "year": "2026",
           "venue": "ICML 2026",
           "paper_url": "https://arxiv.org/abs/2606.07100",
-          "websites": []
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/lmy1001/LARA"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://lmy1001.github.io/ICML26_LARA/"
+            }
+          ]
         },
         {
           "bibkey": "feng2026spatial",
@@ -2751,7 +2780,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Feng_Spatial-Aware_VLA_Pretraining_through_Visual-Physical_Alignment_from_Human_Videos_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/BeingBeyond/VIPA-VLA"
             }
           ]
@@ -2764,7 +2793,7 @@
           "paper_url": "https://arxiv.org/abs/2605.20373",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/tianshuwu/SUGAR"
             }
           ]
@@ -2777,7 +2806,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_UniDex_A_Robot_Foundation_Suite_for_Universal_Dexterous_Hand_Control_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/unidex-ai/UniDex"
             }
           ]
@@ -2790,7 +2819,7 @@
           "paper_url": "https://arxiv.org/abs/2510.01607",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://activeumi.github.io/"
             }
           ]
@@ -2803,7 +2832,7 @@
           "paper_url": "https://arxiv.org/abs/2507.15597",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/BeingBeyond/Being-H0"
             }
           ]
@@ -2816,7 +2845,7 @@
           "paper_url": "https://ieeexplore.ieee.org/abstract/document/11127989/",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/SimarKareer/EgoMimic"
             }
           ]
@@ -2829,7 +2858,7 @@
           "paper_url": "https://arxiv.org/abs/2507.12440",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/RchalYang/EgoVLA_Release"
             }
           ]
@@ -2842,7 +2871,7 @@
           "paper_url": "https://arxiv.org/abs/2511.15704",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://xiongyicai.github.io/In-N-On"
             }
           ]
@@ -2855,7 +2884,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_ManipTrans_Efficient_Dexterous_Bimanual_Manipulation_Transfer_via_Residual_Learning_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/ManipTrans/ManipTrans.git"
             }
           ]
@@ -2868,7 +2897,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Mitigating_the_Human-Robot_Domain_Discrepancy_in_Visual_Pre-training_for_Robotic_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/jiaming-zhou/HumanRobotAlign"
             }
           ]
@@ -2881,7 +2910,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Moto_Latent_Motion_Token_as_the_Bridging_Language_for_Learning_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/TencentARC/Moto"
             }
           ]
@@ -2894,7 +2923,7 @@
           "paper_url": "https://arxiv.org/abs/2510.21571",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/microsoft/VITRA/"
             }
           ]
@@ -2907,7 +2936,7 @@
           "paper_url": "https://ieeexplore.ieee.org/abstract/document/11128283/",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/junyaoshi/ZeroMimic"
             }
           ]
@@ -2934,7 +2963,16 @@
           "year": "2025",
           "venue": "NeurIPS 2025",
           "paper_url": "https://doi.org/10.52202/085713-0322",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/lxq1000/Face-Human-Bench"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://face-human-bench.github.io/"
+            }
+          ],
           "name": "Face-Human-Bench",
           "type": "Benchmark"
         },
@@ -2944,7 +2982,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00855",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/CVI-SZU/FaceBench"
+            }
+          ],
           "name": "FaceBench",
           "type": "Dataset + Benchmark"
         },
@@ -2954,7 +2997,12 @@
           "year": "2024",
           "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024",
           "paper_url": "https://doi.org/10.1109/wacv57701.2024.00451",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/hukenovs/hagrid"
+            }
+          ],
           "name": "HaGRID",
           "type": "Dataset"
         },
@@ -2966,7 +3014,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_CelebV-Text_A_Large-Scale_Facial_Text-Video_Dataset_CVPR_2023_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://celebv-text.github.io/"
             }
           ],
@@ -2979,7 +3027,12 @@
           "year": "2022",
           "venue": "ECCV 2022",
           "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_38",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://celebv-hq.github.io/"
+            }
+          ],
           "name": "CelebV-HQ",
           "type": "Dataset"
         },
@@ -2991,7 +3044,7 @@
           "paper_url": "https://arxiv.org/abs/2204.11823",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/stylegan-human/StyleGAN-Human"
             }
           ],
@@ -3006,7 +3059,16 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://doi.org/10.48550/arxiv.2512.12378",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/FanJunqiao/M4Human"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://fanjunqiao.github.io/M4Human-site/"
+            }
+          ],
           "name": "M4Human",
           "type": "Benchmark"
         },
@@ -3016,7 +3078,12 @@
           "year": "2024",
           "venue": "ECCV 2024",
           "paper_url": "https://doi.org/10.1007/978-3-031-72986-7_18",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://zenodo.org/records/12611978"
+            }
+          ],
           "name": "MMVR",
           "type": "Dataset + Benchmark"
         },
@@ -3026,7 +3093,16 @@
           "year": "2024",
           "venue": "CVPR 2024",
           "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00219",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/yanmn/RELI11DandLIER"
+            },
+            {
+              "kind": "homepage",
+              "url": "http://www.lidarhumanmotion.net/reli11d/"
+            }
+          ],
           "name": "RELI11D",
           "type": "Dataset"
         },
@@ -3036,7 +3112,12 @@
           "year": "2024",
           "venue": "ECCV 2024",
           "paper_url": "https://doi.org/10.1007/978-3-031-73036-8_7",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/ipl-uw/RT-POSE"
+            }
+          ],
           "name": "RT-Pose",
           "type": "Benchmark"
         },
@@ -3046,7 +3127,12 @@
           "year": "2023",
           "venue": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2023",
           "paper_url": "https://doi.org/10.1109/wacv56688.2023.00567",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar"
+            }
+          ],
           "name": "HuPR",
           "type": "Benchmark"
         },
@@ -3056,7 +3142,12 @@
           "year": "2023",
           "venue": "NeurIPS 2023",
           "paper_url": "https://doi.org/10.48550/arxiv.2305.10345",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/ybhbingo/MMFi_dataset"
+            }
+          ],
           "name": "MM-Fi",
           "type": "Dataset"
         },
@@ -3066,7 +3157,16 @@
           "year": "2022",
           "venue": "ECCV 2022",
           "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_33",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/MotrixLab/humman_toolbox"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://caizhongang.com/projects/HuMMan/"
+            }
+          ],
           "name": "HuMMan",
           "type": "Dataset"
         },
@@ -3076,7 +3176,16 @@
           "year": "2022",
           "venue": "ACM MM 2022",
           "paper_url": "https://doi.org/10.1145/3503161.3548262",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Chen3110/mmBody"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://chen3110.github.io/mmbody/"
+            }
+          ],
           "name": "mmBody",
           "type": "Dataset + Benchmark"
         },
@@ -3086,7 +3195,12 @@
           "year": "2022",
           "venue": "NeurIPS 2022",
           "paper_url": "https://doi.org/10.48550/arxiv.2210.08394",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/SizheAn/mRI"
+            }
+          ],
           "name": "mRI",
           "type": "Dataset"
         }
@@ -3098,7 +3212,16 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00124",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/agvpreid25/AG-VPReID-Net"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://agvpreid25.github.io/"
+            }
+          ],
           "name": "AG-VPReID",
           "type": "Benchmark"
         },
@@ -3108,7 +3231,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00825",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Joey623/L2RW"
+            }
+          ],
           "name": "L2RW",
           "type": "Benchmark"
         },
@@ -3120,7 +3248,7 @@
           "paper_url": "https://doi.org/10.1109/iccv51701.2025.00955",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://mp-reid.github.io/"
             }
           ],
@@ -3133,7 +3261,12 @@
           "year": "2023",
           "venue": "CVPR 2023",
           "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00214",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/ZYK100/LLCM"
+            }
+          ],
           "name": "LLCM",
           "type": "Benchmark"
         },
@@ -3143,7 +3276,12 @@
           "year": "2023",
           "venue": "ACM MM 2023",
           "paper_url": "https://doi.org/10.1145/3581783.3611709",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Shuyu-XJTU/APTM"
+            }
+          ],
           "name": "MALS",
           "type": "Benchmark"
         }
@@ -3157,7 +3295,7 @@
           "paper_url": "https://arxiv.org/abs/2505.01838",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://kevinlee09.github.io/research/MVHumanNet++/"
             }
           ],
@@ -3170,7 +3308,12 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2606.23062",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://giuli13.github.io/volhume-website/"
+            }
+          ],
           "name": "VolHuMe",
           "type": "Dataset + Benchmark"
         },
@@ -3182,7 +3325,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Teufel_HumanOLAT_A_Large-Scale_Dataset_for_Full-Body_Human_Relighting_and_Novel-View_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://vcai.mpi-inf.mpg.de/projects/HumanOLAT/"
             }
           ],
@@ -3197,7 +3340,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhuang_IDOL_Instant_Photorealistic_3D_Human_Creation_from_a_Single_Image_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/yiyuzhuang/IDOL"
             }
           ],
@@ -3212,7 +3355,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_WildAvatar_Learning_In-the-wild_3D_Avatars_from_the_Web_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://wildavatar.github.io/"
             }
           ],
@@ -3227,7 +3370,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9712b78386cebdc3db7f1a48c2d20edb-Abstract-Datasets_and_Benchmarks_Track.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/facebookresearch/goliath"
             }
           ],
@@ -3242,7 +3385,7 @@
           "paper_url": "https://arxiv.org/abs/2403.16080",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://pku-dymvhumans.github.io/"
             }
           ],
@@ -3257,7 +3400,7 @@
           "paper_url": "https://arxiv.org/abs/2307.10173",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://dna-rendering.github.io/"
             }
           ],
@@ -3272,7 +3415,7 @@
           "paper_url": "https://doi.org/10.1145/3592415",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://actors-hq.com/"
             }
           ],
@@ -3287,7 +3430,7 @@
           "paper_url": "https://doi.org/10.1145/3592455",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://tobias-kirschstein.github.io/nersemble/"
             }
           ],
@@ -3302,8 +3445,12 @@
           "paper_url": "https://arxiv.org/abs/2303.17368",
           "websites": [
             {
-              "label": "Project",
-              "url": "https://maoxie.github.io/SynBody/"
+              "kind": "homepage",
+              "url": "https://synbody.github.io/SynBody/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/caizhongang/SynBody"
             }
           ],
           "name": "SynBody",
@@ -3319,7 +3466,12 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2605.24652",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://yajialiang.github.io/AVBench-site/"
+            }
+          ],
           "name": "AVBench",
           "type": "Benchmark"
         },
@@ -3329,7 +3481,12 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2604.20157",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://cs.stanford.edu/~xtiange/projects/humanscore/"
+            }
+          ],
           "name": "HumanScore",
           "type": "Benchmark"
         },
@@ -3339,7 +3496,12 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2604.18326",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/julia-cherry/OmniHuman"
+            }
+          ],
           "name": "OmniHuman",
           "type": "Dataset + Benchmark"
         },
@@ -3349,7 +3511,20 @@
           "year": "2025",
           "venue": "ICCV 2025",
           "paper_url": "https://doi.org/10.1109/iccv51701.2025.01127",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/luna-ai-lab/DH-FaceVid-1K"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://luna-ai-lab.github.io/DH-FaceVid-1K/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/jjuik2014/DH-FaceVid-1K"
+            }
+          ],
           "name": "DH-FaceVid-1K",
           "type": "Dataset"
         },
@@ -3359,7 +3534,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00726",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://fudan-generative-vision.github.io/OpenHumanVid/"
+            }
+          ],
           "name": "OpenHumanVid",
           "type": "Dataset"
         },
@@ -3369,7 +3549,16 @@
           "year": "2024",
           "venue": "NeurIPS 2024",
           "paper_url": "https://doi.org/10.52202/079017-0635",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/zhenzhiwang/HumanVid"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://humanvid.github.io/"
+            }
+          ],
           "name": "HumanVid",
           "type": "Dataset"
         },
@@ -3381,7 +3570,7 @@
           "paper_url": "https://doi.org/10.1007/978-3-031-19839-7_8",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://project.mhzhou.com/vico/"
             }
           ],
@@ -3394,7 +3583,12 @@
           "year": "2021",
           "venue": "CVPR 2021",
           "paper_url": "https://doi.org/10.1109/cvpr46437.2021.00366",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/MRzzm/HDTF"
+            }
+          ],
           "name": "HDTF",
           "type": "Dataset"
         }
@@ -3406,7 +3600,20 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2605.19846",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/joslefaure/FineBench_eval"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://joslefaure.github.io/assets/html/finebench.html"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/FINEBENCH/FineBench"
+            }
+          ],
           "name": "FineBench",
           "type": "Benchmark"
         },
@@ -3426,7 +3633,16 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2605.06747",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/DAGroup-PKU/HumanNet"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://dagroup-pku.github.io/HumanNet/"
+            }
+          ],
           "name": "HumanNet",
           "type": "Dataset"
         },
@@ -3436,7 +3652,16 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://doi.org/10.48550/arxiv.2412.17574",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/datajuicer/data-juicer/tree/HumanVBench"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/datajuicer/HumanVBench"
+            }
+          ],
           "name": "HumanVBench",
           "type": "Benchmark"
         },
@@ -3446,7 +3671,12 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://doi.org/10.48550/arxiv.2512.16727",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://omg-bench.github.io/"
+            }
+          ],
           "name": "OMG-Bench",
           "type": "Benchmark"
         },
@@ -3456,7 +3686,16 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://arxiv.org/abs/2605.02834",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/RAIVNLab/VideoNet"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://tanu.sh/research/videonet/"
+            }
+          ],
           "name": "VideoNet",
           "type": "Dataset"
         },
@@ -3466,7 +3705,16 @@
           "year": "2025",
           "venue": "arXiv 2025",
           "paper_url": "https://arxiv.org/abs/2507.04909",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Fantasyele/HumanVideo-MME"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://fantasyele.github.io/projects/HumanVideo-MME/"
+            }
+          ],
           "name": "HumanVideo-MME",
           "type": "Benchmark"
         },
@@ -3476,7 +3724,12 @@
           "year": "2025",
           "venue": "ICCV 2025",
           "paper_url": "https://doi.org/10.1109/iccv51701.2025.01229",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/VUT-HFUT/Micro-Action"
+            }
+          ],
           "name": "MMAD",
           "type": "Dataset"
         },
@@ -3486,7 +3739,16 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00791",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/zai-org/MotionBench"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://motion-bench.github.io/"
+            }
+          ],
           "name": "MotionBench",
           "type": "Benchmark"
         },
@@ -3496,7 +3758,20 @@
           "year": "2025",
           "venue": "NeurIPS 2025",
           "paper_url": "https://doi.org/10.52202/085713-0469",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/aiot-lab/OctoNet"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://aiot-lab.github.io/OctoNet/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/hku-aiot/OctoNet"
+            }
+          ],
           "name": "OctoNet",
           "type": "Dataset"
         },
@@ -3513,6 +3788,16 @@
       ],
       "Human Kinematic Motion Resources": [
         {
+          "bibkey": "liu2026mrbench",
+          "title": "MRBench: A Comprehensive Benchmark for Human Motion-Text Retrieval",
+          "year": "2026",
+          "venue": "2026",
+          "paper_url": "https://arxiv.org/abs/2608.07993",
+          "websites": [],
+          "name": "MRBench",
+          "type": "Benchmark"
+        },
+        {
           "bibkey": "cao2026opent2m",
           "title": "OpenT2M: No-frill Motion Generation with Open-source, Large-scale, High-quality Data",
           "year": "2026",
@@ -3520,7 +3805,7 @@
           "paper_url": "https://arxiv.org/pdf/2603.18623",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://research.beingbeyond.com/opent2m"
             }
           ],
@@ -3535,7 +3820,7 @@
           "paper_url": "https://arxiv.org/abs/2605.26241",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://davidzhang73.github.io/romo-website/"
             }
           ],
@@ -3550,7 +3835,7 @@
           "paper_url": "https://openreview.net/forum?id=ii9kVwf95a",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://bedlam2.is.tue.mpg.de/"
             }
           ],
@@ -3565,7 +3850,7 @@
           "paper_url": "https://arxiv.org/pdf/2508.07863",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://beingbeyond.github.io/Being-M0.5/"
             }
           ],
@@ -3580,7 +3865,7 @@
           "paper_url": "https://arxiv.org/pdf/2507.07095",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/VankouF/MotionMillion-Codes"
             }
           ],
@@ -3595,7 +3880,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Gupta_MDD_A_Dataset_for_Text-and-Music_Conditioned_Duet_Dance_Generation_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://gprerit96.github.io/mdd-page"
             }
           ],
@@ -3610,7 +3895,7 @@
           "paper_url": "https://arxiv.org/abs/2503.06955",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://steve-zeyu-zhang.github.io/MotionAnything/"
             }
           ],
@@ -3625,7 +3910,7 @@
           "paper_url": "https://arxiv.org/abs/2501.05098",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://motion-x-dataset.github.io/"
             }
           ],
@@ -3640,7 +3925,7 @@
           "paper_url": "https://openreview.net/forum?id=pdE9onSn2h",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://snap-research.github.io/SnapMoGen/"
             }
           ],
@@ -3653,7 +3938,16 @@
           "year": "2025",
           "venue": "ICLR 2026",
           "paper_url": "https://openreview.net/forum?id=KNke6Pkq4o",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/oneScotch/ViMoGen"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://motrixlab.github.io/2026_iclr_vimogen/"
+            }
+          ],
           "name": "ViMoGen/MBench",
           "type": "Dataset + Benchmark"
         },
@@ -3665,7 +3959,7 @@
           "paper_url": "https://arxiv.org/pdf/2410.03311",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://beingbeyond.github.io/Being-M0/"
             }
           ],
@@ -3680,7 +3974,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Black_BEDLAM_A_Synthetic_Dataset_of_Bodies_Exhibiting_Detailed_Lifelike_Animated_Motion_CVPR_2023_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://bedlam.is.tue.mpg.de/"
             }
           ],
@@ -3695,7 +3989,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_FineDance_A_Fine-grained_Choreography_Dataset_for_3D_Full_Body_Dance_Generation_ICCV_2023_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/li-ronghui/FineDance"
             }
           ],
@@ -3710,7 +4004,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yi_Generating_Holistic_3D_Human_Motion_From_Speech_CVPR_2023_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://talkshow.is.tue.mpg.de/"
             }
           ],
@@ -3725,7 +4019,7 @@
           "paper_url": "https://arxiv.org/abs/2307.00818",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://motion-x-dataset.github.io/"
             }
           ],
@@ -3740,7 +4034,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/EricGuo5513/HumanML3D"
             }
           ],
@@ -3755,7 +4049,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2021/html/Li_AI_Choreographer_Music_Conditioned_3D_Dance_Generation_With_AIST_ICCV_2021_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://google.github.io/aichoreographer/"
             }
           ],
@@ -3770,7 +4064,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Punnakkal_BABEL_Bodies_Action_and_Behavior_With_English_Labels_CVPR_2021_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://babel.is.tue.mpg.de/"
             }
           ],
@@ -3787,7 +4081,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cai_BarbieGait_An_Identity-Consistent_Synthetic_Human_Dataset_with_Versatile_Cloth-Changing_for_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://barbiegait.github.io/"
             }
           ],
@@ -3802,7 +4096,7 @@
           "paper_url": "https://arxiv.org/abs/2604.15979",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/BNU-IVC/MMGait"
             }
           ],
@@ -3815,7 +4109,12 @@
           "year": "2024",
           "venue": "AAAI 2024",
           "paper_url": "https://doi.org/10.1609/aaai.v38i7.28621",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/ShinanZou/CCGR"
+            }
+          ],
           "name": "Cross-Covariate Gait Recognition",
           "type": "Benchmark"
         },
@@ -3827,7 +4126,7 @@
           "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01328",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/BNU-IVC/CCPG"
             }
           ],
@@ -3840,7 +4139,12 @@
           "year": "2023",
           "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 2023",
           "paper_url": "https://doi.org/10.1109/tpami.2023.3312419",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/ShiqiYu/OpenGait"
+            }
+          ],
           "name": "GaitLU-1M",
           "type": "Dataset + Benchmark"
         },
@@ -3850,7 +4154,12 @@
           "year": "2023",
           "venue": "CVPR 2023",
           "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00108",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://lidargait.github.io/"
+            }
+          ],
           "name": "LidarGait",
           "type": "Benchmark"
         },
@@ -3860,7 +4169,12 @@
           "year": "2023",
           "venue": "CVPR 2023",
           "paper_url": "https://doi.org/10.1109/cvpr52729.2023.00936",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/ShiqiYu/OpenGait"
+            }
+          ],
           "name": "OpenGait",
           "type": "Benchmark"
         },
@@ -3870,7 +4184,12 @@
           "year": "2022",
           "venue": "IEEE transactions on pattern analysis and machine intelligence 2022",
           "paper_url": "https://doi.org/10.1109/tpami.2022.3183288",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://doi.org/10.57760/sciencedb.07226"
+            }
+          ],
           "name": "CASIA-E",
           "type": "Dataset"
         },
@@ -3880,7 +4199,12 @@
           "year": "2022",
           "venue": "CVPR 2022",
           "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01959",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://gait3d.github.io/"
+            }
+          ],
           "name": "Gait3D",
           "type": "Dataset + Benchmark"
         }
@@ -3892,7 +4216,16 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2605.09598",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/IsmaelElsharkawi/SoccerLensDataset"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/IsmaelElsharkawi/SoccerExplainability"
+            }
+          ],
           "name": "SoccerLens",
           "type": "Benchmark"
         },
@@ -3902,7 +4235,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01269",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Moomin-Fin/Ano"
+            }
+          ],
           "name": "FSBench",
           "type": "Benchmark"
         },
@@ -3912,7 +4250,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01147",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://finalyou.github.io/M3GYM/"
+            }
+          ],
           "name": "M3GYM",
           "type": "Dataset"
         },
@@ -3922,7 +4265,12 @@
           "year": "2024",
           "venue": "CVPR 2024",
           "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02057",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/PKU-ICST-MIPL/FineSports_CVPR2024"
+            }
+          ],
           "name": "FineSports",
           "type": "Dataset"
         },
@@ -3932,7 +4280,12 @@
           "year": "2022",
           "venue": "CVPR 2022",
           "paper_url": "https://doi.org/10.1109/cvpr52688.2022.00296",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/xujinglin/FineDiving"
+            }
+          ],
           "name": "FineDiving",
           "type": "Dataset"
         },
@@ -3942,7 +4295,12 @@
           "year": "2021",
           "venue": "CVPR 2021",
           "paper_url": "https://doi.org/10.1109/cvpr46437.2021.00979",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://fit3d.imar.ro/home"
+            }
+          ],
           "name": "AIFit",
           "type": "Dataset"
         }
@@ -3954,7 +4312,12 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2604.27958",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://shaodingbao.github.io/TripVVT/"
+            }
+          ],
           "name": "TripVVT",
           "type": "Dataset"
         },
@@ -3964,7 +4327,12 @@
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2604.19748",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/TaobaoTmall-AlgorithmProducts/Tstars-VTON"
+            }
+          ],
           "name": "Tstars-Tryon 1.0",
           "type": "Dataset"
         },
@@ -3984,7 +4352,12 @@
           "year": "2025",
           "venue": "Proceedings of the Winter Conference on Applications of Computer Vision 2025",
           "paper_url": "https://doi.org/10.1109/wacv61041.2025.00145",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/cuiaiyu/street-tryon-benchmark"
+            }
+          ],
           "name": "Street Tryon",
           "type": "Dataset"
         },
@@ -3994,7 +4367,16 @@
           "year": "2024",
           "venue": "arXiv 2024",
           "paper_url": "https://arxiv.org/abs/2405.11794",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/alibaba-yuanjing-aigclab/vivid"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://alibaba-yuanjing-aigclab.github.io/ViViD/"
+            }
+          ],
           "name": "ViViD",
           "type": "Dataset"
         },
@@ -4004,7 +4386,12 @@
           "year": "2022",
           "venue": "CVPR 2022",
           "paper_url": "https://doi.org/10.1109/cvprw56347.2022.00243",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/aimagelab/dress-code"
+            }
+          ],
           "name": "Dress Code",
           "type": "Dataset"
         },
@@ -4014,7 +4401,12 @@
           "year": "2021",
           "venue": "CVPR 2021",
           "paper_url": "https://doi.org/10.1109/cvpr46437.2021.01391",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/shadow2496/VITON-HD"
+            }
+          ],
           "name": "VITON-HD",
           "type": "Dataset"
         }
@@ -4040,7 +4432,7 @@
           "paper_url": "https://arxiv.org/abs/2606.24422",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://leiyj23.github.io/EgoSAT/"
             }
           ],
@@ -4055,7 +4447,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Nagrani_Minerva-Ego_Spatiotemporal_Hints_for_Egocentric_Video_Understanding_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/google-deepmind/neptune"
             }
           ],
@@ -4070,7 +4462,7 @@
           "paper_url": "https://arxiv.org/abs/2606.04970",
           "websites": [
             {
-              "label": "Project",
+              "kind": "huggingface",
               "url": "https://huggingface.co/datasets/facebook/wearable-ai"
             }
           ],
@@ -4085,7 +4477,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/a974bceb4d1af7d46673d1876482bd4f-Abstract-Datasets_and_Benchmarks_Track.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/ayiyayi/EgoExoBench"
             }
           ],
@@ -4100,7 +4492,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lin_EgoLife_Towards_Egocentric_Life_Assistant_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://egolife-ai.github.io/"
             }
           ],
@@ -4115,7 +4507,7 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/3ef2b740cb22dcce67c20989cb3d3fce-Paper-Datasets_and_Benchmarks_Track.pdf",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://egovid.github.io"
             }
           ],
@@ -4130,7 +4522,7 @@
           "paper_url": "https://arxiv.org/abs/2506.06277",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Texaser/Exact"
             }
           ],
@@ -4145,7 +4537,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Damen_HD-EPIC_A_Highly-Detailed_Egocentric_Video_Dataset_CVPR_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "http://hd-epic.github.io"
             }
           ],
@@ -4160,7 +4552,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Perceiving_and_Acting_in_First-Person_A_Dataset_and_Benchmark_for_Egocentric_ICCV_2025_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://liangxuy.github.io/InterVLA/"
             }
           ],
@@ -4175,8 +4567,12 @@
           "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/7f55e6b053cc5f7d024b111c0a13f604-Abstract-Datasets_and_Benchmarks_Track.html",
           "websites": [
             {
-              "label": "Project",
-              "url": "https://rohithpeddi.github.io/captaincook"
+              "kind": "github",
+              "url": "https://github.com/CaptainCook4D"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://captaincook4d.github.io/captain-cook/"
             }
           ],
           "name": "CaptainCook4D",
@@ -4190,7 +4586,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Grauman_Ego-Exo4D_Understanding_Skilled_Human_Activity_from_First-_and_Third-Person_Perspectives_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://ego-exo4d-data.org/"
             }
           ],
@@ -4205,7 +4601,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_EgoExoLearn_A_Diverse_Large-Scale_Dataset_for_Egocentric_and_Exocentric_Video_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/OpenGVLab/EgoExoLearn"
             }
           ],
@@ -4220,7 +4616,7 @@
           "paper_url": "https://arxiv.org/abs/2406.09905",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://www.projectaria.com/datasets/nymeria/"
             }
           ],
@@ -4235,7 +4631,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Pan_Aria_Digital_Twin_A_New_Benchmark_Dataset_for_Egocentric_3D_Machine_ICCV_2023_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://www.projectaria.com/datasets/adt/"
             }
           ],
@@ -4250,7 +4646,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/html/Ohkawa_AssemblyHands_Towards_Egocentric_Activity_Understanding_via_3D_Hand_Pose_Estimation_CVPR_2023_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://assemblyhands.github.io/"
             }
           ],
@@ -4265,7 +4661,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wang_HoloAssist_an_Egocentric_Human_Interaction_Dataset_for_Interactive_AI_Assistants_ICCV_2023_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://holoassist.github.io/"
             }
           ],
@@ -4280,7 +4676,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Sener_Assembly101_A_Large-Scale_Multi-View_Video_Dataset_for_Understanding_Procedural_Activities_CVPR_2022_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://assembly-101.github.io/"
             }
           ],
@@ -4295,7 +4691,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2022/html/Grauman_Ego4D_Around_the_World_in_3_000_Hours_of_Egocentric_Video_CVPR_2022_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://ego4d-data.org/"
             }
           ],
@@ -4310,7 +4706,7 @@
           "paper_url": "https://openreview.net/forum?id=ttxAvIQA4i_",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://sites.google.com/view/egotaskqa"
             }
           ],
@@ -4325,7 +4721,7 @@
           "paper_url": "https://link.springer.com/article/10.1007/s11263-021-01531-2",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://epic-kitchens.github.io/"
             }
           ],
@@ -4340,7 +4736,12 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://doi.org/10.48550/arxiv.2508.18753",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/ChelsieLei/CrossHOI-Bench"
+            }
+          ],
           "name": "CrossHOI-Bench",
           "type": "Benchmark"
         },
@@ -4350,7 +4751,12 @@
           "year": "2026",
           "venue": "CVPR 2026",
           "paper_url": "https://doi.org/10.48550/arxiv.2512.00885",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://masatate.github.io/HanDyVQA-project-page/"
+            }
+          ],
           "name": "HanDyVQA",
           "type": "Benchmark"
         },
@@ -4360,7 +4766,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00172",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://core4d.github.io/"
+            }
+          ],
           "name": "CORE4D",
           "type": "Dataset"
         },
@@ -4370,7 +4781,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01627",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/brown-ivl/GigaHands"
+            }
+          ],
           "name": "GigaHands",
           "type": "Dataset"
         },
@@ -4380,7 +4796,16 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.02235",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://liuqi-creat.github.io/HOIGen.github.io/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/HOIGen/HOIGen-1M"
+            }
+          ],
           "name": "HOIGen-1M",
           "type": "Dataset"
         },
@@ -4390,7 +4815,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00662",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://facebookresearch.github.io/hot3d/"
+            }
+          ],
           "name": "HOT3D",
           "type": "Dataset"
         },
@@ -4400,7 +4830,16 @@
           "year": "2025",
           "venue": "ICCV 2025",
           "paper_url": "https://doi.org/10.1109/iccv51701.2025.01013",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/adobe-research/humoto"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://jiaxin-lu.github.io/humoto/"
+            }
+          ],
           "name": "HUMOTO",
           "type": "Dataset"
         },
@@ -4410,7 +4849,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00176",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jlogkim.github.io/parahome/"
+            }
+          ],
           "name": "ParaHome",
           "type": "Dataset"
         },
@@ -4420,7 +4864,12 @@
           "year": "2024",
           "venue": "International Journal of Computer Vision 2024",
           "paper_url": "https://doi.org/10.1007/s11263-024-01984-1",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://intercap.is.tue.mpg.de/"
+            }
+          ],
           "name": "InterCap",
           "type": "Dataset"
         },
@@ -4430,7 +4879,16 @@
           "year": "2024",
           "venue": "CVPR 2024",
           "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00050",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/oakink/OakInk2"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://oakink.net/"
+            }
+          ],
           "name": "OAKINK2",
           "type": "Dataset"
         },
@@ -4440,7 +4898,12 @@
           "year": "2024",
           "venue": "CVPR 2024",
           "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02054",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://taco2024.github.io/"
+            }
+          ],
           "name": "TACO",
           "type": "Benchmark"
         },
@@ -4450,7 +4913,12 @@
           "year": "2023",
           "venue": "CVPR 2023",
           "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01244",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://arctic.is.tue.mpg.de/"
+            }
+          ],
           "name": "ARCTIC",
           "type": "Dataset"
         },
@@ -4460,7 +4928,12 @@
           "year": "2023",
           "venue": "ICCV 2023",
           "paper_url": "https://doi.org/10.1109/iccv51070.2023.00859",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://eng.bigai.ai/paper/full-body-articulated-human-object-interaction/"
+            }
+          ],
           "name": "CHAIRS",
           "type": "Dataset"
         },
@@ -4470,7 +4943,12 @@
           "year": "2022",
           "venue": "CVPR 2022",
           "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01547",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://virtualhumans.mpi-inf.mpg.de/behave/"
+            }
+          ],
           "name": "BEHAVE",
           "type": "Dataset"
         },
@@ -4480,7 +4958,12 @@
           "year": "2022",
           "venue": "CVPR 2022",
           "paper_url": "https://doi.org/10.1109/cvpr52688.2022.02034",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://hoi4d.github.io/"
+            }
+          ],
           "name": "HOI4D",
           "type": "Dataset"
         },
@@ -4492,7 +4975,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2021/html/Chao_DexYCB_A_Benchmark_for_Capturing_Hand_Grasping_of_Objects_CVPR_2021_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://dex-ycb.github.io/"
             }
           ],
@@ -4505,7 +4988,16 @@
           "year": "2021",
           "venue": "ICCV 2021",
           "paper_url": "https://doi.org/10.1109/iccv48922.2021.00998",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/taeinkwon/h2odataset"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://taeinkwon.com/projects/h2o/"
+            }
+          ],
           "name": "H2O",
           "type": "Dataset"
         }
@@ -4519,7 +5011,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.html",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/jnnan/trumans_utils"
             }
           ],
@@ -4532,7 +5024,16 @@
           "year": "2022",
           "venue": "CVPR 2022",
           "paper_url": "https://doi.org/10.1109/cvpr52688.2022.01292",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/paulchhuang/rich_toolkit"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://rich.is.tue.mpg.de/"
+            }
+          ],
           "name": "RICH",
           "type": "Dataset"
         },
@@ -4542,7 +5043,16 @@
           "year": "2022",
           "venue": "ECCV 2022",
           "paper_url": "https://doi.org/10.1007/978-3-031-20068-7_11",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/sanweiliti/EgoBody"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://sanweiliti.github.io/egobody/egobody.html"
+            }
+          ],
           "name": "EgoBody",
           "type": "Dataset"
         },
@@ -4552,12 +5062,36 @@
           "year": "2022",
           "venue": "NeurIPS 2022",
           "paper_url": "https://doi.org/10.48550/arxiv.2210.09729",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Silverster98/HUMANISE"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://silverster98.github.io/HUMANISE/"
+            }
+          ],
           "name": "HUMANISE",
           "type": "Dataset"
         }
       ],
       "Social Interaction Data": [
+        {
+          "bibkey": "lin2026mpie",
+          "title": "MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person Interaction Editing",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.27616",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/AnnLin0628/mpie-bench"
+            }
+          ],
+          "name": "MPIE-Bench",
+          "type": "Benchmark"
+        },
         {
           "bibkey": "jin2026sentiavatar",
           "title": "SentiAvatar: Towards Expressive and Interactive Digital Humans",
@@ -4566,7 +5100,7 @@
           "paper_url": "https://arxiv.org/pdf/2604.02908",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://sentiavatar.github.io/"
             }
           ],
@@ -4579,7 +5113,12 @@
           "year": "2025",
           "venue": "arXiv 2025",
           "paper_url": "https://arxiv.org/abs/2510.16258",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://www.meta.com/emerging-tech/codec-avatars/embody-3d/"
+            }
+          ],
           "name": "Embody 3D",
           "type": "Dataset"
         },
@@ -4589,7 +5128,12 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.00997",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://grisoon.github.io/INFP/"
+            }
+          ],
           "name": "INFP",
           "type": "Dataset"
         },
@@ -4599,7 +5143,12 @@
           "year": "2025",
           "venue": "SIGGRAPH 2025",
           "paper_url": "https://doi.org/10.1145/3747871",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://hku-cg.github.io/interact/"
+            }
+          ],
           "name": "InterAct",
           "type": "Dataset"
         },
@@ -4609,7 +5158,16 @@
           "year": "2025",
           "venue": "arXiv 2025",
           "paper_url": "https://arxiv.org/abs/2506.22554",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/facebookresearch/seamless_interaction"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/facebook/seamless-interaction"
+            }
+          ],
           "name": "Seamless Interaction",
           "type": "Dataset"
         },
@@ -4619,7 +5177,16 @@
           "year": "2025",
           "venue": "CVPR 2025",
           "paper_url": "https://doi.org/10.1109/cvpr52734.2025.01817",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://www.irohxucao.com/SocialGesture/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/IrohXu/SocialGesture"
+            }
+          ],
           "name": "SocialGesture",
           "type": "Dataset"
         },
@@ -4629,7 +5196,16 @@
           "year": "2025",
           "venue": "arXiv 2025",
           "paper_url": "https://arxiv.org/abs/2507.09862",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Dorniwang/SpeakerVid-5M-Code"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://dorniwang.github.io/SpeakerVid-5M/"
+            }
+          ],
           "name": "SpeakerVid-5M",
           "type": "Dataset"
         },
@@ -4639,7 +5215,16 @@
           "year": "2024",
           "venue": "CVPR 2024",
           "paper_url": "https://doi.org/10.1109/cvpr52733.2024.00101",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/facebookresearch/audio2photoreal"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://evonneng.github.io/projects/audio2photoreal/index.html"
+            }
+          ],
           "name": "From audio to photoreal embodiment",
           "type": "Dataset"
         },
@@ -4649,7 +5234,12 @@
           "year": "2024",
           "venue": "NeurIPS 2024",
           "paper_url": "https://doi.org/10.52202/079017-3407",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jyuntins.github.io/harmony4d/"
+            }
+          ],
           "name": "Harmony4D",
           "type": "Dataset"
         },
@@ -4659,7 +5249,12 @@
           "year": "2024",
           "venue": "CVPR 2024",
           "paper_url": "https://doi.org/10.1109/cvpr52733.2024.02101",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://liangxuy.github.io/inter-x/"
+            }
+          ],
           "name": "Inter-X",
           "type": "Dataset"
         },
@@ -4669,7 +5264,16 @@
           "year": "2023",
           "venue": "ICCV 2023",
           "paper_url": "https://doi.org/10.1109/iccv51070.2023.01814",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/rawalkhirodkar/egohumans"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://rawalkhirodkar.github.io/egohumans/"
+            }
+          ],
           "name": "EgoHumans",
           "type": "Benchmark"
         },
@@ -4679,7 +5283,16 @@
           "year": "2023",
           "venue": "CVPR 2023",
           "paper_url": "https://doi.org/10.1109/cvpr52729.2023.01632",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/yifeiyin04/Hi4D"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://yifeiyin04.github.io/Hi4D/"
+            }
+          ],
           "name": "Hi4D",
           "type": "Dataset"
         },
@@ -4689,7 +5302,12 @@
           "year": "2023",
           "venue": "Science advances 2023",
           "paper_url": "https://doi.org/10.1126/sciadv.adf3197",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://guscooney.com/candor-dataset/"
+            }
+          ],
           "name": "The CANDOR Corpus",
           "type": "Dataset"
         },
@@ -4699,7 +5317,12 @@
           "year": "2022",
           "venue": "ECCV 2022",
           "paper_url": "https://doi.org/10.1007/978-3-031-20071-7_36",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://pantomatrix.github.io/BEAT/"
+            }
+          ],
           "name": "BEAT",
           "type": "Dataset"
         }
@@ -4708,17 +5331,27 @@
     "Human Embodiment Resources": {
       "Human Data for Embodied AI": [
         {
+          "bibkey": "cao2026ace",
+          "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
+          "year": "2026",
+          "venue": "2026",
+          "paper_url": "https://arxiv.org/abs/2607.28625",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ace-data-engine.github.io/ACE-Data-0/"
+            }
+          ],
+          "name": "ACE-Data-0",
+          "type": "Dataset"
+        },
+        {
           "bibkey": "li2026egolive",
           "title": "EgoLive: A Large-Scale Egocentric Dataset from Real-World Human Tasks",
           "year": "2026",
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2604.23570",
-          "websites": [
-            {
-              "label": "Project",
-              "url": "https://robotdata-market.jdcloud.com/console/market"
-            }
-          ],
+          "websites": [],
           "name": "EgoLive",
           "type": "Dataset + Benchmark"
         },
@@ -4730,12 +5363,35 @@
           "paper_url": "https://arxiv.org/abs/2604.07607",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/GaTech-RL2/EgoVerse"
             }
           ],
           "name": "EgoVerse",
           "type": "Dataset"
+        },
+        {
+          "bibkey": "yang2026handedit",
+          "title": "HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing",
+          "year": "2026",
+          "venue": "2026",
+          "paper_url": "https://arxiv.org/abs/2608.12122",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/HandEdit/HandEdit"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://handedit.github.io/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/HandEdit/HandEdit-Full"
+            }
+          ],
+          "name": "HandEdit",
+          "type": "Benchmark"
         },
         {
           "bibkey": "engelbracht2026hoi",
@@ -4745,7 +5401,7 @@
           "paper_url": "https://arxiv.org/abs/2512.04884",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/timengelbracht/hoi-dataset-tools"
             }
           ],
@@ -4760,7 +5416,7 @@
           "paper_url": "https://arxiv.org/abs/2604.14944",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/snuvclab/HRDexDB"
             }
           ],
@@ -4775,7 +5431,7 @@
           "paper_url": "https://arxiv.org/abs/2606.26443",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/Baiqi-Li/WatchAct"
             }
           ],
@@ -4790,7 +5446,7 @@
           "paper_url": "https://arxiv.org/abs/2506.23152",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/4DVLab/DexH2R"
             }
           ],
@@ -4805,7 +5461,7 @@
           "paper_url": "https://arxiv.org/abs/2505.11709",
           "websites": [
             {
-              "label": "Code",
+              "kind": "github",
               "url": "https://github.com/apple/ml-egodex"
             }
           ],
@@ -4820,7 +5476,7 @@
           "paper_url": "https://arxiv.org/abs/2511.15704",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://xiongyicai.github.io/In-N-On"
             }
           ],
@@ -4835,7 +5491,7 @@
           "paper_url": "https://arxiv.org/abs/2509.05513",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "https://www.openegocentric.com"
             }
           ],
@@ -4845,6 +5501,29 @@
       ],
       "Physical Humanoid Control": [
         {
+          "bibkey": "liu2026humantracker",
+          "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.13555",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/GalaxyGeneralRobotics/HumanTracker"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://dairuliu.github.io/humantracker"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/dairuliu/HumanTracker"
+            }
+          ],
+          "name": "HumanTracker",
+          "type": "Benchmark"
+        },
+        {
           "bibkey": "li2026towardsmotion",
           "title": "Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots",
           "year": "2026",
@@ -4852,7 +5531,7 @@
           "paper_url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Motion_Turing_Test_Evaluating_Human-Likeness_in_Humanoid_Robots_CVPR_2026_paper.html",
           "websites": [
             {
-              "label": "Project",
+              "kind": "homepage",
               "url": "http://www.lidarhumanmotion.net/mtt/"
             }
           ],
@@ -4865,7 +5544,16 @@
           "year": "2025",
           "venue": "arXiv 2025",
           "paper_url": "https://arxiv.org/abs/2510.26236",
-          "websites": [],
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/davian-robotics/PHUMA"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://davian-robotics.github.io/PHUMA/"
+            }
+          ],
           "name": "PHUMA",
           "type": "Dataset"
         }

@@ -1,0 +1,598 @@
+{
+  "agrawal2025seamless": {
+    "websites": [
+      "https://github.com/facebookresearch/seamless_interaction",
+      "https://huggingface.co/datasets/facebook/seamless-interaction"
+    ]
+  },
+  "an2022mri": {
+    "websites": [
+      "https://github.com/SizheAn/mRI"
+    ]
+  },
+  "banerjee2025hot3d": {
+    "websites": [
+      "https://facebookresearch.github.io/hot3d/"
+    ]
+  },
+  "bhatnagar2022behave": {
+    "websites": [
+      "https://virtualhumans.mpi-inf.mpg.de/behave/"
+    ]
+  },
+  "cai2022humman": {
+    "websites": [
+      "https://github.com/MotrixLab/humman_toolbox",
+      "https://caizhongang.com/projects/HuMMan/"
+    ]
+  },
+  "cai2025humanvideo": {
+    "websites": [
+      "https://github.com/Fantasyele/HumanVideo-MME",
+      "https://fantasyele.github.io/projects/HumanVideo-MME/"
+    ]
+  },
+  "cai2026homie": {
+    "title": "HOMIE: Human-Object Centric Video Personalization via Multimodal Intelligent Enhancement",
+    "websites": [
+      "https://github.com/YIYANGCAI/HOMIE",
+      "https://yiyangcai.github.io/homie-page.github.io/"
+    ]
+  },
+  "cao2025socialgesture": {
+    "websites": [
+      "https://www.irohxucao.com/SocialGesture/",
+      "https://huggingface.co/datasets/IrohXu/SocialGesture"
+    ]
+  },
+  "cao2026ace": {
+    "websites": [
+      "https://ace-data-engine.github.io/ACE-Data-0/"
+    ]
+  },
+  "chang2026omg": {
+    "websites": [
+      "https://omg-bench.github.io/"
+    ]
+  },
+  "chen2022mmbody": {
+    "websites": [
+      "https://github.com/Chen3110/mmBody",
+      "https://chen3110.github.io/mmbody/"
+    ]
+  },
+  "chen2026tstars": {
+    "websites": [
+      "https://huggingface.co/datasets/TaobaoTmall-AlgorithmProducts/Tstars-VTON"
+    ]
+  },
+  "choi2021viton": {
+    "websites": [
+      "https://github.com/shadow2496/VITON-HD"
+    ]
+  },
+  "cui2025street": {
+    "websites": [
+      "https://github.com/cuiaiyu/street-tryon-benchmark"
+    ]
+  },
+  "deng2026humannet": {
+    "websites": [
+      "https://github.com/DAGroup-PKU/HumanNet",
+      "https://dagroup-pku.github.io/HumanNet/"
+    ]
+  },
+  "di2025dh": {
+    "websites": [
+      "https://github.com/luna-ai-lab/DH-FaceVid-1K",
+      "https://luna-ai-lab.github.io/DH-FaceVid-1K/",
+      "https://huggingface.co/datasets/jjuik2014/DH-FaceVid-1K"
+    ]
+  },
+  "elsharkawi2026soccerlens": {
+    "websites": [
+      "https://github.com/IsmaelElsharkawi/SoccerLensDataset",
+      "https://github.com/IsmaelElsharkawi/SoccerExplainability"
+    ]
+  },
+  "fan2023arctic": {
+    "websites": [
+      "https://arctic.is.tue.mpg.de/"
+    ]
+  },
+  "fan2023learning": {
+    "websites": [
+      "https://github.com/ShiqiYu/OpenGait"
+    ]
+  },
+  "fan2023opengait": {
+    "websites": [
+      "https://github.com/ShiqiYu/OpenGait"
+    ]
+  },
+  "fan2026m4human": {
+    "websites": [
+      "https://github.com/FanJunqiao/M4Human",
+      "https://fanjunqiao.github.io/M4Human-site/"
+    ]
+  },
+  "fang2024vivid": {
+    "websites": [
+      "https://github.com/alibaba-yuanjing-aigclab/vivid",
+      "https://alibaba-yuanjing-aigclab.github.io/ViViD/"
+    ]
+  },
+  "fang2025humocon": {
+    "websites": [
+      "https://qhfang.github.io/papers/humocon.html"
+    ]
+  },
+  "fang2026humanscore": {
+    "websites": [
+      "https://cs.stanford.edu/~xtiange/projects/humanscore/"
+    ]
+  },
+  "faure2026finebench": {
+    "websites": [
+      "https://github.com/joslefaure/FineBench_eval",
+      "https://joslefaure.github.io/assets/html/finebench.html",
+      "https://huggingface.co/datasets/FINEBENCH/FineBench"
+    ]
+  },
+  "fieraru2021aifit": {
+    "websites": [
+      "https://fit3d.imar.ro/home"
+    ]
+  },
+  "fu2025gigahands": {
+    "websites": [
+      "https://github.com/brown-ivl/GigaHands"
+    ]
+  },
+  "gao2025fsbench": {
+    "websites": [
+      "https://github.com/Moomin-Fin/Ano"
+    ]
+  },
+  "ho2024rt": {
+    "websites": [
+      "https://github.com/ipl-uw/RT-POSE"
+    ]
+  },
+  "ho2025interact": {
+    "websites": [
+      "https://hku-cg.github.io/interact/"
+    ]
+  },
+  "hong2025motionbench": {
+    "websites": [
+      "https://github.com/zai-org/MotionBench",
+      "https://motion-bench.github.io/"
+    ]
+  },
+  "huang2022capturing": {
+    "websites": [
+      "https://github.com/paulchhuang/rich_toolkit",
+      "https://rich.is.tue.mpg.de/"
+    ]
+  },
+  "huang2024intercap": {
+    "websites": [
+      "https://intercap.is.tue.mpg.de/"
+    ]
+  },
+  "huang2025hoigpt": {
+    "websites": [
+      "https://www.mingzhenhuang.com/projects/hoigpt.html"
+    ]
+  },
+  "ji2026real": {
+    "websites": [
+      "https://bjkim95.github.io/rofacto/"
+    ]
+  },
+  "jiang2023full": {
+    "websites": [
+      "https://eng.bigai.ai/paper/full-body-articulated-human-object-interaction/"
+    ]
+  },
+  "jiang2025laboratory": {
+    "websites": [
+      "https://github.com/Joey623/L2RW"
+    ]
+  },
+  "jiang2025wholebodyvla": {
+    "websites": [
+      "https://github.com/OpenDriveLab/WholebodyVLA",
+      "https://wholebodyvla.github.io/"
+    ]
+  },
+  "kapitanov2024hagrid": {
+    "websites": [
+      "https://github.com/hukenovs/hagrid"
+    ]
+  },
+  "khirodkar2023ego": {
+    "websites": [
+      "https://github.com/rawalkhirodkar/egohumans",
+      "https://rawalkhirodkar.github.io/egohumans/"
+    ]
+  },
+  "khirodkar2024harmony4d": {
+    "websites": [
+      "https://jyuntins.github.io/harmony4d/"
+    ]
+  },
+  "kim2025parahome": {
+    "websites": [
+      "https://jlogkim.github.io/parahome/"
+    ]
+  },
+  "kwon2021h2o": {
+    "websites": [
+      "https://github.com/taeinkwon/h2odataset",
+      "https://taeinkwon.com/projects/h2o/"
+    ]
+  },
+  "lee2023hupr": {
+    "websites": [
+      "https://github.com/robert80203/HuPR-A-Benchmark-for-Human-Pose-Estimation-Using-Millimeter-Wave-Radar"
+    ]
+  },
+  "lee2025phuma": {
+    "websites": [
+      "https://github.com/davian-robotics/PHUMA",
+      "https://davian-robotics.github.io/PHUMA/"
+    ]
+  },
+  "lei2026crosshoi": {
+    "websites": [
+      "https://github.com/ChelsieLei/CrossHOI-Bench"
+    ]
+  },
+  "li2025human": {
+    "websites": [
+      "https://github.com/ILGLJ/LLaMo"
+    ]
+  },
+  "li2025mmad": {
+    "websites": [
+      "https://github.com/VUT-HFUT/Micro-Action"
+    ]
+  },
+  "li2025openhumanvid": {
+    "websites": [
+      "https://fudan-generative-vision.github.io/OpenHumanVid/"
+    ]
+  },
+  "li2026humanclaw": {
+    "websites": [
+      "https://github.com/Human-CLAW/HumanCLAW",
+      "https://human-claw.github.io/"
+    ]
+  },
+  "lin2025quest": {
+    "websites": [
+      "https://github.com/oneScotch/ViMoGen",
+      "https://motrixlab.github.io/2026_iclr_vimogen/"
+    ]
+  },
+  "lin2026mpie": {
+    "websites": [
+      "https://github.com/AnnLin0628/mpie-bench"
+    ]
+  },
+  "liu2022beat": {
+    "websites": [
+      "https://pantomatrix.github.io/BEAT/"
+    ]
+  },
+  "liu2022hoi4d": {
+    "websites": [
+      "https://hoi4d.github.io/"
+    ]
+  },
+  "liu2024taco": {
+    "websites": [
+      "https://taco2024.github.io/"
+    ]
+  },
+  "liu2025core4d": {
+    "websites": [
+      "https://core4d.github.io/"
+    ]
+  },
+  "liu2025hoigen": {
+    "websites": [
+      "https://liuqi-creat.github.io/HOIGen.github.io/",
+      "https://huggingface.co/datasets/HOIGen/HOIGen-1M"
+    ]
+  },
+  "jiang2026motionmaster": {
+    "websites": [
+      "https://github.com/liyanhu666666/MotionMaster"
+    ]
+  },
+  "liu2026humantracker": {
+    "websites": [
+      "https://github.com/GalaxyGeneralRobotics/HumanTracker",
+      "https://dairuliu.github.io/humantracker",
+      "https://huggingface.co/datasets/dairuliu/HumanTracker"
+    ]
+  },
+  "liu2026lara": {
+    "websites": [
+      "https://github.com/lmy1001/LARA",
+      "https://lmy1001.github.io/ICML26_LARA/"
+    ]
+  },
+  "mclean2025embody": {
+    "websites": [
+      "https://www.meta.com/emerging-tech/codec-avatars/embody-3d/"
+    ]
+  },
+  "lu2025humoto": {
+    "websites": [
+      "https://github.com/adobe-research/humoto",
+      "https://jiaxin-lu.github.io/humoto/"
+    ]
+  },
+  "martinelli2026volhume": {
+    "websites": [
+      "https://giuli13.github.io/volhume-website/"
+    ]
+  },
+  "morelli2022dress": {
+    "websites": [
+      "https://github.com/aimagelab/dress-code"
+    ]
+  },
+  "nagano2026dyaplex": {
+    "websites": [
+      "https://research.nvidia.com/labs/amri/projects/DyaPlex/"
+    ]
+  },
+  "ng2024audio": {
+    "websites": [
+      "https://github.com/facebookresearch/audio2photoreal",
+      "https://evonneng.github.io/projects/audio2photoreal/index.html"
+    ]
+  },
+  "peddi2024captaincook4d": {
+    "websites": [
+      "https://github.com/CaptainCook4D",
+      "https://captaincook4d.github.io/captain-cook/"
+    ]
+  },
+  "nguyen2025ag": {
+    "websites": [
+      "https://github.com/agvpreid25/AG-VPReID-Net",
+      "https://agvpreid25.github.io/"
+    ]
+  },
+  "qin2026face": {
+    "websites": [
+      "https://github.com/lxq1000/Face-Human-Bench",
+      "https://face-human-bench.github.io/"
+    ]
+  },
+  "rahman2024mmvr": {
+    "websites": [
+      "https://zenodo.org/records/12611978"
+    ]
+  },
+  "reece2023candor": {
+    "websites": [
+      "https://guscooney.com/candor-dataset/"
+    ]
+  },
+  "shao2026tripvvt": {
+    "websites": [
+      "https://shaodingbao.github.io/TripVVT/"
+    ]
+  },
+  "shen2023lidargait": {
+    "websites": [
+      "https://lidargait.github.io/"
+    ]
+  },
+  "shi2026gpc": {
+    "websites": [
+      "https://yi-shi94.github.io/gpc-page/"
+    ]
+  },
+  "song2022casia": {
+    "websites": [
+      "https://doi.org/10.57760/sciencedb.07226"
+    ]
+  },
+  "tateno2026handyvqa": {
+    "websites": [
+      "https://masatate.github.io/HanDyVQA-project-page/"
+    ]
+  },
+  "team2025klingavatar": {
+    "websites": [
+      "https://app.klingai.com/global/ai-human/image/new/"
+    ]
+  },
+  "wang2022humanise": {
+    "websites": [
+      "https://github.com/Silverster98/HUMANISE",
+      "https://silverster98.github.io/HUMANISE/"
+    ]
+  },
+  "wang2024humanvid": {
+    "websites": [
+      "https://github.com/zhenzhiwang/HumanVid",
+      "https://humanvid.github.io/"
+    ]
+  },
+  "wang2025facebench": {
+    "websites": [
+      "https://github.com/CVI-SZU/FaceBench"
+    ]
+  },
+  "wang2026experts": {
+    "websites": [
+      "https://beingbeyond.github.io/BumbleBee/"
+    ]
+  },
+  "wang2026arthoi": {
+    "websites": [
+      "https://arthoi-reconstruction.github.io/"
+    ]
+  },
+  "xiuegotwin": {
+    "websites": [
+      "https://egotwin.pages.dev/"
+    ]
+  },
+  "xu2022finediving": {
+    "websites": [
+      "https://github.com/xujinglin/FineDiving"
+    ]
+  },
+  "xu2024finesports": {
+    "websites": [
+      "https://github.com/PKU-ICST-MIPL/FineSports_CVPR2024"
+    ]
+  },
+  "xu2024inter": {
+    "websites": [
+      "https://liangxuy.github.io/inter-x/"
+    ]
+  },
+  "xu2025m3gym": {
+    "websites": [
+      "https://finalyou.github.io/M3GYM/"
+    ]
+  },
+  "xu2026interprior": {
+    "websites": [
+      "https://sirui-xu.github.io/InterPrior/"
+    ]
+  },
+  "xu2026iterative": {
+    "websites": [
+      "https://wesleyxu224.github.io/CLAIMS/"
+    ]
+  },
+  "yang2023mm": {
+    "websites": [
+      "https://github.com/ybhbingo/MMFi_dataset"
+    ]
+  },
+  "yang2023synbody": {
+    "websites": [
+      "https://synbody.github.io/SynBody/",
+      "https://huggingface.co/datasets/caizhongang/SynBody"
+    ]
+  },
+  "yang2023towards": {
+    "websites": [
+      "https://github.com/Shuyu-XJTU/APTM"
+    ]
+  },
+  "yang2026avbench": {
+    "websites": [
+      "https://yajialiang.github.io/AVBench-site/"
+    ]
+  },
+  "yang2026handedit": {
+    "websites": [
+      "https://github.com/HandEdit/HandEdit",
+      "https://handedit.github.io/",
+      "https://huggingface.co/datasets/HandEdit/HandEdit-Full"
+    ]
+  },
+  "yan2024reli11d": {
+    "websites": [
+      "https://github.com/yanmn/RELI11DandLIER",
+      "http://www.lidarhumanmotion.net/reli11d/"
+    ]
+  },
+  "yadav2026videonet": {
+    "websites": [
+      "https://github.com/RAIVNLab/VideoNet",
+      "https://tanu.sh/research/videonet/"
+    ]
+  },
+  "yin2026unitracker": {
+    "websites": [
+      "https://yinkangning0124.github.io/Humanoid-UniTracker/"
+    ]
+  },
+  "yin2023hi4d": {
+    "websites": [
+      "https://github.com/yifeiyin04/Hi4D",
+      "https://yifeiyin04.github.io/Hi4D/"
+    ]
+  },
+  "yuan2026octonet": {
+    "websites": [
+      "https://github.com/aiot-lab/OctoNet",
+      "https://aiot-lab.github.io/OctoNet/",
+      "https://huggingface.co/datasets/hku-aiot/OctoNet"
+    ]
+  },
+  "zhan2024oakink2": {
+    "websites": [
+      "https://github.com/oakink/OakInk2",
+      "https://oakink.net/"
+    ]
+  },
+  "zhang2021flow": {
+    "websites": [
+      "https://github.com/MRzzm/HDTF"
+    ]
+  },
+  "zhang2022egobody": {
+    "websites": [
+      "https://github.com/sanweiliti/EgoBody",
+      "https://sanweiliti.github.io/egobody/egobody.html"
+    ]
+  },
+  "zhang2023diverse": {
+    "websites": [
+      "https://github.com/ZYK100/LLCM"
+    ]
+  },
+  "zhang2025speakervid": {
+    "websites": [
+      "https://github.com/Dorniwang/SpeakerVid-5M-Code",
+      "https://dorniwang.github.io/SpeakerVid-5M/"
+    ]
+  },
+  "zheng2022gait": {
+    "websites": [
+      "https://gait3d.github.io/"
+    ]
+  },
+  "zhou2026humanvbench": {
+    "websites": [
+      "https://github.com/datajuicer/data-juicer/tree/HumanVBench",
+      "https://huggingface.co/datasets/datajuicer/HumanVBench"
+    ]
+  },
+  "zhu2022celebv": {
+    "websites": [
+      "https://celebv-hq.github.io/"
+    ]
+  },
+  "zhu2025infp": {
+    "websites": [
+      "https://grisoon.github.io/INFP/"
+    ]
+  },
+  "zhu2026omnihuman": {
+    "websites": [
+      "https://github.com/julia-cherry/OmniHuman"
+    ]
+  },
+  "zou2024cross": {
+    "websites": [
+      "https://github.com/ShinanZou/CCGR"
+    ]
+  }
+}
