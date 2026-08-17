@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Build the Human-Centric AI Resources Markdown pages from the survey sources.
+"""Build the Human-Centric AI Resources Markdown pages from curated sources.
 
-The script treats the survey as the source of truth. It combines citations from
-Chapters 4--6 with active rows in the method tables, and combines citations from
-the dataset/benchmark discussion with active rows in the resource tables.
+The script combines survey citations and tables with verified post-survey method
+updates, while retaining the manuscript as the source of truth for its contents.
 """
 
 from __future__ import annotations
@@ -1452,6 +1451,22 @@ def build_record(key: str, bib: dict[str, dict[str, str]], metadata: dict[str, d
     return record
 
 
+def build_supplemental_method_record(entry: dict) -> dict:
+    required = ("bibkey", "category", "name", "title", "year", "venue", "paper_url")
+    missing = [field for field in required if not entry.get(field)]
+    if missing:
+        raise ValueError(f"Supplemental method entry is missing {missing}: {entry}")
+    return {
+        "bibkey": entry["bibkey"],
+        "name": entry["name"],
+        "title": entry["title"],
+        "year": str(entry["year"]),
+        "venue": entry["venue"],
+        "paper_url": entry["paper_url"],
+        "websites": website_links(entry.get("websites", [])),
+    }
+
+
 def record_sort_key(record: dict) -> tuple[int, str]:
     venue_years = [int(year) for year in re.findall(r"\b20\d{2}\b", record.get("venue", ""))]
     year_match = re.search(r"\d{4}", record.get("year", ""))
@@ -2117,7 +2132,7 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         "",
         "## Paper Resources",
         "",
-        "The paper index contains the union of works cited in the Chapter 4--6 method discussions and works listed in the corresponding method tables. Each level and subcategory is collapsed by default for faster navigation.",
+        "The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Each level and subcategory is collapsed by default for faster navigation.",
         "",
         "### Contents",
         "",
@@ -2269,7 +2284,11 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
     }
 
 
-def build_index(survey_root: Path, overrides: dict[str, dict] | None = None) -> dict:
+def build_index(
+    survey_root: Path,
+    overrides: dict[str, dict] | None = None,
+    supplemental_methods: list[dict] | None = None,
+) -> dict:
     bib = parse_bibtex(survey_root / "reference.bib")
     method_categories = {category for categories in METHOD_LEVELS.values() for category in categories}
     data_categories = {category for categories in DATA_GROUPS.values() for category in categories}
@@ -2358,6 +2377,35 @@ def build_index(survey_root: Path, overrides: dict[str, dict] | None = None) -> 
             records = [build_record(key, bib, all_table_metadata, False) for key in method_keys[category]]
             method_output[level][category] = sorted(records, key=record_sort_key)
 
+    category_to_level = {
+        category: level for level, categories in METHOD_LEVELS.items() for category in categories
+    }
+    supplemental_ids: set[str] = set()
+    indexed_paper_urls = {
+        record["paper_url"]
+        for level in method_output.values()
+        for records in level.values()
+        for record in records
+        if record["paper_url"]
+    }
+    for entry in supplemental_methods or []:
+        category = entry.get("category", "")
+        if category not in category_to_level:
+            raise ValueError(f"Unknown supplemental method category: {category}")
+        record = build_supplemental_method_record(entry)
+        if record["bibkey"] in supplemental_ids or record["bibkey"] in bib:
+            raise ValueError(f"Duplicate supplemental method key: {record['bibkey']}")
+        if record["paper_url"] in indexed_paper_urls:
+            raise ValueError(f"Duplicate supplemental method paper: {record['paper_url']}")
+        supplemental_ids.add(record["bibkey"])
+        indexed_paper_urls.add(record["paper_url"])
+        level = category_to_level[category]
+        method_output[level][category].append(record)
+
+    for level in method_output.values():
+        for category, records in level.items():
+            level[category] = sorted(records, key=record_sort_key)
+
     data_output: dict[str, dict[str, list[dict]]] = OrderedDict()
     for group, categories in DATA_GROUPS.items():
         data_output[group] = OrderedDict()
@@ -2365,7 +2413,7 @@ def build_index(survey_root: Path, overrides: dict[str, dict] | None = None) -> 
             records = [build_record(key, bib, all_table_metadata, True) for key in data_keys[category]]
             data_output[group][category] = sorted(records, key=record_sort_key)
 
-    unique_method = {key for keys in method_keys.values() for key in keys}
+    unique_method = {key for keys in method_keys.values() for key in keys} | supplemental_ids
     unique_data = {key for keys in data_keys.values() for key in keys}
     unresolved_paper_links = sorted(
         record["bibkey"]
@@ -2386,7 +2434,9 @@ def build_index(survey_root: Path, overrides: dict[str, dict] | None = None) -> 
         "generated_on": date.today().isoformat(),
         "summary": {
             "unique_method_papers": len(unique_method),
-            "categorized_method_entries": sum(len(keys) for keys in method_keys.values()),
+            "categorized_method_entries": sum(
+                len(records) for level in method_output.values() for records in level.values()
+            ),
             "unique_resources": len(unique_data),
             "categorized_resource_entries": sum(len(keys) for keys in data_keys.values()),
         },
@@ -2415,7 +2465,13 @@ def main() -> None:
             continue
         for key, value in json.loads(overrides_path.read_text(encoding="utf-8")).items():
             overrides[key] = {**overrides.get(key, {}), **value}
-    index = build_index(args.survey_root.resolve(), overrides)
+    supplemental_path = repo_root / "data" / "supplemental_methods.json"
+    supplemental_methods = (
+        json.loads(supplemental_path.read_text(encoding="utf-8"))
+        if supplemental_path.exists()
+        else []
+    )
+    index = build_index(args.survey_root.resolve(), overrides, supplemental_methods)
     (repo_root / "data").mkdir(parents=True, exist_ok=True)
     (repo_root / "data" / "resources.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

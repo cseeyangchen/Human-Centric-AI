@@ -1,8 +1,8 @@
 {
   "generated_on": "2026-08-17",
   "summary": {
-    "unique_method_papers": 225,
-    "categorized_method_entries": 229,
+    "unique_method_papers": 236,
+    "categorized_method_entries": 240,
     "unique_resources": 163,
     "categorized_resource_entries": 163
   },
@@ -325,6 +325,24 @@
             {
               "kind": "homepage",
               "url": "https://zju3dv.github.io/archon/"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_instructvvt_2026",
+          "name": "InstructVVT",
+          "title": "InstructVVT: Instruction-Driven Video Virtual Try-On without Auxiliary Spatial Priors",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.14070",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://shaodingbao.github.io/InstructVVT/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/ShaoDingBao/InstructVVT"
             }
           ]
         },
@@ -712,6 +730,20 @@
           ]
         },
         {
+          "bibkey": "supp_flexiavatar_2026",
+          "name": "FlexiAvatar",
+          "title": "FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2607.19100",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://yihalem1.github.io/FlexiAvatar/"
+            }
+          ]
+        },
+        {
           "bibkey": "wu2026genlca",
           "name": "GenLCA",
           "title": "GenLCA: 3D Diffusion for Full-Body Avatars from In-the-Wild Videos",
@@ -1071,6 +1103,24 @@
             {
               "kind": "github",
               "url": "https://github.com/BradleyWang0416/Superman"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_whip_2026",
+          "name": "WHIP",
+          "title": "Towards Real-World Wearable Motion Reconstruction",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2607.09780",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://vcai.mpi-inf.mpg.de/projects/WHIP/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/abcamiletto/whip"
             }
           ]
         },
@@ -1580,6 +1630,20 @@
           ]
         },
         {
+          "bibkey": "supp_omniliveavatar_2026",
+          "name": "Omni-LiveAvatar",
+          "title": "Omni-LiveAvatar: Minute-Level Real-Time Streaming Joint Audio-Visual Avatar Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.13602",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Aoko955/Omni-LiveAvatar"
+            }
+          ]
+        },
+        {
           "bibkey": "zhang2026soul",
           "name": "Soul",
           "title": "Soul: Breathe Life into Digital Human for High-fidelity Long-term Multimodal Animation",
@@ -1592,6 +1656,33 @@
               "url": "https://zhangzjn.github.io/projects/Soul/"
             }
           ]
+        },
+        {
+          "bibkey": "supp_taomate_2026",
+          "name": "TaoMate",
+          "title": "TaoMate: Anchor-Guided Memory Bridging Evolving and Reference States for Real-Time Audio-Video Digital Human Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.24359",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://taoliveaigc.github.io/TaoMate"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/TaoLiveAIGC/TaoMate"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_vera_2026",
+          "name": "Vera",
+          "title": "Vera: Identity-Faithful Human Subject-to-Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.20247",
+          "websites": []
         },
         {
           "bibkey": "luo2025dreamactor",
@@ -1738,6 +1829,20 @@
           ]
         },
         {
+          "bibkey": "supp_egophi_2026",
+          "name": "EgoPHI",
+          "title": "EgoPHI: Estimating Contact and Force from Egocentric Vision",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2608.13014",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://egophii.github.io/"
+            }
+          ]
+        },
+        {
           "bibkey": "li2025hoi",
           "name": "HOI-PAGE",
           "title": "HOI-PAGE: Zero-Shot Human-Object Interaction Generation with Part Affordance Guidance",
@@ -1822,6 +1927,20 @@
             {
               "kind": "github",
               "url": "https://github.com/xumiao66/ReGenHOI"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_streamhoi_2026",
+          "name": "StreamHOI",
+          "title": "StreamHOI: Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.20174",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/KlingAIResearch/StreamHOI"
             }
           ]
         },
@@ -1986,6 +2105,24 @@
           ]
         },
         {
+          "bibkey": "supp_reviv_2026",
+          "name": "ReViV",
+          "title": "ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2607.17790",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://reviv4d.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/lvsean/reviv4d"
+            }
+          ]
+        },
+        {
           "bibkey": "shi2026scene",
           "name": "SHOW",
           "title": "Scene and Human in One World: Reconstruction in a Feedforward Pass",
@@ -2125,6 +2262,15 @@
               "url": "https://sampson-lee.github.io/omni-mmsi-project-page/"
             }
           ]
+        },
+        {
+          "bibkey": "supp_omnimate_2026",
+          "name": "OmniMate",
+          "title": "OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.23023",
+          "websites": []
         },
         {
           "bibkey": "wang2026social",
@@ -2289,6 +2435,20 @@
             {
               "kind": "homepage",
               "url": "https://plan-lab.github.io/projects/egoforge/"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_egogenesis_2026",
+          "name": "EgoGenesis",
+          "title": "EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2607.28243",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://egogenesis.github.io/"
             }
           ]
         },

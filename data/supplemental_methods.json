@@ -1,0 +1,134 @@
+[
+  {
+    "bibkey": "supp_egophi_2026",
+    "category": "Human-Object Interaction",
+    "name": "EgoPHI",
+    "title": "EgoPHI: Estimating Contact and Force from Egocentric Vision",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2608.13014",
+    "websites": [
+      "https://egophii.github.io/"
+    ]
+  },
+  {
+    "bibkey": "supp_egogenesis_2026",
+    "category": "Human-Centered World Generation",
+    "name": "EgoGenesis",
+    "title": "EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.28243",
+    "websites": [
+      "https://egogenesis.github.io/"
+    ]
+  },
+  {
+    "bibkey": "supp_taomate_2026",
+    "category": "Human Video Animation",
+    "name": "TaoMate",
+    "title": "TaoMate: Anchor-Guided Memory Bridging Evolving and Reference States for Real-Time Audio-Video Digital Human Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.24359",
+    "websites": [
+      "https://taoliveaigc.github.io/TaoMate",
+      "https://github.com/TaoLiveAIGC/TaoMate"
+    ]
+  },
+  {
+    "bibkey": "supp_omnimate_2026",
+    "category": "Social Interaction",
+    "name": "OmniMate",
+    "title": "OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.23023",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_vera_2026",
+    "category": "Human Video Animation",
+    "name": "Vera",
+    "title": "Vera: Identity-Faithful Human Subject-to-Video Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.20247",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_instructvvt_2026",
+    "category": "Controllable Human Generation",
+    "name": "InstructVVT",
+    "title": "InstructVVT: Instruction-Driven Video Virtual Try-On without Auxiliary Spatial Priors",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.14070",
+    "websites": [
+      "https://shaodingbao.github.io/InstructVVT/",
+      "https://github.com/ShaoDingBao/InstructVVT"
+    ]
+  },
+  {
+    "bibkey": "supp_streamhoi_2026",
+    "category": "Human-Object Interaction",
+    "name": "StreamHOI",
+    "title": "StreamHOI: Interaction-aware Temporal Memory Adaptation for Streaming HOI Video Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.20174",
+    "websites": [
+      "https://github.com/KlingAIResearch/StreamHOI"
+    ]
+  },
+  {
+    "bibkey": "supp_flexiavatar_2026",
+    "category": "Renderable Avatar Modeling",
+    "name": "FlexiAvatar",
+    "title": "FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2607.19100",
+    "websites": [
+      "https://yihalem1.github.io/FlexiAvatar/"
+    ]
+  },
+  {
+    "bibkey": "supp_reviv_2026",
+    "category": "Human-Scene Interaction",
+    "name": "ReViV",
+    "title": "ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2607.17790",
+    "websites": [
+      "https://reviv4d.github.io/",
+      "https://github.com/lvsean/reviv4d"
+    ]
+  },
+  {
+    "bibkey": "supp_whip_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "WHIP",
+    "title": "Towards Real-World Wearable Motion Reconstruction",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2607.09780",
+    "websites": [
+      "https://vcai.mpi-inf.mpg.de/projects/WHIP/",
+      "https://github.com/abcamiletto/whip"
+    ]
+  },
+  {
+    "bibkey": "supp_omniliveavatar_2026",
+    "category": "Human Video Animation",
+    "name": "Omni-LiveAvatar",
+    "title": "Omni-LiveAvatar: Minute-Level Real-Time Streaming Joint Audio-Visual Avatar Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.13602",
+    "websites": [
+      "https://github.com/Aoko955/Omni-LiveAvatar"
+    ]
+  }
+]

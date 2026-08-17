@@ -57,17 +57,25 @@ def main() -> None:
     method_source_keys: set[str] = set()
     for relative in build_readme.METHOD_SECTION_FILES + build_readme.METHOD_TABLE_FILES:
         method_source_keys.update(active_citations(survey_root / relative))
+    supplemental_path = repo_root / "data" / "supplemental_methods.json"
+    supplemental_methods = (
+        json.loads(supplemental_path.read_text(encoding="utf-8"))
+        if supplemental_path.exists()
+        else []
+    )
+    supplemental_method_keys = {entry["bibkey"] for entry in supplemental_methods}
+    expected_method_keys = method_source_keys | supplemental_method_keys
     method_index_keys = {
         record["bibkey"]
         for level in index["method_papers"].values()
         for records in level.values()
         for record in records
     }
-    if method_source_keys != method_index_keys:
+    if expected_method_keys != method_index_keys:
         errors.append(
             "Method coverage mismatch: missing={} extra={}".format(
-                sorted(method_source_keys - method_index_keys),
-                sorted(method_index_keys - method_source_keys),
+                sorted(expected_method_keys - method_index_keys),
+                sorted(method_index_keys - expected_method_keys),
             )
         )
 
@@ -244,7 +252,7 @@ def main() -> None:
             errors.append(f"Datasets and benchmarks do not reference expected icon: {image}")
 
     report = {
-        "method_source_papers": len(method_source_keys),
+        "method_source_papers": len(expected_method_keys),
         "method_index_papers": len(method_index_keys),
         "resource_source_entries": len(resource_source_keys),
         "resource_index_entries": len(resource_index_keys),
