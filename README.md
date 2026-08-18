@@ -13,13 +13,6 @@ Human-Centric AI Resources is an open and evolving hub that brings together acad
 > [!TIP]
 > **Join the community.** We welcome everyone interested in human-centric AI to help maintain and enrich this open resource hub. If you are interested in getting involved, feel free to contact us using the details at the bottom of this page.
 
-<a id="news"></a>
-
-## 📢 News
-
-- **2026-08-10:** Our [project homepage](https://cseeyangchen.github.io/Human-Centric-AI/homepage/) is now live.
-- **2026-08-08:** First resource release.
-
 ## 🧭 Contents
 
 - [News](#news)
@@ -29,6 +22,13 @@ Human-Centric AI Resources is an open and evolving hub that brings together acad
 - [Citation](#citation)
 - [Contact](#contact)
 - [License](#license)
+
+<a id="news"></a>
+
+## 📢 News
+
+- **2026-08-10:** Our [project homepage](https://cseeyangchen.github.io/Human-Centric-AI/homepage/) is now live.
+- **2026-08-08:** First resource release.
 
 <a id="academic-knowledge"></a>
 
