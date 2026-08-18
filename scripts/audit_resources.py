@@ -79,6 +79,27 @@ def main() -> None:
             )
         )
 
+    supplemental_perspectives_path = repo_root / "data" / "supplemental_perspectives.json"
+    supplemental_perspectives = (
+        json.loads(supplemental_perspectives_path.read_text(encoding="utf-8"))
+        if supplemental_perspectives_path.exists()
+        else []
+    )
+    expected_perspective_keys = {entry["bibkey"] for entry in supplemental_perspectives}
+    perspective_index_keys = {
+        record["bibkey"]
+        for group in index["perspective_papers"].values()
+        for records in group.values()
+        for record in records
+    }
+    if expected_perspective_keys != perspective_index_keys:
+        errors.append(
+            "Perspective coverage mismatch: missing={} extra={}".format(
+                sorted(expected_perspective_keys - perspective_index_keys),
+                sorted(perspective_index_keys - expected_perspective_keys),
+            )
+        )
+
     evaluation = build_readme.strip_comments(
         (survey_root / "sections/7_evaluation.tex").read_text(encoding="utf-8")
     )
@@ -86,17 +107,25 @@ def main() -> None:
     resource_source_keys = set(build_readme.citation_keys(evaluation))
     for relative in build_readme.DATA_TABLE_CATEGORY:
         resource_source_keys.update(active_citations(survey_root / relative))
+    supplemental_resources_path = repo_root / "data" / "supplemental_resources.json"
+    supplemental_resources = (
+        json.loads(supplemental_resources_path.read_text(encoding="utf-8"))
+        if supplemental_resources_path.exists()
+        else []
+    )
+    supplemental_resource_keys = {entry["bibkey"] for entry in supplemental_resources}
+    expected_resource_keys = resource_source_keys | supplemental_resource_keys
     resource_index_keys = {
         record["bibkey"]
         for group in index["datasets_and_benchmarks"].values()
         for records in group.values()
         for record in records
     }
-    if resource_source_keys != resource_index_keys:
+    if expected_resource_keys != resource_index_keys:
         errors.append(
             "Resource coverage mismatch: missing={} extra={}".format(
-                sorted(resource_source_keys - resource_index_keys),
-                sorted(resource_index_keys - resource_source_keys),
+                sorted(expected_resource_keys - resource_index_keys),
+                sorted(resource_index_keys - expected_resource_keys),
             )
         )
 
@@ -104,6 +133,11 @@ def main() -> None:
         record
         for level in index["method_papers"].values()
         for records in level.values()
+        for record in records
+    ] + [
+        record
+        for group in index["perspective_papers"].values()
+        for records in group.values()
         for record in records
     ] + [
         record
@@ -120,7 +154,10 @@ def main() -> None:
     if invalid_paper_page:
         errors.append(f"Entries with invalid paper page: {invalid_paper_page}")
 
-    expected_method_rows = index["summary"]["categorized_method_entries"]
+    expected_method_rows = (
+        index["summary"]["categorized_method_entries"]
+        + index["summary"]["categorized_perspective_entries"]
+    )
     expected_resource_rows = index["summary"]["categorized_resource_entries"]
     expected_rows = expected_method_rows + expected_resource_rows
     paper_icon = "[:page_facing_up:]("
@@ -155,8 +192,11 @@ def main() -> None:
         if link not in readme:
             errors.append(f"README resource navigation is missing link: {link}")
 
-    expected_method_details = len(build_readme.METHOD_LEVELS) + sum(
-        len(categories) for categories in build_readme.METHOD_LEVELS.values()
+    expected_method_details = (
+        len(build_readme.METHOD_LEVELS)
+        + sum(len(categories) for categories in build_readme.METHOD_LEVELS.values())
+        + len(build_readme.PERSPECTIVE_GROUPS)
+        + sum(len(categories) for categories in build_readme.PERSPECTIVE_GROUPS.values())
     )
     expected_resource_details = len(build_readme.DATA_GROUPS) + sum(
         len(categories) for categories in build_readme.DATA_GROUPS.values()
@@ -167,6 +207,8 @@ def main() -> None:
         errors.append("Datasets and benchmarks do not contain the expected collapsed blocks")
     expected_nested_method_details = sum(
         len(categories) for categories in build_readme.METHOD_LEVELS.values()
+    ) + sum(
+        len(categories) for categories in build_readme.PERSPECTIVE_GROUPS.values()
     )
     expected_nested_resource_details = sum(
         len(categories) for categories in build_readme.DATA_GROUPS.values()
@@ -181,10 +223,19 @@ def main() -> None:
         if content.count("<details>") != content.count("</details>"):
             errors.append(f"{label.title()} contains unbalanced details blocks")
 
-    if papers.count("| Method | Paper | Venue | Paper Page | Website |") != sum(
+    expected_method_tables = sum(
         len(categories) for categories in build_readme.METHOD_LEVELS.values()
-    ):
+    )
+    expected_perspective_tables = sum(
+        len(categories) for categories in build_readme.PERSPECTIVE_GROUPS.values()
+    )
+    if papers.count("| Method | Paper | Venue | Paper Page | Website |") != expected_method_tables:
         errors.append("Paper-resource table count does not match the taxonomy")
+    if (
+        papers.count("| Perspective | Paper | Venue | Paper Page | Website |")
+        != expected_perspective_tables
+    ):
+        errors.append("Perspective table count does not match the configured categories")
     if datasets.count("| Resource | Type | Venue | Paper | Paper Page | Website |") != sum(
         len(categories) for categories in build_readme.DATA_GROUPS.values()
     ):
@@ -254,7 +305,9 @@ def main() -> None:
     report = {
         "method_source_papers": len(expected_method_keys),
         "method_index_papers": len(method_index_keys),
-        "resource_source_entries": len(resource_source_keys),
+        "perspective_source_papers": len(expected_perspective_keys),
+        "perspective_index_papers": len(perspective_index_keys),
+        "resource_source_entries": len(expected_resource_keys),
         "resource_index_entries": len(resource_index_keys),
         "categorized_markdown_rows": expected_rows,
         "verified_workshop_links": len(workshop_urls),

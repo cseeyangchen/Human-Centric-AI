@@ -25,7 +25,7 @@ GITHUB_REPOSITORY = "cseeyangchen/Human-Centric-AI"
 GITHUB_REPOSITORY_URL = f"https://github.com/{GITHUB_REPOSITORY}"
 VISITOR_COUNTER_ID = "cseeyangchen-Human-Centric-AI"
 
-ROMAN_NUMERALS = ("I", "II", "III", "IV", "V", "VI")
+ROMAN_NUMERALS = ("I", "II", "III", "IV", "V", "VI", "VII")
 
 METHOD_LEVEL_ICONS = {
     "Visual Appearance": "assets/level-icons/visual-appearance.png",
@@ -966,6 +966,15 @@ METHOD_LEVELS = OrderedDict(
     ]
 )
 
+PERSPECTIVE_GROUPS = OrderedDict(
+    [
+        (
+            "Perspectives",
+            ["Human-Centric Agentic AI"],
+        ),
+    ]
+)
+
 METHOD_SECTION_FILES = [
     "sections/4_appearance_geometry.tex",
     "sections/5_dynamics_interaction.tex",
@@ -1467,6 +1476,23 @@ def build_supplemental_method_record(entry: dict) -> dict:
     }
 
 
+def build_supplemental_resource_record(entry: dict) -> dict:
+    required = ("bibkey", "category", "name", "title", "year", "venue", "paper_url")
+    missing = [field for field in required if not entry.get(field)]
+    if missing:
+        raise ValueError(f"Supplemental resource entry is missing {missing}: {entry}")
+    return {
+        "bibkey": entry["bibkey"],
+        "name": entry["name"],
+        "title": entry["title"],
+        "year": str(entry["year"]),
+        "venue": entry["venue"],
+        "paper_url": entry["paper_url"],
+        "websites": website_links(entry.get("websites", [])),
+        "type": infer_resource_type(entry["title"], entry.get("type")),
+    }
+
+
 def record_sort_key(record: dict) -> tuple[int, str]:
     venue_years = [int(year) for year in re.findall(r"\b20\d{2}\b", record.get("venue", ""))]
     year_match = re.search(r"\d{4}", record.get("year", ""))
@@ -1501,9 +1527,9 @@ def web_link_cell(websites: list[dict[str, str]]) -> str:
     )
 
 
-def method_table(records: list[dict]) -> str:
+def method_table(records: list[dict], first_column: str = "Method") -> str:
     lines = [
-        "| Method | Paper | Venue | Paper Page | Website |",
+        f"| {first_column} | Paper | Venue | Paper Page | Website |",
         "|---|---|:---:|:---:|:---:|",
     ]
     for record in records:
@@ -2132,13 +2158,17 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         "",
         "## Paper Resources",
         "",
-        "The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Each level and subcategory is collapsed by default for faster navigation.",
+        "The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Broader perspective papers are listed separately from the six method levels. Each level and subcategory is collapsed by default for faster navigation.",
         "",
         "### Contents",
         "",
         *[
             f"- [{ROMAN_NUMERALS[level_number - 1]}. {level}](#{anchor(level)})"
             for level_number, level in enumerate(METHOD_LEVELS, start=1)
+        ],
+        *[
+            f"- [{ROMAN_NUMERALS[len(METHOD_LEVELS) + group_number - 1]}. {group}](#{anchor(group)})"
+            for group_number, group in enumerate(PERSPECTIVE_GROUPS, start=1)
         ],
         "",
     ]
@@ -2174,6 +2204,35 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
                     "",
                 ]
             )
+        paper_lines.extend(["</details>", ""])
+
+    for group_number, (group, categories) in enumerate(PERSPECTIVE_GROUPS.items(), start=1):
+        group_index = ROMAN_NUMERALS[len(METHOD_LEVELS) + group_number - 1]
+        group_records = index["perspective_papers"][group]
+        paper_lines.extend(
+            [
+                f'<a id="{anchor(group)}"></a>',
+                "",
+                "<details>",
+                f"<summary>💡 &nbsp; <b>{group_index}. {group}</b></summary>",
+                "",
+                "Perspective papers introduce broader paradigms, conceptual frameworks, or research agendas and are therefore kept separate from task-specific methods.",
+                "",
+            ]
+        )
+        for category_number, category in enumerate(categories, start=1):
+            records = group_records[category]
+            category_block = "\n".join(
+                [
+                    "<details>",
+                    f"<summary><b>{group_index}.{category_number}</b> &nbsp; {category}</summary>",
+                    "",
+                    method_table(records, "Perspective"),
+                    "",
+                    "</details>",
+                ]
+            )
+            paper_lines.extend([blockquote(category_block), ""])
         paper_lines.extend(["</details>", ""])
 
     paper_lines.extend(
@@ -2288,6 +2347,8 @@ def build_index(
     survey_root: Path,
     overrides: dict[str, dict] | None = None,
     supplemental_methods: list[dict] | None = None,
+    supplemental_perspectives: list[dict] | None = None,
+    supplemental_resources: list[dict] | None = None,
 ) -> dict:
     bib = parse_bibtex(survey_root / "reference.bib")
     method_categories = {category for categories in METHOD_LEVELS.values() for category in categories}
@@ -2406,6 +2467,36 @@ def build_index(
         for category, records in level.items():
             level[category] = sorted(records, key=record_sort_key)
 
+    perspective_output: dict[str, dict[str, list[dict]]] = OrderedDict()
+    for group, categories in PERSPECTIVE_GROUPS.items():
+        perspective_output[group] = OrderedDict((category, []) for category in categories)
+
+    perspective_category_to_group = {
+        category: group for group, categories in PERSPECTIVE_GROUPS.items() for category in categories
+    }
+    supplemental_perspective_ids: set[str] = set()
+    for entry in supplemental_perspectives or []:
+        category = entry.get("category", "")
+        if category not in perspective_category_to_group:
+            raise ValueError(f"Unknown supplemental perspective category: {category}")
+        record = build_supplemental_method_record(entry)
+        if (
+            record["bibkey"] in supplemental_perspective_ids
+            or record["bibkey"] in supplemental_ids
+            or record["bibkey"] in bib
+        ):
+            raise ValueError(f"Duplicate supplemental perspective key: {record['bibkey']}")
+        if record["paper_url"] in indexed_paper_urls:
+            raise ValueError(f"Duplicate supplemental perspective paper: {record['paper_url']}")
+        supplemental_perspective_ids.add(record["bibkey"])
+        indexed_paper_urls.add(record["paper_url"])
+        group = perspective_category_to_group[category]
+        perspective_output[group][category].append(record)
+
+    for group in perspective_output.values():
+        for category, records in group.items():
+            group[category] = sorted(records, key=record_sort_key)
+
     data_output: dict[str, dict[str, list[dict]]] = OrderedDict()
     for group, categories in DATA_GROUPS.items():
         data_output[group] = OrderedDict()
@@ -2413,12 +2504,54 @@ def build_index(
             records = [build_record(key, bib, all_table_metadata, True) for key in data_keys[category]]
             data_output[group][category] = sorted(records, key=record_sort_key)
 
+    category_to_group = {
+        category: group for group, categories in DATA_GROUPS.items() for category in categories
+    }
+    supplemental_resource_ids: set[str] = set()
+    indexed_resource_urls = {
+        record["paper_url"]
+        for group in data_output.values()
+        for records in group.values()
+        for record in records
+        if record["paper_url"]
+    }
+    for entry in supplemental_resources or []:
+        category = entry.get("category", "")
+        if category not in category_to_group:
+            raise ValueError(f"Unknown supplemental resource category: {category}")
+        record = build_supplemental_resource_record(entry)
+        if (
+            record["bibkey"] in supplemental_resource_ids
+            or record["bibkey"] in supplemental_ids
+            or record["bibkey"] in supplemental_perspective_ids
+            or record["bibkey"] in bib
+        ):
+            raise ValueError(f"Duplicate supplemental resource key: {record['bibkey']}")
+        if record["paper_url"] in indexed_resource_urls:
+            raise ValueError(f"Duplicate supplemental resource paper: {record['paper_url']}")
+        supplemental_resource_ids.add(record["bibkey"])
+        indexed_resource_urls.add(record["paper_url"])
+        group = category_to_group[category]
+        data_output[group][category].append(record)
+
+    for group in data_output.values():
+        for category, records in group.items():
+            group[category] = sorted(records, key=record_sort_key)
+
     unique_method = {key for keys in method_keys.values() for key in keys} | supplemental_ids
-    unique_data = {key for keys in data_keys.values() for key in keys}
+    unique_perspective = supplemental_perspective_ids
+    unique_data = {key for keys in data_keys.values() for key in keys} | supplemental_resource_ids
     unresolved_paper_links = sorted(
         record["bibkey"]
         for level in method_output.values()
         for records in level.values()
+        for record in records
+        if not record["paper_url"]
+    )
+    unresolved_perspective_links = sorted(
+        record["bibkey"]
+        for group in perspective_output.values()
+        for records in group.values()
         for record in records
         if not record["paper_url"]
     )
@@ -2437,15 +2570,23 @@ def build_index(
             "categorized_method_entries": sum(
                 len(records) for level in method_output.values() for records in level.values()
             ),
+            "unique_perspective_papers": len(unique_perspective),
+            "categorized_perspective_entries": sum(
+                len(records) for group in perspective_output.values() for records in group.values()
+            ),
             "unique_resources": len(unique_data),
-            "categorized_resource_entries": sum(len(keys) for keys in data_keys.values()),
+            "categorized_resource_entries": sum(
+                len(records) for group in data_output.values() for records in group.values()
+            ),
         },
         "method_papers": method_output,
+        "perspective_papers": perspective_output,
         "datasets_and_benchmarks": data_output,
         "audit": {
             "missing_bib_entries": missing_bib,
             "unassigned_method_citations": unassigned_method_citations,
             "method_entries_without_paper_url": unresolved_paper_links,
+            "perspective_entries_without_paper_url": unresolved_perspective_links,
             "resource_entries_without_paper_url": unresolved_resource_links,
         },
     }
@@ -2471,7 +2612,25 @@ def main() -> None:
         if supplemental_path.exists()
         else []
     )
-    index = build_index(args.survey_root.resolve(), overrides, supplemental_methods)
+    supplemental_perspectives_path = repo_root / "data" / "supplemental_perspectives.json"
+    supplemental_perspectives = (
+        json.loads(supplemental_perspectives_path.read_text(encoding="utf-8"))
+        if supplemental_perspectives_path.exists()
+        else []
+    )
+    supplemental_resources_path = repo_root / "data" / "supplemental_resources.json"
+    supplemental_resources = (
+        json.loads(supplemental_resources_path.read_text(encoding="utf-8"))
+        if supplemental_resources_path.exists()
+        else []
+    )
+    index = build_index(
+        args.survey_root.resolve(),
+        overrides,
+        supplemental_methods,
+        supplemental_perspectives,
+        supplemental_resources,
+    )
     (repo_root / "data").mkdir(parents=True, exist_ok=True)
     (repo_root / "data" / "resources.json").write_text(
         json.dumps(index, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

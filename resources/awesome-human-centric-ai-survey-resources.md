@@ -13,7 +13,7 @@ This page brings together the papers, datasets, and benchmarks organized in **Hu
 
 ## Paper Resources
 
-The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Each level and subcategory is collapsed by default for faster navigation.
+The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Broader perspective papers are listed separately from the six method levels. Each level and subcategory is collapsed by default for faster navigation.
 
 ### Contents
 
@@ -23,6 +23,7 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 - [IV. Interaction Modeling](#interaction-modeling)
 - [V. World Simulation](#world-simulation)
 - [VI. Embodied Agency](#embodied-agency)
+- [VII. Perspectives](#perspectives)
 
 <a id="visual-appearance"></a>
 
@@ -156,6 +157,7 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 >
 > | Method | Paper | Venue | Paper Page | Website |
 > |---|---|:---:|:---:|:---:|
+> | 2D Motion Interface | A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models | HCMIW @ ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.15984 "Paper page") | [:octocat:](https://github.com/irajisamurai/2D-Motion-Interface "GitHub") |
 > | AnyLift | AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion | CVPR 2026 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Li_AnyLift_Scaling_Motion_Reconstruction_from_Internet_Videos_via_2D_Diffusion_CVPR_2026_paper.html "Paper page") | [:house:](https://awfuact.github.io/anylift/ "Homepage") |
 > | ARDY | Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation | TOG 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.08741 "Paper page") | [:octocat:](https://github.com/nv-tlabs/ardy "GitHub") |
 > | GaitDynamics | GaitDynamics: A generative foundation model for analyzing human walking and running | Nature Biomedical Engineering 2026 | [:page_facing_up:](https://doi.org/10.1038/s41551-025-01565-8 "Paper page") | [:octocat:](https://github.com/stanfordnmbl/GaitDynamics "GitHub") |
@@ -244,7 +246,9 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 > | ArtHOI | ArtHOI: Taming Foundation Models for Monocular 4D Reconstruction of Hand-Articulated-Object Interactions | CVPR 2026 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_ArtHOI_Taming_Foundation_Models_for_Monocular_4D_Reconstruction_of_Hand-Articulated-Object_CVPR_2026_paper.html "Paper page") | [:house:](https://arthoi-reconstruction.github.io/ "Homepage") |
 > | CoInteract | CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2604.19636 "Paper page") | [:house:](https://xinxiaozhe12345.github.io/CoInteract_Project "Homepage") |
 > | EgoPHI | EgoPHI: Estimating Contact and Force from Egocentric Vision | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.13014 "Paper page") | [:house:](https://egophii.github.io/ "Homepage") |
+> | EgoTac | EgoTac: In-the-wild Tactile Prediction from Egocentric Vision | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.15060 "Paper page") | - |
 > | HOI-PAGE | HOI-PAGE: Zero-Shot Human-Object Interaction Generation with Part Affordance Guidance | ICML 2026 | [:page_facing_up:](https://arxiv.org/pdf/2506.07209 "Paper page") | [:octocat:](https://github.com/craigleili/HOI-PAGE "GitHub") |
+> | HOIMask | HOIMask: Towards Generative Masked Modeling for Human Object Interaction Generation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.15141 "Paper page") | [:house:](https://jyhflash.github.io/HOIMask/ "Homepage") |
 > | HOMIE | HOMIE: Human-Object Centric Video Personalization via Multimodal Intelligent Enhancement | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.18217 "Paper page") | [:octocat:](https://github.com/YIYANGCAI/HOMIE "GitHub") [:house:](https://yiyangcai.github.io/homie-page.github.io/ "Homepage") |
 > | InterPrior | InterPrior: Scaling generative control for physics-based human-object interactions | CVPR 2026 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Xu_InterPrior_Scaling_Generative_Control_for_Physics-Based_Human-Object_Interactions_CVPR_2026_paper.html "Paper page") | [:house:](https://sirui-xu.github.io/InterPrior/ "Homepage") |
 > | OmniShow | OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation | ICML 2026 | [:page_facing_up:](https://arxiv.org/abs/2604.11804 "Paper page") | [:octocat:](https://github.com/Correr-Zhou/OmniShow "GitHub") |
@@ -418,6 +422,24 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 
 </details>
 
+<a id="perspectives"></a>
+
+<details>
+<summary>💡 &nbsp; <b>VII. Perspectives</b></summary>
+
+Perspective papers introduce broader paradigms, conceptual frameworks, or research agendas and are therefore kept separate from task-specific methods.
+
+> <details>
+> <summary><b>VII.1</b> &nbsp; Human-Centric Agentic AI</summary>
+>
+> | Perspective | Paper | Venue | Paper Page | Website |
+> |---|---|:---:|:---:|:---:|
+> | ComBodied Agents | ComBodied Agents: a New Paradigm of Human-Centric Agentic AI | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.10915 "Paper page") | - |
+>
+> </details>
+
+</details>
+
 ---
 
 <a id="datasets-and-benchmarks"></a>
@@ -517,6 +539,7 @@ Resources follow the organization used in Chapter 7 of the survey. Each resource
 > | AVBench | Benchmark | arXiv 2026 | AVBench: Human-Aligned and Automated Evaluation Benchmark for Audio-Video Generative Models | [:page_facing_up:](https://arxiv.org/abs/2605.24652 "Paper page") | [:house:](https://yajialiang.github.io/AVBench-site/ "Homepage") |
 > | HumanScore | Benchmark | arXiv 2026 | HumanScore: Benchmarking Human Motions in Generated Videos | [:page_facing_up:](https://arxiv.org/abs/2604.20157 "Paper page") | [:house:](https://cs.stanford.edu/~xtiange/projects/humanscore/ "Homepage") |
 > | OmniHuman | Dataset + Benchmark | arXiv 2026 | OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation | [:page_facing_up:](https://arxiv.org/abs/2604.18326 "Paper page") | [:octocat:](https://github.com/julia-cherry/OmniHuman "GitHub") |
+> | PersonaShot | Benchmark | arXiv 2026 | PersonaShot: Benchmarking Person-Centric Narrative Continuity in Multi-Shot Video Generation | [:page_facing_up:](https://arxiv.org/abs/2608.16717 "Paper page") | [:house:](https://rain152.github.io/PersonaShot/ "Homepage") |
 > | DH-FaceVid-1K | Dataset | ICCV 2025 | DH-FaceVid-1K: A Large-Scale High-Quality Dataset for Face Video Generation | [:page_facing_up:](https://doi.org/10.1109/iccv51701.2025.01127 "Paper page") | [:octocat:](https://github.com/luna-ai-lab/DH-FaceVid-1K "GitHub") [:house:](https://luna-ai-lab.github.io/DH-FaceVid-1K/ "Homepage") [🤗](https://huggingface.co/datasets/jjuik2014/DH-FaceVid-1K "Hugging Face") |
 > | OpenHumanVid | Dataset | CVPR 2025 | OpenHumanVid: A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation | [:page_facing_up:](https://doi.org/10.1109/cvpr52734.2025.00726 "Paper page") | [:house:](https://fudan-generative-vision.github.io/OpenHumanVid/ "Homepage") |
 > | HumanVid | Dataset | NeurIPS 2024 | HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation | [:page_facing_up:](https://doi.org/10.52202/079017-0635 "Paper page") | [:octocat:](https://github.com/zhenzhiwang/HumanVid "GitHub") [:house:](https://humanvid.github.io/ "Homepage") |

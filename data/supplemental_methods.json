@@ -130,5 +130,39 @@
     "websites": [
       "https://github.com/Aoko955/Omni-LiveAvatar"
     ]
+  },
+  {
+    "bibkey": "supp_2d_motion_interface_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "2D Motion Interface",
+    "title": "A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models",
+    "year": "2026",
+    "venue": "HCMIW @ ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2608.15984",
+    "websites": [
+      "https://github.com/irajisamurai/2D-Motion-Interface"
+    ]
+  },
+  {
+    "bibkey": "supp_egotac_2026",
+    "category": "Human-Object Interaction",
+    "name": "EgoTac",
+    "title": "EgoTac: In-the-wild Tactile Prediction from Egocentric Vision",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.15060",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_hoimask_2026",
+    "category": "Human-Object Interaction",
+    "name": "HOIMask",
+    "title": "HOIMask: Towards Generative Masked Modeling for Human Object Interaction Generation",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2608.15141",
+    "websites": [
+      "https://jyhflash.github.io/HOIMask/"
+    ]
   }
 ]

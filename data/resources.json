@@ -1,10 +1,12 @@
 {
-  "generated_on": "2026-08-17",
+  "generated_on": "2026-08-18",
   "summary": {
-    "unique_method_papers": 236,
-    "categorized_method_entries": 240,
-    "unique_resources": 163,
-    "categorized_resource_entries": 163
+    "unique_method_papers": 239,
+    "categorized_method_entries": 243,
+    "unique_perspective_papers": 1,
+    "categorized_perspective_entries": 1,
+    "unique_resources": 164,
+    "categorized_resource_entries": 164
   },
   "method_papers": {
     "Visual Appearance": {
@@ -925,6 +927,20 @@
     "Kinematic Dynamics": {
       "Scalable Motion Modeling": [
         {
+          "bibkey": "supp_2d_motion_interface_2026",
+          "name": "2D Motion Interface",
+          "title": "A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models",
+          "year": "2026",
+          "venue": "HCMIW @ ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2608.15984",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/irajisamurai/2D-Motion-Interface"
+            }
+          ]
+        },
+        {
           "bibkey": "li2026anylift",
           "name": "AnyLift",
           "title": "AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion",
@@ -1843,6 +1859,15 @@
           ]
         },
         {
+          "bibkey": "supp_egotac_2026",
+          "name": "EgoTac",
+          "title": "EgoTac: In-the-wild Tactile Prediction from Egocentric Vision",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.15060",
+          "websites": []
+        },
+        {
           "bibkey": "li2025hoi",
           "name": "HOI-PAGE",
           "title": "HOI-PAGE: Zero-Shot Human-Object Interaction Generation with Part Affordance Guidance",
@@ -1853,6 +1878,20 @@
             {
               "kind": "github",
               "url": "https://github.com/craigleili/HOI-PAGE"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_hoimask_2026",
+          "name": "HOIMask",
+          "title": "HOIMask: Towards Generative Masked Modeling for Human Object Interaction Generation",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2608.15141",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jyhflash.github.io/HOIMask/"
             }
           ]
         },
@@ -3333,6 +3372,21 @@
       ]
     }
   },
+  "perspective_papers": {
+    "Perspectives": {
+      "Human-Centric Agentic AI": [
+        {
+          "bibkey": "supp_combodied_agents_2026",
+          "name": "ComBodied Agents",
+          "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.10915",
+          "websites": []
+        }
+      ]
+    }
+  },
   "datasets_and_benchmarks": {
     "Human Subject Resources": {
       "Visual Human Observation": [
@@ -3893,6 +3947,21 @@
             }
           ],
           "type": "Dataset + Benchmark"
+        },
+        {
+          "bibkey": "supp_personashot_2026",
+          "name": "PersonaShot",
+          "title": "PersonaShot: Benchmarking Person-Centric Narrative Continuity in Multi-Shot Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.16717",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://rain152.github.io/PersonaShot/"
+            }
+          ],
+          "type": "Benchmark"
         },
         {
           "bibkey": "di2025dh",
@@ -5953,6 +6022,7 @@
     "missing_bib_entries": [],
     "unassigned_method_citations": {},
     "method_entries_without_paper_url": [],
+    "perspective_entries_without_paper_url": [],
     "resource_entries_without_paper_url": []
   }
 }

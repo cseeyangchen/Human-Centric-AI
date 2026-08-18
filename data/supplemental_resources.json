@@ -1,0 +1,15 @@
+[
+  {
+    "bibkey": "supp_personashot_2026",
+    "category": "Human Video Generation and Animation",
+    "name": "PersonaShot",
+    "title": "PersonaShot: Benchmarking Person-Centric Narrative Continuity in Multi-Shot Video Generation",
+    "type": "Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.16717",
+    "websites": [
+      "https://rain152.github.io/PersonaShot/"
+    ]
+  }
+]
