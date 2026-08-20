@@ -20,7 +20,7 @@ from typing import Iterable
 
 # Set this after the survey is publicly available on arXiv. The badge is
 # rendered without a link while the value is empty.
-SURVEY_ARXIV_URL = ""
+SURVEY_ARXIV_URL = "https://arxiv.org/abs/2608.18184"
 GITHUB_REPOSITORY = "cseeyangchen/Human-Centric-AI"
 GITHUB_REPOSITORY_URL = f"https://github.com/{GITHUB_REPOSITORY}"
 VISITOR_COUNTER_ID = "cseeyangchen-Human-Centric-AI"
@@ -2098,22 +2098,18 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         "> [!TIP]",
         "> **Join the community.** We welcome everyone interested in human-centric AI to help maintain and enrich this open resource hub. If you are interested in getting involved, feel free to contact us using the details at the bottom of this page.",
         "",
-        "## 🧭 Contents",
-        "",
-        "- [News](#news)",
-        "- [Academic Knowledge](#academic-knowledge)",
-        "- [Research Infrastructure](#research-infrastructure)",
-        "- [Community Learning Hubs](#community-learning-hubs)",
-        "- [Citation](#citation)",
-        "- [Contact](#contact)",
-        "- [License](#license)",
-        "",
         '<a id="news"></a>',
         "",
         "## 📢 News",
         "",
         "- **2026-08-10:** Our [project homepage](https://cseeyangchen.github.io/Human-Centric-AI/homepage/) is now live.",
         "- **2026-08-08:** First resource release.",
+        "",
+        "## 🧭 Contents",
+        "",
+        "- [Academic Knowledge](#academic-knowledge)",
+        "- [Research Infrastructure](#research-infrastructure)",
+        "- [Community Learning Hubs](#community-learning-hubs)",
         "",
         '<a id="academic-knowledge"></a>',
         "",
@@ -2307,7 +2303,12 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
             "If this resource collection is useful in your research, please cite the accompanying survey:",
             "",
             "```bibtex",
-            "",
+            "@article{chen2026humancentricAI,",
+            "  title={Human-Centric Intelligence in the Era of Foundation Models: A Survey},",
+            "  author={Chen, Yang and Wang, Tianqi and Jiang, Xiaorui and Man, Yilei and Shao, Yihua and Liu, Mengyuan and Chen, Zhi and Cao, Xiaofeng and Zhao, Qibin and Liu, Chi Harold and Zomaya, Albert Y and Sebe, Nicu and Zhou, Jingren and Tao, Dacheng and Guo, Song and Guo, Jingcai},",
+            "  journal={arXiv preprint arXiv:2608.18184},",
+            "  year={2026}",
+            "}",
             "```",
             "",
             '<a id="contact"></a>',

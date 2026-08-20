@@ -2,7 +2,7 @@
 
 <p align="center"><b>An open, community-driven hub for human-centric AI.</b></p>
 
-<p align="center"><a href="https://awesome.re"><img src="https://img.shields.io/badge/Awesome-fc60a8?logo=awesomelists&logoColor=white" alt="Awesome"></a> <a href="https://cseeyangchen.github.io/Human-Centric-AI/homepage/"><img src="https://img.shields.io/badge/Homepage-2f766f?logo=homeassistant&logoColor=white" alt="Homepage"></a> <img src="https://komarev.com/ghpvc/?username=cseeyangchen-Human-Centric-AI&label=Visitors&color=2563eb&style=flat" alt="Visitors"> <a href="https://github.com/cseeyangchen/Human-Centric-AI"><img src="https://img.shields.io/github/stars/cseeyangchen/Human-Centric-AI?label=Stars&logo=github&color=f59e0b" alt="Stars"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/forks"><img src="https://img.shields.io/github/forks/cseeyangchen/Human-Centric-AI?label=Forks&logo=github&color=0f766e" alt="Forks"></a> <img src="https://img.shields.io/badge/arXiv-Survey-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"> <a href="https://github.com/cseeyangchen/Human-Centric-AI/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/commits/main"><img src="https://img.shields.io/github/last-commit/cseeyangchen/Human-Centric-AI?label=Last%20updated&color=64748b" alt="Last updated"></a></p>
+<p align="center"><a href="https://awesome.re"><img src="https://img.shields.io/badge/Awesome-fc60a8?logo=awesomelists&logoColor=white" alt="Awesome"></a> <a href="https://cseeyangchen.github.io/Human-Centric-AI/homepage/"><img src="https://img.shields.io/badge/Homepage-2f766f?logo=homeassistant&logoColor=white" alt="Homepage"></a> <img src="https://komarev.com/ghpvc/?username=cseeyangchen-Human-Centric-AI&label=Visitors&color=2563eb&style=flat" alt="Visitors"> <a href="https://github.com/cseeyangchen/Human-Centric-AI"><img src="https://img.shields.io/github/stars/cseeyangchen/Human-Centric-AI?label=Stars&logo=github&color=f59e0b" alt="Stars"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/forks"><img src="https://img.shields.io/github/forks/cseeyangchen/Human-Centric-AI?label=Forks&logo=github&color=0f766e" alt="Forks"></a> <a href="https://arxiv.org/abs/2608.18184"><img src="https://img.shields.io/badge/arXiv-Survey-B31B1B?logo=arxiv&logoColor=white" alt="arXiv"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a> <a href="https://github.com/cseeyangchen/Human-Centric-AI/commits/main"><img src="https://img.shields.io/github/last-commit/cseeyangchen/Human-Centric-AI?label=Last%20updated&color=64748b" alt="Last updated"></a></p>
 
 <p align="center">
   <img src="assets/survey-overview.png" width="100%" alt="Overview of Human-Centric Intelligence in the Era of Foundation Models">
@@ -13,22 +13,18 @@ Human-Centric AI Resources is an open and evolving hub that brings together acad
 > [!TIP]
 > **Join the community.** We welcome everyone interested in human-centric AI to help maintain and enrich this open resource hub. If you are interested in getting involved, feel free to contact us using the details at the bottom of this page.
 
-## 🧭 Contents
-
-- [News](#news)
-- [Academic Knowledge](#academic-knowledge)
-- [Research Infrastructure](#research-infrastructure)
-- [Community Learning Hubs](#community-learning-hubs)
-- [Citation](#citation)
-- [Contact](#contact)
-- [License](#license)
-
 <a id="news"></a>
 
 ## 📢 News
 
 - **2026-08-10:** Our [project homepage](https://cseeyangchen.github.io/Human-Centric-AI/homepage/) is now live.
 - **2026-08-08:** First resource release.
+
+## 🧭 Contents
+
+- [Academic Knowledge](#academic-knowledge)
+- [Research Infrastructure](#research-infrastructure)
+- [Community Learning Hubs](#community-learning-hubs)
 
 <a id="academic-knowledge"></a>
 
@@ -62,7 +58,12 @@ Human-Centric AI Resources is an open and evolving hub that brings together acad
 If this resource collection is useful in your research, please cite the accompanying survey:
 
 ```bibtex
-
+@article{chen2026humancentricAI,
+  title={Human-Centric Intelligence in the Era of Foundation Models: A Survey},
+  author={Chen, Yang and Wang, Tianqi and Jiang, Xiaorui and Man, Yilei and Shao, Yihua and Liu, Mengyuan and Chen, Zhi and Cao, Xiaofeng and Zhao, Qibin and Liu, Chi Harold and Zomaya, Albert Y and Sebe, Nicu and Zhou, Jingren and Tao, Dacheng and Guo, Song and Guo, Jingcai},
+  journal={arXiv preprint arXiv:2608.18184},
+  year={2026}
+}
 ```
 
 <a id="contact"></a>
