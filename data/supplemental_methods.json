@@ -144,6 +144,16 @@
     ]
   },
   {
+    "bibkey": "supp_femwear_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "FemWear",
+    "title": "FemWear: A Specialized Wearable Foundation Model for Women's Health",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.08244",
+    "websites": []
+  },
+  {
     "bibkey": "supp_egotac_2026",
     "category": "Human-Object Interaction",
     "name": "EgoTac",
@@ -163,6 +173,46 @@
     "paper_url": "https://arxiv.org/abs/2608.15141",
     "websites": [
       "https://jyhflash.github.io/HOIMask/"
+    ]
+  },
+  {
+    "bibkey": "supp_4danyone_2026",
+    "category": "Renderable Avatar Modeling",
+    "name": "4DAnyone",
+    "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+    "year": "2026",
+    "venue": "SIGGRAPH Asia 2026",
+    "paper_url": "https://arxiv.org/abs/2608.20335",
+    "websites": [
+      "https://4danyone.github.io/",
+      "https://github.com/ant-research/4DAnyone",
+      "https://huggingface.co/AntResearch/4DAnyone"
+    ]
+  },
+  {
+    "bibkey": "supp_dreamhand_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "DreamHand",
+    "title": "DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.20308",
+    "websites": [
+      "https://ggxxii.github.io/dreamhand/",
+      "https://github.com/ggxxii/dreamhand"
+    ]
+  },
+  {
+    "bibkey": "supp_witheveryone_2026",
+    "category": "Controllable Human Generation",
+    "name": "WithEveryone",
+    "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.20336",
+    "websites": [
+      "https://doby-xu.github.io/WithEveryone/",
+      "https://github.com/doby-xu/WithEveryone"
     ]
   }
 ]

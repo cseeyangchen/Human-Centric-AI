@@ -6,14 +6,67 @@ This page brings together the papers, datasets, and benchmarks organized in **Hu
 
 ## Contents
 
+- [Surveys and Perspectives](#surveys-and-perspectives)
 - [Paper Resources](#paper-resources)
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
+
+<a id="surveys-and-perspectives"></a>
+
+## Surveys and Perspectives
+
+This section separates field-level syntheses and broader conceptual perspectives from task-specific method papers.
+
+### Contents
+
+- [I. Surveys](#surveys)
+- [II. Perspectives](#perspectives)
+
+<a id="surveys"></a>
+
+<details>
+<summary>📖 &nbsp; <b>I. Surveys</b></summary>
+
+Related surveys cited in the Introduction are collected here together with verified post-survey additions.
+
+| Survey | Paper | Venue | Paper Page | Website |
+|---|---|:---:|:---:|:---:|
+| Human Interaction Motion Generation | A Survey on Human Interaction Motion Generation | IJCV 2026 | [:page_facing_up:](https://doi.org/10.1007/s11263-025-02582-5 "Paper page") | [:octocat:](https://github.com/soraproducer/Awesome-Human-Interaction-Motion-Generation "GitHub") |
+| Foundation-Model HOI | Hand-Object Interaction in the Age of Large Foundation Models: Reconstruction, Generation, and Embodied Transfer | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.28394 "Paper page") | [:octocat:](https://github.com/SeanChenxy/Hand3DResearch/tree/hoi-survey "GitHub") |
+| Skeleton Action Representation | Self-Supervised Skeleton-Based Action Representation Learning: A Benchmark and Beyond | IJCV 2026 | [:page_facing_up:](https://doi.org/10.1007/s11263-025-02644-8 "Paper page") | - |
+| Egocentric Vision-Language Models | Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.18671 "Paper page") | - |
+| 3D Human Interaction Generation | 3D Human Interaction Generation: A Survey | arXiv 2025 | [:page_facing_up:](https://arxiv.org/abs/2503.13120 "Paper page") | - |
+| Human Motion Video Generation | Human Motion Video Generation: A Survey | TPAMI 2025 | [:page_facing_up:](https://doi.org/10.1109/TPAMI.2025.3594034 "Paper page") | [:octocat:](https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation "GitHub") |
+| Human-Centric Foundation Models | Human-Centric Foundation Models: Perception, Generation and Agentic Modeling | IJCAI 2025 | [:page_facing_up:](https://doi.org/10.24963/ijcai.2025/1185 "Paper page") | [:octocat:](https://github.com/HumanCentricModels/Awesome-Human-Centric-Foundation-Models "GitHub") |
+| Wi-Fi Human Activity Recognition | Wi-Fi Sensing Techniques for Human Activity Recognition: Brief Survey, Potential Challenges, and Research Directions | ACM CS 2025 | [:page_facing_up:](https://doi.org/10.1145/3705893 "Paper page") | - |
+| Human Motion Generation | Human Motion Generation: A Survey | TPAMI 2024 | [:page_facing_up:](https://doi.org/10.1109/TPAMI.2023.3330935 "Paper page") | - |
+| Action Detection | Deep Learning-based Action Detection in Untrimmed Videos: A Survey | TPAMI 2023 | [:page_facing_up:](https://doi.org/10.1109/TPAMI.2022.3193611 "Paper page") | - |
+| Human Pose Estimation | Deep Learning-based Human Pose Estimation: A Survey | ACM CS 2023 | [:page_facing_up:](https://doi.org/10.1145/3603618 "Paper page") | [:octocat:](https://github.com/zczcwh/DL-HPE "GitHub") |
+| 3D Human Mesh Recovery | Recovering 3D Human Mesh from Monocular Images: A Survey | TPAMI 2023 | [:page_facing_up:](https://doi.org/10.1109/TPAMI.2023.3298850 "Paper page") | [:octocat:](https://github.com/tinatiansjz/hmr-survey "GitHub") |
+| Action Recognition and Prediction | Human Action Recognition and Prediction: A Survey | IJCV 2022 | [:page_facing_up:](https://doi.org/10.1007/s11263-022-01594-9 "Paper page") | - |
+| Deep Human Activity Recognition | A Survey on Deep Learning for Human Activity Recognition | ACM CS 2021 | [:page_facing_up:](https://doi.org/10.1145/3472290 "Paper page") | - |
+
+</details>
+
+<a id="perspectives"></a>
+
+<details>
+<summary>💡 &nbsp; <b>II. Perspectives</b></summary>
+
+Perspective papers introduce broader paradigms, conceptual frameworks, or research agendas and are therefore kept separate from task-specific methods.
+
+| Perspective | Paper | Venue | Paper Page | Website |
+|---|---|:---:|:---:|:---:|
+| ComBodied Agents | ComBodied Agents: a New Paradigm of Human-Centric Agentic AI | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.10915 "Paper page") | - |
+
+</details>
+
+---
 
 <a id="paper-resources"></a>
 
 ## Paper Resources
 
-The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Broader perspective papers are listed separately from the six method levels. Each level and subcategory is collapsed by default for faster navigation.
+The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Each level and subcategory is collapsed by default for faster navigation.
 
 ### Contents
 
@@ -23,7 +76,6 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 - [IV. Interaction Modeling](#interaction-modeling)
 - [V. World Simulation](#world-simulation)
 - [VI. Embodied Agency](#embodied-agency)
-- [VII. Perspectives](#perspectives)
 
 <a id="visual-appearance"></a>
 
@@ -79,6 +131,7 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 > | InstructVVT | InstructVVT: Instruction-Driven Video Virtual Try-On without Auxiliary Spatial Priors | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.14070 "Paper page") | [:house:](https://shaodingbao.github.io/InstructVVT/ "Homepage") [:octocat:](https://github.com/ShaoDingBao/InstructVVT "GitHub") |
 > | Oxygen-TryOn | Oxygen-TryOn: Fashion-Native Foundation Model for Any-item Virtual Try-On | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.21694 "Paper page") | [:house:](https://oxygenvision.github.io/Oxygen-TryOn/ "Homepage") |
 > | Tstars-Tryon 1.0 | Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2604.19748 "Paper page") | [🤗](https://huggingface.co/datasets/TaobaoTmall-AlgorithmProducts/Tstars-VTON "Hugging Face") |
+> | WithEveryone | WithEveryone: Unified Planning and Identity Grounding for Group Image Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20336 "Paper page") | [:house:](https://doby-xu.github.io/WithEveryone/ "Homepage") [:octocat:](https://github.com/doby-xu/WithEveryone "GitHub") |
 > | DreamActor-M1 | DreamActor-M1: Holistic, Expressive and Robust Human Image Animation with Hybrid Guidance | ICCV 2025 | [:page_facing_up:](https://openaccess.thecvf.com/content/ICCV2025/html/Luo_DreamActor-M1_Holistic_Expressive_and_Robust_Human_Image_Animation_with_Hybrid_ICCV_2025_paper.html "Paper page") | [:house:](https://grisoon.github.io/DreamActor-M1/ "Homepage") |
 > | FoundHand | FoundHand: Large-Scale Domain-Specific Learning for Controllable Hand Image Generation | CVPR 2025 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_FoundHand_Large-Scale_Domain-Specific_Learning_for_Controllable_Hand_Image_Generation_CVPR_2025_paper.html "Paper page") | [:octocat:](https://github.com/arthurchen0518/FoundHand "GitHub") |
 > | Visual Persona | Visual Persona: Foundation Model for Full-Body Human Customization | CVPR 2025 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2025/papers/Nam_Visual_Persona_Foundation_Model_for_Full-Body_Human_Customization_CVPR_2025_paper.pdf "Paper page") | [:octocat:](https://github.com/cvlab-kaist/Visual-Persona "GitHub") |
@@ -103,6 +156,7 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 > | Anny-Fit | Anny-Fit: All-Age Human Mesh Recovery | CVPR 2026 Findings | [:page_facing_up:](https://arxiv.org/abs/2605.04728 "Paper page") | [:octocat:](https://github.com/naver/anny-fit "GitHub") |
 > | DanceHMR | DanceHMR: Hand-Aware Whole-Body Human Mesh Recovery from Monocular Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2605.18102 "Paper page") | [:house:](https://shenwenhao01.github.io/dancehmr/ "Homepage") |
 > | DETRAM | DETRAM: End-to-end DEtection, Tracking and Recovery of HumAn Meshes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.09089 "Paper page") | - |
+> | DreamHand | DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20308 "Paper page") | [:house:](https://ggxxii.github.io/dreamhand/ "Homepage") [:octocat:](https://github.com/ggxxii/dreamhand "GitHub") |
 > | EmoteGPT | EmoteGPT: 3D Human Facial Expressions from Natural Language Descriptions | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.02674 "Paper page") | [:octocat:](https://github.com/GenIntel/EmoteGPT "GitHub") |
 > | Multi-HMR 2 | Multi-HMR 2: Multi-Person Camera-Centric Human Detection, Mesh Recovery and Tracking | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2606.14841 "Paper page") | [:octocat:](https://github.com/naver/multi-hmr2 "GitHub") |
 > | PEAR | PEAR: Pixel-Aligned Expressive Human Mesh Recovery | SIGGRAPH 2026 | [:page_facing_up:](https://arxiv.org/abs/2601.22693 "Paper page") | [:octocat:](https://github.com/Pixel-Talk/PEAR "GitHub") |
@@ -124,6 +178,7 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 >
 > | Method | Paper | Venue | Paper Page | Website |
 > |---|---|:---:|:---:|:---:|
+> | 4DAnyone | 4DAnyone: Create Anyone in 4D from a Casual Monocular Video | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20335 "Paper page") | [:house:](https://4danyone.github.io/ "Homepage") [:octocat:](https://github.com/ant-research/4DAnyone "GitHub") [🤗](https://huggingface.co/AntResearch/4DAnyone "Hugging Face") |
 > | Portrait 3D Presence | Bringing Your Portrait to 3D Presence | CVPR 2026 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Bringing_Your_Portrait_to_3D_Presence_CVPR_2026_paper.html "Paper page") | - |
 > | DreamCharacter-1 | DreamCharacter-1: From 3D Generative Foundation Models to Product-Ready Character Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.07817 "Paper page") | [:house:](https://dreamcharacter-x.github.io/ "Homepage") |
 > | Face Anything | Face Anything: 4D Face Reconstruction from Any Image Sequence | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2604.19702 "Paper page") | [:house:](https://kocasariumut.github.io/FaceAnything/ "Homepage") |
@@ -160,6 +215,7 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 > | 2D Motion Interface | A Plug-and-Play 2D Motion Interface for Real-World Motion Language Models | HCMIW @ ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.15984 "Paper page") | [:octocat:](https://github.com/irajisamurai/2D-Motion-Interface "GitHub") |
 > | AnyLift | AnyLift: Scaling Motion Reconstruction from Internet Videos via 2D Diffusion | CVPR 2026 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Li_AnyLift_Scaling_Motion_Reconstruction_from_Internet_Videos_via_2D_Diffusion_CVPR_2026_paper.html "Paper page") | [:house:](https://awfuact.github.io/anylift/ "Homepage") |
 > | ARDY | Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation | TOG 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.08741 "Paper page") | [:octocat:](https://github.com/nv-tlabs/ardy "GitHub") |
+> | FemWear | FemWear: A Specialized Wearable Foundation Model for Women's Health | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.08244 "Paper page") | - |
 > | GaitDynamics | GaitDynamics: A generative foundation model for analyzing human walking and running | Nature Biomedical Engineering 2026 | [:page_facing_up:](https://doi.org/10.1038/s41551-025-01565-8 "Paper page") | [:octocat:](https://github.com/stanfordnmbl/GaitDynamics "GitHub") |
 > | Kimodo | Kimodo: Scaling Controllable Human Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2603.15546 "Paper page") | [:octocat:](https://github.com/nv-tlabs/kimodo "GitHub") |
 > | LLaMo | LLaMo: Scaling Pretrained Language Models for Unified Motion Understanding and Generation with Continuous Autoregressive Tokens | CVPR 2026 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Li_LLaMo_Scaling_Pretrained_Language_Models_for_Unified_Motion_Understanding_and_CVPR_2026_paper.html "Paper page") | [:house:](https://kunkun0w0.github.io/project/LLaMo/ "Homepage") |
@@ -422,24 +478,6 @@ The paper index combines works cited in the Chapter 4--6 method discussions, wor
 
 </details>
 
-<a id="perspectives"></a>
-
-<details>
-<summary>💡 &nbsp; <b>VII. Perspectives</b></summary>
-
-Perspective papers introduce broader paradigms, conceptual frameworks, or research agendas and are therefore kept separate from task-specific methods.
-
-> <details>
-> <summary><b>VII.1</b> &nbsp; Human-Centric Agentic AI</summary>
->
-> | Perspective | Paper | Venue | Paper Page | Website |
-> |---|---|:---:|:---:|:---:|
-> | ComBodied Agents | ComBodied Agents: a New Paradigm of Human-Centric Agentic AI | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.10915 "Paper page") | - |
->
-> </details>
-
-</details>
-
 ---
 
 <a id="datasets-and-benchmarks"></a>
@@ -572,6 +610,7 @@ Resources follow the organization used in Chapter 7 of the survey. Each resource
 >
 > | Resource | Type | Venue | Paper | Paper Page | Website |
 > |---|:---:|:---:|---|:---:|:---:|
+> | Youth Motion and GRF | Dataset | Scientific Data 2026 | A multi-task full-body motion capture and ground reaction force dataset of children and adolescents | [:page_facing_up:](https://doi.org/10.1038/s41597-026-08140-z "Paper page") | [:house:](https://zenodo.org/records/21840566 "Homepage") |
 > | MRBench | Benchmark | arXiv 2026 | MRBench: A Comprehensive Benchmark for Human Motion-Text Retrieval | [:page_facing_up:](https://arxiv.org/abs/2608.07993 "Paper page") | - |
 > | OpenT2M | Dataset + Benchmark | CVPR 2026 | OpenT2M: No-frill Motion Generation with Open-source, Large-scale, High-quality Data | [:page_facing_up:](https://arxiv.org/pdf/2603.18623 "Paper page") | [:house:](https://research.beingbeyond.com/opent2m "Homepage") |
 > | RoMo | Dataset | CVPR 2026 | RoMo: A Large-Scale, Richly Organized Dataset and Semantic Taxonomy for Human Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2605.26241 "Paper page") | [:house:](https://davidzhang73.github.io/romo-website/ "Homepage") |
@@ -718,6 +757,7 @@ Resources follow the organization used in Chapter 7 of the survey. Each resource
 >
 > | Resource | Type | Venue | Paper | Paper Page | Website |
 > |---|:---:|:---:|---|:---:|:---:|
+> | Inter-X++ | Dataset + Benchmark | arXiv 2026 | Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis | [:page_facing_up:](https://arxiv.org/abs/2608.20312 "Paper page") | - |
 > | MPIE-Bench | Benchmark | arXiv 2026 | MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person Interaction Editing | [:page_facing_up:](https://arxiv.org/abs/2607.27616 "Paper page") | [:octocat:](https://github.com/AnnLin0628/mpie-bench "GitHub") |
 > | SentiAvatar | Dataset | arXiv 2026 | SentiAvatar: Towards Expressive and Interactive Digital Humans | [:page_facing_up:](https://arxiv.org/pdf/2604.02908 "Paper page") | [:house:](https://sentiavatar.github.io/ "Homepage") |
 > | SpeakerVid-5M | Dataset | ICLR 2026 | SpeakerVid-5M: A Large-Scale High-Quality Dataset for Audio-Visual Dyadic Interactive Human Generation | [:page_facing_up:](https://arxiv.org/abs/2507.09862 "Paper page") | [:octocat:](https://github.com/Dorniwang/SpeakerVid-5M-Code "GitHub") [:house:](https://dorniwang.github.io/SpeakerVid-5M/ "Homepage") |
@@ -767,6 +807,7 @@ Resources follow the organization used in Chapter 7 of the survey. Each resource
 >
 > | Resource | Type | Venue | Paper | Paper Page | Website |
 > |---|:---:|:---:|---|:---:|:---:|
+> | HiPHI | Dataset + Benchmark | arXiv 2026 | HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction | [:page_facing_up:](https://arxiv.org/abs/2608.16222 "Paper page") | [:house:](https://noitom-robotics.github.io/hiphi/ "Homepage") [:octocat:](https://github.com/noitom-robotics/hiphi "GitHub") [🤗](https://huggingface.co/datasets/noitomrobotics/HiPHI "Hugging Face") |
 > | HumanTracker | Benchmark | ECCV 2026 | HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark | [:page_facing_up:](https://arxiv.org/abs/2608.13555 "Paper page") | [:octocat:](https://github.com/GalaxyGeneralRobotics/HumanTracker "GitHub") [:house:](https://dairuliu.github.io/humantracker "Homepage") [🤗](https://huggingface.co/datasets/dairuliu/HumanTracker "Hugging Face") |
 > | HHMotion | Dataset + Benchmark | CVPR 2026 | Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Motion_Turing_Test_Evaluating_Human-Likeness_in_Humanoid_Robots_CVPR_2026_paper.html "Paper page") | [:house:](http://www.lidarhumanmotion.net/mtt/ "Homepage") |
 > | PHUMA | Dataset | arXiv 2025 | PHUMA: Physically-Grounded Humanoid Locomotion Dataset | [:page_facing_up:](https://arxiv.org/abs/2510.26236 "Paper page") | [:octocat:](https://github.com/davian-robotics/PHUMA "GitHub") [:house:](https://davian-robotics.github.io/PHUMA/ "Homepage") |

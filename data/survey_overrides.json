@@ -1,0 +1,92 @@
+{
+  "zheng2023deep": {
+    "name": "Human Pose Estimation",
+    "venue": "ACM CS 2023",
+    "paper_url": "https://doi.org/10.1145/3603618",
+    "websites": [
+      "https://github.com/zczcwh/DL-HPE"
+    ]
+  },
+  "tian2023recovering": {
+    "name": "3D Human Mesh Recovery",
+    "venue": "TPAMI 2023",
+    "paper_url": "https://doi.org/10.1109/TPAMI.2023.3298850",
+    "websites": [
+      "https://github.com/tinatiansjz/hmr-survey"
+    ]
+  },
+  "zhang2026self": {
+    "name": "Skeleton Action Representation",
+    "venue": "IJCV 2026",
+    "paper_url": "https://doi.org/10.1007/s11263-025-02644-8",
+    "websites": []
+  },
+  "miao2025wi": {
+    "name": "Wi-Fi Human Activity Recognition",
+    "venue": "ACM CS 2025",
+    "paper_url": "https://doi.org/10.1145/3705893",
+    "websites": []
+  },
+  "gu2021survey": {
+    "name": "Deep Human Activity Recognition",
+    "venue": "ACM CS 2021",
+    "paper_url": "https://doi.org/10.1145/3472290",
+    "websites": []
+  },
+  "kong2022human": {
+    "name": "Action Recognition and Prediction",
+    "venue": "IJCV 2022",
+    "paper_url": "https://doi.org/10.1007/s11263-022-01594-9",
+    "websites": []
+  },
+  "vahdani2022deep": {
+    "name": "Action Detection",
+    "venue": "TPAMI 2023",
+    "paper_url": "https://doi.org/10.1109/TPAMI.2022.3193611",
+    "websites": []
+  },
+  "sui2026survey": {
+    "name": "Human Interaction Motion Generation",
+    "venue": "IJCV 2026",
+    "paper_url": "https://doi.org/10.1007/s11263-025-02582-5",
+    "websites": [
+      "https://github.com/soraproducer/Awesome-Human-Interaction-Motion-Generation"
+    ]
+  },
+  "fan20253d": {
+    "name": "3D Human Interaction Generation",
+    "venue": "arXiv 2025",
+    "paper_url": "https://arxiv.org/abs/2503.13120",
+    "websites": []
+  },
+  "zhu2023human": {
+    "name": "Human Motion Generation",
+    "venue": "TPAMI 2024",
+    "paper_url": "https://doi.org/10.1109/TPAMI.2023.3330935",
+    "websites": []
+  },
+  "xue2025human": {
+    "name": "Human Motion Video Generation",
+    "venue": "TPAMI 2025",
+    "paper_url": "https://doi.org/10.1109/TPAMI.2025.3594034",
+    "websites": [
+      "https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation"
+    ]
+  },
+  "lin2026hand": {
+    "name": "Foundation-Model HOI",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2607.28394",
+    "websites": [
+      "https://github.com/SeanChenxy/Hand3DResearch/tree/hoi-survey"
+    ]
+  },
+  "tang2025human": {
+    "name": "Human-Centric Foundation Models",
+    "venue": "IJCAI 2025",
+    "paper_url": "https://doi.org/10.24963/ijcai.2025/1185",
+    "websites": [
+      "https://github.com/HumanCentricModels/Awesome-Human-Centric-Foundation-Models"
+    ]
+  }
+}

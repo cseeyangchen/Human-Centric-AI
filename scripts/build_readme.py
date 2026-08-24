@@ -25,7 +25,7 @@ GITHUB_REPOSITORY = "cseeyangchen/Human-Centric-AI"
 GITHUB_REPOSITORY_URL = f"https://github.com/{GITHUB_REPOSITORY}"
 VISITOR_COUNTER_ID = "cseeyangchen-Human-Centric-AI"
 
-ROMAN_NUMERALS = ("I", "II", "III", "IV", "V", "VI", "VII")
+ROMAN_NUMERALS = ("I", "II", "III", "IV", "V", "VI", "VII", "VIII")
 
 METHOD_LEVEL_ICONS = {
     "Visual Appearance": "assets/level-icons/visual-appearance.png",
@@ -975,6 +975,10 @@ PERSPECTIVE_GROUPS = OrderedDict(
     ]
 )
 
+INTRODUCTION_FILE = "sections/1_introduction.tex"
+SURVEY_PARAGRAPH_START = "\\textbf{Comparison with Other Human-Centric Surveys.}"
+SURVEY_PARAGRAPH_END = "\\textbf{Scope and Contributions.}"
+
 METHOD_SECTION_FILES = [
     "sections/4_appearance_geometry.tex",
     "sections/5_dynamics_interaction.tex",
@@ -1338,6 +1342,15 @@ def extract_marked_citations(text: str, markers: list[str], end_marker: str | No
         content_end = min(candidate for candidate in candidates if candidate >= content_start)
         result[marker] = set(citation_keys(clean[content_start:content_end]))
     return result
+
+
+def introduction_survey_citations(path: Path) -> set[str]:
+    clean = strip_comments(path.read_text(encoding="utf-8"))
+    start = clean.find(SURVEY_PARAGRAPH_START)
+    end = clean.find(SURVEY_PARAGRAPH_END, start)
+    if start < 0 or end < 0:
+        raise ValueError("Could not locate the survey-comparison paragraph in the Introduction")
+    return set(citation_keys(clean[start:end]))
 
 
 def bib_paper_url(entry: dict[str, str]) -> str:
@@ -2147,27 +2160,81 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         "",
         "## Contents",
         "",
+        "- [Surveys and Perspectives](#surveys-and-perspectives)",
         "- [Paper Resources](#paper-resources)",
         "- [Datasets and Benchmarks](#datasets-and-benchmarks)",
         "",
-        '<a id="paper-resources"></a>',
+        '<a id="surveys-and-perspectives"></a>',
         "",
-        "## Paper Resources",
+        "## Surveys and Perspectives",
         "",
-        "The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Broader perspective papers are listed separately from the six method levels. Each level and subcategory is collapsed by default for faster navigation.",
+        "This section separates field-level syntheses and broader conceptual perspectives from task-specific method papers.",
         "",
         "### Contents",
         "",
+        "- [I. Surveys](#surveys)",
         *[
-            f"- [{ROMAN_NUMERALS[level_number - 1]}. {level}](#{anchor(level)})"
-            for level_number, level in enumerate(METHOD_LEVELS, start=1)
-        ],
-        *[
-            f"- [{ROMAN_NUMERALS[len(METHOD_LEVELS) + group_number - 1]}. {group}](#{anchor(group)})"
+            f"- [{ROMAN_NUMERALS[group_number]}. {group}](#{anchor(group)})"
             for group_number, group in enumerate(PERSPECTIVE_GROUPS, start=1)
         ],
         "",
     ]
+
+    paper_lines.extend(
+        [
+            '<a id="surveys"></a>',
+            "",
+            "<details>",
+            "<summary>📖 &nbsp; <b>I. Surveys</b></summary>",
+            "",
+            "Related surveys cited in the Introduction are collected here together with verified post-survey additions.",
+            "",
+            method_table(index["survey_papers"], "Survey"),
+            "",
+            "</details>",
+            "",
+        ]
+    )
+
+    for group_number, (group, categories) in enumerate(PERSPECTIVE_GROUPS.items(), start=1):
+        group_index = ROMAN_NUMERALS[group_number]
+        group_records = index["perspective_papers"][group]
+        records = [record for category in categories for record in group_records[category]]
+        paper_lines.extend(
+            [
+                f'<a id="{anchor(group)}"></a>',
+                "",
+                "<details>",
+                f"<summary>💡 &nbsp; <b>{group_index}. {group}</b></summary>",
+                "",
+                "Perspective papers introduce broader paradigms, conceptual frameworks, or research agendas and are therefore kept separate from task-specific methods.",
+                "",
+                method_table(sorted(records, key=record_sort_key), "Perspective"),
+                "",
+                "</details>",
+                "",
+            ]
+        )
+
+    paper_lines.extend(
+        [
+            "---",
+            "",
+            '<a id="paper-resources"></a>',
+            "",
+            "## Paper Resources",
+            "",
+            "The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Each level and subcategory is collapsed by default for faster navigation.",
+            "",
+            "### Contents",
+            "",
+            *[
+                f"- [{ROMAN_NUMERALS[level_number - 1]}. {level}](#{anchor(level)})"
+                for level_number, level in enumerate(METHOD_LEVELS, start=1)
+            ],
+            "",
+        ]
+    )
 
     for level_number, (level, categories) in enumerate(METHOD_LEVELS.items(), start=1):
         level_records = index["method_papers"][level]
@@ -2190,40 +2257,6 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
                     f"<summary><b>{level_index}.{category_number}</b> &nbsp; {category}</summary>",
                     "",
                     method_table(records),
-                    "",
-                    "</details>",
-                ]
-            )
-            paper_lines.extend(
-                [
-                    blockquote(category_block),
-                    "",
-                ]
-            )
-        paper_lines.extend(["</details>", ""])
-
-    for group_number, (group, categories) in enumerate(PERSPECTIVE_GROUPS.items(), start=1):
-        group_index = ROMAN_NUMERALS[len(METHOD_LEVELS) + group_number - 1]
-        group_records = index["perspective_papers"][group]
-        paper_lines.extend(
-            [
-                f'<a id="{anchor(group)}"></a>',
-                "",
-                "<details>",
-                f"<summary>💡 &nbsp; <b>{group_index}. {group}</b></summary>",
-                "",
-                "Perspective papers introduce broader paradigms, conceptual frameworks, or research agendas and are therefore kept separate from task-specific methods.",
-                "",
-            ]
-        )
-        for category_number, category in enumerate(categories, start=1):
-            records = group_records[category]
-            category_block = "\n".join(
-                [
-                    "<details>",
-                    f"<summary><b>{group_index}.{category_number}</b> &nbsp; {category}</summary>",
-                    "",
-                    method_table(records, "Perspective"),
                     "",
                     "</details>",
                 ]
@@ -2349,6 +2382,7 @@ def build_index(
     overrides: dict[str, dict] | None = None,
     supplemental_methods: list[dict] | None = None,
     supplemental_perspectives: list[dict] | None = None,
+    supplemental_surveys: list[dict] | None = None,
     supplemental_resources: list[dict] | None = None,
 ) -> dict:
     bib = parse_bibtex(survey_root / "reference.bib")
@@ -2405,6 +2439,8 @@ def build_index(
                     merged[field] = meta[field]
             all_table_metadata[key] = merged
 
+    survey_keys = introduction_survey_citations(survey_root / INTRODUCTION_FILE)
+
     # Explicit corrections are applied last so that verified resource names and
     # links can refine automatically parsed table metadata without touching TeX.
     for key, override in (overrides or {}).items():
@@ -2426,7 +2462,7 @@ def build_index(
     missing_bib = sorted(
         {
             key
-            for keys in list(method_keys.values()) + list(data_keys.values())
+            for keys in list(method_keys.values()) + list(data_keys.values()) + [survey_keys]
             for key in keys
             if key not in bib
         }
@@ -2498,6 +2534,27 @@ def build_index(
         for category, records in group.items():
             group[category] = sorted(records, key=record_sort_key)
 
+    survey_output = [build_record(key, bib, all_table_metadata, False) for key in survey_keys]
+    supplemental_survey_ids: set[str] = set()
+    indexed_survey_urls = {
+        record["paper_url"] for record in survey_output if record["paper_url"]
+    }
+    for entry in supplemental_surveys or []:
+        record = build_supplemental_method_record(entry)
+        if (
+            record["bibkey"] in supplemental_survey_ids
+            or record["bibkey"] in supplemental_ids
+            or record["bibkey"] in supplemental_perspective_ids
+            or record["bibkey"] in bib
+        ):
+            raise ValueError(f"Duplicate supplemental survey key: {record['bibkey']}")
+        if record["paper_url"] in indexed_survey_urls or record["paper_url"] in indexed_paper_urls:
+            raise ValueError(f"Duplicate supplemental survey paper: {record['paper_url']}")
+        supplemental_survey_ids.add(record["bibkey"])
+        indexed_survey_urls.add(record["paper_url"])
+        survey_output.append(record)
+    survey_output = sorted(survey_output, key=record_sort_key)
+
     data_output: dict[str, dict[str, list[dict]]] = OrderedDict()
     for group, categories in DATA_GROUPS.items():
         data_output[group] = OrderedDict()
@@ -2541,6 +2598,7 @@ def build_index(
 
     unique_method = {key for keys in method_keys.values() for key in keys} | supplemental_ids
     unique_perspective = supplemental_perspective_ids
+    unique_surveys = survey_keys | supplemental_survey_ids
     unique_data = {key for keys in data_keys.values() for key in keys} | supplemental_resource_ids
     unresolved_paper_links = sorted(
         record["bibkey"]
@@ -2555,6 +2613,9 @@ def build_index(
         for records in group.values()
         for record in records
         if not record["paper_url"]
+    )
+    unresolved_survey_links = sorted(
+        record["bibkey"] for record in survey_output if not record["paper_url"]
     )
     unresolved_resource_links = sorted(
         record["bibkey"]
@@ -2575,6 +2636,8 @@ def build_index(
             "categorized_perspective_entries": sum(
                 len(records) for group in perspective_output.values() for records in group.values()
             ),
+            "unique_survey_papers": len(unique_surveys),
+            "categorized_survey_entries": len(survey_output),
             "unique_resources": len(unique_data),
             "categorized_resource_entries": sum(
                 len(records) for group in data_output.values() for records in group.values()
@@ -2582,12 +2645,14 @@ def build_index(
         },
         "method_papers": method_output,
         "perspective_papers": perspective_output,
+        "survey_papers": survey_output,
         "datasets_and_benchmarks": data_output,
         "audit": {
             "missing_bib_entries": missing_bib,
             "unassigned_method_citations": unassigned_method_citations,
             "method_entries_without_paper_url": unresolved_paper_links,
             "perspective_entries_without_paper_url": unresolved_perspective_links,
+            "survey_entries_without_paper_url": unresolved_survey_links,
             "resource_entries_without_paper_url": unresolved_resource_links,
         },
     }
@@ -2601,7 +2666,12 @@ def main() -> None:
 
     repo_root = args.repo_root.resolve()
     overrides: dict[str, dict] = {}
-    for filename in ("link_overrides.json", "website_overrides.json", "venue_overrides.json"):
+    for filename in (
+        "link_overrides.json",
+        "website_overrides.json",
+        "venue_overrides.json",
+        "survey_overrides.json",
+    ):
         overrides_path = repo_root / "data" / filename
         if not overrides_path.exists():
             continue
@@ -2619,6 +2689,12 @@ def main() -> None:
         if supplemental_perspectives_path.exists()
         else []
     )
+    supplemental_surveys_path = repo_root / "data" / "supplemental_surveys.json"
+    supplemental_surveys = (
+        json.loads(supplemental_surveys_path.read_text(encoding="utf-8"))
+        if supplemental_surveys_path.exists()
+        else []
+    )
     supplemental_resources_path = repo_root / "data" / "supplemental_resources.json"
     supplemental_resources = (
         json.loads(supplemental_resources_path.read_text(encoding="utf-8"))
@@ -2630,6 +2706,7 @@ def main() -> None:
         overrides,
         supplemental_methods,
         supplemental_perspectives,
+        supplemental_surveys,
         supplemental_resources,
     )
     (repo_root / "data").mkdir(parents=True, exist_ok=True)

@@ -11,5 +11,44 @@
     "websites": [
       "https://rain152.github.io/PersonaShot/"
     ]
+  },
+  {
+    "bibkey": "supp_hiphi_2026",
+    "category": "Physical Humanoid Control",
+    "name": "HiPHI",
+    "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.16222",
+    "websites": [
+      "https://noitom-robotics.github.io/hiphi/",
+      "https://github.com/noitom-robotics/hiphi",
+      "https://huggingface.co/datasets/noitomrobotics/HiPHI"
+    ]
+  },
+  {
+    "bibkey": "supp_youth_motion_grf_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "Youth Motion and GRF",
+    "title": "A multi-task full-body motion capture and ground reaction force dataset of children and adolescents",
+    "type": "Dataset",
+    "year": "2026",
+    "venue": "Scientific Data 2026",
+    "paper_url": "https://doi.org/10.1038/s41597-026-08140-z",
+    "websites": [
+      "https://zenodo.org/records/21840566"
+    ]
+  },
+  {
+    "bibkey": "supp_interxpp_2026",
+    "category": "Social Interaction Data",
+    "name": "Inter-X++",
+    "title": "Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.20312",
+    "websites": []
   }
 ]

@@ -1,12 +1,14 @@
 {
-  "generated_on": "2026-08-18",
+  "generated_on": "2026-08-24",
   "summary": {
-    "unique_method_papers": 239,
-    "categorized_method_entries": 243,
+    "unique_method_papers": 243,
+    "categorized_method_entries": 247,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
-    "unique_resources": 164,
-    "categorized_resource_entries": 164
+    "unique_survey_papers": 14,
+    "categorized_survey_entries": 14,
+    "unique_resources": 167,
+    "categorized_resource_entries": 167
   },
   "method_papers": {
     "Visual Appearance": {
@@ -377,6 +379,24 @@
           ]
         },
         {
+          "bibkey": "supp_witheveryone_2026",
+          "name": "WithEveryone",
+          "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.20336",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://doby-xu.github.io/WithEveryone/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/doby-xu/WithEveryone"
+            }
+          ]
+        },
+        {
           "bibkey": "luo2025dreamactor",
           "name": "DreamActor-M1",
           "title": "DreamActor-M1: Holistic, Expressive and Robust Human Image Animation with Hybrid Guidance",
@@ -500,6 +520,24 @@
           "venue": "arXiv 2026",
           "paper_url": "https://arxiv.org/abs/2607.09089",
           "websites": []
+        },
+        {
+          "bibkey": "supp_dreamhand_2026",
+          "name": "DreamHand",
+          "title": "DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.20308",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ggxxii.github.io/dreamhand/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/ggxxii/dreamhand"
+            }
+          ]
         },
         {
           "bibkey": "wang2026emotegpt",
@@ -680,6 +718,28 @@
         }
       ],
       "Renderable Avatar Modeling": [
+        {
+          "bibkey": "supp_4danyone_2026",
+          "name": "4DAnyone",
+          "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+          "year": "2026",
+          "venue": "SIGGRAPH Asia 2026",
+          "paper_url": "https://arxiv.org/abs/2608.20335",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://4danyone.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/ant-research/4DAnyone"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/AntResearch/4DAnyone"
+            }
+          ]
+        },
         {
           "bibkey": "zhang2026bringing",
           "name": "Portrait 3D Presence",
@@ -967,6 +1027,15 @@
               "url": "https://github.com/nv-tlabs/ardy"
             }
           ]
+        },
+        {
+          "bibkey": "supp_femwear_2026",
+          "name": "FemWear",
+          "title": "FemWear: A Specialized Wearable Foundation Model for Women's Health",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.08244",
+          "websites": []
         },
         {
           "bibkey": "tan2026gaitdynamics",
@@ -3387,6 +3456,164 @@
       ]
     }
   },
+  "survey_papers": [
+    {
+      "bibkey": "sui2026survey",
+      "name": "Human Interaction Motion Generation",
+      "title": "A Survey on Human Interaction Motion Generation",
+      "year": "2026",
+      "venue": "IJCV 2026",
+      "paper_url": "https://doi.org/10.1007/s11263-025-02582-5",
+      "websites": [
+        {
+          "kind": "github",
+          "url": "https://github.com/soraproducer/Awesome-Human-Interaction-Motion-Generation"
+        }
+      ]
+    },
+    {
+      "bibkey": "lin2026hand",
+      "name": "Foundation-Model HOI",
+      "title": "Hand-Object Interaction in the Age of Large Foundation Models: Reconstruction, Generation, and Embodied Transfer",
+      "year": "2026",
+      "venue": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2607.28394",
+      "websites": [
+        {
+          "kind": "github",
+          "url": "https://github.com/SeanChenxy/Hand3DResearch/tree/hoi-survey"
+        }
+      ]
+    },
+    {
+      "bibkey": "zhang2026self",
+      "name": "Skeleton Action Representation",
+      "title": "Self-Supervised Skeleton-Based Action Representation Learning: A Benchmark and Beyond",
+      "year": "2026",
+      "venue": "IJCV 2026",
+      "paper_url": "https://doi.org/10.1007/s11263-025-02644-8",
+      "websites": []
+    },
+    {
+      "bibkey": "supp_egocentric_vlm_survey_2026",
+      "name": "Egocentric Vision-Language Models",
+      "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+      "year": "2026",
+      "venue": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2608.18671",
+      "websites": []
+    },
+    {
+      "bibkey": "fan20253d",
+      "name": "3D Human Interaction Generation",
+      "title": "3D Human Interaction Generation: A Survey",
+      "year": "2025",
+      "venue": "arXiv 2025",
+      "paper_url": "https://arxiv.org/abs/2503.13120",
+      "websites": []
+    },
+    {
+      "bibkey": "xue2025human",
+      "name": "Human Motion Video Generation",
+      "title": "Human Motion Video Generation: A Survey",
+      "year": "2025",
+      "venue": "TPAMI 2025",
+      "paper_url": "https://doi.org/10.1109/TPAMI.2025.3594034",
+      "websites": [
+        {
+          "kind": "github",
+          "url": "https://github.com/Winn1y/Awesome-Human-Motion-Video-Generation"
+        }
+      ]
+    },
+    {
+      "bibkey": "tang2025human",
+      "name": "Human-Centric Foundation Models",
+      "title": "Human-Centric Foundation Models: Perception, Generation and Agentic Modeling",
+      "year": "2025",
+      "venue": "IJCAI 2025",
+      "paper_url": "https://doi.org/10.24963/ijcai.2025/1185",
+      "websites": [
+        {
+          "kind": "github",
+          "url": "https://github.com/HumanCentricModels/Awesome-Human-Centric-Foundation-Models"
+        }
+      ]
+    },
+    {
+      "bibkey": "miao2025wi",
+      "name": "Wi-Fi Human Activity Recognition",
+      "title": "Wi-Fi Sensing Techniques for Human Activity Recognition: Brief Survey, Potential Challenges, and Research Directions",
+      "year": "2025",
+      "venue": "ACM CS 2025",
+      "paper_url": "https://doi.org/10.1145/3705893",
+      "websites": []
+    },
+    {
+      "bibkey": "zhu2023human",
+      "name": "Human Motion Generation",
+      "title": "Human Motion Generation: A Survey",
+      "year": "2023",
+      "venue": "TPAMI 2024",
+      "paper_url": "https://doi.org/10.1109/TPAMI.2023.3330935",
+      "websites": []
+    },
+    {
+      "bibkey": "vahdani2022deep",
+      "name": "Action Detection",
+      "title": "Deep Learning-based Action Detection in Untrimmed Videos: A Survey",
+      "year": "2022",
+      "venue": "TPAMI 2023",
+      "paper_url": "https://doi.org/10.1109/TPAMI.2022.3193611",
+      "websites": []
+    },
+    {
+      "bibkey": "zheng2023deep",
+      "name": "Human Pose Estimation",
+      "title": "Deep Learning-based Human Pose Estimation: A Survey",
+      "year": "2023",
+      "venue": "ACM CS 2023",
+      "paper_url": "https://doi.org/10.1145/3603618",
+      "websites": [
+        {
+          "kind": "github",
+          "url": "https://github.com/zczcwh/DL-HPE"
+        }
+      ]
+    },
+    {
+      "bibkey": "tian2023recovering",
+      "name": "3D Human Mesh Recovery",
+      "title": "Recovering 3D Human Mesh from Monocular Images: A Survey",
+      "year": "2023",
+      "venue": "TPAMI 2023",
+      "paper_url": "https://doi.org/10.1109/TPAMI.2023.3298850",
+      "websites": [
+        {
+          "kind": "github",
+          "url": "https://github.com/tinatiansjz/hmr-survey"
+        }
+      ]
+    },
+    {
+      "bibkey": "kong2022human",
+      "name": "Action Recognition and Prediction",
+      "title": "Human Action Recognition and Prediction: A Survey",
+      "year": "2022",
+      "venue": "IJCV 2022",
+      "paper_url": "https://doi.org/10.1007/s11263-022-01594-9",
+      "websites": []
+    },
+    {
+      "bibkey": "gu2021survey",
+      "name": "Deep Human Activity Recognition",
+      "title": "A Survey on Deep Learning for Human Activity Recognition",
+      "year": "2021",
+      "venue": "ACM CS 2021",
+      "paper_url": "https://doi.org/10.1145/3472290",
+      "websites": []
+    }
+  ],
   "datasets_and_benchmarks": {
     "Human Subject Resources": {
       "Visual Human Observation": [
@@ -4245,6 +4472,21 @@
         }
       ],
       "Human Kinematic Motion Resources": [
+        {
+          "bibkey": "supp_youth_motion_grf_2026",
+          "name": "Youth Motion and GRF",
+          "title": "A multi-task full-body motion capture and ground reaction force dataset of children and adolescents",
+          "year": "2026",
+          "venue": "Scientific Data 2026",
+          "paper_url": "https://doi.org/10.1038/s41597-026-08140-z",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://zenodo.org/records/21840566"
+            }
+          ],
+          "type": "Dataset"
+        },
         {
           "bibkey": "liu2026mrbench",
           "name": "MRBench",
@@ -5536,6 +5778,16 @@
       ],
       "Social Interaction Data": [
         {
+          "bibkey": "supp_interxpp_2026",
+          "name": "Inter-X++",
+          "title": "Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.20312",
+          "websites": [],
+          "type": "Dataset + Benchmark"
+        },
+        {
           "bibkey": "lin2026mpie",
           "name": "MPIE-Bench",
           "title": "MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person Interaction Editing",
@@ -5959,6 +6211,29 @@
       ],
       "Physical Humanoid Control": [
         {
+          "bibkey": "supp_hiphi_2026",
+          "name": "HiPHI",
+          "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.16222",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://noitom-robotics.github.io/hiphi/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/noitom-robotics/hiphi"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/noitomrobotics/HiPHI"
+            }
+          ],
+          "type": "Dataset + Benchmark"
+        },
+        {
           "bibkey": "liu2026humantracker",
           "name": "HumanTracker",
           "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
@@ -6023,6 +6298,7 @@
     "unassigned_method_citations": {},
     "method_entries_without_paper_url": [],
     "perspective_entries_without_paper_url": [],
+    "survey_entries_without_paper_url": [],
     "resource_entries_without_paper_url": []
   }
 }

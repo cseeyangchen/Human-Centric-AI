@@ -49,6 +49,9 @@ def main() -> None:
     research_lists = markdown["awesome research"]
     survey_resources = markdown["survey resources"]
     workshops = markdown["workshop collections"]
+    surveys_and_perspectives = survey_resources.split(
+        '<a id="surveys-and-perspectives"></a>', 1
+    )[-1].split('<a id="paper-resources"></a>', 1)[0]
     papers = survey_resources.split('<a id="paper-resources"></a>', 1)[-1].split(
         '<a id="datasets-and-benchmarks"></a>', 1
     )[0]
@@ -100,6 +103,26 @@ def main() -> None:
             )
         )
 
+    intro_survey_keys = build_readme.introduction_survey_citations(
+        survey_root / build_readme.INTRODUCTION_FILE
+    )
+    supplemental_surveys_path = repo_root / "data" / "supplemental_surveys.json"
+    supplemental_surveys = (
+        json.loads(supplemental_surveys_path.read_text(encoding="utf-8"))
+        if supplemental_surveys_path.exists()
+        else []
+    )
+    supplemental_survey_keys = {entry["bibkey"] for entry in supplemental_surveys}
+    expected_survey_keys = intro_survey_keys | supplemental_survey_keys
+    survey_index_keys = {record["bibkey"] for record in index["survey_papers"]}
+    if expected_survey_keys != survey_index_keys:
+        errors.append(
+            "Survey coverage mismatch: missing={} extra={}".format(
+                sorted(expected_survey_keys - survey_index_keys),
+                sorted(survey_index_keys - expected_survey_keys),
+            )
+        )
+
     evaluation = build_readme.strip_comments(
         (survey_root / "sections/7_evaluation.tex").read_text(encoding="utf-8")
     )
@@ -139,7 +162,7 @@ def main() -> None:
         for group in index["perspective_papers"].values()
         for records in group.values()
         for record in records
-    ] + [
+    ] + index["survey_papers"] + [
         record
         for group in index["datasets_and_benchmarks"].values()
         for records in group.values()
@@ -154,13 +177,20 @@ def main() -> None:
     if invalid_paper_page:
         errors.append(f"Entries with invalid paper page: {invalid_paper_page}")
 
-    expected_method_rows = (
-        index["summary"]["categorized_method_entries"]
-        + index["summary"]["categorized_perspective_entries"]
+    expected_method_rows = index["summary"]["categorized_method_entries"]
+    expected_context_rows = (
+        index["summary"]["categorized_perspective_entries"]
+        + index["summary"]["categorized_survey_entries"]
     )
     expected_resource_rows = index["summary"]["categorized_resource_entries"]
-    expected_rows = expected_method_rows + expected_resource_rows
+    expected_rows = expected_context_rows + expected_method_rows + expected_resource_rows
     paper_icon = "[:page_facing_up:]("
+    if surveys_and_perspectives.count(paper_icon) != expected_context_rows:
+        errors.append(
+            "Survey-and-perspective row/link mismatch: expected {}, found {}".format(
+                expected_context_rows, surveys_and_perspectives.count(paper_icon)
+            )
+        )
     if papers.count(paper_icon) != expected_method_rows:
         errors.append(
             "Paper-resource row/link mismatch: expected {}, found {}".format(
@@ -195,29 +225,38 @@ def main() -> None:
     expected_method_details = (
         len(build_readme.METHOD_LEVELS)
         + sum(len(categories) for categories in build_readme.METHOD_LEVELS.values())
-        + len(build_readme.PERSPECTIVE_GROUPS)
-        + sum(len(categories) for categories in build_readme.PERSPECTIVE_GROUPS.values())
+    )
+    expected_context_details = (
+        len(build_readme.PERSPECTIVE_GROUPS)
+        + 1
     )
     expected_resource_details = len(build_readme.DATA_GROUPS) + sum(
         len(categories) for categories in build_readme.DATA_GROUPS.values()
     )
     if papers.count("<details>") != expected_method_details:
         errors.append("Paper resources do not contain the expected collapsed blocks")
+    if surveys_and_perspectives.count("<details>") != expected_context_details:
+        errors.append("Surveys and perspectives do not contain the expected collapsed blocks")
     if datasets.count("<details>") != expected_resource_details:
         errors.append("Datasets and benchmarks do not contain the expected collapsed blocks")
     expected_nested_method_details = sum(
         len(categories) for categories in build_readme.METHOD_LEVELS.values()
-    ) + sum(
-        len(categories) for categories in build_readme.PERSPECTIVE_GROUPS.values()
     )
+    expected_nested_context_details = 0
     expected_nested_resource_details = sum(
         len(categories) for categories in build_readme.DATA_GROUPS.values()
     )
     if papers.count("> <details>") != expected_nested_method_details:
         errors.append("Paper subcategory blocks are not consistently nested")
+    if surveys_and_perspectives.count("> <details>") != expected_nested_context_details:
+        errors.append("Perspective subcategory blocks are not consistently nested")
     if datasets.count("> <details>") != expected_nested_resource_details:
         errors.append("Dataset subcategory blocks are not consistently nested")
-    for label, content in (("paper resources", papers), ("datasets and benchmarks", datasets)):
+    for label, content in (
+        ("surveys and perspectives", surveys_and_perspectives),
+        ("paper resources", papers),
+        ("datasets and benchmarks", datasets),
+    ):
         if "<details open" in content:
             errors.append(f"{label.title()} contains a details block that is open by default")
         if content.count("<details>") != content.count("</details>"):
@@ -232,10 +271,12 @@ def main() -> None:
     if papers.count("| Method | Paper | Venue | Paper Page | Website |") != expected_method_tables:
         errors.append("Paper-resource table count does not match the taxonomy")
     if (
-        papers.count("| Perspective | Paper | Venue | Paper Page | Website |")
+        surveys_and_perspectives.count("| Perspective | Paper | Venue | Paper Page | Website |")
         != expected_perspective_tables
     ):
         errors.append("Perspective table count does not match the configured categories")
+    if surveys_and_perspectives.count("| Survey | Paper | Venue | Paper Page | Website |") != 1:
+        errors.append("Survey table count does not match the configured survey section")
     if datasets.count("| Resource | Type | Venue | Paper | Paper Page | Website |") != sum(
         len(categories) for categories in build_readme.DATA_GROUPS.values()
     ):
@@ -307,6 +348,8 @@ def main() -> None:
         "method_index_papers": len(method_index_keys),
         "perspective_source_papers": len(expected_perspective_keys),
         "perspective_index_papers": len(perspective_index_keys),
+        "survey_source_papers": len(expected_survey_keys),
+        "survey_index_papers": len(survey_index_keys),
         "resource_source_entries": len(expected_resource_keys),
         "resource_index_entries": len(resource_index_keys),
         "categorized_markdown_rows": expected_rows,
