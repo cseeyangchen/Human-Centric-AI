@@ -21,6 +21,7 @@ from typing import Iterable
 # Set this after the survey is publicly available on arXiv. The badge is
 # rendered without a link while the value is empty.
 SURVEY_ARXIV_URL = "https://arxiv.org/abs/2608.18184"
+SURVEY_HUGGING_FACE_URL = "https://huggingface.co/papers/2608.18184"
 GITHUB_REPOSITORY = "cseeyangchen/Human-Centric-AI"
 GITHUB_REPOSITORY_URL = f"https://github.com/{GITHUB_REPOSITORY}"
 VISITOR_COUNTER_ID = "cseeyangchen-Human-Centric-AI"
@@ -2090,6 +2091,7 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
             f'<a href="{GITHUB_REPOSITORY_URL}"><img src="https://img.shields.io/github/stars/{GITHUB_REPOSITORY}?label=Stars&logo=github&color=f59e0b" alt="Stars"></a>',
             f'<a href="{GITHUB_REPOSITORY_URL}/forks"><img src="https://img.shields.io/github/forks/{GITHUB_REPOSITORY}?label=Forks&logo=github&color=0f766e" alt="Forks"></a>',
             arxiv_badge,
+            f'<a href="{SURVEY_HUGGING_FACE_URL}"><img src="https://img.shields.io/badge/Hugging%20Face-Paper-FFD21E?logo=huggingface&logoColor=black" alt="Hugging Face Paper"></a>',
             f'<a href="{GITHUB_REPOSITORY_URL}/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>',
             f'<a href="{GITHUB_REPOSITORY_URL}/commits/main"><img src="https://img.shields.io/github/last-commit/{GITHUB_REPOSITORY}?label=Last%20updated&color=64748b" alt="Last updated"></a>',
         ]
