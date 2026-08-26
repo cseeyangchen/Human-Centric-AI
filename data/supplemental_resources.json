@@ -50,5 +50,27 @@
     "venue": "arXiv 2026",
     "paper_url": "https://arxiv.org/abs/2608.20312",
     "websites": []
+  },
+  {
+    "bibkey": "supp_basketballbench_2026",
+    "category": "Sport Analysis",
+    "name": "BasketballBench",
+    "title": "Towards Comprehensive Basketball Understanding",
+    "type": "Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.23435",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_emotiondialogcn_2026",
+    "category": "Social Interaction Data",
+    "name": "EmotionDialogCN",
+    "title": "EmotionDialogCN: A Spontaneous Multimodal Dataset for Mandarin Emotional Dialogue",
+    "type": "Dataset",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.20905",
+    "websites": []
   }
 ]

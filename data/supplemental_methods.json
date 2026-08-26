@@ -214,5 +214,29 @@
       "https://doby-xu.github.io/WithEveryone/",
       "https://github.com/doby-xu/WithEveryone"
     ]
+  },
+  {
+    "bibkey": "supp_semoco_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "SeMoCo",
+    "title": "SeMoCo: A Semantic-First Motion Codec for Motion Language Modeling",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.24334",
+    "websites": [
+      "https://github.com/OMEGA-i/SeMoCo-Generator",
+      "https://github.com/OMEGA-i/SeMoCo-Tokenizer",
+      "https://huggingface.co/poisonousID/SeMoCo"
+    ]
+  },
+  {
+    "bibkey": "supp_human_jepa_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "Human-JEPA",
+    "title": "Human-JEPA: A Human-Centric Vision Model that Perceives and Anticipates",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.21160",
+    "websites": []
   }
 ]

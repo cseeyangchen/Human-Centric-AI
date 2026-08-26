@@ -88,6 +88,11 @@ AWESOME_RESEARCH_LISTS = OrderedDict(
                     "https://github.com/HumanCentricModels/Awesome-Human-Centric-Foundation-Models",
                     "repository",
                 ),
+                (
+                    "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
+                    "https://github.com/zhangzjn/awesome-smart-glasses",
+                    "repository",
+                ),
             ],
         ),
         (

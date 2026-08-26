@@ -10,6 +10,7 @@ This page collects maintained paper lists and resource indexes spanning human-ce
 
 - **Awesome Human-Centric AI Survey Resources (Our Survey)**: [list](awesome-human-centric-ai-survey-resources.md).
 - **Awesome Human-Centric Foundation Models**: [repository](https://github.com/HumanCentricModels/Awesome-Human-Centric-Foundation-Models).
+- **From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms**: [repository](https://github.com/zhangzjn/awesome-smart-glasses).
 
 ## Digital Humans and Generative Content
 

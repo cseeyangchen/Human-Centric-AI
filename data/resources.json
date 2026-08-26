@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-08-24",
+  "generated_on": "2026-08-26",
   "summary": {
-    "unique_method_papers": 243,
-    "categorized_method_entries": 247,
+    "unique_method_papers": 245,
+    "categorized_method_entries": 249,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
-    "unique_survey_papers": 14,
-    "categorized_survey_entries": 14,
-    "unique_resources": 167,
-    "categorized_resource_entries": 167
+    "unique_survey_papers": 15,
+    "categorized_survey_entries": 15,
+    "unique_resources": 169,
+    "categorized_resource_entries": 169
   },
   "method_papers": {
     "Visual Appearance": {
@@ -1052,6 +1052,15 @@
           ]
         },
         {
+          "bibkey": "supp_human_jepa_2026",
+          "name": "Human-JEPA",
+          "title": "Human-JEPA: A Human-Centric Vision Model that Perceives and Anticipates",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.21160",
+          "websites": []
+        },
+        {
           "bibkey": "rempe2026kimodo",
           "name": "Kimodo",
           "title": "Kimodo: Scaling Controllable Human Motion Generation",
@@ -1160,6 +1169,28 @@
             {
               "kind": "homepage",
               "url": "https://inwoohwang.me/ScaleMoGen/"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_semoco_2026",
+          "name": "SeMoCo",
+          "title": "SeMoCo: A Semantic-First Motion Codec for Motion Language Modeling",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.24334",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/OMEGA-i/SeMoCo-Generator"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/OMEGA-i/SeMoCo-Tokenizer"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/poisonousID/SeMoCo"
             }
           ]
         },
@@ -3472,6 +3503,20 @@
       ]
     },
     {
+      "bibkey": "supp_smart_glasses_survey_2026",
+      "name": "From Seeing to Acting",
+      "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
+      "year": "2026",
+      "venue": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2608.24877",
+      "websites": [
+        {
+          "kind": "github",
+          "url": "https://github.com/zhangzjn/awesome-smart-glasses"
+        }
+      ]
+    },
+    {
       "bibkey": "lin2026hand",
       "name": "Foundation-Model HOI",
       "title": "Hand-Object Interaction in the Age of Large Foundation Models: Reconstruction, Generation, and Embodied Transfer",
@@ -4930,6 +4975,16 @@
           "type": "Benchmark"
         },
         {
+          "bibkey": "supp_basketballbench_2026",
+          "name": "BasketballBench",
+          "title": "Towards Comprehensive Basketball Understanding",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.23435",
+          "websites": [],
+          "type": "Benchmark"
+        },
+        {
           "bibkey": "gao2025fsbench",
           "name": "FSBench",
           "title": "FSBench: A Figure Skating Benchmark for Advancing Artistic Sports Understanding",
@@ -5777,6 +5832,16 @@
         }
       ],
       "Social Interaction Data": [
+        {
+          "bibkey": "supp_emotiondialogcn_2026",
+          "name": "EmotionDialogCN",
+          "title": "EmotionDialogCN: A Spontaneous Multimodal Dataset for Mandarin Emotional Dialogue",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.20905",
+          "websites": [],
+          "type": "Dataset"
+        },
         {
           "bibkey": "supp_interxpp_2026",
           "name": "Inter-X++",

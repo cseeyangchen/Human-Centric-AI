@@ -8,5 +8,17 @@
     "venue": "arXiv 2026",
     "paper_url": "https://arxiv.org/abs/2608.18671",
     "websites": []
+  },
+  {
+    "bibkey": "supp_smart_glasses_survey_2026",
+    "category": "Surveys",
+    "name": "From Seeing to Acting",
+    "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.24877",
+    "websites": [
+      "https://github.com/zhangzjn/awesome-smart-glasses"
+    ]
   }
 ]
