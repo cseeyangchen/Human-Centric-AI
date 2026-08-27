@@ -1,8 +1,8 @@
 {
-  "generated_on": "2026-08-26",
+  "generated_on": "2026-08-27",
   "summary": {
-    "unique_method_papers": 245,
-    "categorized_method_entries": 249,
+    "unique_method_papers": 247,
+    "categorized_method_entries": 251,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 15,
@@ -2435,6 +2435,24 @@
           "websites": []
         },
         {
+          "bibkey": "supp_super_star_2026",
+          "name": "Super Star",
+          "title": "Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans",
+          "year": "2026",
+          "venue": "ACM MM 2026",
+          "paper_url": "https://arxiv.org/abs/2608.24909",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://super-star-2026.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/PeterIverson/Super-Star"
+            }
+          ]
+        },
+        {
           "bibkey": "zhang2026vibes",
           "name": "ViBES",
           "title": "Vibes: A conversational agent with behaviorally-intelligent 3d virtual body",
@@ -3368,6 +3386,24 @@
             {
               "kind": "github",
               "url": "https://github.com/unidex-ai/UniDex"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_zero_wam_2026",
+          "name": "Zero-WAM",
+          "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.26103",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://robbyant-research.github.io/Zero-WAM/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/robbyant-research/Zero-WAM"
             }
           ]
         },

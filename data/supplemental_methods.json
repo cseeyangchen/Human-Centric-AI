@@ -238,5 +238,31 @@
     "venue": "arXiv 2026",
     "paper_url": "https://arxiv.org/abs/2608.21160",
     "websites": []
+  },
+  {
+    "bibkey": "supp_zero_wam_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "Zero-WAM",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.26103",
+    "websites": [
+      "https://robbyant-research.github.io/Zero-WAM/",
+      "https://github.com/robbyant-research/Zero-WAM"
+    ]
+  },
+  {
+    "bibkey": "supp_super_star_2026",
+    "category": "Social Interaction",
+    "name": "Super Star",
+    "title": "Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans",
+    "year": "2026",
+    "venue": "ACM MM 2026",
+    "paper_url": "https://arxiv.org/abs/2608.24909",
+    "websites": [
+      "https://super-star-2026.github.io/",
+      "https://github.com/PeterIverson/Super-Star"
+    ]
   }
 ]
