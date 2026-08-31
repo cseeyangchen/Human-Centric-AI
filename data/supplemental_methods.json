@@ -264,5 +264,56 @@
       "https://super-star-2026.github.io/",
       "https://github.com/PeterIverson/Super-Star"
     ]
+  },
+  {
+    "bibkey": "supp_livevvt_2026",
+    "category": "Human Video Animation",
+    "name": "LiveVVT",
+    "title": "LiveVVT: High-Fidelity Video Virtual Try-On in Real Time",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.26714",
+    "websites": [
+      "https://github.com/caoyushe/LiveVVT"
+    ]
+  },
+  {
+    "bibkey": "supp_milo_2026",
+    "category": "Human-Object Interaction",
+    "name": "MILO",
+    "title": "Reconstructing Humans and Objects in Interaction using Large Reconstruction Models",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2608.27407",
+    "websites": [
+      "https://ac5113.github.io/MILO/",
+      "https://github.com/ac5113/MILO"
+    ]
+  },
+  {
+    "bibkey": "supp_editalive_2026",
+    "category": "Human Video Animation",
+    "name": "EditaLive",
+    "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.27123",
+    "websites": [
+      "https://huai-chang.github.io/EditaLive/",
+      "https://github.com/GVCLab/EditaLive"
+    ]
+  },
+  {
+    "bibkey": "supp_rasa_2026",
+    "category": "Human Video Animation",
+    "name": "RASA",
+    "title": "RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2608.28219",
+    "websites": [
+      "https://hidream-ai.github.io/RASA/",
+      "https://github.com/HiDream-ai/RASA_code"
+    ]
   }
 ]

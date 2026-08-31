@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-08-27",
+  "generated_on": "2026-08-31",
   "summary": {
-    "unique_method_papers": 247,
-    "categorized_method_entries": 251,
+    "unique_method_papers": 251,
+    "categorized_method_entries": 255,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 15,
     "categorized_survey_entries": 15,
-    "unique_resources": 169,
-    "categorized_resource_entries": 169
+    "unique_resources": 170,
+    "categorized_resource_entries": 170
   },
   "method_papers": {
     "Visual Appearance": {
@@ -1686,6 +1686,24 @@
           ]
         },
         {
+          "bibkey": "supp_editalive_2026",
+          "name": "EditaLive",
+          "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.27123",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://huai-chang.github.io/EditaLive/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/GVCLab/EditaLive"
+            }
+          ]
+        },
+        {
           "bibkey": "pallotta2026egocontrol",
           "name": "EgoControl",
           "title": "EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses",
@@ -1732,6 +1750,20 @@
           ]
         },
         {
+          "bibkey": "supp_livevvt_2026",
+          "name": "LiveVVT",
+          "title": "LiveVVT: High-Fidelity Video Virtual Try-On in Real Time",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.26714",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/caoyushe/LiveVVT"
+            }
+          ]
+        },
+        {
           "bibkey": "ding2026mtvcrafttokenizing4dmotion",
           "name": "MTVCraft",
           "title": "MTVCraft: Tokenizing 4D Motion for Arbitrary Character Animation",
@@ -1756,6 +1788,24 @@
             {
               "kind": "github",
               "url": "https://github.com/Aoko955/Omni-LiveAvatar"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_rasa_2026",
+          "name": "RASA",
+          "title": "RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2608.28219",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://hidream-ai.github.io/RASA/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/HiDream-ai/RASA_code"
             }
           ]
         },
@@ -2052,6 +2102,24 @@
             {
               "kind": "homepage",
               "url": "https://jiuntian.github.io/OneHOI/"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_milo_2026",
+          "name": "MILO",
+          "title": "Reconstructing Humans and Objects in Interaction using Large Reconstruction Models",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2608.27407",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ac5113.github.io/MILO/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/ac5113/MILO"
             }
           ]
         },
@@ -4225,6 +4293,21 @@
             }
           ],
           "type": "Benchmark"
+        },
+        {
+          "bibkey": "supp_hug_vis_2026",
+          "name": "HUG-VIS",
+          "title": "HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.26517",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/GML-MMGroup/HUG-VIS"
+            }
+          ],
+          "type": "Dataset + Benchmark"
         },
         {
           "bibkey": "fang2026humanscore",

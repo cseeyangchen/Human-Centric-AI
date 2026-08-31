@@ -72,5 +72,18 @@
     "venue": "arXiv 2026",
     "paper_url": "https://arxiv.org/abs/2608.20905",
     "websites": []
+  },
+  {
+    "bibkey": "supp_hug_vis_2026",
+    "category": "Human Video Generation and Animation",
+    "name": "HUG-VIS",
+    "title": "HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.26517",
+    "websites": [
+      "https://github.com/GML-MMGroup/HUG-VIS"
+    ]
   }
 ]
