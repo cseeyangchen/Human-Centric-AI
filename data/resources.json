@@ -1,8 +1,8 @@
 {
-  "generated_on": "2026-08-31",
+  "generated_on": "2026-09-02",
   "summary": {
-    "unique_method_papers": 251,
-    "categorized_method_entries": 255,
+    "unique_method_papers": 252,
+    "categorized_method_entries": 256,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 15,
@@ -2340,6 +2340,24 @@
             {
               "kind": "homepage",
               "url": "https://bowieshi.github.io/SHOW-project-page/"
+            }
+          ]
+        },
+        {
+          "bibkey": "supp_reself_2026",
+          "name": "RESELF",
+          "title": "Seeing the World and the Self from Egocentric Video",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.01276",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ka1guan.github.io/RESELF/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Ka1Guan/RESELF"
             }
           ]
         },

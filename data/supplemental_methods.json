@@ -107,6 +107,19 @@
     ]
   },
   {
+    "bibkey": "supp_reself_2026",
+    "category": "Human-Scene Interaction",
+    "name": "RESELF",
+    "title": "Seeing the World and the Self from Egocentric Video",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.01276",
+    "websites": [
+      "https://ka1guan.github.io/RESELF/",
+      "https://github.com/Ka1Guan/RESELF"
+    ]
+  },
+  {
     "bibkey": "supp_whip_2026",
     "category": "Scalable Motion Modeling",
     "name": "WHIP",
