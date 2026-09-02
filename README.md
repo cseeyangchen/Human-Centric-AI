@@ -57,7 +57,7 @@ Human-Centric AI Resources is an open and evolving hub that brings together acad
 
 The collection follows six connected contexts, progressing from observable human properties to interaction, world evolution, and executable agency.
 
-<table>
+<table width="100%">
 <tr>
 <td width="33%" align="center" valign="top">
 <a href="resources/visual-appearance.md"><img src="assets/level-icons/visual-appearance.png" width="58" alt="Visual Appearance"><br><strong>Visual Appearance</strong></a>
