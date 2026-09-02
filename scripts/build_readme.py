@@ -972,6 +972,32 @@ METHOD_LEVELS = OrderedDict(
     ]
 )
 
+METHOD_LEVEL_DESCRIPTIONS = {
+    "Visual Appearance": "Research on how human appearance is perceived, identified, and controllably synthesized in image and video space.",
+    "Spatial Geometry": "Research on explicit human body structure, geometric recovery, and renderable avatar construction.",
+    "Kinematic Dynamics": "Research on temporal human motion, multimodal motion modeling, and photorealistic animation.",
+    "Interaction Modeling": "Research on how humans relate to objects, scenes, and other people through physical and social behavior.",
+    "World Simulation": "Research on human-centered environment evolution, predictive simulation, and action-aware world models.",
+    "Embodied Agency": "Research on physically executable human-like control and the transfer of human experience to embodied agents.",
+}
+
+METHOD_CATEGORY_DESCRIPTIONS = {
+    "Generalist Human Perception": "Reusable human visual priors and shared interfaces across perception objectives.",
+    "Discriminative Identity Understanding": "Person-level recognition, retrieval, and grounding across observations and query settings.",
+    "Controllable Human Generation": "Human synthesis and editing with structured control over intended appearance changes.",
+    "Structured Geometry Modeling": "Explicit body, hand, and face geometry recovered from visual or multimodal evidence.",
+    "Renderable Avatar Modeling": "Renderable and animatable human assets reconstructed or generated from limited observations.",
+    "Scalable Motion Modeling": "Transferable temporal models spanning human motion understanding, generation, and control.",
+    "Human Video Animation": "Photorealistic human animation driven by motion, audio, and multimodal conditions.",
+    "Human-Object Interaction": "Relational modeling of human motion, object state, contact, and affordance.",
+    "Human-Scene Interaction": "Human behavior modeled with the spatial and functional constraints of surrounding scenes.",
+    "Social Interaction": "Reciprocal, participant-aware modeling of interpersonal behavior and communication.",
+    "Human-Centered World Generation": "Human-conditioned visual futures in environments that evolve around situated activity.",
+    "Actionable World Planning": "Action-dependent world transitions designed to support prediction, evaluation, and planning.",
+    "Generalist Humanoid Control": "Reusable motor priors and policies for physically executable whole-body behavior.",
+    "Human-to-Agent Skill Transfer": "Human experience transformed into adaptable supervision for embodied agents.",
+}
+
 PERSPECTIVE_GROUPS = OrderedDict(
     [
         (
@@ -1035,6 +1061,32 @@ DATA_GROUPS = OrderedDict(
         ),
     ]
 )
+
+DATA_GROUP_DESCRIPTIONS = {
+    "Human Subject Resources": "Datasets and benchmarks for perceiving, identifying, and geometrically modeling humans as observable subjects.",
+    "Human Dynamics Resources": "Temporal resources for understanding, generating, and evaluating human motion and appearance change.",
+    "Human Interaction Resources": "Resources that capture human activity in relation to procedures, objects, scenes, and other people.",
+    "Human Embodiment Resources": "Human experience and physical-control resources that connect observed behavior with embodied execution.",
+}
+
+DATA_CATEGORY_DESCRIPTIONS = {
+    "Visual Human Observation": "Visible human appearance, attributes, localized perception, and language-facing visual understanding.",
+    "Multisensory Human Sensing": "Complementary sensing signals for recovering human state beyond camera-only observation.",
+    "Human Identity Understanding": "Person-level matching and retrieval across conditions, viewpoints, sensors, and queries.",
+    "Renderable Human Geometry": "Three-dimensional and radiance-aware human assets for reconstruction, animation, and rendering.",
+    "Human Video Generation and Animation": "Dynamic supervision and evaluation for controllable, temporally coherent human video synthesis.",
+    "Human Video Behavior Understanding": "Recognition, localization, and reasoning over human actions in temporal visual evidence.",
+    "Human Kinematic Motion Resources": "Structured motion represented through skeletons, meshes, trajectories, language, and sensor signals.",
+    "Human Gait Understanding": "Walking dynamics for recognition and analysis across appearance, sensing, and environmental variation.",
+    "Sport Analysis": "Fine-grained athletic action understanding, motion-quality assessment, and interpretable feedback.",
+    "Virtual Try-On": "Garment and footwear transfer evaluated for human consistency, fit, structure, and visual realism.",
+    "Egocentric Procedural Activities": "First-person task recordings for step understanding, anticipation, assistance, and long-horizon reasoning.",
+    "Human-Object Interaction Data": "Hands, bodies, objects, contact, and affordance during manipulation and physical interaction.",
+    "Human-Scene Interaction Data": "Human occupancy, contact, motion, and functional behavior grounded in three-dimensional environments.",
+    "Social Interaction Data": "Conversational, gestural, physical, and multimodal relations among multiple people.",
+    "Human Data for Embodied AI": "Human demonstrations and interaction experience organized as supervision for embodied learning.",
+    "Physical Humanoid Control": "Resources for evaluating physically feasible, stable, and human-like humanoid behavior.",
+}
 
 DATA_TABLE_CATEGORY = {
     "tables/summary_7_db_renderable.tex": "Renderable Human Geometry",
@@ -1465,14 +1517,23 @@ def build_record(key: str, bib: dict[str, dict[str, str]], metadata: dict[str, d
     paper_url = paper_links[0] if paper_links else bib_paper_url(entry)
     year = latex_to_text(entry.get("year", ""))
     table_venue = meta.get("meta_venue") if resource and meta.get("meta_venue") else meta.get("venue", "")
+    venue = normalize_venue(table_venue or "", entry)
     record = {
         "bibkey": key,
         "name": meta.get("name") or title_prefix(title),
         "title": title,
         "year": year,
-        "venue": normalize_venue(table_venue or "", entry),
+        "venue": venue,
         "paper_url": paper_url,
         "websites": website_links(meta.get("web_links", [])),
+        "sort_order": infer_sort_order(
+            year,
+            venue,
+            paper_url,
+            entry.get("date", ""),
+            entry.get("month", ""),
+            *entry.values(),
+        ),
     }
     if resource:
         record["type"] = infer_resource_type(title, meta.get("resource_type"))
@@ -1492,6 +1553,13 @@ def build_supplemental_method_record(entry: dict) -> dict:
         "venue": entry["venue"],
         "paper_url": entry["paper_url"],
         "websites": website_links(entry.get("websites", [])),
+        "sort_order": infer_sort_order(
+            str(entry["year"]),
+            entry["venue"],
+            entry["paper_url"],
+            entry.get("date", ""),
+            entry.get("month", ""),
+        ),
     }
 
 
@@ -1509,14 +1577,79 @@ def build_supplemental_resource_record(entry: dict) -> dict:
         "paper_url": entry["paper_url"],
         "websites": website_links(entry.get("websites", [])),
         "type": infer_resource_type(entry["title"], entry.get("type")),
+        "sort_order": infer_sort_order(
+            str(entry["year"]),
+            entry["venue"],
+            entry["paper_url"],
+            entry.get("date", ""),
+            entry.get("month", ""),
+        ),
     }
 
 
-def record_sort_key(record: dict) -> tuple[int, str]:
-    venue_years = [int(year) for year in re.findall(r"\b20\d{2}\b", record.get("venue", ""))]
-    year_match = re.search(r"\d{4}", record.get("year", ""))
-    year = max(venue_years) if venue_years else (int(year_match.group()) if year_match else 0)
-    return (-year, record.get("title", "").lower())
+ARXIV_DATE_RE = re.compile(r"(?<!\d)(\d{2})(0[1-9]|1[0-2])\.(\d{4,5})(?:v\d+)?")
+MONTH_NUMBERS = {
+    "jan": 1,
+    "january": 1,
+    "feb": 2,
+    "february": 2,
+    "mar": 3,
+    "march": 3,
+    "apr": 4,
+    "april": 4,
+    "may": 5,
+    "jun": 6,
+    "june": 6,
+    "jul": 7,
+    "july": 7,
+    "aug": 8,
+    "august": 8,
+    "sep": 9,
+    "sept": 9,
+    "september": 9,
+    "oct": 10,
+    "october": 10,
+    "nov": 11,
+    "november": 11,
+    "dec": 12,
+    "december": 12,
+}
+
+
+def infer_sort_order(year: str, venue: str, paper_url: str, *date_sources: str) -> list[int]:
+    """Return a verifiable newest-first position without inventing venue dates."""
+    venue_years = [int(value) for value in re.findall(r"\b20\d{2}\b", venue)]
+    year_match = re.search(r"\b20\d{2}\b", year)
+    publication_year = max(venue_years) if venue_years else (
+        int(year_match.group()) if year_match else 0
+    )
+    candidates: list[tuple[int, int, int]] = []
+    sources = [paper_url, *[latex_to_text(str(value)) for value in date_sources if value]]
+
+    for source in sources:
+        for match in re.finditer(r"\b(20\d{2})[-/](0?[1-9]|1[0-2])(?:[-/](0?[1-9]|[12]\d|3[01]))?\b", source):
+            source_year = int(match.group(1))
+            if source_year == publication_year:
+                candidates.append((int(match.group(2)), int(match.group(3) or 0), 0))
+        for match in ARXIV_DATE_RE.finditer(source):
+            source_year = 2000 + int(match.group(1))
+            if source_year == publication_year:
+                candidates.append((int(match.group(2)), 0, int(match.group(3))))
+
+    month_text = latex_to_text(str(date_sources[1] if len(date_sources) > 1 else ""))
+    month = MONTH_NUMBERS.get(month_text.strip().lower())
+    if month:
+        candidates.append((month, 0, 0))
+
+    latest = max(candidates, default=(0, 0, 0))
+    return [publication_year, *latest]
+
+
+def record_sort_key(record: dict) -> tuple[int, int, int, int, str]:
+    order = record.get("sort_order") or infer_sort_order(
+        record.get("year", ""), record.get("venue", ""), record.get("paper_url", "")
+    )
+    return (*(-int(value) for value in order), record.get("title", "").lower())
 
 
 def md_escape(value: str) -> str:
@@ -1585,6 +1718,14 @@ def resource_table(records: list[dict]) -> str:
 
 def anchor(text: str) -> str:
     return re.sub(r"[^a-z0-9 -]", "", text.lower()).replace(" ", "-")
+
+
+def method_level_filename(level: str) -> str:
+    return f"{anchor(level)}.md"
+
+
+def data_group_filename(group: str) -> str:
+    return f"{anchor(group)}.md"
 
 
 def blockquote(markdown: str) -> str:
@@ -2082,6 +2223,300 @@ def render_workshop_page() -> str:
     return "\n".join(lines)
 
 
+def render_method_level_page(
+    index: dict,
+    level_number: int,
+    level: str,
+    categories: list[str],
+) -> str:
+    level_index = ROMAN_NUMERALS[level_number - 1]
+    level_icon = f"../{METHOD_LEVEL_ICONS[level]}"
+    level_records = index["method_papers"][level]
+    column_width = 100 // len(categories)
+
+    lines = [
+        '<a id="top"></a>',
+        '<p align="center"><a href="../README.md">&larr; Main README</a> &nbsp;&middot;&nbsp; <a href="awesome-human-centric-ai-survey-resources.md">Our Survey</a></p>',
+        "",
+        f'<h1 align="center"><img src="{level_icon}" width="46" height="46" align="absmiddle" alt=""> &nbsp; {level_index}. {level}</h1>',
+        "",
+        f'<p align="center">{METHOD_LEVEL_DESCRIPTIONS[level]}</p>',
+        "",
+        "## Browse Categories",
+        "",
+        "<table>",
+        "<tr>",
+    ]
+    for category_number, category in enumerate(categories, start=1):
+        lines.extend(
+            [
+                f'<td width="{column_width}%" align="center" valign="middle">',
+                f'<a href="#{anchor(category)}"><strong>{level_index}.{category_number} {category}</strong></a>',
+                "</td>",
+            ]
+        )
+    lines.extend(["</tr>", "</table>", ""])
+
+    for category_number, category in enumerate(categories, start=1):
+        lines.extend(
+            [
+                "---",
+                "",
+                f'<a id="{anchor(category)}"></a>',
+                "",
+                f"## {level_index}.{category_number} {category}",
+                "",
+                f"*{METHOD_CATEGORY_DESCRIPTIONS[category]}*",
+                "",
+                method_table(level_records[category]),
+                "",
+                '<p align="right"><a href="#top">Back to top &uarr;</a></p>',
+                "",
+            ]
+        )
+
+    level_names = list(METHOD_LEVELS)
+    page_index = level_number - 1
+    navigation = []
+    if page_index > 0:
+        previous_level = level_names[page_index - 1]
+        navigation.append(
+            f'<a href="{method_level_filename(previous_level)}">&larr; {previous_level}</a>'
+        )
+    navigation.append(
+        '<a href="awesome-human-centric-ai-survey-resources.md">All Survey Resources</a>'
+    )
+    if page_index < len(level_names) - 1:
+        next_level = level_names[page_index + 1]
+        navigation.append(
+            f'<a href="{method_level_filename(next_level)}">{next_level} &rarr;</a>'
+        )
+    lines.extend(
+        [
+            "---",
+            "",
+            f'<p align="center">{" &nbsp;&middot;&nbsp; ".join(navigation)}</p>',
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_surveys_page(index: dict) -> str:
+    return "\n".join(
+        [
+            '<a id="top"></a>',
+            '<p align="center"><a href="../README.md">&larr; Main README</a> &nbsp;&middot;&nbsp; <a href="awesome-human-centric-ai-survey-resources.md">Our Survey</a></p>',
+            "",
+            '<h1 align="center">📖 &nbsp; Surveys</h1>',
+            "",
+            '<p align="center">Field-level syntheses that situate human-centric AI within its broader research landscape.</p>',
+            "",
+            method_table(index["survey_papers"], "Survey"),
+            "",
+            "---",
+            "",
+            '<p align="center"><a href="awesome-human-centric-ai-survey-resources.md">All Survey Resources</a> &nbsp;&middot;&nbsp; <a href="perspectives.md">Perspectives &rarr;</a></p>',
+            "",
+        ]
+    )
+
+
+def render_perspectives_page(index: dict) -> str:
+    records = [
+        record
+        for group, categories in PERSPECTIVE_GROUPS.items()
+        for category in categories
+        for record in index["perspective_papers"][group][category]
+    ]
+    return "\n".join(
+        [
+            '<a id="top"></a>',
+            '<p align="center"><a href="../README.md">&larr; Main README</a> &nbsp;&middot;&nbsp; <a href="awesome-human-centric-ai-survey-resources.md">Our Survey</a></p>',
+            "",
+            '<h1 align="center">💡 &nbsp; Perspectives</h1>',
+            "",
+            '<p align="center">Broader paradigms, conceptual frameworks, and research agendas beyond task-specific methods.</p>',
+            "",
+            method_table(sorted(records, key=record_sort_key), "Perspective"),
+            "",
+            "---",
+            "",
+            '<p align="center"><a href="surveys.md">&larr; Surveys</a> &nbsp;&middot;&nbsp; <a href="awesome-human-centric-ai-survey-resources.md">All Survey Resources</a></p>',
+            "",
+        ]
+    )
+
+
+def render_data_group_page(
+    index: dict,
+    group_number: int,
+    group: str,
+    categories: list[str],
+) -> str:
+    group_index = ROMAN_NUMERALS[group_number - 1]
+    group_icon = f"../{DATA_GROUP_ICONS[group]}"
+    group_records = index["datasets_and_benchmarks"][group]
+    columns = 2 if len(categories) in (2, 4) else 3
+    column_width = 100 // columns
+
+    lines = [
+        '<a id="top"></a>',
+        '<p align="center"><a href="../README.md">&larr; Main README</a> &nbsp;&middot;&nbsp; <a href="awesome-human-centric-ai-survey-resources.md">Our Survey</a></p>',
+        "",
+        f'<h1 align="center"><img src="{group_icon}" width="46" height="46" align="absmiddle" alt=""> &nbsp; {group_index}. {group}</h1>',
+        "",
+        f'<p align="center">{DATA_GROUP_DESCRIPTIONS[group]}</p>',
+        "",
+        "## Browse Categories",
+        "",
+        "<table>",
+    ]
+    for row_start in range(0, len(categories), columns):
+        lines.append("<tr>")
+        for category_number, category in enumerate(
+            categories[row_start : row_start + columns], start=row_start + 1
+        ):
+            lines.extend(
+                [
+                    f'<td width="{column_width}%" align="center" valign="middle">',
+                    f'<a href="#{anchor(category)}"><strong>{group_index}.{category_number} {category}</strong></a>',
+                    "</td>",
+                ]
+            )
+        lines.append("</tr>")
+    lines.extend(["</table>", ""])
+
+    for category_number, category in enumerate(categories, start=1):
+        lines.extend(
+            [
+                "---",
+                "",
+                f'<a id="{anchor(category)}"></a>',
+                "",
+                f"## {group_index}.{category_number} {category}",
+                "",
+                f"*{DATA_CATEGORY_DESCRIPTIONS[category]}*",
+                "",
+                resource_table(group_records[category]),
+                "",
+                '<p align="right"><a href="#top">Back to top &uarr;</a></p>',
+                "",
+            ]
+        )
+
+    group_names = list(DATA_GROUPS)
+    page_index = group_number - 1
+    navigation = []
+    if page_index > 0:
+        previous_group = group_names[page_index - 1]
+        navigation.append(
+            f'<a href="{data_group_filename(previous_group)}">&larr; {previous_group}</a>'
+        )
+    navigation.append(
+        '<a href="awesome-human-centric-ai-survey-resources.md">All Survey Resources</a>'
+    )
+    if page_index < len(group_names) - 1:
+        next_group = group_names[page_index + 1]
+        navigation.append(
+            f'<a href="{data_group_filename(next_group)}">{next_group} &rarr;</a>'
+        )
+    lines.extend(
+        [
+            "---",
+            "",
+            f'<p align="center">{" &nbsp;&middot;&nbsp; ".join(navigation)}</p>',
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def render_survey_index_page() -> str:
+    lines = [
+        '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+        "",
+        "# 📚 Our Survey Resources",
+        "",
+        "This directory organizes the surveys, perspectives, methods, datasets, and benchmarks associated with **Human-Centric Intelligence in the Era of Foundation Models: A Survey**.",
+        "",
+        "## Surveys and Perspectives",
+        "",
+        "Field-level reviews and broader conceptual viewpoints are separated from task-specific research.",
+        "",
+        "<table>",
+        "<tr>",
+        '<td width="50%" align="center" valign="middle">',
+        '<a href="surveys.md"><strong>📖 &nbsp; Surveys</strong></a>',
+        "</td>",
+        '<td width="50%" align="center" valign="middle">',
+        '<a href="perspectives.md"><strong>💡 &nbsp; Perspectives</strong></a>',
+        "</td>",
+        "</tr>",
+        "</table>",
+        "",
+        "## Methods by Human Context",
+        "",
+        "Method papers from Chapters 4--6 are organized through the six levels of the human context taxonomy.",
+        "",
+        "<table>",
+    ]
+    method_level_items = list(METHOD_LEVELS.items())
+    for row_start in range(0, len(method_level_items), 3):
+        lines.append("<tr>")
+        for level_number, (level, _) in enumerate(
+            method_level_items[row_start : row_start + 3], start=row_start + 1
+        ):
+            level_index = ROMAN_NUMERALS[level_number - 1]
+            level_icon = f"../{METHOD_LEVEL_ICONS[level]}"
+            lines.extend(
+                [
+                    '<td width="33%" align="center" valign="middle">',
+                    f'<a href="{method_level_filename(level)}"><img src="{level_icon}" width="46" height="46" alt=""><br><strong>{level_index}. {level}</strong></a>',
+                    "</td>",
+                ]
+            )
+        lines.append("</tr>")
+    lines.extend(
+        [
+            "</table>",
+            "",
+            "## Datasets and Benchmarks",
+            "",
+            "Empirical resources from Chapter 7 are organized by the human capability they support.",
+            "",
+            "<table>",
+        ]
+    )
+    data_group_items = list(DATA_GROUPS.items())
+    for row_start in range(0, len(data_group_items), 2):
+        lines.append("<tr>")
+        for group_number, (group, _) in enumerate(
+            data_group_items[row_start : row_start + 2], start=row_start + 1
+        ):
+            group_index = ROMAN_NUMERALS[group_number - 1]
+            group_icon = f"../{DATA_GROUP_ICONS[group]}"
+            lines.extend(
+                [
+                    '<td width="50%" align="center" valign="middle">',
+                    f'<a href="{data_group_filename(group)}"><img src="{group_icon}" width="46" height="46" alt=""><br><strong>{group_index}. {group}</strong></a>',
+                    "</td>",
+                ]
+            )
+        lines.append("</tr>")
+    lines.extend(
+        [
+            "</table>",
+            "",
+            "---",
+            "",
+            '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
 def render_markdown_pages(index: dict) -> dict[str, str]:
     arxiv_badge_image = '<img src="https://img.shields.io/badge/arXiv-Survey-B31B1B?logo=arxiv&logoColor=white" alt="arXiv">'
     arxiv_badge = arxiv_badge_image
@@ -2161,14 +2596,14 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
     paper_lines = [
         '<p align="center"><a href="../README.md">&larr; Back to the main README</a></p>',
         "",
-        "# 📚 Awesome Human-Centric AI Survey Resources",
+        "# 📚 Our Survey Resources",
         "",
         "This page brings together the papers, datasets, and benchmarks organized in **Human-Centric Intelligence in the Era of Foundation Models: A Survey**.",
         "",
         "## Contents",
         "",
         "- [Surveys and Perspectives](#surveys-and-perspectives)",
-        "- [Paper Resources](#paper-resources)",
+        "- [Methods by Human Context](#methods-by-human-context)",
         "- [Datasets and Benchmarks](#datasets-and-benchmarks)",
         "",
         '<a id="surveys-and-perspectives"></a>',
@@ -2227,56 +2662,32 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
         [
             "---",
             "",
-            '<a id="paper-resources"></a>',
+            '<a id="methods-by-human-context"></a>',
             "",
-            "## Paper Resources",
+            "## Methods by Human Context",
             "",
-            "The paper index combines works cited in the Chapter 4--6 method discussions, works listed in the corresponding method tables, and verified post-survey updates. Each level and subcategory is collapsed by default for faster navigation.",
+            "Method papers from Chapters 4--6 are organized into six dedicated level pages. Each page exposes its task categories directly for focused browsing.",
             "",
-            "### Contents",
-            "",
-            *[
-                f"- [{ROMAN_NUMERALS[level_number - 1]}. {level}](#{anchor(level)})"
-                for level_number, level in enumerate(METHOD_LEVELS, start=1)
-            ],
-            "",
+            "<table>",
         ]
     )
-
-    for level_number, (level, categories) in enumerate(METHOD_LEVELS.items(), start=1):
-        level_records = index["method_papers"][level]
-        level_index = ROMAN_NUMERALS[level_number - 1]
-        level_icon = f"../{METHOD_LEVEL_ICONS[level]}"
-        paper_lines.extend(
-            [
-                f'<a id="{anchor(level)}"></a>',
-                "",
-                "<details>",
-                f'<summary><img src="{level_icon}" width="28" height="28" align="absmiddle" alt=""> &nbsp; <b>{level_index}. {level}</b></summary>',
-                "",
-            ]
-        )
-        for category_number, category in enumerate(categories, start=1):
-            records = level_records[category]
-            category_block = "\n".join(
+    method_level_items = list(METHOD_LEVELS.items())
+    for row_start in range(0, len(method_level_items), 3):
+        paper_lines.append("<tr>")
+        for level_number, (level, _) in enumerate(
+            method_level_items[row_start : row_start + 3], start=row_start + 1
+        ):
+            level_index = ROMAN_NUMERALS[level_number - 1]
+            level_icon = f"../{METHOD_LEVEL_ICONS[level]}"
+            paper_lines.extend(
                 [
-                    "<details>",
-                    f"<summary><b>{level_index}.{category_number}</b> &nbsp; {category}</summary>",
-                    "",
-                    method_table(records),
-                    "",
-                    "</details>",
+                    '<td width="33%" align="center" valign="middle">',
+                    f'<a href="{method_level_filename(level)}"><img src="{level_icon}" width="46" height="46" alt=""><br><strong>{level_index}. {level}</strong></a>',
+                    "</td>",
                 ]
             )
-            paper_lines.extend([blockquote(category_block), ""])
-        paper_lines.extend(["</details>", ""])
-
-    paper_lines.extend(
-        [
-            "---",
-            "",
-        ]
-    )
+        paper_lines.append("</tr>")
+    paper_lines.extend(["</table>", "", "---", ""])
 
     dataset_lines = [
         '<a id="datasets-and-benchmarks"></a>',
@@ -2375,13 +2786,23 @@ def render_markdown_pages(index: dict) -> dict[str, str]:
             "",
         ]
     )
-    return {
-        "README.md": "\n".join(lines),
+    pages = {
         "resources/awesome-research.md": render_research_lists_page(),
-        "resources/awesome-human-centric-ai-survey-resources.md": "\n".join(paper_lines + dataset_lines),
+        "resources/awesome-human-centric-ai-survey-resources.md": render_survey_index_page(),
+        "resources/surveys.md": render_surveys_page(index),
+        "resources/perspectives.md": render_perspectives_page(index),
         "resources/academic-presentations.md": render_academic_presentations_page(),
         "resources/workshop-collections.md": render_workshop_page(),
     }
+    for level_number, (level, categories) in enumerate(METHOD_LEVELS.items(), start=1):
+        pages[f"resources/{method_level_filename(level)}"] = render_method_level_page(
+            index, level_number, level, categories
+        )
+    for group_number, (group, categories) in enumerate(DATA_GROUPS.items(), start=1):
+        pages[f"resources/{data_group_filename(group)}"] = render_data_group_page(
+            index, group_number, group, categories
+        )
+    return pages
 
 
 def build_index(

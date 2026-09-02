@@ -28,8 +28,18 @@ def main() -> None:
         "README": repo_root / "README.md",
         "awesome research": repo_root / "resources" / "awesome-research.md",
         "survey resources": repo_root / "resources" / "awesome-human-centric-ai-survey-resources.md",
+        "surveys": repo_root / "resources" / "surveys.md",
+        "perspectives": repo_root / "resources" / "perspectives.md",
         "workshop collections": repo_root / "resources" / "workshop-collections.md",
     }
+    for level in build_readme.METHOD_LEVELS:
+        markdown_paths[f"method level: {level}"] = (
+            repo_root / "resources" / build_readme.method_level_filename(level)
+        )
+    for group in build_readme.DATA_GROUPS:
+        markdown_paths[f"data group: {group}"] = (
+            repo_root / "resources" / build_readme.data_group_filename(group)
+        )
     markdown: dict[str, str] = {}
     for label, path in markdown_paths.items():
         if not path.is_file():
@@ -49,13 +59,19 @@ def main() -> None:
     research_lists = markdown["awesome research"]
     survey_resources = markdown["survey resources"]
     workshops = markdown["workshop collections"]
-    surveys_and_perspectives = survey_resources.split(
-        '<a id="surveys-and-perspectives"></a>', 1
-    )[-1].split('<a id="paper-resources"></a>', 1)[0]
-    papers = survey_resources.split('<a id="paper-resources"></a>', 1)[-1].split(
-        '<a id="datasets-and-benchmarks"></a>', 1
-    )[0]
-    datasets = survey_resources.split('<a id="datasets-and-benchmarks"></a>', 1)[-1]
+    surveys_and_perspectives = "\n".join(
+        [markdown["surveys"], markdown["perspectives"]]
+    )
+    method_level_pages = {
+        level: markdown[f"method level: {level}"]
+        for level in build_readme.METHOD_LEVELS
+    }
+    papers = "\n".join(method_level_pages.values())
+    data_group_pages = {
+        group: markdown[f"data group: {group}"]
+        for group in build_readme.DATA_GROUPS
+    }
+    datasets = "\n".join(data_group_pages.values())
 
     method_source_keys: set[str] = set()
     for relative in build_readme.METHOD_SECTION_FILES + build_readme.METHOD_TABLE_FILES:
@@ -177,6 +193,24 @@ def main() -> None:
     if invalid_paper_page:
         errors.append(f"Entries with invalid paper page: {invalid_paper_page}")
 
+    chronological_groups = []
+    for level, categories in index["method_papers"].items():
+        for category, records in categories.items():
+            chronological_groups.append((f"{level} / {category}", records))
+    for group, categories in index["datasets_and_benchmarks"].items():
+        for category, records in categories.items():
+            chronological_groups.append((f"{group} / {category}", records))
+    chronological_groups.append(("Surveys", index["survey_papers"]))
+    for group, categories in index["perspective_papers"].items():
+        for category, records in categories.items():
+            chronological_groups.append((f"{group} / {category}", records))
+    for label, records in chronological_groups:
+        expected_order = sorted(records, key=build_readme.record_sort_key)
+        if [record["bibkey"] for record in records] != [
+            record["bibkey"] for record in expected_order
+        ]:
+            errors.append(f"Resource table is not newest-first: {label}")
+
     expected_method_rows = index["summary"]["categorized_method_entries"]
     expected_context_rows = (
         index["summary"]["categorized_perspective_entries"]
@@ -205,13 +239,18 @@ def main() -> None:
         )
     if paper_icon in readme:
         errors.append("README still contains generated resource rows")
+    if paper_icon in survey_resources:
+        errors.append("Survey index should link to dedicated pages instead of duplicating rows")
 
     required_resource_links = [
-        "#academic-knowledge",
-        "#research-infrastructure",
-        "#community-learning-hubs",
+        "resources/awesome-human-centric-ai-survey-resources.md",
+        *[
+            f"resources/{build_readme.method_level_filename(level)}"
+            for level in build_readme.METHOD_LEVELS
+        ],
         "resources/awesome-research.md",
         "resources/workshop-collections.md",
+        "resources/learning-hubs.md",
         "resources/open-courseware.md",
         "resources/academic-presentations.md",
         "resources/human-models-and-toolkits.md",
@@ -222,45 +261,13 @@ def main() -> None:
         if link not in readme:
             errors.append(f"README resource navigation is missing link: {link}")
 
-    expected_method_details = (
-        len(build_readme.METHOD_LEVELS)
-        + sum(len(categories) for categories in build_readme.METHOD_LEVELS.values())
-    )
-    expected_context_details = (
-        len(build_readme.PERSPECTIVE_GROUPS)
-        + 1
-    )
-    expected_resource_details = len(build_readme.DATA_GROUPS) + sum(
-        len(categories) for categories in build_readme.DATA_GROUPS.values()
-    )
-    if papers.count("<details>") != expected_method_details:
-        errors.append("Paper resources do not contain the expected collapsed blocks")
-    if surveys_and_perspectives.count("<details>") != expected_context_details:
-        errors.append("Surveys and perspectives do not contain the expected collapsed blocks")
-    if datasets.count("<details>") != expected_resource_details:
-        errors.append("Datasets and benchmarks do not contain the expected collapsed blocks")
-    expected_nested_method_details = sum(
-        len(categories) for categories in build_readme.METHOD_LEVELS.values()
-    )
-    expected_nested_context_details = 0
-    expected_nested_resource_details = sum(
-        len(categories) for categories in build_readme.DATA_GROUPS.values()
-    )
-    if papers.count("> <details>") != expected_nested_method_details:
-        errors.append("Paper subcategory blocks are not consistently nested")
-    if surveys_and_perspectives.count("> <details>") != expected_nested_context_details:
-        errors.append("Perspective subcategory blocks are not consistently nested")
-    if datasets.count("> <details>") != expected_nested_resource_details:
-        errors.append("Dataset subcategory blocks are not consistently nested")
     for label, content in (
         ("surveys and perspectives", surveys_and_perspectives),
-        ("paper resources", papers),
+        ("method resources", papers),
         ("datasets and benchmarks", datasets),
     ):
-        if "<details open" in content:
-            errors.append(f"{label.title()} contains a details block that is open by default")
-        if content.count("<details>") != content.count("</details>"):
-            errors.append(f"{label.title()} contains unbalanced details blocks")
+        if "<details" in content:
+            errors.append(f"{label.title()} should expose its dedicated-page content directly")
 
     expected_method_tables = sum(
         len(categories) for categories in build_readme.METHOD_LEVELS.values()
@@ -270,6 +277,20 @@ def main() -> None:
     )
     if papers.count("| Method | Paper | Venue | Paper Page | Website |") != expected_method_tables:
         errors.append("Paper-resource table count does not match the taxonomy")
+    for level, categories in build_readme.METHOD_LEVELS.items():
+        level_page = method_level_pages[level]
+        level_filename = build_readme.method_level_filename(level)
+        if f'href="{level_filename}"' not in survey_resources:
+            errors.append(f"Survey index is missing method-level link: {level_filename}")
+        if level_page.count("| Method | Paper | Venue | Paper Page | Website |") != len(categories):
+            errors.append(f"Method page table count does not match categories: {level}")
+        for category in categories:
+            if f'<a id="{build_readme.anchor(category)}"></a>' not in level_page:
+                errors.append(f"Method page is missing category anchor: {level} / {category}")
+        if '<a href="../README.md">' not in level_page:
+            errors.append(f"Method page is missing README navigation: {level}")
+        if 'href="awesome-human-centric-ai-survey-resources.md"' not in level_page:
+            errors.append(f"Method page is missing survey-index navigation: {level}")
     if (
         surveys_and_perspectives.count("| Perspective | Paper | Venue | Paper Page | Website |")
         != expected_perspective_tables
@@ -281,6 +302,23 @@ def main() -> None:
         len(categories) for categories in build_readme.DATA_GROUPS.values()
     ):
         errors.append("Dataset-resource table count does not match Chapter 7 organization")
+    for group, categories in build_readme.DATA_GROUPS.items():
+        group_page = data_group_pages[group]
+        group_filename = build_readme.data_group_filename(group)
+        if f'href="{group_filename}"' not in survey_resources:
+            errors.append(f"Survey index is missing dataset-group link: {group_filename}")
+        if group_page.count("| Resource | Type | Venue | Paper | Paper Page | Website |") != len(categories):
+            errors.append(f"Dataset page table count does not match categories: {group}")
+        for category in categories:
+            if f'<a id="{build_readme.anchor(category)}"></a>' not in group_page:
+                errors.append(f"Dataset page is missing category anchor: {group} / {category}")
+        if '<a href="../README.md">' not in group_page:
+            errors.append(f"Dataset page is missing README navigation: {group}")
+        if 'href="awesome-human-centric-ai-survey-resources.md"' not in group_page:
+            errors.append(f"Dataset page is missing survey-index navigation: {group}")
+    for filename in ("surveys.md", "perspectives.md"):
+        if f'href="{filename}"' not in survey_resources:
+            errors.append(f"Survey index is missing context-page link: {filename}")
 
     required_root_links = [
         "resources/awesome-research.md",
@@ -338,7 +376,7 @@ def main() -> None:
             errors.append(f"Missing resource image: {image}")
     for image in build_readme.METHOD_LEVEL_ICONS.values():
         if f'../{image}' not in papers:
-            errors.append(f"Paper resources do not reference expected icon: {image}")
+            errors.append(f"Method level pages do not reference expected icon: {image}")
     for image in build_readme.DATA_GROUP_ICONS.values():
         if f'../{image}' not in datasets:
             errors.append(f"Datasets and benchmarks do not reference expected icon: {image}")
