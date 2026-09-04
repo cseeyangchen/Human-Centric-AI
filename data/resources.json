@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-02",
+  "generated_on": "2026-09-04",
   "summary": {
     "unique_method_papers": 252,
     "categorized_method_entries": 256,
@@ -7,8 +7,8 @@
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 15,
     "categorized_survey_entries": 15,
-    "unique_resources": 170,
-    "categorized_resource_entries": 170
+    "unique_resources": 171,
+    "categorized_resource_entries": 171
   },
   "method_papers": {
     "Visual Appearance": {
@@ -8804,6 +8804,35 @@
     },
     "Human Embodiment Resources": {
       "Human Data for Embodied AI": [
+        {
+          "bibkey": "supp_robotok_2026",
+          "name": "RoboTok",
+          "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.03199",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://rice-robotpi-lab.github.io/RoboTok/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Rice-RobotPI-Lab/RoboTok-Code"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/Rice-RobotPI-Lab/robotok-public"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            3199
+          ]
+        },
         {
           "bibkey": "yang2026handedit",
           "name": "HandEdit",

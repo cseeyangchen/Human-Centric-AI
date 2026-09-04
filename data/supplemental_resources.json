@@ -1,5 +1,20 @@
 [
   {
+    "bibkey": "supp_robotok_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "RoboTok",
+    "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.03199",
+    "websites": [
+      "https://rice-robotpi-lab.github.io/RoboTok/",
+      "https://github.com/Rice-RobotPI-Lab/RoboTok-Code",
+      "https://huggingface.co/Rice-RobotPI-Lab/robotok-public"
+    ]
+  },
+  {
     "bibkey": "supp_personashot_2026",
     "category": "Human Video Generation and Animation",
     "name": "PersonaShot",

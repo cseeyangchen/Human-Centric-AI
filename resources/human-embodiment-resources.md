@@ -28,6 +28,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| RoboTok | Dataset + Benchmark | arXiv 2026 | RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning | [:page_facing_up:](https://arxiv.org/abs/2609.03199 "Paper page") | [:house:](https://rice-robotpi-lab.github.io/RoboTok/ "Homepage") [:octocat:](https://github.com/Rice-RobotPI-Lab/RoboTok-Code "GitHub") [🤗](https://huggingface.co/Rice-RobotPI-Lab/robotok-public "Hugging Face") |
 | HandEdit | Benchmark | arXiv 2026 | HandEdit: A Unified Benchmark for Egocentric Human-to-Robot Dexterous Hand Image Editing | [:page_facing_up:](https://arxiv.org/abs/2608.12122 "Paper page") | [:octocat:](https://github.com/HandEdit/HandEdit "GitHub") [:house:](https://handedit.github.io/ "Homepage") [🤗](https://huggingface.co/datasets/HandEdit/HandEdit-Full "Hugging Face") |
 | ACE-Data-0 | Dataset | arXiv 2026 | ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine | [:page_facing_up:](https://arxiv.org/abs/2607.28625 "Paper page") | [:house:](https://ace-data-engine.github.io/ACE-Data-0/ "Homepage") |
 | WatchAct | Benchmark | arXiv 2026 | WatchAct: A Benchmark for Behavior-Grounded Robot Manipulation | [:page_facing_up:](https://arxiv.org/abs/2606.26443 "Paper page") | [:octocat:](https://github.com/Baiqi-Li/WatchAct "GitHub") |
