@@ -92,6 +92,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Motion-Omni | Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.04250 "Paper page") | [:house:](https://step-out.github.io/Motion-Omni-Page/ "Homepage") [:octocat:](https://github.com/step-out/Motion-Omni "GitHub") [🤗](https://huggingface.co/datasets/ChengqianMa/Motion-Omni "Hugging Face") |
 | Super Star | Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans | ACM MM 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.24909 "Paper page") | [:house:](https://super-star-2026.github.io/ "Homepage") [:octocat:](https://github.com/PeterIverson/Super-Star "GitHub") |
 | OmniMate | OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.23023 "Paper page") | - |
 | SocialStructureHHI | Social Structure Matters in 3D Human-Human Interaction Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2606.24255 "Paper page") | [:octocat:](https://github.com/EngineeringAI-LAB/SocialStructureHHI "GitHub") |

@@ -1,5 +1,19 @@
 [
   {
+    "bibkey": "supp_motion_omni_2026",
+    "category": "Social Interaction",
+    "name": "Motion-Omni",
+    "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.04250",
+    "websites": [
+      "https://step-out.github.io/Motion-Omni-Page/",
+      "https://github.com/step-out/Motion-Omni",
+      "https://huggingface.co/datasets/ChengqianMa/Motion-Omni"
+    ]
+  },
+  {
     "bibkey": "supp_egophi_2026",
     "category": "Human-Object Interaction",
     "name": "EgoPHI",

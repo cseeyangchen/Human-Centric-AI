@@ -1,8 +1,8 @@
 {
-  "generated_on": "2026-09-04",
+  "generated_on": "2026-09-07",
   "summary": {
-    "unique_method_papers": 252,
-    "categorized_method_entries": 256,
+    "unique_method_papers": 253,
+    "categorized_method_entries": 257,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 15,
@@ -3501,6 +3501,34 @@
         }
       ],
       "Social Interaction": [
+        {
+          "bibkey": "supp_motion_omni_2026",
+          "name": "Motion-Omni",
+          "title": "Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.04250",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://step-out.github.io/Motion-Omni-Page/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/step-out/Motion-Omni"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/ChengqianMa/Motion-Omni"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            4250
+          ]
+        },
         {
           "bibkey": "supp_super_star_2026",
           "name": "Super Star",
