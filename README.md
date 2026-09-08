@@ -17,6 +17,7 @@ Human-Centric AI Resources is an open and evolving hub that brings together acad
 
 ## 📢 News
 
+- **2026-09-06:** Our work was featured by **机器之心**: [从「看见人」到「行动如人」：基础模型时代的Human-Centric AI全谱系综述](https://mp.weixin.qq.com/s/GysggxpcIm-obiOj7GAqbA).
 - **2026-08-10:** Our [project homepage](https://cseeyangchen.github.io/Human-Centric-AI/homepage/) is now live.
 - **2026-08-08:** First resource release.
 
