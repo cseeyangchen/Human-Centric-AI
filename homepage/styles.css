@@ -410,6 +410,22 @@ sup {
   height: 17px;
 }
 
+.button-brand-mark {
+  width: 14px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  flex: 0 0 14px;
+}
+
+.button-brand-mark img {
+  width: auto;
+  max-width: none;
+  height: 22px;
+  display: block;
+}
+
 .button-primary {
   color: #173d3a;
   background: #fffce9;
