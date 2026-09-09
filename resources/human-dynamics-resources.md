@@ -122,6 +122,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| SynthGait-19K | Dataset + Benchmark | arXiv 2026 | SynthGait-19K: A Physically Grounded Synthetic Video Dataset for Gait Parameter Estimation | [:page_facing_up:](https://arxiv.org/abs/2609.08108 "Paper page") | [:house:](https://soroushmehraban.github.io/SynthGait-19k/ "Homepage") [:octocat:](https://github.com/TaatiTeam/SynthGait-19k "GitHub") [🤗](https://huggingface.co/datasets/SoroushMehraban/SynthGait-19K "Hugging Face") |
 | MMGait | Dataset + Benchmark | CVPR 2026 | MMGait: Towards Multi-Modal Gait Recognition | [:page_facing_up:](https://arxiv.org/abs/2604.15979 "Paper page") | [:octocat:](https://github.com/BNU-IVC/MMGait "GitHub") |
 | BarbieGait | Dataset + Benchmark | CVPR 2026 | BarbieGait: An Identity-Consistent Synthetic Human Dataset with Versatile Cloth-Changing for Gait Recognition | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Cai_BarbieGait_An_Identity-Consistent_Synthetic_Human_Dataset_with_Versatile_Cloth-Changing_for_CVPR_2026_paper.html "Paper page") | [:house:](https://barbiegait.github.io/ "Homepage") |
 | Cross-Covariate Gait Recognition | Benchmark | AAAI 2024 | Cross-Covariate Gait Recognition: A Benchmark | [:page_facing_up:](https://doi.org/10.1609/aaai.v38i7.28621 "Paper page") | [:octocat:](https://github.com/ShinanZou/CCGR "GitHub") |

@@ -36,6 +36,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| Coherent4D | Dataset + Benchmark | arXiv 2026 | From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video | [:page_facing_up:](https://arxiv.org/abs/2609.08636 "Paper page") | [:house:](https://corrineqiu.github.io/from-where-to-how/ "Homepage") [:octocat:](https://github.com/CorrineQiu/from-where-to-how "GitHub") |
 | EgoSAT | Benchmark | ECCV 2026 | EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding | [:page_facing_up:](https://arxiv.org/abs/2606.24422 "Paper page") | [:house:](https://leiyj23.github.io/EgoSAT/ "Homepage") |
 | EgoProactive/Pro2Bench | Dataset + Benchmark | arXiv 2026 | Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance | [:page_facing_up:](https://arxiv.org/abs/2606.04970 "Paper page") | [🤗](https://huggingface.co/datasets/facebook/wearable-ai "Hugging Face") |
 | EgoPro-Bench | Benchmark | arXiv 2026 | EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams | [:page_facing_up:](https://arxiv.org/abs/2605.07299 "Paper page") | - |

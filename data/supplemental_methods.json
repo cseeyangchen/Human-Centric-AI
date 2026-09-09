@@ -342,5 +342,27 @@
       "https://hidream-ai.github.io/RASA/",
       "https://github.com/HiDream-ai/RASA_code"
     ]
+  },
+  {
+    "bibkey": "supp_hspace_2026",
+    "category": "Controllable Human Generation",
+    "name": "H-SPACE",
+    "title": "Human-Centric Image Captioning with Subject-Centered Spatial Understanding",
+    "year": "2026",
+    "venue": "ACM MM 2026",
+    "paper_url": "https://arxiv.org/abs/2609.08300",
+    "websites": [
+      "https://github.com/JHang2020/SPACE-Eval"
+    ]
+  },
+  {
+    "bibkey": "supp_pai_actor_2026",
+    "category": "Human Video Animation",
+    "name": "PAI-Actor",
+    "title": "PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.05918",
+    "websites": []
   }
 ]

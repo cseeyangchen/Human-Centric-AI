@@ -100,5 +100,34 @@
     "websites": [
       "https://github.com/GML-MMGroup/HUG-VIS"
     ]
+  },
+  {
+    "bibkey": "supp_synthgait_19k_2026",
+    "category": "Human Gait Understanding",
+    "name": "SynthGait-19K",
+    "title": "SynthGait-19K: A Physically Grounded Synthetic Video Dataset for Gait Parameter Estimation",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.08108",
+    "websites": [
+      "https://soroushmehraban.github.io/SynthGait-19k/",
+      "https://github.com/TaatiTeam/SynthGait-19k",
+      "https://huggingface.co/datasets/SoroushMehraban/SynthGait-19K"
+    ]
+  },
+  {
+    "bibkey": "supp_coherent4d_2026",
+    "category": "Egocentric Procedural Activities",
+    "name": "Coherent4D",
+    "title": "From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.08636",
+    "websites": [
+      "https://corrineqiu.github.io/from-where-to-how/",
+      "https://github.com/CorrineQiu/from-where-to-how"
+    ]
   }
 ]

@@ -85,6 +85,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| PAI-Actor | PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.05918 "Paper page") | - |
 | RASA | RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.28219 "Paper page") | [:house:](https://hidream-ai.github.io/RASA/ "Homepage") [:octocat:](https://github.com/HiDream-ai/RASA_code "GitHub") |
 | EditaLive | EditaLive! Unified Character Video Editing for Live Streaming | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.27123 "Paper page") | [:house:](https://huai-chang.github.io/EditaLive/ "Homepage") [:octocat:](https://github.com/GVCLab/EditaLive "GitHub") |
 | LiveVVT | LiveVVT: High-Fidelity Video Virtual Try-On in Real Time | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.26714 "Paper page") | [:octocat:](https://github.com/caoyushe/LiveVVT "GitHub") |

@@ -81,6 +81,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| H-SPACE | Human-Centric Image Captioning with Subject-Centered Spatial Understanding | ACM MM 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.08300 "Paper page") | [:octocat:](https://github.com/JHang2020/SPACE-Eval "GitHub") |
 | WithEveryone | WithEveryone: Unified Planning and Identity Grounding for Group Image Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20336 "Paper page") | [:house:](https://doby-xu.github.io/WithEveryone/ "Homepage") [:octocat:](https://github.com/doby-xu/WithEveryone "GitHub") |
 | InstructVVT | InstructVVT: Instruction-Driven Video Virtual Try-On without Auxiliary Spatial Priors | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.14070 "Paper page") | [:house:](https://shaodingbao.github.io/InstructVVT/ "Homepage") [:octocat:](https://github.com/ShaoDingBao/InstructVVT "GitHub") |
 | Oxygen-TryOn | Oxygen-TryOn: Fashion-Native Foundation Model for Any-item Virtual Try-On | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.21694 "Paper page") | [:house:](https://oxygenvision.github.io/Oxygen-TryOn/ "Homepage") |

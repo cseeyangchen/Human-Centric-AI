@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-09-07",
+  "generated_on": "2026-09-09",
   "summary": {
-    "unique_method_papers": 253,
-    "categorized_method_entries": 257,
+    "unique_method_papers": 255,
+    "categorized_method_entries": 259,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 15,
     "categorized_survey_entries": 15,
-    "unique_resources": 171,
-    "categorized_resource_entries": 171
+    "unique_resources": 173,
+    "categorized_resource_entries": 173
   },
   "method_papers": {
     "Visual Appearance": {
@@ -462,6 +462,26 @@
         }
       ],
       "Controllable Human Generation": [
+        {
+          "bibkey": "supp_hspace_2026",
+          "name": "H-SPACE",
+          "title": "Human-Centric Image Captioning with Subject-Centered Spatial Understanding",
+          "year": "2026",
+          "venue": "ACM MM 2026",
+          "paper_url": "https://arxiv.org/abs/2609.08300",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/JHang2020/SPACE-Eval"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            8300
+          ]
+        },
         {
           "bibkey": "supp_witheveryone_2026",
           "name": "WithEveryone",
@@ -2291,6 +2311,21 @@
         }
       ],
       "Human Video Animation": [
+        {
+          "bibkey": "supp_pai_actor_2026",
+          "name": "PAI-Actor",
+          "title": "PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.05918",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            5918
+          ]
+        },
         {
           "bibkey": "supp_rasa_2026",
           "name": "RASA",
@@ -7054,6 +7089,35 @@
       ],
       "Human Gait Understanding": [
         {
+          "bibkey": "supp_synthgait_19k_2026",
+          "name": "SynthGait-19K",
+          "title": "SynthGait-19K: A Physically Grounded Synthetic Video Dataset for Gait Parameter Estimation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.08108",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://soroushmehraban.github.io/SynthGait-19k/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/TaatiTeam/SynthGait-19k"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/SoroushMehraban/SynthGait-19K"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            8108
+          ]
+        },
+        {
           "bibkey": "wang2026mmgait",
           "name": "MMGait",
           "title": "MMGait: Towards Multi-Modal Gait Recognition",
@@ -7542,6 +7606,31 @@
     },
     "Human Interaction Resources": {
       "Egocentric Procedural Activities": [
+        {
+          "bibkey": "supp_coherent4d_2026",
+          "name": "Coherent4D",
+          "title": "From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.08636",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://corrineqiu.github.io/from-where-to-how/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/CorrineQiu/from-where-to-how"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            8636
+          ]
+        },
         {
           "bibkey": "lei2026egosat",
           "name": "EgoSAT",
