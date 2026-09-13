@@ -129,5 +129,18 @@
       "https://corrineqiu.github.io/from-where-to-how/",
       "https://github.com/CorrineQiu/from-where-to-how"
     ]
+  },
+  {
+    "bibkey": "supp_mmgait_extended_2026",
+    "category": "Human Gait Understanding",
+    "name": "MMGait (Extended)",
+    "title": "MMGait: Benchmarking and Unifying Gait Recognition across Heterogeneous Modalities",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.11601",
+    "websites": [
+      "https://github.com/BNU-IVC/MMGait"
+    ]
   }
 ]

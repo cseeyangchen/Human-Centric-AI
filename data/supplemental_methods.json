@@ -364,5 +364,28 @@
     "venue": "arXiv 2026",
     "paper_url": "https://arxiv.org/abs/2609.05918",
     "websites": []
+  },
+  {
+    "bibkey": "supp_huro_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "HuRo",
+    "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+    "year": "2026",
+    "venue": "CoRL 2026",
+    "paper_url": "https://arxiv.org/abs/2609.10706",
+    "websites": [
+      "https://3587jjh.github.io/HuRo/",
+      "https://github.com/3587jjh/HuRo"
+    ]
+  },
+  {
+    "bibkey": "supp_moco_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "MOCO",
+    "title": "Multi-Modal Controlled Coherent Motion Generation",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2609.11439",
+    "websites": []
   }
 ]

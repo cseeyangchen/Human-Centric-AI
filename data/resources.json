@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-09-09",
+  "generated_on": "2026-09-13",
   "summary": {
-    "unique_method_papers": 255,
-    "categorized_method_entries": 259,
+    "unique_method_papers": 257,
+    "categorized_method_entries": 261,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 15,
     "categorized_survey_entries": 15,
-    "unique_resources": 173,
-    "categorized_resource_entries": 173
+    "unique_resources": 174,
+    "categorized_resource_entries": 174
   },
   "method_papers": {
     "Visual Appearance": {
@@ -1432,6 +1432,21 @@
     },
     "Kinematic Dynamics": {
       "Scalable Motion Modeling": [
+        {
+          "bibkey": "supp_moco_2026",
+          "name": "MOCO",
+          "title": "Multi-Modal Controlled Coherent Motion Generation",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2609.11439",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            11439
+          ]
+        },
         {
           "bibkey": "supp_semoco_2026",
           "name": "SeMoCo",
@@ -4743,6 +4758,30 @@
       ],
       "Human-to-Agent Skill Transfer": [
         {
+          "bibkey": "supp_huro_2026",
+          "name": "HuRo",
+          "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+          "year": "2026",
+          "venue": "CoRL 2026",
+          "paper_url": "https://arxiv.org/abs/2609.10706",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://3587jjh.github.io/HuRo/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/3587jjh/HuRo"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            10706
+          ]
+        },
+        {
           "bibkey": "supp_zero_wam_2026",
           "name": "Zero-WAM",
           "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
@@ -7088,6 +7127,27 @@
         }
       ],
       "Human Gait Understanding": [
+        {
+          "bibkey": "supp_mmgait_extended_2026",
+          "name": "MMGait (Extended)",
+          "title": "MMGait: Benchmarking and Unifying Gait Recognition across Heterogeneous Modalities",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.11601",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/BNU-IVC/MMGait"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            11601
+          ]
+        },
         {
           "bibkey": "supp_synthgait_19k_2026",
           "name": "SynthGait-19K",

@@ -64,6 +64,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| HuRo | HuRo: Robotizing Human Videos for Scalable VLA Pretraining | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.10706 "Paper page") | [:house:](https://3587jjh.github.io/HuRo/ "Homepage") [:octocat:](https://github.com/3587jjh/HuRo "GitHub") |
 | Zero-WAM | Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.26103 "Paper page") | [:house:](https://robbyant-research.github.io/Zero-WAM/ "Homepage") [:octocat:](https://github.com/robbyant-research/Zero-WAM "GitHub") |
 | HumanScale | HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2606.20521 "Paper page") | [:octocat:](https://github.com/DAGroup-PKU/HumanNet/ "GitHub") |
 | HUG | Human Universal Grasping | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2606.17054 "Paper page") | [:octocat:](https://github.com/kevinywu/HUG "GitHub") |
