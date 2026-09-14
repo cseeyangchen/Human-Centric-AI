@@ -31,6 +31,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Single-Query Bimanual HOI | Single-Query Person-Centric Bimanual Hand-Object Interaction Detection | ECCV 2026 | [:page_facing_up:](https://link.springer.com/chapter/10.1007/978-3-032-37016-7_20 "Paper page") | - |
 | MILO | Reconstructing Humans and Objects in Interaction using Large Reconstruction Models | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.27407 "Paper page") | [:house:](https://ac5113.github.io/MILO/ "Homepage") [:octocat:](https://github.com/ac5113/MILO "GitHub") |
 | HOIMask | HOIMask: Towards Generative Masked Modeling for Human Object Interaction Generation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.15141 "Paper page") | [:house:](https://jyhflash.github.io/HOIMask/ "Homepage") |
 | EgoTac | EgoTac: In-the-wild Tactile Prediction from Egocentric Vision | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.15060 "Paper page") | - |

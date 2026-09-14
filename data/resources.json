@@ -1,8 +1,8 @@
 {
-  "generated_on": "2026-09-13",
+  "generated_on": "2026-09-14",
   "summary": {
-    "unique_method_papers": 257,
-    "categorized_method_entries": 261,
+    "unique_method_papers": 259,
+    "categorized_method_entries": 263,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 15,
@@ -1433,6 +1433,26 @@
     "Kinematic Dynamics": {
       "Scalable Motion Modeling": [
         {
+          "bibkey": "supp_unimo_human_animal_2026",
+          "name": "UniMo",
+          "title": "UniMo: Unifying Human and Animal Motion Generation",
+          "year": "2026",
+          "venue": "SIGGRAPH Asia 2026",
+          "paper_url": "https://arxiv.org/abs/2609.12342",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://steve-zeyu-zhang.github.io/UniMo/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            12342
+          ]
+        },
+        {
           "bibkey": "supp_moco_2026",
           "name": "MOCO",
           "title": "Multi-Modal Controlled Coherent Motion Generation",
@@ -2856,6 +2876,21 @@
     },
     "Interaction Modeling": {
       "Human-Object Interaction": [
+        {
+          "bibkey": "supp_single_query_bimanual_hoi_2026",
+          "name": "Single-Query Bimanual HOI",
+          "title": "Single-Query Person-Centric Bimanual Hand-Object Interaction Detection",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://link.springer.com/chapter/10.1007/978-3-032-37016-7_20",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            12,
+            0
+          ]
+        },
         {
           "bibkey": "supp_milo_2026",
           "name": "MILO",

@@ -28,6 +28,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| UniMo | UniMo: Unifying Human and Animal Motion Generation | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.12342 "Paper page") | [:house:](https://steve-zeyu-zhang.github.io/UniMo/ "Homepage") |
 | MOCO | Multi-Modal Controlled Coherent Motion Generation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.11439 "Paper page") | - |
 | SeMoCo | SeMoCo: A Semantic-First Motion Codec for Motion Language Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.24334 "Paper page") | [:octocat:](https://github.com/OMEGA-i/SeMoCo-Generator "GitHub") [:octocat:](https://github.com/OMEGA-i/SeMoCo-Tokenizer "GitHub") [🤗](https://huggingface.co/poisonousID/SeMoCo "Hugging Face") |
 | Human-JEPA | Human-JEPA: A Human-Centric Vision Model that Perceives and Anticipates | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.21160 "Paper page") | - |
