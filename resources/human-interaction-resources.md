@@ -101,6 +101,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| EgoHTR | Dataset + Benchmark | CoRL 2026 | EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal | [:page_facing_up:](https://arxiv.org/abs/2607.13472 "Paper page") | [:house:](https://egohtr.github.io/ "Homepage") [🤗](https://huggingface.co/datasets/leggedrobotics/egohtr "Hugging Face") |
 | TRUMANS | Dataset | CVPR 2024 | Scaling Up Dynamic Human-Scene Interaction Modeling | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.html "Paper page") | [:octocat:](https://github.com/jnnan/trumans_utils "GitHub") |
 | HUMANISE | Dataset | NeurIPS 2022 | HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes | [:page_facing_up:](https://doi.org/10.48550/arxiv.2210.09729 "Paper page") | [:octocat:](https://github.com/Silverster98/HUMANISE "GitHub") [:house:](https://silverster98.github.io/HUMANISE/ "Homepage") |
 | RICH | Dataset | CVPR 2022 | Capturing and Inferring Dense Full-Body Human-Scene Contact | [:page_facing_up:](https://doi.org/10.1109/cvpr52688.2022.01292 "Paper page") | [:octocat:](https://github.com/paulchhuang/rich_toolkit "GitHub") [:house:](https://rich.is.tue.mpg.de/ "Homepage") |

@@ -410,5 +410,110 @@
     "venue": "ECCV 2026",
     "paper_url": "https://link.springer.com/chapter/10.1007/978-3-032-37016-7_20",
     "websites": []
+  },
+  {
+    "bibkey": "supp_dirtymocap_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "DirtyMoCap",
+    "title": "DirtyMoCap: Robust Motion Capture from Unconstrained Markers",
+    "year": "2026",
+    "venue": "SIGGRAPH Asia 2026",
+    "paper_url": "https://arxiv.org/abs/2609.19927",
+    "websites": [
+      "https://wanglongzju.github.io/DirtyMoCap-Project-Page/",
+      "https://github.com/WangLongZJU/DirtyMoCap"
+    ]
+  },
+  {
+    "bibkey": "supp_origins_gait_2025",
+    "category": "Scalable Motion Modeling",
+    "name": "Origins",
+    "title": "Learning A Unified Template for Gait Recognition",
+    "year": "2025",
+    "date": "2025-10",
+    "venue": "ICCV 2025",
+    "paper_url": "https://arxiv.org/abs/2609.18490",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_open_unimo_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "Open-UniMo",
+    "title": "Open-UniMo: Towards Unified Motion-Language Understanding and Generation in the Open World",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.14615",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_beacon_video_2026",
+    "category": "Human Video Animation",
+    "name": "BEACON",
+    "title": "BEACON: Behavior and Appearance Control for Subject-Specific Video Generation",
+    "year": "2026",
+    "venue": "ABAW @ ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2609.13264",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_choreo_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "CHOREO",
+    "title": "CHOREO: Every Humanoid Skill as a Trajectory",
+    "year": "2026",
+    "venue": "Preprint 2026",
+    "paper_url": "https://ziyisun85-ops.github.io/Project-choreo/paper.pdf",
+    "websites": [
+      "https://ziyisun85-ops.github.io/Project-choreo/",
+      "https://github.com/ziyisun85-ops/Project-choreo"
+    ]
+  },
+  {
+    "bibkey": "supp_wholebodywam_motion_priors_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "WholeBodyWAM (Motion Priors)",
+    "title": "WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.18197",
+    "websites": [
+      "https://zbzyjya.github.io/WholeBodyWAM/"
+    ]
+  },
+  {
+    "bibkey": "supp_wholebodywam_wbc_coordination_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "WholeBodyWAM (WBC Coordination)",
+    "title": "WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.16644",
+    "websites": [
+      "https://wholebodywam.github.io/"
+    ]
+  },
+  {
+    "bibkey": "supp_hope_pressure_2026",
+    "category": "Human-Object Interaction",
+    "name": "HOPE",
+    "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2608.06192",
+    "websites": [
+      "https://subin6.github.io/page-hope/"
+    ]
+  },
+  {
+    "bibkey": "supp_tango_vla_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "TANGO",
+    "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+    "year": "2026",
+    "venue": "CoRL 2026",
+    "paper_url": "https://arxiv.org/abs/2609.09158",
+    "websites": [
+      "https://tango-vla.github.io/"
+    ]
   }
 ]

@@ -28,6 +28,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| DirtyMoCap | DirtyMoCap: Robust Motion Capture from Unconstrained Markers | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.19927 "Paper page") | [:house:](https://wanglongzju.github.io/DirtyMoCap-Project-Page/ "Homepage") [:octocat:](https://github.com/WangLongZJU/DirtyMoCap "GitHub") |
 | DreamHand | DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20308 "Paper page") | [:house:](https://ggxxii.github.io/dreamhand/ "Homepage") [:octocat:](https://github.com/ggxxii/dreamhand "GitHub") |
 | DETRAM | DETRAM: End-to-end DEtection, Tracking and Recovery of HumAn Meshes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.09089 "Paper page") | - |
 | EmoteGPT | EmoteGPT: 3D Human Facial Expressions from Natural Language Descriptions | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.02674 "Paper page") | [:octocat:](https://github.com/GenIntel/EmoteGPT "GitHub") |

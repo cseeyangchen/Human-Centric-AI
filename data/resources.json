@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-09-14",
+  "generated_on": "2026-09-21",
   "summary": {
-    "unique_method_papers": 259,
-    "categorized_method_entries": 263,
+    "unique_method_papers": 268,
+    "categorized_method_entries": 272,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
-    "unique_survey_papers": 15,
-    "categorized_survey_entries": 15,
-    "unique_resources": 174,
-    "categorized_resource_entries": 174
+    "unique_survey_papers": 16,
+    "categorized_survey_entries": 16,
+    "unique_resources": 175,
+    "categorized_resource_entries": 175
   },
   "method_papers": {
     "Visual Appearance": {
@@ -714,6 +714,30 @@
     },
     "Spatial Geometry": {
       "Structured Geometry Modeling": [
+        {
+          "bibkey": "supp_dirtymocap_2026",
+          "name": "DirtyMoCap",
+          "title": "DirtyMoCap: Robust Motion Capture from Unconstrained Markers",
+          "year": "2026",
+          "venue": "SIGGRAPH Asia 2026",
+          "paper_url": "https://arxiv.org/abs/2609.19927",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://wanglongzju.github.io/DirtyMoCap-Project-Page/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/WangLongZJU/DirtyMoCap"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            19927
+          ]
+        },
         {
           "bibkey": "supp_dreamhand_2026",
           "name": "DreamHand",
@@ -1433,6 +1457,21 @@
     "Kinematic Dynamics": {
       "Scalable Motion Modeling": [
         {
+          "bibkey": "supp_open_unimo_2026",
+          "name": "Open-UniMo",
+          "title": "Open-UniMo: Towards Unified Motion-Language Understanding and Generation in the Open World",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.14615",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            14615
+          ]
+        },
+        {
           "bibkey": "supp_unimo_human_animal_2026",
           "name": "UniMo",
           "title": "UniMo: Unifying Human and Animal Motion Generation",
@@ -1867,6 +1906,21 @@
             12,
             0,
             23464
+          ]
+        },
+        {
+          "bibkey": "supp_origins_gait_2025",
+          "name": "Origins",
+          "title": "Learning A Unified Template for Gait Recognition",
+          "year": "2025",
+          "venue": "ICCV 2025",
+          "paper_url": "https://arxiv.org/abs/2609.18490",
+          "websites": [],
+          "sort_order": [
+            2025,
+            10,
+            0,
+            0
           ]
         },
         {
@@ -2346,6 +2400,21 @@
         }
       ],
       "Human Video Animation": [
+        {
+          "bibkey": "supp_beacon_video_2026",
+          "name": "BEACON",
+          "title": "BEACON: Behavior and Appearance Control for Subject-Specific Video Generation",
+          "year": "2026",
+          "venue": "ABAW @ ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2609.13264",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            13264
+          ]
+        },
         {
           "bibkey": "supp_pai_actor_2026",
           "name": "PAI-Actor",
@@ -2968,6 +3037,26 @@
             8,
             0,
             13014
+          ]
+        },
+        {
+          "bibkey": "supp_hope_pressure_2026",
+          "name": "HOPE",
+          "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2608.06192",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://subin6.github.io/page-hope/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            8,
+            0,
+            6192
           ]
         },
         {
@@ -4328,6 +4417,66 @@
     "Embodied Agency": {
       "Generalist Humanoid Control": [
         {
+          "bibkey": "supp_wholebodywam_motion_priors_2026",
+          "name": "WholeBodyWAM (Motion Priors)",
+          "title": "WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.18197",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://zbzyjya.github.io/WholeBodyWAM/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            18197
+          ]
+        },
+        {
+          "bibkey": "supp_wholebodywam_wbc_coordination_2026",
+          "name": "WholeBodyWAM (WBC Coordination)",
+          "title": "WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.16644",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://wholebodywam.github.io/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            16644
+          ]
+        },
+        {
+          "bibkey": "supp_tango_vla_2026",
+          "name": "TANGO",
+          "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+          "year": "2026",
+          "venue": "CoRL 2026",
+          "paper_url": "https://arxiv.org/abs/2609.09158",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://tango-vla.github.io/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            9158
+          ]
+        },
+        {
           "bibkey": "li2026humanclaw",
           "name": "HumanCLAW",
           "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
@@ -4442,6 +4591,30 @@
             {
               "kind": "github",
               "url": "https://github.com/LeCAR-Lab/BFM-Zero"
+            }
+          ],
+          "sort_order": [
+            2026,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "bibkey": "supp_choreo_2026",
+          "name": "CHOREO",
+          "title": "CHOREO: Every Humanoid Skill as a Trajectory",
+          "year": "2026",
+          "venue": "Preprint 2026",
+          "paper_url": "https://ziyisun85-ops.github.io/Project-choreo/paper.pdf",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ziyisun85-ops.github.io/Project-choreo/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/ziyisun85-ops/Project-choreo"
             }
           ],
           "sort_order": [
@@ -5289,6 +5462,26 @@
     }
   },
   "survey_papers": [
+    {
+      "bibkey": "supp_ai_smart_glasses_wearable_survey_2026",
+      "name": "AI Smart Glasses for Wearable Intelligence",
+      "title": "AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization",
+      "year": "2026",
+      "venue": "arXiv 2026",
+      "paper_url": "https://arxiv.org/abs/2609.19793",
+      "websites": [
+        {
+          "kind": "github",
+          "url": "https://github.com/xandery-geek/Awesome-AI-Smart-Glasses-Papers"
+        }
+      ],
+      "sort_order": [
+        2026,
+        9,
+        0,
+        19793
+      ]
+    },
     {
       "bibkey": "supp_smart_glasses_survey_2026",
       "name": "From Seeing to Acting",
@@ -8543,6 +8736,31 @@
         }
       ],
       "Human-Scene Interaction Data": [
+        {
+          "bibkey": "supp_egohtr_2026",
+          "name": "EgoHTR",
+          "title": "EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal",
+          "year": "2026",
+          "venue": "CoRL 2026",
+          "paper_url": "https://arxiv.org/abs/2607.13472",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://egohtr.github.io/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/leggedrobotics/egohtr"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            7,
+            0,
+            13472
+          ]
+        },
         {
           "bibkey": "jiang2024scaling",
           "name": "TRUMANS",

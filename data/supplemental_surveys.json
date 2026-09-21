@@ -20,5 +20,17 @@
     "websites": [
       "https://github.com/zhangzjn/awesome-smart-glasses"
     ]
+  },
+  {
+    "bibkey": "supp_ai_smart_glasses_wearable_survey_2026",
+    "category": "Surveys",
+    "name": "AI Smart Glasses for Wearable Intelligence",
+    "title": "AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.19793",
+    "websites": [
+      "https://github.com/xandery-geek/Awesome-AI-Smart-Glasses-Papers"
+    ]
   }
 ]

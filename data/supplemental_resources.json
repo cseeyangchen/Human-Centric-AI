@@ -142,5 +142,19 @@
     "websites": [
       "https://github.com/BNU-IVC/MMGait"
     ]
+  },
+  {
+    "bibkey": "supp_egohtr_2026",
+    "category": "Human-Scene Interaction Data",
+    "name": "EgoHTR",
+    "title": "EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "CoRL 2026",
+    "paper_url": "https://arxiv.org/abs/2607.13472",
+    "websites": [
+      "https://egohtr.github.io/",
+      "https://huggingface.co/datasets/leggedrobotics/egohtr"
+    ]
   }
 ]

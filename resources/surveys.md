@@ -7,6 +7,7 @@
 
 | Survey | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| AI Smart Glasses for Wearable Intelligence | AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.19793 "Paper page") | [:octocat:](https://github.com/xandery-geek/Awesome-AI-Smart-Glasses-Papers "GitHub") |
 | From Seeing to Acting | From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.24877 "Paper page") | [:octocat:](https://github.com/zhangzjn/awesome-smart-glasses "GitHub") |
 | Egocentric Vision-Language Models | Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.18671 "Paper page") | - |
 | Foundation-Model HOI | Hand-Object Interaction in the Age of Large Foundation Models: Reconstruction, Generation, and Embodied Transfer | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.28394 "Paper page") | [:octocat:](https://github.com/SeanChenxy/Hand3DResearch/tree/hoi-survey "GitHub") |

@@ -28,6 +28,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Open-UniMo | Open-UniMo: Towards Unified Motion-Language Understanding and Generation in the Open World | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.14615 "Paper page") | - |
 | UniMo | UniMo: Unifying Human and Animal Motion Generation | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.12342 "Paper page") | [:house:](https://steve-zeyu-zhang.github.io/UniMo/ "Homepage") |
 | MOCO | Multi-Modal Controlled Coherent Motion Generation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.11439 "Paper page") | - |
 | SeMoCo | SeMoCo: A Semantic-First Motion Codec for Motion Language Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.24334 "Paper page") | [:octocat:](https://github.com/OMEGA-i/SeMoCo-Generator "GitHub") [:octocat:](https://github.com/OMEGA-i/SeMoCo-Tokenizer "GitHub") [🤗](https://huggingface.co/poisonousID/SeMoCo "Hugging Face") |
@@ -50,6 +51,7 @@
 | OpenMotionDoor | Open the Motion Door: Atomic Motion Decomposition and Recomposition for Open-Vocabulary Motion Generation | CVPR 2026 | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/papers/Fan_Open_the_Motion_Door_Atomic_Motion_Decomposition_and_Recomposition_for_CVPR_2026_paper.pdf "Paper page") | [:house:](https://vankouf.github.io/OpenTheMotionDoor/ "Homepage") |
 | FoundationGait | Silhouette-based Gait Foundation Model | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2512.00691 "Paper page") | [:octocat:](https://github.com/ShiqiYu/OpenGait "GitHub") |
 | HY-Motion 1.0 | HY-Motion 1.0: Scaling Flow Matching Models for Text-To-Motion Generation | arXiv 2025 | [:page_facing_up:](https://arxiv.org/pdf/2512.23464 "Paper page") | [:octocat:](https://github.com/Tencent-Hunyuan/HY-Motion-1.0 "GitHub") |
+| Origins | Learning A Unified Template for Gait Recognition | ICCV 2025 | [:page_facing_up:](https://arxiv.org/abs/2609.18490 "Paper page") | - |
 | HuMo100M | Being-M0.5: A Real-Time Controllable Vision-Language-Motion Model | ICCV 2025 | [:page_facing_up:](https://arxiv.org/pdf/2508.07863 "Paper page") | [:house:](https://beingbeyond.github.io/Being-M0.5/ "Homepage") |
 | MotionMillion | Go to zero: Towards zero-shot motion generation with million-scale data | ICCV 2025 | [:page_facing_up:](https://arxiv.org/pdf/2507.07095 "Paper page") | [:octocat:](https://github.com/VankouF/MotionMillion-Codes "GitHub") |
 | GENMO | Genmo: A generalist model for human motion | ICCV 2025 | [:page_facing_up:](https://arxiv.org/pdf/2505.01425 "Paper page") | [:house:](https://research.nvidia.com/labs/dair/gem/ "Homepage") |
@@ -87,6 +89,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| BEACON | BEACON: Behavior and Appearance Control for Subject-Specific Video Generation | ABAW @ ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.13264 "Paper page") | - |
 | PAI-Actor | PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.05918 "Paper page") | - |
 | RASA | RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.28219 "Paper page") | [:house:](https://hidream-ai.github.io/RASA/ "Homepage") [:octocat:](https://github.com/HiDream-ai/RASA_code "GitHub") |
 | EditaLive | EditaLive! Unified Character Video Editing for Live Streaming | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.27123 "Paper page") | [:house:](https://huai-chang.github.io/EditaLive/ "Homepage") [:octocat:](https://github.com/GVCLab/EditaLive "GitHub") |
