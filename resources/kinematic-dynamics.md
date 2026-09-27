@@ -28,6 +28,10 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| DrGait | DrGait: Biomechanically Grounded Visual Reasoning for Interpretable Clinical Gait Analysis | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.28796 "Paper page") | [:house:](https://pittisl.github.io/publication/2026-drgait/ "Homepage") |
+| MoSAT | MoSAT: Human Motion Generation from Spatial Audio and Textual Description | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.23797 "Paper page") | - |
+| SignGPT | SignGPT: Toward LLM-Mediated Sign Language Interaction through Gloss-Free Translation and Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.21709 "Paper page") | [:house:](https://signgpt-demo.github.io/sign-language-interaction-demo/ "Homepage") [:octocat:](https://github.com/signgpt-demo/SignGPT "GitHub") |
+| GestureFAR | GestureFAR: Streaming Co-Speech Gesture Generation with Flow Autoregression | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.21576 "Paper page") | - |
 | Open-UniMo | Open-UniMo: Towards Unified Motion-Language Understanding and Generation in the Open World | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.14615 "Paper page") | - |
 | UniMo | UniMo: Unifying Human and Animal Motion Generation | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.12342 "Paper page") | [:house:](https://steve-zeyu-zhang.github.io/UniMo/ "Homepage") |
 | MOCO | Multi-Modal Controlled Coherent Motion Generation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.11439 "Paper page") | - |
@@ -89,6 +93,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Vorch-Human | Vorch-Human: Unified Multi-Task Human-Centric Generation via Long-Horizon Continuation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.26117 "Paper page") | [:house:](https://vorch-project.github.io/Vorch-Human-Project/ "Homepage") |
 | BEACON | BEACON: Behavior and Appearance Control for Subject-Specific Video Generation | ABAW @ ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.13264 "Paper page") | - |
 | PAI-Actor | PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.05918 "Paper page") | - |
 | RASA | RASA: Disentangled Spatial-Motional Priors for Cross-Identity Character Animation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.28219 "Paper page") | [:house:](https://hidream-ai.github.io/RASA/ "Homepage") [:octocat:](https://github.com/HiDream-ai/RASA_code "GitHub") |

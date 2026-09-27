@@ -67,6 +67,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| WildHSR | WildHSR: Metric Feed-Forward 4D People-Scene Reconstruction from a 3D Foundation Model | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.29106 "Paper page") | - |
 | RESELF | Seeing the World and the Self from Egocentric Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.01276 "Paper page") | [:house:](https://ka1guan.github.io/RESELF/ "Homepage") [:octocat:](https://github.com/Ka1Guan/RESELF "GitHub") |
 | ReViV | ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.17790 "Paper page") | [:house:](https://reviv4d.github.io/ "Homepage") [:octocat:](https://github.com/lvsean/reviv4d "GitHub") |
 | SHOW | Scene and Human in One World: Reconstruction in a Feedforward Pass | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2606.27720 "Paper page") | [:house:](https://bowieshi.github.io/SHOW-project-page/ "Homepage") |
@@ -94,6 +95,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| AVTR-1 | AVTR-1: Open Stack for Real-Time Interactive Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.22913 "Paper page") | [:house:](https://avtr-1.avaturn.live/ "Homepage") [:octocat:](https://github.com/avaturn-live/avtr-1 "GitHub") [🤗](https://huggingface.co/avaturn-live/avtr-1 "Hugging Face") |
 | Motion-Omni | Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.04250 "Paper page") | [:house:](https://step-out.github.io/Motion-Omni-Page/ "Homepage") [:octocat:](https://github.com/step-out/Motion-Omni "GitHub") [🤗](https://huggingface.co/datasets/ChengqianMa/Motion-Omni "Hugging Face") |
 | Super Star | Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans | ACM MM 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.24909 "Paper page") | [:house:](https://super-star-2026.github.io/ "Homepage") [:octocat:](https://github.com/PeterIverson/Super-Star "GitHub") |
 | OmniMate | OmniMate: Open-Ended Real-Time Streaming Audio-Visual Generation for Interactive Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.23023 "Paper page") | - |

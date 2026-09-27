@@ -28,6 +28,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| S3 (Sample, Simulate, Select) | Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.26420 "Paper page") | - |
 | WholeBodyWAM (Motion Priors) | WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.18197 "Paper page") | [:house:](https://zbzyjya.github.io/WholeBodyWAM/ "Homepage") |
 | WholeBodyWAM (WBC Coordination) | WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.16644 "Paper page") | [:house:](https://wholebodywam.github.io/ "Homepage") |
 | TANGO | TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.09158 "Paper page") | [:house:](https://tango-vla.github.io/ "Homepage") |

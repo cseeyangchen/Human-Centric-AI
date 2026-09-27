@@ -42,6 +42,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| Hi-Singers | Dataset + Benchmark | ACM MM 2026 | Hi-Singers: A Comprehensive High-Quality Dataset for Expressive Audio-Driven Singing Head Synthesis | [:page_facing_up:](https://arxiv.org/abs/2609.22264 "Paper page") | [🤗](https://huggingface.co/datasets/CharlesZhang-USTC/Hi-Singers "Hugging Face") |
 | HUG-VIS | Dataset + Benchmark | arXiv 2026 | HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence | [:page_facing_up:](https://arxiv.org/abs/2608.26517 "Paper page") | [:octocat:](https://github.com/GML-MMGroup/HUG-VIS "GitHub") |
 | PersonaShot | Benchmark | arXiv 2026 | PersonaShot: Benchmarking Person-Centric Narrative Continuity in Multi-Shot Video Generation | [:page_facing_up:](https://arxiv.org/abs/2608.16717 "Paper page") | [:house:](https://rain152.github.io/PersonaShot/ "Homepage") |
 | AVBench | Benchmark | arXiv 2026 | AVBench: Human-Aligned and Automated Evaluation Benchmark for Audio-Video Generative Models | [:page_facing_up:](https://arxiv.org/abs/2605.24652 "Paper page") | [:house:](https://yajialiang.github.io/AVBench-site/ "Homepage") |
@@ -89,6 +90,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| Ego-Exo4D-HM | Dataset | arXiv 2026 | Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures | [:page_facing_up:](https://arxiv.org/abs/2609.30187 "Paper page") | [:house:](https://abhiram824.github.io/egoexo4d_human_meshes/ "Homepage") [:octocat:](https://github.com/Abhiram824/egoexo4d_human_meshes "GitHub") |
 | MRBench | Benchmark | arXiv 2026 | MRBench: A Comprehensive Benchmark for Human Motion-Text Retrieval | [:page_facing_up:](https://arxiv.org/abs/2608.07993 "Paper page") | - |
 | RoMo | Dataset | CVPR 2026 | RoMo: A Large-Scale, Richly Organized Dataset and Semantic Taxonomy for Human Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2605.26241 "Paper page") | [:house:](https://davidzhang73.github.io/romo-website/ "Homepage") |
 | OpenT2M | Dataset + Benchmark | CVPR 2026 | OpenT2M: No-frill Motion Generation with Open-source, Large-scale, High-quality Data | [:page_facing_up:](https://arxiv.org/pdf/2603.18623 "Paper page") | [:house:](https://research.beingbeyond.com/opent2m "Homepage") |

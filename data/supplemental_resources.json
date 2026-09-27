@@ -156,5 +156,46 @@
       "https://egohtr.github.io/",
       "https://huggingface.co/datasets/leggedrobotics/egohtr"
     ]
+  },
+  {
+    "bibkey": "supp_egoexo4d_human_meshes_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "Ego-Exo4D-HM",
+    "title": "Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures",
+    "type": "Dataset",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.30187",
+    "websites": [
+      "https://abhiram824.github.io/egoexo4d_human_meshes/",
+      "https://github.com/Abhiram824/egoexo4d_human_meshes"
+    ]
+  },
+  {
+    "bibkey": "supp_mvsign_phosa_2026",
+    "category": "Renderable Human Geometry",
+    "name": "MVSign (PHOSA)",
+    "title": "PHOSA: Photorealistic 3D Sign Avatar Modeling and Benchmark",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2609.29292",
+    "websites": [
+      "https://naaapi.github.io/PHOSA/",
+      "https://huggingface.co/datasets/naaaaapi/MVSign"
+    ]
+  },
+  {
+    "bibkey": "supp_hi_singers_2026",
+    "category": "Human Video Generation and Animation",
+    "name": "Hi-Singers",
+    "title": "Hi-Singers: A Comprehensive High-Quality Dataset for Expressive Audio-Driven Singing Head Synthesis",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "ACM MM 2026",
+    "paper_url": "https://arxiv.org/abs/2609.22264",
+    "websites": [
+      "https://huggingface.co/datasets/CharlesZhang-USTC/Hi-Singers"
+    ]
   }
 ]

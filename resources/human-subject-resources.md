@@ -96,6 +96,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| MVSign (PHOSA) | Dataset + Benchmark | ECCV 2026 | PHOSA: Photorealistic 3D Sign Avatar Modeling and Benchmark | [:page_facing_up:](https://arxiv.org/abs/2609.29292 "Paper page") | [:house:](https://naaapi.github.io/PHOSA/ "Homepage") [🤗](https://huggingface.co/datasets/naaaaapi/MVSign "Hugging Face") |
 | VolHuMe | Dataset + Benchmark | arXiv 2026 | VolHuMe: a High-Resolution Large Scale Dataset of Volumetric Human Meshes | [:page_facing_up:](https://arxiv.org/abs/2606.23062 "Paper page") | [:house:](https://giuli13.github.io/volhume-website/ "Homepage") |
 | MVHumanNet++ | Dataset | TPAMI 2026 | MVHumanNet++: A Large-scale Dataset of Multi-view Daily Dressing Human Captures with Richer Annotations for 3D Human Digitization | [:page_facing_up:](https://arxiv.org/abs/2505.01838 "Paper page") | [:house:](https://kevinlee09.github.io/research/MVHumanNet++/ "Homepage") |
 | HumanOLAT | Dataset + Benchmark | ICCV 2025 | HumanOLAT: A Large-Scale Dataset for Full-Body Human Relighting and Novel-View Synthesis | [:page_facing_up:](https://openaccess.thecvf.com/content/ICCV2025/html/Teufel_HumanOLAT_A_Large-Scale_Dataset_for_Full-Body_Human_Relighting_and_Novel-View_ICCV_2025_paper.html "Paper page") | [:house:](https://vcai.mpi-inf.mpg.de/projects/HumanOLAT/ "Homepage") |

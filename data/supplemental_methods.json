@@ -515,5 +515,96 @@
     "websites": [
       "https://tango-vla.github.io/"
     ]
+  },
+  {
+    "bibkey": "supp_wildhsr_2026",
+    "category": "Human-Scene Interaction",
+    "name": "WildHSR",
+    "title": "WildHSR: Metric Feed-Forward 4D People-Scene Reconstruction from a 3D Foundation Model",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.29106",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_drgait_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "DrGait",
+    "title": "DrGait: Biomechanically Grounded Visual Reasoning for Interpretable Clinical Gait Analysis",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.28796",
+    "websites": [
+      "https://pittisl.github.io/publication/2026-drgait/"
+    ]
+  },
+  {
+    "bibkey": "supp_sample_simulate_select_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "S3 (Sample, Simulate, Select)",
+    "title": "Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.26420",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_vorch_human_2026",
+    "category": "Human Video Animation",
+    "name": "Vorch-Human",
+    "title": "Vorch-Human: Unified Multi-Task Human-Centric Generation via Long-Horizon Continuation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.26117",
+    "websites": [
+      "https://vorch-project.github.io/Vorch-Human-Project/"
+    ]
+  },
+  {
+    "bibkey": "supp_avtr_1_2026",
+    "category": "Social Interaction",
+    "name": "AVTR-1",
+    "title": "AVTR-1: Open Stack for Real-Time Interactive Avatars",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.22913",
+    "websites": [
+      "https://avtr-1.avaturn.live/",
+      "https://github.com/avaturn-live/avtr-1",
+      "https://huggingface.co/avaturn-live/avtr-1"
+    ]
+  },
+  {
+    "bibkey": "supp_mosat_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "MoSAT",
+    "title": "MoSAT: Human Motion Generation from Spatial Audio and Textual Description",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.23797",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_signgpt_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "SignGPT",
+    "title": "SignGPT: Toward LLM-Mediated Sign Language Interaction through Gloss-Free Translation and Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.21709",
+    "websites": [
+      "https://signgpt-demo.github.io/sign-language-interaction-demo/",
+      "https://github.com/signgpt-demo/SignGPT"
+    ]
+  },
+  {
+    "bibkey": "supp_gesturefar_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "GestureFAR",
+    "title": "GestureFAR: Streaming Co-Speech Gesture Generation with Flow Autoregression",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.21576",
+    "websites": []
   }
 ]
