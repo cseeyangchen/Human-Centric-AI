@@ -28,6 +28,9 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| EgoFound3R | EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.01210 "Paper page") | - |
+| InfiniHand | InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.35743 "Paper page") | [:house:](https://infinihand.github.io/ "Homepage") [:octocat:](https://github.com/infinihand/InfiniHand "GitHub") |
+| ESTHER | ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.34817 "Paper page") | - |
 | DirtyMoCap | DirtyMoCap: Robust Motion Capture from Unconstrained Markers | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.19927 "Paper page") | [:house:](https://wanglongzju.github.io/DirtyMoCap-Project-Page/ "Homepage") [:octocat:](https://github.com/WangLongZJU/DirtyMoCap "GitHub") |
 | DreamHand | DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20308 "Paper page") | [:house:](https://ggxxii.github.io/dreamhand/ "Homepage") [:octocat:](https://github.com/ggxxii/dreamhand "GitHub") |
 | DETRAM | DETRAM: End-to-end DEtection, Tracking and Recovery of HumAn Meshes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.09089 "Paper page") | - |
@@ -59,6 +62,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| SInGA | Learning Semantic Inpainting for Animatable Gaussian Head Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38343 "Paper page") | - |
 | 4DAnyone | 4DAnyone: Create Anyone in 4D from a Casual Monocular Video | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20335 "Paper page") | [:house:](https://4danyone.github.io/ "Homepage") [:octocat:](https://github.com/ant-research/4DAnyone "GitHub") [🤗](https://huggingface.co/AntResearch/4DAnyone "Hugging Face") |
 | FlexiAvatar | FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.19100 "Paper page") | [:house:](https://yihalem1.github.io/FlexiAvatar/ "Homepage") |
 | DreamCharacter-1 | DreamCharacter-1: From 3D Generative Foundation Models to Product-Ready Character Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.07817 "Paper page") | [:house:](https://dreamcharacter-x.github.io/ "Homepage") |

@@ -28,6 +28,15 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| FlowHMR | FlowHMR: Physically Plausible Motion Capture from Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.03691 "Paper page") | [:house:](https://flowhmr.github.io/ "Homepage") [:octocat:](https://github.com/flowhmr/flowhmr "GitHub") [🤗](https://huggingface.co/fafsaf1/flowhmr-0.46B "Hugging Face") |
+| PMD | Parasitic Co-Denoising: Unlocking 3D Human Motion Generation in a Frozen Video Diffusion Model | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.03047 "Paper page") | - |
+| MotionMaestro | MotionMaestro: Masked Tokenization for Unified Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.37495 "Paper page") | [:house:](https://kaist-viclab.github.io/MotionMaestro_site/ "Homepage") [:octocat:](https://github.com/KAIST-VICLab/MotionMaestro "GitHub") |
+| AESOP | AESOP: Asymmetric Human-Camera Generation with Translation-Intensity Control | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.37229 "Paper page") | - |
+| Triangular Resampling | Triangular Resampling for Long-Horizon Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.34697 "Paper page") | - |
+| FloodDiffusion 2 | FloodDiffusion 2: Efficient and Path Controllable Streaming Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.33167 "Paper page") | [:house:](https://alayalab.github.io/FloodDiffusion2/ "Homepage") [:octocat:](https://github.com/AlayaLab/FloodDiffusion2 "GitHub") [🤗](https://huggingface.co/AlayaLab/FloodDiffusion2 "Hugging Face") |
+| RoboSTAR | RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.32250 "Paper page") | [:octocat:](https://github.com/zyjOrz/RoboSTAR "GitHub") [🤗](https://huggingface.co/Ivystream/RoboSTAR "Hugging Face") |
+| Motion Style Slider | Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.30795 "Paper page") | [:house:](https://liaochenchieh.com/projects/motion-style-slider/ "Homepage") |
+| Timo | Timo: Taming Multimodal Diffusion Transformer for Human Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.30761 "Paper page") | [:house:](https://kyfafyd.wang/projects/timo/ "Homepage") |
 | DrGait | DrGait: Biomechanically Grounded Visual Reasoning for Interpretable Clinical Gait Analysis | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.28796 "Paper page") | [:house:](https://pittisl.github.io/publication/2026-drgait/ "Homepage") |
 | MoSAT | MoSAT: Human Motion Generation from Spatial Audio and Textual Description | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.23797 "Paper page") | - |
 | SignGPT | SignGPT: Toward LLM-Mediated Sign Language Interaction through Gloss-Free Translation and Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.21709 "Paper page") | [:house:](https://signgpt-demo.github.io/sign-language-interaction-demo/ "Homepage") [:octocat:](https://github.com/signgpt-demo/SignGPT "GitHub") |
@@ -93,6 +102,10 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| MegaAvatar | MegaAvatar: Controllable Talking Avatar Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.39273 "Paper page") | [:octocat:](https://github.com/Jeoyal/MegaAvatar "GitHub") |
+| World2Motion | World2Motion: Turning Video World Models into 3D Human Motion Generators | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.37004 "Paper page") | [:house:](https://fyantu.github.io/World2Motion/ "Homepage") |
+| WeLike2Party! | WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.36937 "Paper page") | [:house:](https://wl2pvideo.github.io/ "Homepage") |
+| Routed Forcing | Where and When to Force: Routed Forcing for Streaming Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.30963 "Paper page") | - |
 | Vorch-Human | Vorch-Human: Unified Multi-Task Human-Centric Generation via Long-Horizon Continuation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.26117 "Paper page") | [:house:](https://vorch-project.github.io/Vorch-Human-Project/ "Homepage") |
 | BEACON | BEACON: Behavior and Appearance Control for Subject-Specific Video Generation | ABAW @ ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.13264 "Paper page") | - |
 | PAI-Actor | PAI-Actor: Cinematic Multi-Character Replacement in Dynamic Scenes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.05918 "Paper page") | - |

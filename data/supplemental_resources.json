@@ -197,5 +197,124 @@
     "websites": [
       "https://huggingface.co/datasets/CharlesZhang-USTC/Hi-Singers"
     ]
+  },
+  {
+    "bibkey": "supp_cohub_2026",
+    "category": "Physical Humanoid Control",
+    "name": "CoHuB",
+    "title": "CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.34782",
+    "websites": [
+      "https://meat124.github.io/CoHuB/"
+    ]
+  },
+  {
+    "bibkey": "supp_ego2act_2026",
+    "category": "Egocentric Procedural Activities",
+    "name": "Ego2Act",
+    "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.01092",
+    "websites": [
+      "https://ego2act.github.io/",
+      "https://github.com/ego2act/ego2act",
+      "https://huggingface.co/datasets/ego2act/ego2act-bench"
+    ]
+  },
+  {
+    "bibkey": "supp_interhead_bench_2026",
+    "category": "Social Interaction Data",
+    "name": "InterHead-Bench",
+    "title": "EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.35616",
+    "websites": [
+      "https://blog.evolving-avatar.com/"
+    ]
+  },
+  {
+    "bibkey": "supp_esther3d_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "ESTHER3D",
+    "title": "ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.34817",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_affectmocap_2026",
+    "category": "Social Interaction Data",
+    "name": "AffectMoCap",
+    "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+    "type": "Dataset",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.33311",
+    "websites": [
+      "https://rex0191.github.io/SocialHumanoid/"
+    ]
+  },
+  {
+    "bibkey": "supp_motiontwin_2026",
+    "category": "Human Video Generation and Animation",
+    "name": "MotionTwin / MotionTwin-Bench",
+    "title": "WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.36937",
+    "websites": [
+      "https://wl2pvideo.github.io/"
+    ]
+  },
+  {
+    "bibkey": "supp_glare_reactions_2026",
+    "category": "Social Interaction Data",
+    "name": "GLARE (Listener Reactions)",
+    "title": "GLARE: Generating Listening Heads with Appropriate Reactions",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2609.40317",
+    "websites": [
+      "https://github.com/lzk901372/glare",
+      "https://github.com/lzk901372/visual_reaction_annotation/tree/main"
+    ]
+  },
+  {
+    "bibkey": "supp_hoi_mix_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "HOI-mix",
+    "title": "World2Motion: Turning Video World Models into 3D Human Motion Generators",
+    "type": "Dataset",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.37004",
+    "websites": [
+      "https://fyantu.github.io/World2Motion/"
+    ]
+  },
+  {
+    "bibkey": "supp_wild4k_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "Wild-4K",
+    "title": "FlowHMR: Physically Plausible Motion Capture from Video",
+    "type": "Dataset + Benchmark",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.03691",
+    "websites": [
+      "https://flowhmr.github.io/",
+      "https://github.com/flowhmr/flowhmr/tree/main/data/wild4k"
+    ]
   }
 ]

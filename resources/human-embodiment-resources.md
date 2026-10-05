@@ -53,6 +53,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| CoHuB | Dataset + Benchmark | arXiv 2026 | CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration | [:page_facing_up:](https://arxiv.org/abs/2609.34782 "Paper page") | [:house:](https://meat124.github.io/CoHuB/ "Homepage") |
 | HiPHI | Dataset + Benchmark | arXiv 2026 | HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction | [:page_facing_up:](https://arxiv.org/abs/2608.16222 "Paper page") | [:house:](https://noitom-robotics.github.io/hiphi/ "Homepage") [:octocat:](https://github.com/noitom-robotics/hiphi "GitHub") [🤗](https://huggingface.co/datasets/noitomrobotics/HiPHI "Hugging Face") |
 | HumanTracker | Benchmark | ECCV 2026 | HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark | [:page_facing_up:](https://arxiv.org/abs/2608.13555 "Paper page") | [:octocat:](https://github.com/GalaxyGeneralRobotics/HumanTracker "GitHub") [:house:](https://dairuliu.github.io/humantracker "Homepage") [🤗](https://huggingface.co/datasets/dairuliu/HumanTracker "Hugging Face") |
 | HHMotion | Dataset + Benchmark | CVPR 2026 | Towards Motion Turing Test: Evaluating Human-Likeness in Humanoid Robots | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2026/html/Li_Towards_Motion_Turing_Test_Evaluating_Human-Likeness_in_Humanoid_Robots_CVPR_2026_paper.html "Paper page") | [:house:](http://www.lidarhumanmotion.net/mtt/ "Homepage") |

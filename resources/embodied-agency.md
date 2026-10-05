@@ -28,6 +28,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| SocialHumanoid | SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.33311 "Paper page") | [:house:](https://rex0191.github.io/SocialHumanoid/ "Homepage") |
 | S3 (Sample, Simulate, Select) | Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.26420 "Paper page") | - |
 | WholeBodyWAM (Motion Priors) | WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.18197 "Paper page") | [:house:](https://zbzyjya.github.io/WholeBodyWAM/ "Homepage") |
 | WholeBodyWAM (WBC Coordination) | WholeBodyWAM: Generalizing Pre-trained World-Action Priors to Humanoid Loco-Manipulation via WBC-Grounded Coordination | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.16644 "Paper page") | [:house:](https://wholebodywam.github.io/ "Homepage") |
@@ -69,6 +70,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Ego4WAM | Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning? | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.40341 "Paper page") | [:house:](https://sunzhihao18.github.io/Ego4WAM/ "Homepage") [:octocat:](https://github.com/HorizonRobotics/Ego4WAM "GitHub") [🤗](https://huggingface.co/HorizonRobotics/Ego4WAM "Hugging Face") |
 | HuRo | HuRo: Robotizing Human Videos for Scalable VLA Pretraining | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.10706 "Paper page") | [:house:](https://3587jjh.github.io/HuRo/ "Homepage") [:octocat:](https://github.com/3587jjh/HuRo "GitHub") |
 | Zero-WAM | Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.26103 "Paper page") | [:house:](https://robbyant-research.github.io/Zero-WAM/ "Homepage") [:octocat:](https://github.com/robbyant-research/Zero-WAM "GitHub") |
 | HumanScale | HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2606.20521 "Paper page") | [:octocat:](https://github.com/DAGroup-PKU/HumanNet/ "GitHub") |

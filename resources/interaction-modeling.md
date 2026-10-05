@@ -32,6 +32,9 @@
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
 | Single-Query Bimanual HOI | Single-Query Person-Centric Bimanual Hand-Object Interaction Detection | ECCV 2026 | [:page_facing_up:](https://link.springer.com/chapter/10.1007/978-3-032-37016-7_20 "Paper page") | - |
+| PAMI | PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38466 "Paper page") | [:house:](https://coral79.github.io/pami/ "Homepage") [:octocat:](https://github.com/Coral79/PAMI-Code "GitHub") |
+| DynamicHOI | DynamicHOI: Coupled Dynamics for Physics-aware HOI Reconstruction | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.36454 "Paper page") | [:house:](https://wenliangguo.github.io/HOI-Reconstruction-Page/ "Homepage") |
+| TRACE | Harnessing Coupled Stream Completion For Human-Object Interaction Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.32551 "Paper page") | - |
 | MILO | Reconstructing Humans and Objects in Interaction using Large Reconstruction Models | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.27407 "Paper page") | [:house:](https://ac5113.github.io/MILO/ "Homepage") [:octocat:](https://github.com/ac5113/MILO "GitHub") |
 | HOIMask | HOIMask: Towards Generative Masked Modeling for Human Object Interaction Generation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.15141 "Paper page") | [:house:](https://jyhflash.github.io/HOIMask/ "Homepage") |
 | EgoTac | EgoTac: In-the-wild Tactile Prediction from Egocentric Vision | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.15060 "Paper page") | - |
@@ -95,6 +98,9 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| GLARE | GLARE: Generating Listening Heads with Appropriate Reactions | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.40317 "Paper page") | [:octocat:](https://github.com/lzk901372/glare "GitHub") |
+| FlowAct-R2 | FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.35728 "Paper page") | [:house:](https://bone-11.github.io/Flowact-R2/ "Homepage") [🤗](https://huggingface.co/spaces/ProAudience/FlowAct-R2 "Hugging Face") |
+| EvolvingAvatar | EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.35616 "Paper page") | [:house:](https://blog.evolving-avatar.com/ "Homepage") |
 | AVTR-1 | AVTR-1: Open Stack for Real-Time Interactive Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.22913 "Paper page") | [:house:](https://avtr-1.avaturn.live/ "Homepage") [:octocat:](https://github.com/avaturn-live/avtr-1 "GitHub") [🤗](https://huggingface.co/avaturn-live/avtr-1 "Hugging Face") |
 | Motion-Omni | Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.04250 "Paper page") | [:house:](https://step-out.github.io/Motion-Omni-Page/ "Homepage") [:octocat:](https://github.com/step-out/Motion-Omni "GitHub") [🤗](https://huggingface.co/datasets/ChengqianMa/Motion-Omni "Hugging Face") |
 | Super Star | Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans | ACM MM 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.24909 "Paper page") | [:house:](https://super-star-2026.github.io/ "Homepage") [:octocat:](https://github.com/PeterIverson/Super-Star "GitHub") |

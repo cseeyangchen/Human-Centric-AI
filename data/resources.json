@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-09-27",
+  "generated_on": "2026-10-05",
   "summary": {
-    "unique_method_papers": 276,
-    "categorized_method_entries": 280,
+    "unique_method_papers": 303,
+    "categorized_method_entries": 307,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 16,
     "categorized_survey_entries": 16,
-    "unique_resources": 178,
-    "categorized_resource_entries": 178
+    "unique_resources": 187,
+    "categorized_resource_entries": 187
   },
   "method_papers": {
     "Visual Appearance": {
@@ -715,6 +715,60 @@
     "Spatial Geometry": {
       "Structured Geometry Modeling": [
         {
+          "bibkey": "supp_egofound3r_2026",
+          "name": "EgoFound3R",
+          "title": "EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.01210",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            1210
+          ]
+        },
+        {
+          "bibkey": "supp_infinihand_2026",
+          "name": "InfiniHand",
+          "title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.35743",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://infinihand.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/infinihand/InfiniHand"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            35743
+          ]
+        },
+        {
+          "bibkey": "supp_esther_2026",
+          "name": "ESTHER",
+          "title": "ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.34817",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            34817
+          ]
+        },
+        {
           "bibkey": "supp_dirtymocap_2026",
           "name": "DirtyMoCap",
           "title": "DirtyMoCap: Robust Motion Capture from Unconstrained Markers",
@@ -1074,6 +1128,21 @@
         }
       ],
       "Renderable Avatar Modeling": [
+        {
+          "bibkey": "supp_singa_2026",
+          "name": "SInGA",
+          "title": "Learning Semantic Inpainting for Animatable Gaussian Head Avatars",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.38343",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            38343
+          ]
+        },
         {
           "bibkey": "supp_4danyone_2026",
           "name": "4DAnyone",
@@ -1456,6 +1525,195 @@
     },
     "Kinematic Dynamics": {
       "Scalable Motion Modeling": [
+        {
+          "bibkey": "supp_flowhmr_2026",
+          "name": "FlowHMR",
+          "title": "FlowHMR: Physically Plausible Motion Capture from Video",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.03691",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://flowhmr.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/flowhmr/flowhmr"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/fafsaf1/flowhmr-0.46B"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            3691
+          ]
+        },
+        {
+          "bibkey": "supp_parasitic_motion_decoder_2026",
+          "name": "PMD",
+          "title": "Parasitic Co-Denoising: Unlocking 3D Human Motion Generation in a Frozen Video Diffusion Model",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.03047",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            3047
+          ]
+        },
+        {
+          "bibkey": "supp_motionmaestro_2026",
+          "name": "MotionMaestro",
+          "title": "MotionMaestro: Masked Tokenization for Unified Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.37495",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://kaist-viclab.github.io/MotionMaestro_site/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/KAIST-VICLab/MotionMaestro"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            37495
+          ]
+        },
+        {
+          "bibkey": "supp_aesop_2026",
+          "name": "AESOP",
+          "title": "AESOP: Asymmetric Human-Camera Generation with Translation-Intensity Control",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.37229",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            37229
+          ]
+        },
+        {
+          "bibkey": "supp_triangular_resampling_2026",
+          "name": "Triangular Resampling",
+          "title": "Triangular Resampling for Long-Horizon Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.34697",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            34697
+          ]
+        },
+        {
+          "bibkey": "supp_flooddiffusion2_2026",
+          "name": "FloodDiffusion 2",
+          "title": "FloodDiffusion 2: Efficient and Path Controllable Streaming Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.33167",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://alayalab.github.io/FloodDiffusion2/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/AlayaLab/FloodDiffusion2"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/AlayaLab/FloodDiffusion2"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            33167
+          ]
+        },
+        {
+          "bibkey": "supp_robostar_2026",
+          "name": "RoboSTAR",
+          "title": "RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.32250",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/zyjOrz/RoboSTAR"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/Ivystream/RoboSTAR"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            32250
+          ]
+        },
+        {
+          "bibkey": "supp_motion_style_slider_2026",
+          "name": "Motion Style Slider",
+          "title": "Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion",
+          "year": "2026",
+          "venue": "ECCV 2026",
+          "paper_url": "https://arxiv.org/abs/2609.30795",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://liaochenchieh.com/projects/motion-style-slider/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            30795
+          ]
+        },
+        {
+          "bibkey": "supp_timo_2026",
+          "name": "Timo",
+          "title": "Timo: Taming Multimodal Diffusion Transformer for Human Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.30761",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://kyfafyd.wang/projects/timo/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            30761
+          ]
+        },
         {
           "bibkey": "supp_drgait_2026",
           "name": "DrGait",
@@ -2475,6 +2733,81 @@
       ],
       "Human Video Animation": [
         {
+          "bibkey": "supp_megaavatar_2026",
+          "name": "MegaAvatar",
+          "title": "MegaAvatar: Controllable Talking Avatar Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.39273",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/Jeoyal/MegaAvatar"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            39273
+          ]
+        },
+        {
+          "bibkey": "supp_world2motion_2026",
+          "name": "World2Motion",
+          "title": "World2Motion: Turning Video World Models into 3D Human Motion Generators",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.37004",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://fyantu.github.io/World2Motion/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            37004
+          ]
+        },
+        {
+          "bibkey": "supp_welike2party_2026",
+          "name": "WeLike2Party!",
+          "title": "WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.36937",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://wl2pvideo.github.io/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            36937
+          ]
+        },
+        {
+          "bibkey": "supp_routed_forcing_2026",
+          "name": "Routed Forcing",
+          "title": "Where and When to Force: Routed Forcing for Streaming Avatars",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.30963",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            30963
+          ]
+        },
+        {
           "bibkey": "supp_vorch_human_2026",
           "name": "Vorch-Human",
           "title": "Vorch-Human: Unified Multi-Task Human-Centric Generation via Long-Horizon Continuation",
@@ -3052,6 +3385,65 @@
             9,
             12,
             0
+          ]
+        },
+        {
+          "bibkey": "supp_pami_2026",
+          "name": "PAMI",
+          "title": "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.38466",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://coral79.github.io/pami/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Coral79/PAMI-Code"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            38466
+          ]
+        },
+        {
+          "bibkey": "supp_dynamichoi_2026",
+          "name": "DynamicHOI",
+          "title": "DynamicHOI: Coupled Dynamics for Physics-aware HOI Reconstruction",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.36454",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://wenliangguo.github.io/HOI-Reconstruction-Page/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            36454
+          ]
+        },
+        {
+          "bibkey": "supp_trace_coupled_streams_2026",
+          "name": "TRACE",
+          "title": "Harnessing Coupled Stream Completion For Human-Object Interaction Modeling",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.32551",
+          "websites": [],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            32551
           ]
         },
         {
@@ -3785,6 +4177,70 @@
       ],
       "Social Interaction": [
         {
+          "bibkey": "supp_glare_2026",
+          "name": "GLARE",
+          "title": "GLARE: Generating Listening Heads with Appropriate Reactions",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2609.40317",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/lzk901372/glare"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            40317
+          ]
+        },
+        {
+          "bibkey": "supp_flowact_r2_2026",
+          "name": "FlowAct-R2",
+          "title": "FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.35728",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://bone-11.github.io/Flowact-R2/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/spaces/ProAudience/FlowAct-R2"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            35728
+          ]
+        },
+        {
+          "bibkey": "supp_evolvingavatar_2026",
+          "name": "EvolvingAvatar",
+          "title": "EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.35616",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://blog.evolving-avatar.com/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            35616
+          ]
+        },
+        {
           "bibkey": "supp_avtr_1_2026",
           "name": "AVTR-1",
           "title": "AVTR-1: Open Stack for Real-Time Interactive Avatars",
@@ -4089,6 +4545,30 @@
     "World Simulation": {
       "Human-Centered World Generation": [
         {
+          "bibkey": "supp_exo2egohoi_2026",
+          "name": "Exo2EgoHOI",
+          "title": "Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.38615",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://rcl-robotics.github.io/Exo2EgoHOI/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/RCL-Robotics/Exo2EgoHOI"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            38615
+          ]
+        },
+        {
           "bibkey": "supp_egogenesis_2026",
           "name": "EgoGenesis",
           "title": "EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE",
@@ -4335,6 +4815,30 @@
       ],
       "Actionable World Planning": [
         {
+          "bibkey": "supp_world_motion_models_2026",
+          "name": "World Motion Models (WMM)",
+          "title": "World Motion Models: Flexible Sequence Modeling of SE(3) Trajectories",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2610.01742",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jiahuilei.com/projects/wmm/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/JiahuiLei/WorldMotionModels"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            1742
+          ]
+        },
+        {
           "bibkey": "tran2026egoexo",
           "name": "EgoExo-WM",
           "title": "EgoExo-WM: Unlocking Exo Video for Ego World Models",
@@ -4553,6 +5057,26 @@
     },
     "Embodied Agency": {
       "Generalist Humanoid Control": [
+        {
+          "bibkey": "supp_socialhumanoid_2026",
+          "name": "SocialHumanoid",
+          "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.33311",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://rex0191.github.io/SocialHumanoid/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            33311
+          ]
+        },
         {
           "bibkey": "supp_sample_simulate_select_2026",
           "name": "S3 (Sample, Simulate, Select)",
@@ -5117,6 +5641,34 @@
         }
       ],
       "Human-to-Agent Skill Transfer": [
+        {
+          "bibkey": "supp_ego4wam_2026",
+          "name": "Ego4WAM",
+          "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.40341",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://sunzhihao18.github.io/Ego4WAM/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/HorizonRobotics/Ego4WAM"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/HorizonRobotics/Ego4WAM"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            40341
+          ]
+        },
         {
           "bibkey": "supp_huro_2026",
           "name": "HuRo",
@@ -6629,6 +7181,27 @@
     "Human Dynamics Resources": {
       "Human Video Generation and Animation": [
         {
+          "bibkey": "supp_motiontwin_2026",
+          "name": "MotionTwin / MotionTwin-Bench",
+          "title": "WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.36937",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://wl2pvideo.github.io/"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            36937
+          ]
+        },
+        {
           "bibkey": "supp_hi_singers_2026",
           "name": "Hi-Singers",
           "title": "Hi-Singers: A Comprehensive High-Quality Dataset for Expressive Audio-Driven Singing Head Synthesis",
@@ -7132,6 +7705,47 @@
         }
       ],
       "Human Kinematic Motion Resources": [
+        {
+          "bibkey": "supp_wild4k_2026",
+          "name": "Wild-4K",
+          "title": "FlowHMR: Physically Plausible Motion Capture from Video",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.03691",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://flowhmr.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/flowhmr/flowhmr/tree/main/data/wild4k"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            3691
+          ]
+        },
+        {
+          "bibkey": "supp_esther3d_2026",
+          "name": "ESTHER3D",
+          "title": "ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.34817",
+          "websites": [],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            34817
+          ]
+        },
         {
           "bibkey": "supp_egoexo4d_human_meshes_2026",
           "name": "Ego-Exo4D-HM",
@@ -8118,6 +8732,35 @@
     "Human Interaction Resources": {
       "Egocentric Procedural Activities": [
         {
+          "bibkey": "supp_ego2act_2026",
+          "name": "Ego2Act",
+          "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.01092",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ego2act.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/ego2act/ego2act"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/ego2act/ego2act-bench"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            1092
+          ]
+        },
+        {
           "bibkey": "supp_coherent4d_2026",
           "name": "Coherent4D",
           "title": "From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video",
@@ -8584,6 +9227,27 @@
         }
       ],
       "Human-Object Interaction Data": [
+        {
+          "bibkey": "supp_hoi_mix_2026",
+          "name": "HOI-mix",
+          "title": "World2Motion: Turning Video World Models into 3D Human Motion Generators",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.37004",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://fyantu.github.io/World2Motion/"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            37004
+          ]
+        },
         {
           "bibkey": "lei2026crosshoi",
           "name": "CrossHOI-Bench",
@@ -9082,6 +9746,73 @@
         }
       ],
       "Social Interaction Data": [
+        {
+          "bibkey": "supp_glare_reactions_2026",
+          "name": "GLARE (Listener Reactions)",
+          "title": "GLARE: Generating Listening Heads with Appropriate Reactions",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2609.40317",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/lzk901372/glare"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/lzk901372/visual_reaction_annotation/tree/main"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            40317
+          ]
+        },
+        {
+          "bibkey": "supp_interhead_bench_2026",
+          "name": "InterHead-Bench",
+          "title": "EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.35616",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://blog.evolving-avatar.com/"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            35616
+          ]
+        },
+        {
+          "bibkey": "supp_affectmocap_2026",
+          "name": "AffectMoCap",
+          "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.33311",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://rex0191.github.io/SocialHumanoid/"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            33311
+          ]
+        },
         {
           "bibkey": "supp_emotiondialogcn_2026",
           "name": "EmotionDialogCN",
@@ -9722,6 +10453,27 @@
         }
       ],
       "Physical Humanoid Control": [
+        {
+          "bibkey": "supp_cohub_2026",
+          "name": "CoHuB",
+          "title": "CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.34782",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://meat124.github.io/CoHuB/"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            9,
+            0,
+            34782
+          ]
+        },
         {
           "bibkey": "supp_hiphi_2026",
           "name": "HiPHI",

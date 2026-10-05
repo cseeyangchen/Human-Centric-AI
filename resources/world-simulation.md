@@ -28,6 +28,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Exo2EgoHOI | Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38615 "Paper page") | [:house:](https://rcl-robotics.github.io/Exo2EgoHOI/ "Homepage") [:octocat:](https://github.com/RCL-Robotics/Exo2EgoHOI "GitHub") |
 | EgoGenesis | EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.28243 "Paper page") | [:house:](https://egogenesis.github.io/ "Homepage") |
 | Real-Time Human-Centric World Modeling for Upper-Body Human-Object Interaction | Real-Time Human-Centric World Modeling for Upper-Body Human-Object Interaction | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.23517 "Paper page") | [:house:](https://bjkim95.github.io/rofacto/ "Homepage") |
 | AnchorWorld | AnchorWorld: Embodied Egocentric World Simulation with View-based Evolution Customization | arXiv 2026 | [:page_facing_up:](https://arxiv.org/pdf/2606.07326 "Paper page") | [:house:](https://yuli0103.github.io/AnchorWorld/ "Homepage") |
@@ -53,6 +54,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| World Motion Models (WMM) | World Motion Models: Flexible Sequence Modeling of SE(3) Trajectories | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.01742 "Paper page") | [:house:](https://jiahuilei.com/projects/wmm/ "Homepage") [:octocat:](https://github.com/JiahuiLei/WorldMotionModels "GitHub") |
 | EgoExo-WM | EgoExo-WM: Unlocking Exo Video for Ego World Models | arXiv 2026 | [:page_facing_up:](https://arxiv.org/pdf/2605.15477v1 "Paper page") | [:house:](https://vision.cs.utexas.edu/projects/EgoExo-WM/ "Homepage") |
 | LWM | Lifting Embodied World Models for Planning and Control | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2604.26182 "Paper page") | [:octocat:](https://github.com/alexnwang/lifted-world-model "GitHub") |
 | EgoSim | EgoSim: Egocentric World Simulator for Embodied Interaction Generation | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2604.01001 "Paper page") | [:octocat:](https://github.com/jinkun-hao/EgoSim "GitHub") |

@@ -606,5 +606,326 @@
     "venue": "arXiv 2026",
     "paper_url": "https://arxiv.org/abs/2609.21576",
     "websites": []
+  },
+  {
+    "bibkey": "supp_timo_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "Timo",
+    "title": "Timo: Taming Multimodal Diffusion Transformer for Human Motion Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.30761",
+    "websites": [
+      "https://kyfafyd.wang/projects/timo/"
+    ]
+  },
+  {
+    "bibkey": "supp_motion_style_slider_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "Motion Style Slider",
+    "title": "Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion",
+    "year": "2026",
+    "venue": "ECCV 2026",
+    "paper_url": "https://arxiv.org/abs/2609.30795",
+    "websites": [
+      "https://liaochenchieh.com/projects/motion-style-slider/"
+    ]
+  },
+  {
+    "bibkey": "supp_routed_forcing_2026",
+    "category": "Human Video Animation",
+    "name": "Routed Forcing",
+    "title": "Where and When to Force: Routed Forcing for Streaming Avatars",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.30963",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_infinihand_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "InfiniHand",
+    "title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.35743",
+    "websites": [
+      "https://infinihand.github.io/",
+      "https://github.com/infinihand/InfiniHand"
+    ]
+  },
+  {
+    "bibkey": "supp_flowact_r2_2026",
+    "category": "Social Interaction",
+    "name": "FlowAct-R2",
+    "title": "FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.35728",
+    "websites": [
+      "https://bone-11.github.io/Flowact-R2/",
+      "https://huggingface.co/spaces/ProAudience/FlowAct-R2"
+    ]
+  },
+  {
+    "bibkey": "supp_evolvingavatar_2026",
+    "category": "Social Interaction",
+    "name": "EvolvingAvatar",
+    "title": "EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.35616",
+    "websites": [
+      "https://blog.evolving-avatar.com/"
+    ]
+  },
+  {
+    "bibkey": "supp_esther_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "ESTHER",
+    "title": "ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.34817",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_triangular_resampling_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "Triangular Resampling",
+    "title": "Triangular Resampling for Long-Horizon Motion Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.34697",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_flooddiffusion2_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "FloodDiffusion 2",
+    "title": "FloodDiffusion 2: Efficient and Path Controllable Streaming Motion Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.33167",
+    "websites": [
+      "https://alayalab.github.io/FloodDiffusion2/",
+      "https://github.com/AlayaLab/FloodDiffusion2",
+      "https://huggingface.co/AlayaLab/FloodDiffusion2"
+    ]
+  },
+  {
+    "bibkey": "supp_trace_coupled_streams_2026",
+    "category": "Human-Object Interaction",
+    "name": "TRACE",
+    "title": "Harnessing Coupled Stream Completion For Human-Object Interaction Modeling",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.32551",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_robostar_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "RoboSTAR",
+    "title": "RoboSTAR: Next-Scale Autoregressive Sign Language Translation for Humanoid Robots",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.32250",
+    "websites": [
+      "https://github.com/zyjOrz/RoboSTAR",
+      "https://huggingface.co/Ivystream/RoboSTAR"
+    ]
+  },
+  {
+    "bibkey": "supp_socialhumanoid_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "SocialHumanoid",
+    "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.33311",
+    "websites": [
+      "https://rex0191.github.io/SocialHumanoid/"
+    ]
+  },
+  {
+    "bibkey": "supp_motionmaestro_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "MotionMaestro",
+    "title": "MotionMaestro: Masked Tokenization for Unified Motion Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.37495",
+    "websites": [
+      "https://kaist-viclab.github.io/MotionMaestro_site/",
+      "https://github.com/KAIST-VICLab/MotionMaestro"
+    ]
+  },
+  {
+    "bibkey": "supp_aesop_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "AESOP",
+    "title": "AESOP: Asymmetric Human-Camera Generation with Translation-Intensity Control",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.37229",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_world2motion_2026",
+    "category": "Human Video Animation",
+    "name": "World2Motion",
+    "title": "World2Motion: Turning Video World Models into 3D Human Motion Generators",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.37004",
+    "websites": [
+      "https://fyantu.github.io/World2Motion/"
+    ]
+  },
+  {
+    "bibkey": "supp_welike2party_2026",
+    "category": "Human Video Animation",
+    "name": "WeLike2Party!",
+    "title": "WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.36937",
+    "websites": [
+      "https://wl2pvideo.github.io/"
+    ]
+  },
+  {
+    "bibkey": "supp_dynamichoi_2026",
+    "category": "Human-Object Interaction",
+    "name": "DynamicHOI",
+    "title": "DynamicHOI: Coupled Dynamics for Physics-aware HOI Reconstruction",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.36454",
+    "websites": [
+      "https://wenliangguo.github.io/HOI-Reconstruction-Page/"
+    ]
+  },
+  {
+    "bibkey": "supp_glare_2026",
+    "category": "Social Interaction",
+    "name": "GLARE",
+    "title": "GLARE: Generating Listening Heads with Appropriate Reactions",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2609.40317",
+    "websites": [
+      "https://github.com/lzk901372/glare"
+    ]
+  },
+  {
+    "bibkey": "supp_megaavatar_2026",
+    "category": "Human Video Animation",
+    "name": "MegaAvatar",
+    "title": "MegaAvatar: Controllable Talking Avatar Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.39273",
+    "websites": [
+      "https://github.com/Jeoyal/MegaAvatar"
+    ]
+  },
+  {
+    "bibkey": "supp_exo2egohoi_2026",
+    "category": "Human-Centered World Generation",
+    "name": "Exo2EgoHOI",
+    "title": "Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.38615",
+    "websites": [
+      "https://rcl-robotics.github.io/Exo2EgoHOI/",
+      "https://github.com/RCL-Robotics/Exo2EgoHOI"
+    ]
+  },
+  {
+    "bibkey": "supp_pami_2026",
+    "category": "Human-Object Interaction",
+    "name": "PAMI",
+    "title": "PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.38466",
+    "websites": [
+      "https://coral79.github.io/pami/",
+      "https://github.com/Coral79/PAMI-Code"
+    ]
+  },
+  {
+    "bibkey": "supp_singa_2026",
+    "category": "Renderable Avatar Modeling",
+    "name": "SInGA",
+    "title": "Learning Semantic Inpainting for Animatable Gaussian Head Avatars",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.38343",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_ego4wam_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "Ego4WAM",
+    "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.40341",
+    "websites": [
+      "https://sunzhihao18.github.io/Ego4WAM/",
+      "https://github.com/HorizonRobotics/Ego4WAM",
+      "https://huggingface.co/HorizonRobotics/Ego4WAM"
+    ]
+  },
+  {
+    "bibkey": "supp_egofound3r_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "EgoFound3R",
+    "title": "EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.01210",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_world_motion_models_2026",
+    "category": "Actionable World Planning",
+    "name": "World Motion Models (WMM)",
+    "title": "World Motion Models: Flexible Sequence Modeling of SE(3) Trajectories",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2610.01742",
+    "websites": [
+      "https://jiahuilei.com/projects/wmm/",
+      "https://github.com/JiahuiLei/WorldMotionModels"
+    ]
+  },
+  {
+    "bibkey": "supp_flowhmr_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "FlowHMR",
+    "title": "FlowHMR: Physically Plausible Motion Capture from Video",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.03691",
+    "websites": [
+      "https://flowhmr.github.io/",
+      "https://github.com/flowhmr/flowhmr",
+      "https://huggingface.co/fafsaf1/flowhmr-0.46B"
+    ]
+  },
+  {
+    "bibkey": "supp_parasitic_motion_decoder_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "PMD",
+    "title": "Parasitic Co-Denoising: Unlocking 3D Human Motion Generation in a Frozen Video Diffusion Model",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.03047",
+    "websites": []
   }
 ]

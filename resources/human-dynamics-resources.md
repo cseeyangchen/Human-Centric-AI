@@ -42,6 +42,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| MotionTwin / MotionTwin-Bench | Dataset + Benchmark | arXiv 2026 | WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation | [:page_facing_up:](https://arxiv.org/abs/2609.36937 "Paper page") | [:house:](https://wl2pvideo.github.io/ "Homepage") |
 | Hi-Singers | Dataset + Benchmark | ACM MM 2026 | Hi-Singers: A Comprehensive High-Quality Dataset for Expressive Audio-Driven Singing Head Synthesis | [:page_facing_up:](https://arxiv.org/abs/2609.22264 "Paper page") | [🤗](https://huggingface.co/datasets/CharlesZhang-USTC/Hi-Singers "Hugging Face") |
 | HUG-VIS | Dataset + Benchmark | arXiv 2026 | HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence | [:page_facing_up:](https://arxiv.org/abs/2608.26517 "Paper page") | [:octocat:](https://github.com/GML-MMGroup/HUG-VIS "GitHub") |
 | PersonaShot | Benchmark | arXiv 2026 | PersonaShot: Benchmarking Person-Centric Narrative Continuity in Multi-Shot Video Generation | [:page_facing_up:](https://arxiv.org/abs/2608.16717 "Paper page") | [:house:](https://rain152.github.io/PersonaShot/ "Homepage") |
@@ -90,6 +91,8 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| Wild-4K | Dataset + Benchmark | arXiv 2026 | FlowHMR: Physically Plausible Motion Capture from Video | [:page_facing_up:](https://arxiv.org/abs/2610.03691 "Paper page") | [:house:](https://flowhmr.github.io/ "Homepage") [:octocat:](https://github.com/flowhmr/flowhmr/tree/main/data/wild4k "GitHub") |
+| ESTHER3D | Dataset + Benchmark | arXiv 2026 | ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild | [:page_facing_up:](https://arxiv.org/abs/2609.34817 "Paper page") | - |
 | Ego-Exo4D-HM | Dataset | arXiv 2026 | Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures | [:page_facing_up:](https://arxiv.org/abs/2609.30187 "Paper page") | [:house:](https://abhiram824.github.io/egoexo4d_human_meshes/ "Homepage") [:octocat:](https://github.com/Abhiram824/egoexo4d_human_meshes "GitHub") |
 | MRBench | Benchmark | arXiv 2026 | MRBench: A Comprehensive Benchmark for Human Motion-Text Retrieval | [:page_facing_up:](https://arxiv.org/abs/2608.07993 "Paper page") | - |
 | RoMo | Dataset | CVPR 2026 | RoMo: A Large-Scale, Richly Organized Dataset and Semantic Taxonomy for Human Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2605.26241 "Paper page") | [:house:](https://davidzhang73.github.io/romo-website/ "Homepage") |

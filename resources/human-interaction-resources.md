@@ -36,6 +36,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| Ego2Act | Dataset + Benchmark | arXiv 2026 | Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation | [:page_facing_up:](https://arxiv.org/abs/2610.01092 "Paper page") | [:house:](https://ego2act.github.io/ "Homepage") [:octocat:](https://github.com/ego2act/ego2act "GitHub") [🤗](https://huggingface.co/datasets/ego2act/ego2act-bench "Hugging Face") |
 | Coherent4D | Dataset + Benchmark | arXiv 2026 | From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video | [:page_facing_up:](https://arxiv.org/abs/2609.08636 "Paper page") | [:house:](https://corrineqiu.github.io/from-where-to-how/ "Homepage") [:octocat:](https://github.com/CorrineQiu/from-where-to-how "GitHub") |
 | EgoSAT | Benchmark | ECCV 2026 | EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding | [:page_facing_up:](https://arxiv.org/abs/2606.24422 "Paper page") | [:house:](https://leiyj23.github.io/EgoSAT/ "Homepage") |
 | EgoProactive/Pro2Bench | Dataset + Benchmark | arXiv 2026 | Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance | [:page_facing_up:](https://arxiv.org/abs/2606.04970 "Paper page") | [🤗](https://huggingface.co/datasets/facebook/wearable-ai "Hugging Face") |
@@ -71,6 +72,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| HOI-mix | Dataset | arXiv 2026 | World2Motion: Turning Video World Models into 3D Human Motion Generators | [:page_facing_up:](https://arxiv.org/abs/2609.37004 "Paper page") | [:house:](https://fyantu.github.io/World2Motion/ "Homepage") |
 | CrossHOI-Bench | Benchmark | CVPR 2026 | CrossHOI-Bench: A Unified Benchmark for HOI Evaluation across Vision-Language Models and HOI-Specific Methods | [:page_facing_up:](https://doi.org/10.48550/arxiv.2508.18753 "Paper page") | [:octocat:](https://github.com/ChelsieLei/CrossHOI-Bench "GitHub") |
 | HanDyVQA | Benchmark | CVPR 2026 | HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics | [:page_facing_up:](https://doi.org/10.48550/arxiv.2512.00885 "Paper page") | [:house:](https://masatate.github.io/HanDyVQA-project-page/ "Homepage") |
 | CORE4D | Dataset | CVPR 2025 | CORE4D: A 4D Human-Object-Human Interaction Dataset for Collaborative Object Rearrangement | [:page_facing_up:](https://doi.org/10.1109/cvpr52734.2025.00172 "Paper page") | [:house:](https://core4d.github.io/ "Homepage") |
@@ -119,6 +121,9 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| GLARE (Listener Reactions) | Dataset + Benchmark | NeurIPS 2026 | GLARE: Generating Listening Heads with Appropriate Reactions | [:page_facing_up:](https://arxiv.org/abs/2609.40317 "Paper page") | [:octocat:](https://github.com/lzk901372/glare "GitHub") [:octocat:](https://github.com/lzk901372/visual_reaction_annotation/tree/main "GitHub") |
+| InterHead-Bench | Dataset + Benchmark | arXiv 2026 | EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold | [:page_facing_up:](https://arxiv.org/abs/2609.35616 "Paper page") | [:house:](https://blog.evolving-avatar.com/ "Homepage") |
+| AffectMoCap | Dataset | arXiv 2026 | SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2609.33311 "Paper page") | [:house:](https://rex0191.github.io/SocialHumanoid/ "Homepage") |
 | EmotionDialogCN | Dataset | arXiv 2026 | EmotionDialogCN: A Spontaneous Multimodal Dataset for Mandarin Emotional Dialogue | [:page_facing_up:](https://arxiv.org/abs/2608.20905 "Paper page") | - |
 | Inter-X++ | Dataset + Benchmark | arXiv 2026 | Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis | [:page_facing_up:](https://arxiv.org/abs/2608.20312 "Paper page") | - |
 | MPIE-Bench | Benchmark | arXiv 2026 | MPIE-Bench: Benchmarking Anatomically Plausible Multi-Person Interaction Editing | [:page_facing_up:](https://arxiv.org/abs/2607.27616 "Paper page") | [:octocat:](https://github.com/AnnLin0628/mpie-bench "GitHub") |
