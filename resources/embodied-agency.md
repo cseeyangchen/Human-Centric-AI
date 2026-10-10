@@ -28,6 +28,10 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Being-M0.7 | Being-M0.7: A Latent World-Action Model for Humanoid Robots | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.11283 "Paper page") | - |
+| DIGHT | From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.10322 "Paper page") | [:house:](https://1233chen.github.io/DIGHT/ "Homepage") |
+| InterMimicGen | InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.06850 "Paper page") | [:house:](https://sirui-xu.github.io/InterMimicGen/ "Homepage") |
+| TERRA | TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38653 "Paper page") | [:house:](https://cnai.epfl.ch/terra/ "Homepage") [:octocat:](https://github.com/amathislab/terra "GitHub") |
 | SocialHumanoid | SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.33311 "Paper page") | [:house:](https://rex0191.github.io/SocialHumanoid/ "Homepage") |
 | S3 (Sample, Simulate, Select) | Sample, Simulate, Select: Physics-in-the-Loop Text-to-Motion for Humanoids Without Training | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.26420 "Paper page") | - |
 | WholeBodyWAM (Motion Priors) | WholeBodyWAM: Learning Whole-Body World Action Models with Scalable Motion Priors | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.18197 "Paper page") | [:house:](https://zbzyjya.github.io/WholeBodyWAM/ "Homepage") |
@@ -70,6 +74,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Dex-One2Many | Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.12470 "Paper page") | [:house:](https://dex-one2many.github.io/ "Homepage") |
 | Ego4WAM | Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning? | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.40341 "Paper page") | [:house:](https://sunzhihao18.github.io/Ego4WAM/ "Homepage") [:octocat:](https://github.com/HorizonRobotics/Ego4WAM "GitHub") [🤗](https://huggingface.co/HorizonRobotics/Ego4WAM "Hugging Face") |
 | HuRo | HuRo: Robotizing Human Videos for Scalable VLA Pretraining | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.10706 "Paper page") | [:house:](https://3587jjh.github.io/HuRo/ "Homepage") [:octocat:](https://github.com/3587jjh/HuRo "GitHub") |
 | Zero-WAM | Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.26103 "Paper page") | [:house:](https://robbyant-research.github.io/Zero-WAM/ "Homepage") [:octocat:](https://github.com/robbyant-research/Zero-WAM "GitHub") |

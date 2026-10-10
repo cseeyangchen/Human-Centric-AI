@@ -28,6 +28,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| ME-World | Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.12299 "Paper page") | [:house:](https://cvlab-kaist.github.io/ME-World/ "Homepage") [:octocat:](https://github.com/cvlab-kaist/ME-World "GitHub") |
 | Exo2EgoHOI | Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38615 "Paper page") | [:house:](https://rcl-robotics.github.io/Exo2EgoHOI/ "Homepage") [:octocat:](https://github.com/RCL-Robotics/Exo2EgoHOI "GitHub") |
 | EgoGenesis | EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.28243 "Paper page") | [:house:](https://egogenesis.github.io/ "Homepage") |
 | Real-Time Human-Centric World Modeling for Upper-Body Human-Object Interaction | Real-Time Human-Centric World Modeling for Upper-Body Human-Object Interaction | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.23517 "Paper page") | [:house:](https://bjkim95.github.io/rofacto/ "Homepage") |

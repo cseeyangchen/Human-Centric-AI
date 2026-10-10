@@ -91,6 +91,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| TimelineMotion | Dataset | arXiv 2026 | Streaming Multi-Track Timeline Control for 3D Human Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2610.03873 "Paper page") | [:house:](https://mael-zys.github.io/TimelineControl/ "Homepage") [:octocat:](https://github.com/Mael-zys/TimelineControl "GitHub") |
 | Wild-4K | Dataset + Benchmark | arXiv 2026 | FlowHMR: Physically Plausible Motion Capture from Video | [:page_facing_up:](https://arxiv.org/abs/2610.03691 "Paper page") | [:house:](https://flowhmr.github.io/ "Homepage") [:octocat:](https://github.com/flowhmr/flowhmr/tree/main/data/wild4k "GitHub") |
 | ESTHER3D | Dataset + Benchmark | arXiv 2026 | ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild | [:page_facing_up:](https://arxiv.org/abs/2609.34817 "Paper page") | - |
 | Ego-Exo4D-HM | Dataset | arXiv 2026 | Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures | [:page_facing_up:](https://arxiv.org/abs/2609.30187 "Paper page") | [:house:](https://abhiram824.github.io/egoexo4d_human_meshes/ "Homepage") [:octocat:](https://github.com/Abhiram824/egoexo4d_human_meshes "GitHub") |

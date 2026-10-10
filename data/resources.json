@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-10-05",
+  "generated_on": "2026-10-10",
   "summary": {
-    "unique_method_papers": 303,
-    "categorized_method_entries": 307,
+    "unique_method_papers": 319,
+    "categorized_method_entries": 323,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 16,
     "categorized_survey_entries": 16,
-    "unique_resources": 187,
-    "categorized_resource_entries": 187
+    "unique_resources": 188,
+    "categorized_resource_entries": 188
   },
   "method_papers": {
     "Visual Appearance": {
@@ -715,6 +715,36 @@
     "Spatial Geometry": {
       "Structured Geometry Modeling": [
         {
+          "bibkey": "supp_johan_2026",
+          "name": "JoHan",
+          "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.10512",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            10512
+          ]
+        },
+        {
+          "bibkey": "supp_verifier_guided_human_shape_2026",
+          "name": "Verifier-Guided Synthetic Augmentation",
+          "title": "Verifier-Guided Synthetic Augmentation for 3D Human Shape Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.04006",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            4006
+          ]
+        },
+        {
           "bibkey": "supp_egofound3r_2026",
           "name": "EgoFound3R",
           "title": "EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes",
@@ -1129,6 +1159,21 @@
       ],
       "Renderable Avatar Modeling": [
         {
+          "bibkey": "supp_counterfactual_route_optimization_2026",
+          "name": "Counterfactual Route Optimization",
+          "title": "Counterfactual Route Optimization for Gaussian Head Avatar Modeling",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.09791",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            9791
+          ]
+        },
+        {
           "bibkey": "supp_singa_2026",
           "name": "SInGA",
           "title": "Learning Semantic Inpainting for Animatable Gaussian Head Avatars",
@@ -1525,6 +1570,45 @@
     },
     "Kinematic Dynamics": {
       "Scalable Motion Modeling": [
+        {
+          "bibkey": "supp_cleanmdm_2026",
+          "name": "CleanMDM",
+          "title": "CleanMDM: Clean Motion Diffusion Model for Multimodal Motion Cleanup",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.05411",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            5411
+          ]
+        },
+        {
+          "bibkey": "supp_timelinecontrol_2026",
+          "name": "TimelineControl",
+          "title": "Streaming Multi-Track Timeline Control for 3D Human Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.03873",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://mael-zys.github.io/TimelineControl/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Mael-zys/TimelineControl"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            3873
+          ]
+        },
         {
           "bibkey": "supp_flowhmr_2026",
           "name": "FlowHMR",
@@ -2733,6 +2817,34 @@
       ],
       "Human Video Animation": [
         {
+          "bibkey": "supp_talklikeyou_2026",
+          "name": "TalkLikeYou",
+          "title": "Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.06658",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://bq-wang0511.github.io/TalkLikeYou/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/BQ-Wang0511/TalkLikeYou"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/doubi-killer/TalkLikeYou"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            6658
+          ]
+        },
+        {
           "bibkey": "supp_megaavatar_2026",
           "name": "MegaAvatar",
           "title": "MegaAvatar: Controllable Talking Avatar Generation",
@@ -3372,6 +3484,84 @@
     },
     "Interaction Modeling": {
       "Human-Object Interaction": [
+        {
+          "bibkey": "supp_mamhoi_2026",
+          "name": "MAMHOI",
+          "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.12416",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://leimingyuan.github.io/MAMHOI-project-page/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/LeiMingyuan/MAMHOI"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            12416
+          ]
+        },
+        {
+          "bibkey": "supp_stablegrasp_2026",
+          "name": "StableGrasp",
+          "title": "StableGrasp: Reconstructing Physically Stable Human Hand Grasps from Single Images",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.09195",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            9195
+          ]
+        },
+        {
+          "bibkey": "supp_4d_hof_2026",
+          "name": "4D-HOF",
+          "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.08782",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://tamu-visual-ai.github.io/4D-HOF/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/TAMU-Visual-AI/4D-HOF"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            8782
+          ]
+        },
+        {
+          "bibkey": "supp_harnesshoi_2026",
+          "name": "HarnessHOI",
+          "title": "Harnessing Multimodal Large Language Models for Training-Free Human-Object Interaction Detection",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.06394",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            6394
+          ]
+        },
         {
           "bibkey": "supp_single_query_bimanual_hoi_2026",
           "name": "Single-Query Bimanual HOI",
@@ -4545,6 +4735,30 @@
     "World Simulation": {
       "Human-Centered World Generation": [
         {
+          "bibkey": "supp_me_world_2026",
+          "name": "ME-World",
+          "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.12299",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://cvlab-kaist.github.io/ME-World/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/cvlab-kaist/ME-World"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            12299
+          ]
+        },
+        {
           "bibkey": "supp_exo2egohoi_2026",
           "name": "Exo2EgoHOI",
           "title": "Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation",
@@ -5057,6 +5271,85 @@
     },
     "Embodied Agency": {
       "Generalist Humanoid Control": [
+        {
+          "bibkey": "supp_being_m07_2026",
+          "name": "Being-M0.7",
+          "title": "Being-M0.7: A Latent World-Action Model for Humanoid Robots",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.11283",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            11283
+          ]
+        },
+        {
+          "bibkey": "supp_dight_2026",
+          "name": "DIGHT",
+          "title": "From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.10322",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://1233chen.github.io/DIGHT/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            10322
+          ]
+        },
+        {
+          "bibkey": "supp_intermimicgen_2026",
+          "name": "InterMimicGen",
+          "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.06850",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://sirui-xu.github.io/InterMimicGen/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            6850
+          ]
+        },
+        {
+          "bibkey": "supp_terra_2026",
+          "name": "TERRA",
+          "title": "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2609.38653",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://cnai.epfl.ch/terra/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/amathislab/terra"
+            }
+          ],
+          "sort_order": [
+            2026,
+            9,
+            0,
+            38653
+          ]
+        },
         {
           "bibkey": "supp_socialhumanoid_2026",
           "name": "SocialHumanoid",
@@ -5641,6 +5934,26 @@
         }
       ],
       "Human-to-Agent Skill Transfer": [
+        {
+          "bibkey": "supp_dex_one2many_2026",
+          "name": "Dex-One2Many",
+          "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.12470",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://dex-one2many.github.io/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            12470
+          ]
+        },
         {
           "bibkey": "supp_ego4wam_2026",
           "name": "Ego4WAM",
@@ -7705,6 +8018,31 @@
         }
       ],
       "Human Kinematic Motion Resources": [
+        {
+          "bibkey": "supp_timelinemotion_2026",
+          "name": "TimelineMotion",
+          "title": "Streaming Multi-Track Timeline Control for 3D Human Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.03873",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://mael-zys.github.io/TimelineControl/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Mael-zys/TimelineControl"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            3873
+          ]
+        },
         {
           "bibkey": "supp_wild4k_2026",
           "name": "Wild-4K",

@@ -316,5 +316,19 @@
       "https://flowhmr.github.io/",
       "https://github.com/flowhmr/flowhmr/tree/main/data/wild4k"
     ]
+  },
+  {
+    "bibkey": "supp_timelinemotion_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "TimelineMotion",
+    "title": "Streaming Multi-Track Timeline Control for 3D Human Motion Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.03873",
+    "websites": [
+      "https://mael-zys.github.io/TimelineControl/",
+      "https://github.com/Mael-zys/TimelineControl"
+    ],
+    "type": "Dataset"
   }
 ]

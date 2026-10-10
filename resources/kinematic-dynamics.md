@@ -28,6 +28,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| CleanMDM | CleanMDM: Clean Motion Diffusion Model for Multimodal Motion Cleanup | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.05411 "Paper page") | - |
+| TimelineControl | Streaming Multi-Track Timeline Control for 3D Human Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.03873 "Paper page") | [:house:](https://mael-zys.github.io/TimelineControl/ "Homepage") [:octocat:](https://github.com/Mael-zys/TimelineControl "GitHub") |
 | FlowHMR | FlowHMR: Physically Plausible Motion Capture from Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.03691 "Paper page") | [:house:](https://flowhmr.github.io/ "Homepage") [:octocat:](https://github.com/flowhmr/flowhmr "GitHub") [🤗](https://huggingface.co/fafsaf1/flowhmr-0.46B "Hugging Face") |
 | PMD | Parasitic Co-Denoising: Unlocking 3D Human Motion Generation in a Frozen Video Diffusion Model | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.03047 "Paper page") | - |
 | MotionMaestro | MotionMaestro: Masked Tokenization for Unified Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.37495 "Paper page") | [:house:](https://kaist-viclab.github.io/MotionMaestro_site/ "Homepage") [:octocat:](https://github.com/KAIST-VICLab/MotionMaestro "GitHub") |
@@ -102,6 +104,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| TalkLikeYou | Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.06658 "Paper page") | [:house:](https://bq-wang0511.github.io/TalkLikeYou/ "Homepage") [:octocat:](https://github.com/BQ-Wang0511/TalkLikeYou "GitHub") [🤗](https://huggingface.co/doubi-killer/TalkLikeYou "Hugging Face") |
 | MegaAvatar | MegaAvatar: Controllable Talking Avatar Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.39273 "Paper page") | [:octocat:](https://github.com/Jeoyal/MegaAvatar "GitHub") |
 | World2Motion | World2Motion: Turning Video World Models into 3D Human Motion Generators | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.37004 "Paper page") | [:house:](https://fyantu.github.io/World2Motion/ "Homepage") |
 | WeLike2Party! | WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.36937 "Paper page") | [:house:](https://wl2pvideo.github.io/ "Homepage") |

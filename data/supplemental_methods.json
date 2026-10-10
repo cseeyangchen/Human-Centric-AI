@@ -927,5 +927,190 @@
     "venue": "arXiv 2026",
     "paper_url": "https://arxiv.org/abs/2610.03047",
     "websites": []
+  },
+  {
+    "bibkey": "supp_talklikeyou_2026",
+    "category": "Human Video Animation",
+    "name": "TalkLikeYou",
+    "title": "Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.06658",
+    "websites": [
+      "https://bq-wang0511.github.io/TalkLikeYou/",
+      "https://github.com/BQ-Wang0511/TalkLikeYou",
+      "https://huggingface.co/doubi-killer/TalkLikeYou"
+    ]
+  },
+  {
+    "bibkey": "supp_harnesshoi_2026",
+    "category": "Human-Object Interaction",
+    "name": "HarnessHOI",
+    "title": "Harnessing Multimodal Large Language Models for Training-Free Human-Object Interaction Detection",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.06394",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_cleanmdm_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "CleanMDM",
+    "title": "CleanMDM: Clean Motion Diffusion Model for Multimodal Motion Cleanup",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.05411",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_verifier_guided_human_shape_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "Verifier-Guided Synthetic Augmentation",
+    "title": "Verifier-Guided Synthetic Augmentation for 3D Human Shape Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.04006",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_timelinecontrol_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "TimelineControl",
+    "title": "Streaming Multi-Track Timeline Control for 3D Human Motion Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.03873",
+    "websites": [
+      "https://mael-zys.github.io/TimelineControl/",
+      "https://github.com/Mael-zys/TimelineControl"
+    ]
+  },
+  {
+    "bibkey": "supp_intermimicgen_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "InterMimicGen",
+    "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.06850",
+    "websites": [
+      "https://sirui-xu.github.io/InterMimicGen/"
+    ]
+  },
+  {
+    "bibkey": "supp_4d_hof_2026",
+    "category": "Human-Object Interaction",
+    "name": "4D-HOF",
+    "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.08782",
+    "websites": [
+      "https://tamu-visual-ai.github.io/4D-HOF/",
+      "https://github.com/TAMU-Visual-AI/4D-HOF"
+    ]
+  },
+  {
+    "bibkey": "supp_stablegrasp_2026",
+    "category": "Human-Object Interaction",
+    "name": "StableGrasp",
+    "title": "StableGrasp: Reconstructing Physically Stable Human Hand Grasps from Single Images",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.09195",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_johan_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "JoHan",
+    "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.10512",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_dight_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "DIGHT",
+    "title": "From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.10322",
+    "websites": [
+      "https://1233chen.github.io/DIGHT/"
+    ]
+  },
+  {
+    "bibkey": "supp_counterfactual_route_optimization_2026",
+    "category": "Renderable Avatar Modeling",
+    "name": "Counterfactual Route Optimization",
+    "title": "Counterfactual Route Optimization for Gaussian Head Avatar Modeling",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.09791",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_terra_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "TERRA",
+    "title": "TERRA: Terrain-Aware Reconstruction, Retargeting and Control for Musculoskeletal Locomotion",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2609.38653",
+    "websites": [
+      "https://cnai.epfl.ch/terra/",
+      "https://github.com/amathislab/terra"
+    ]
+  },
+  {
+    "bibkey": "supp_mamhoi_2026",
+    "category": "Human-Object Interaction",
+    "name": "MAMHOI",
+    "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.12416",
+    "websites": [
+      "https://leimingyuan.github.io/MAMHOI-project-page/",
+      "https://github.com/LeiMingyuan/MAMHOI"
+    ]
+  },
+  {
+    "bibkey": "supp_me_world_2026",
+    "category": "Human-Centered World Generation",
+    "name": "ME-World",
+    "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.12299",
+    "websites": [
+      "https://cvlab-kaist.github.io/ME-World/",
+      "https://github.com/cvlab-kaist/ME-World"
+    ]
+  },
+  {
+    "bibkey": "supp_dex_one2many_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "Dex-One2Many",
+    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.12470",
+    "websites": [
+      "https://dex-one2many.github.io/"
+    ]
+  },
+  {
+    "bibkey": "supp_being_m07_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "Being-M0.7",
+    "title": "Being-M0.7: A Latent World-Action Model for Humanoid Robots",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.11283",
+    "websites": []
   }
 ]

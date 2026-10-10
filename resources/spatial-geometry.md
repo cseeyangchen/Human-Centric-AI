@@ -28,6 +28,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| JoHan | Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.10512 "Paper page") | - |
+| Verifier-Guided Synthetic Augmentation | Verifier-Guided Synthetic Augmentation for 3D Human Shape Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.04006 "Paper page") | - |
 | EgoFound3R | EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.01210 "Paper page") | - |
 | InfiniHand | InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.35743 "Paper page") | [:house:](https://infinihand.github.io/ "Homepage") [:octocat:](https://github.com/infinihand/InfiniHand "GitHub") |
 | ESTHER | ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.34817 "Paper page") | - |
@@ -62,6 +64,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Counterfactual Route Optimization | Counterfactual Route Optimization for Gaussian Head Avatar Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.09791 "Paper page") | - |
 | SInGA | Learning Semantic Inpainting for Animatable Gaussian Head Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38343 "Paper page") | - |
 | 4DAnyone | 4DAnyone: Create Anyone in 4D from a Casual Monocular Video | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20335 "Paper page") | [:house:](https://4danyone.github.io/ "Homepage") [:octocat:](https://github.com/ant-research/4DAnyone "GitHub") [🤗](https://huggingface.co/AntResearch/4DAnyone "Hugging Face") |
 | FlexiAvatar | FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.19100 "Paper page") | [:house:](https://yihalem1.github.io/FlexiAvatar/ "Homepage") |

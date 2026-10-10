@@ -31,6 +31,10 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| MAMHOI | MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.12416 "Paper page") | [:house:](https://leimingyuan.github.io/MAMHOI-project-page/ "Homepage") [:octocat:](https://github.com/LeiMingyuan/MAMHOI "GitHub") |
+| StableGrasp | StableGrasp: Reconstructing Physically Stable Human Hand Grasps from Single Images | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.09195 "Paper page") | - |
+| 4D-HOF | 4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.08782 "Paper page") | [:house:](https://tamu-visual-ai.github.io/4D-HOF/ "Homepage") [:octocat:](https://github.com/TAMU-Visual-AI/4D-HOF "GitHub") |
+| HarnessHOI | Harnessing Multimodal Large Language Models for Training-Free Human-Object Interaction Detection | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.06394 "Paper page") | - |
 | Single-Query Bimanual HOI | Single-Query Person-Centric Bimanual Hand-Object Interaction Detection | ECCV 2026 | [:page_facing_up:](https://link.springer.com/chapter/10.1007/978-3-032-37016-7_20 "Paper page") | - |
 | PAMI | PAMI: Part Anchored Motion for Text to Human-Object Interaction Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38466 "Paper page") | [:house:](https://coral79.github.io/pami/ "Homepage") [:octocat:](https://github.com/Coral79/PAMI-Code "GitHub") |
 | DynamicHOI | DynamicHOI: Coupled Dynamics for Physics-aware HOI Reconstruction | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.36454 "Paper page") | [:house:](https://wenliangguo.github.io/HOI-Reconstruction-Page/ "Homepage") |
