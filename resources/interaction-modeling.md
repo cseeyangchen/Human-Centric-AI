@@ -31,6 +31,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| MFlowHOI | MFlowHOI: Whole-Body Human-Object Interaction Generation via Part-Aware MeanFlow | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.16252 "Paper page") | - |
 | MAMHOI | MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.12416 "Paper page") | [:house:](https://leimingyuan.github.io/MAMHOI-project-page/ "Homepage") [:octocat:](https://github.com/LeiMingyuan/MAMHOI "GitHub") |
 | StableGrasp | StableGrasp: Reconstructing Physically Stable Human Hand Grasps from Single Images | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.09195 "Paper page") | - |
 | 4D-HOF | 4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.08782 "Paper page") | [:house:](https://tamu-visual-ai.github.io/4D-HOF/ "Homepage") [:octocat:](https://github.com/TAMU-Visual-AI/4D-HOF "GitHub") |

@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-10-10",
+  "generated_on": "2026-10-19",
   "summary": {
-    "unique_method_papers": 319,
-    "categorized_method_entries": 323,
+    "unique_method_papers": 336,
+    "categorized_method_entries": 340,
     "unique_perspective_papers": 1,
     "categorized_perspective_entries": 1,
     "unique_survey_papers": 16,
     "categorized_survey_entries": 16,
-    "unique_resources": 188,
-    "categorized_resource_entries": 188
+    "unique_resources": 197,
+    "categorized_resource_entries": 197
   },
   "method_papers": {
     "Visual Appearance": {
@@ -715,6 +715,121 @@
     "Spatial Geometry": {
       "Structured Geometry Modeling": [
         {
+          "bibkey": "supp_dense4d_2026",
+          "name": "Dense4D",
+          "title": "Dense4D: Pixel-Level 4D Human Correspondence",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.22325",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://alpguler.com/dense4d/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            22325
+          ]
+        },
+        {
+          "bibkey": "supp_worldhmr_fastcam_2026",
+          "name": "Closed-Form Scale Correction",
+          "title": "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.19729",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://chien90190.github.io/worldhmr-fastcam-website/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/chien90190/worldhmr-fastcam"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/chien90190/worldhmr-fastcam"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            19729
+          ]
+        },
+        {
+          "bibkey": "supp_egoexplorer_c3_2026",
+          "name": "EgoExplorer (C3)",
+          "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.18872",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://internrobotics.github.io/egoexplorer.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/InternRobotics/EgoExplorer"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/InternRobotics/EgoExplorer"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            18872
+          ]
+        },
+        {
+          "bibkey": "supp_cepheid_2026",
+          "name": "Cepheid",
+          "title": "Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.18871",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://su-terry.github.io/cepheid-website/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Su-Terry/cepheid"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            18871
+          ]
+        },
+        {
+          "bibkey": "supp_egowholeview_2026",
+          "name": "EgoWholeView",
+          "title": "EgoWholeView: Camera-Only Head-Mounted Capture of Body and Bimanual Hand Motion for Embodied Demonstrations",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.16256",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            16256
+          ]
+        },
+        {
           "bibkey": "supp_johan_2026",
           "name": "JoHan",
           "title": "Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery",
@@ -1159,6 +1274,34 @@
       ],
       "Renderable Avatar Modeling": [
         {
+          "bibkey": "supp_video_diffusion_avatars_2026",
+          "name": "Video Diffusion Avatars (VDA)",
+          "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.23772",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://simongiebenhain.github.io/video-diffusion-avatars/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/SimonGiebenhain/video-diffusion-avatars"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/SimonGiebenhain/video-diffusion-avatars"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            23772
+          ]
+        },
+        {
           "bibkey": "supp_counterfactual_route_optimization_2026",
           "name": "Counterfactual Route Optimization",
           "title": "Counterfactual Route Optimization for Gaussian Head Avatar Modeling",
@@ -1570,6 +1713,41 @@
     },
     "Kinematic Dynamics": {
       "Scalable Motion Modeling": [
+        {
+          "bibkey": "supp_image_diffusion_motion_2026",
+          "name": "Image Diffusion Models",
+          "title": "Image Diffusion Models Are Good 3D Human Motion Generators",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.14254",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            14254
+          ]
+        },
+        {
+          "bibkey": "supp_sonic_amg_2026",
+          "name": "Sonic-AMG",
+          "title": "Sonic-AMG: Streaming Human Motion Generation from Spatial Audio",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.13300",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jingchengni.com/sonic-amg/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            13300
+          ]
+        },
         {
           "bibkey": "supp_cleanmdm_2026",
           "name": "CleanMDM",
@@ -2340,6 +2518,30 @@
           ]
         },
         {
+          "bibkey": "supp_mmpencil_2025",
+          "name": "mmPencil",
+          "title": "mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model",
+          "year": "2025",
+          "venue": "IMWUT 2025",
+          "paper_url": "https://doi.org/10.1145/3749504",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/1YifanGuo/mmPencil"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://www.kaggle.com/datasets/mmpencil/mmpencil-dataset"
+            }
+          ],
+          "sort_order": [
+            2025,
+            9,
+            0,
+            0
+          ]
+        },
+        {
           "bibkey": "cao2025being",
           "name": "HuMo100M",
           "title": "Being-M0.5: A Real-Time Controllable Vision-Language-Motion Model",
@@ -2816,6 +3018,26 @@
         }
       ],
       "Human Video Animation": [
+        {
+          "bibkey": "supp_kandinsky_s2v_2026",
+          "name": "Kandinsky S2V 1.0",
+          "title": "Kandinsky S2V 1.0: Audio-Driven Avatar Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.19290",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://kandinskyavatar.github.io/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            19290
+          ]
+        },
         {
           "bibkey": "supp_talklikeyou_2026",
           "name": "TalkLikeYou",
@@ -3484,6 +3706,21 @@
     },
     "Interaction Modeling": {
       "Human-Object Interaction": [
+        {
+          "bibkey": "supp_mflowhoi_2026",
+          "name": "MFlowHOI",
+          "title": "MFlowHOI: Whole-Body Human-Object Interaction Generation via Part-Aware MeanFlow",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.16252",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            16252
+          ]
+        },
         {
           "bibkey": "supp_mamhoi_2026",
           "name": "MAMHOI",
@@ -5029,6 +5266,26 @@
       ],
       "Actionable World Planning": [
         {
+          "bibkey": "supp_p3_wam_2026",
+          "name": "P3-WAM",
+          "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.22363",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://p3-wam.pages.dev/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            22363
+          ]
+        },
+        {
           "bibkey": "supp_world_motion_models_2026",
           "name": "World Motion Models (WMM)",
           "title": "World Motion Models: Flexible Sequence Modeling of SE(3) Trajectories",
@@ -5271,6 +5528,54 @@
     },
     "Embodied Agency": {
       "Generalist Humanoid Control": [
+        {
+          "bibkey": "supp_lambda0_2026",
+          "name": "λ0",
+          "title": "λ0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.18950",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://lambdahumanoid.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/LambdaHumanoid/openlambda"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            18950
+          ]
+        },
+        {
+          "bibkey": "supp_ttco_2026",
+          "name": "TTCO",
+          "title": "Test-Time Compute for Humanoid Behavior Foundation Models",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.14896",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://bfmttc.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Gamma-Robot/bfm_ttc"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            14896
+          ]
+        },
         {
           "bibkey": "supp_being_m07_2026",
           "name": "Being-M0.7",
@@ -5934,6 +6239,56 @@
         }
       ],
       "Human-to-Agent Skill Transfer": [
+        {
+          "bibkey": "supp_egojepa_2026",
+          "name": "EgoJEPA",
+          "title": "EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.20904",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://mengcaopku.github.io/EgoJEPA/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            20904
+          ]
+        },
+        {
+          "bibkey": "supp_hand2robot_2026",
+          "name": "Hand2Robot",
+          "title": "Hand2Robot: Object-Centric 4D Hand Reconstruction from Human Demonstrations for Robotics",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.15769",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            15769
+          ]
+        },
+        {
+          "bibkey": "supp_lapt_scale_2026",
+          "name": "LAPT-Scale",
+          "title": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos",
+          "year": "2026",
+          "venue": "CoRL 2026",
+          "paper_url": "https://arxiv.org/abs/2610.13732",
+          "websites": [],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            13732
+          ]
+        },
         {
           "bibkey": "supp_dex_one2many_2026",
           "name": "Dex-One2Many",
@@ -6764,6 +7119,31 @@
     "Human Subject Resources": {
       "Visual Human Observation": [
         {
+          "bibkey": "supp_distract_2026",
+          "name": "DISTRACT",
+          "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.23772",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://simongiebenhain.github.io/video-diffusion-avatars/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/SimonGiebenhain/video-diffusion-avatars"
+            }
+          ],
+          "type": "Benchmark",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            23772
+          ]
+        },
+        {
           "bibkey": "wang2026mhpr",
           "name": "MHPR",
           "title": "MHPR: Multidimensional Human Perception and Reasoning Benchmark for Large Vision-Languate Models",
@@ -6935,6 +7315,31 @@
             0
           ],
           "type": "Benchmark"
+        },
+        {
+          "bibkey": "supp_mmpencil_data_2025",
+          "name": "mmPencil",
+          "title": "mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model",
+          "year": "2025",
+          "venue": "IMWUT 2025",
+          "paper_url": "https://doi.org/10.1145/3749504",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/1YifanGuo/mmPencil"
+            },
+            {
+              "kind": "homepage",
+              "url": "https://www.kaggle.com/datasets/mmpencil/mmpencil-dataset"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2025,
+            9,
+            0,
+            0
+          ]
         },
         {
           "bibkey": "rahman2024mmvr",
@@ -7760,6 +8165,35 @@
       ],
       "Human Video Behavior Understanding": [
         {
+          "bibkey": "supp_hapact_2026",
+          "name": "HAPACT",
+          "title": "HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2610.22895",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://hapact.hcitech.org/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/HCI-Tech-Lab/HAPACT"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/HAPACT/HAPACT-Dataset"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            22895
+          ]
+        },
+        {
           "bibkey": "gera2026humanmovevqa",
           "name": "HumanMoveVQA",
           "title": "HumanMoveVQA: Can Video MLLMs Reason about Human Movement in Videos?",
@@ -8018,6 +8452,56 @@
         }
       ],
       "Human Kinematic Motion Resources": [
+        {
+          "bibkey": "supp_kpop_stress_test_2026",
+          "name": "K-Pop Stress Test",
+          "title": "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.19729",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://chien90190.github.io/worldhmr-fastcam-website/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/chien90190/worldhmr-fastcam"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/chien90190/worldhmr-fastcam"
+            }
+          ],
+          "type": "Benchmark",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            19729
+          ]
+        },
+        {
+          "bibkey": "supp_elma_2026",
+          "name": "ELMA / ELMABench",
+          "title": "ELMA: Benchmarking Anaphoric Compositions for Long-Term Text-to-Motion Generation",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2610.13549",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://elma-dataset.github.io/"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            13549
+          ]
+        },
         {
           "bibkey": "supp_timelinemotion_2026",
           "name": "TimelineMotion",
@@ -9069,6 +9553,51 @@
     },
     "Human Interaction Resources": {
       "Egocentric Procedural Activities": [
+        {
+          "bibkey": "supp_vista_2026",
+          "name": "VISTA",
+          "title": "VISTA: A Multimodal Egocentric Benchmark for Goal-Oriented Perception and Assistance to Blind and Low-Vision Users",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.22822",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://harvard-ai-and-robotics-lab.github.io/VISTA/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Harvard-AI-and-Robotics-Lab/VISTA"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/harvardairobotics/VISTA"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            22822
+          ]
+        },
+        {
+          "bibkey": "supp_egoomniworld_2026",
+          "name": "EgoOmniWorld",
+          "title": "EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.18499",
+          "websites": [],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            18499
+          ]
+        },
         {
           "bibkey": "supp_ego2act_2026",
           "name": "Ego2Act",
@@ -10526,6 +11055,60 @@
     },
     "Human Embodiment Resources": {
       "Human Data for Embodied AI": [
+        {
+          "bibkey": "supp_humanverse_2026",
+          "name": "HumanVerse",
+          "title": "λ0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.18950",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://lambdahumanoid.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/LambdaHumanoid/openlambda"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            18950
+          ]
+        },
+        {
+          "bibkey": "supp_egoexplorer_data_2026",
+          "name": "EgoExplorer",
+          "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.18872",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://internrobotics.github.io/egoexplorer.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/InternRobotics/EgoExplorer"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/InternRobotics/EgoExplorer"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            10,
+            0,
+            18872
+          ]
+        },
         {
           "bibkey": "supp_robotok_2026",
           "name": "RoboTok",

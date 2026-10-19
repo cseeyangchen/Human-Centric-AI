@@ -28,6 +28,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Image Diffusion Models | Image Diffusion Models Are Good 3D Human Motion Generators | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.14254 "Paper page") | - |
+| Sonic-AMG | Sonic-AMG: Streaming Human Motion Generation from Spatial Audio | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.13300 "Paper page") | [:house:](https://jingchengni.com/sonic-amg/ "Homepage") |
 | CleanMDM | CleanMDM: Clean Motion Diffusion Model for Multimodal Motion Cleanup | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.05411 "Paper page") | - |
 | TimelineControl | Streaming Multi-Track Timeline Control for 3D Human Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.03873 "Paper page") | [:house:](https://mael-zys.github.io/TimelineControl/ "Homepage") [:octocat:](https://github.com/Mael-zys/TimelineControl "GitHub") |
 | FlowHMR | FlowHMR: Physically Plausible Motion Capture from Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.03691 "Paper page") | [:house:](https://flowhmr.github.io/ "Homepage") [:octocat:](https://github.com/flowhmr/flowhmr "GitHub") [🤗](https://huggingface.co/fafsaf1/flowhmr-0.46B "Hugging Face") |
@@ -67,6 +69,7 @@
 | FoundationGait | Silhouette-based Gait Foundation Model | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2512.00691 "Paper page") | [:octocat:](https://github.com/ShiqiYu/OpenGait "GitHub") |
 | HY-Motion 1.0 | HY-Motion 1.0: Scaling Flow Matching Models for Text-To-Motion Generation | arXiv 2025 | [:page_facing_up:](https://arxiv.org/pdf/2512.23464 "Paper page") | [:octocat:](https://github.com/Tencent-Hunyuan/HY-Motion-1.0 "GitHub") |
 | Origins | Learning A Unified Template for Gait Recognition | ICCV 2025 | [:page_facing_up:](https://arxiv.org/abs/2609.18490 "Paper page") | - |
+| mmPencil | mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model | IMWUT 2025 | [:page_facing_up:](https://doi.org/10.1145/3749504 "Paper page") | [:octocat:](https://github.com/1YifanGuo/mmPencil "GitHub") [:house:](https://www.kaggle.com/datasets/mmpencil/mmpencil-dataset "Homepage") |
 | HuMo100M | Being-M0.5: A Real-Time Controllable Vision-Language-Motion Model | ICCV 2025 | [:page_facing_up:](https://arxiv.org/pdf/2508.07863 "Paper page") | [:house:](https://beingbeyond.github.io/Being-M0.5/ "Homepage") |
 | MotionMillion | Go to zero: Towards zero-shot motion generation with million-scale data | ICCV 2025 | [:page_facing_up:](https://arxiv.org/pdf/2507.07095 "Paper page") | [:octocat:](https://github.com/VankouF/MotionMillion-Codes "GitHub") |
 | GENMO | Genmo: A generalist model for human motion | ICCV 2025 | [:page_facing_up:](https://arxiv.org/pdf/2505.01425 "Paper page") | [:house:](https://research.nvidia.com/labs/dair/gem/ "Homepage") |
@@ -104,6 +107,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Kandinsky S2V 1.0 | Kandinsky S2V 1.0: Audio-Driven Avatar Video Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.19290 "Paper page") | [:house:](https://kandinskyavatar.github.io/ "Homepage") |
 | TalkLikeYou | Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.06658 "Paper page") | [:house:](https://bq-wang0511.github.io/TalkLikeYou/ "Homepage") [:octocat:](https://github.com/BQ-Wang0511/TalkLikeYou "GitHub") [🤗](https://huggingface.co/doubi-killer/TalkLikeYou "Hugging Face") |
 | MegaAvatar | MegaAvatar: Controllable Talking Avatar Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.39273 "Paper page") | [:octocat:](https://github.com/Jeoyal/MegaAvatar "GitHub") |
 | World2Motion | World2Motion: Turning Video World Models into 3D Human Motion Generators | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.37004 "Paper page") | [:house:](https://fyantu.github.io/World2Motion/ "Homepage") |

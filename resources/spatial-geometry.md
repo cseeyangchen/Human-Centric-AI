@@ -28,6 +28,11 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Dense4D | Dense4D: Pixel-Level 4D Human Correspondence | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.22325 "Paper page") | [:house:](https://alpguler.com/dense4d/ "Homepage") |
+| Closed-Form Scale Correction | A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.19729 "Paper page") | [:house:](https://chien90190.github.io/worldhmr-fastcam-website/ "Homepage") [:octocat:](https://github.com/chien90190/worldhmr-fastcam "GitHub") [🤗](https://huggingface.co/datasets/chien90190/worldhmr-fastcam "Hugging Face") |
+| EgoExplorer (C3) | EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.18872 "Paper page") | [:house:](https://internrobotics.github.io/egoexplorer.github.io/ "Homepage") [:octocat:](https://github.com/InternRobotics/EgoExplorer "GitHub") [🤗](https://huggingface.co/datasets/InternRobotics/EgoExplorer "Hugging Face") |
+| Cepheid | Cepheid: Decoupling Scale from Structure for Cross-Family Motion Completion | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.18871 "Paper page") | [:house:](https://su-terry.github.io/cepheid-website/ "Homepage") [:octocat:](https://github.com/Su-Terry/cepheid "GitHub") |
+| EgoWholeView | EgoWholeView: Camera-Only Head-Mounted Capture of Body and Bimanual Hand Motion for Embodied Demonstrations | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.16256 "Paper page") | - |
 | JoHan | Video-Conditioned Generative Joint 2D-3D Hand Motion Recovery | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.10512 "Paper page") | - |
 | Verifier-Guided Synthetic Augmentation | Verifier-Guided Synthetic Augmentation for 3D Human Shape Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.04006 "Paper page") | - |
 | EgoFound3R | EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.01210 "Paper page") | - |
@@ -64,6 +69,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Video Diffusion Avatars (VDA) | Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.23772 "Paper page") | [:house:](https://simongiebenhain.github.io/video-diffusion-avatars/ "Homepage") [:octocat:](https://github.com/SimonGiebenhain/video-diffusion-avatars "GitHub") [🤗](https://huggingface.co/SimonGiebenhain/video-diffusion-avatars "Hugging Face") |
 | Counterfactual Route Optimization | Counterfactual Route Optimization for Gaussian Head Avatar Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.09791 "Paper page") | - |
 | SInGA | Learning Semantic Inpainting for Animatable Gaussian Head Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38343 "Paper page") | - |
 | 4DAnyone | 4DAnyone: Create Anyone in 4D from a Casual Monocular Video | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20335 "Paper page") | [:house:](https://4danyone.github.io/ "Homepage") [:octocat:](https://github.com/ant-research/4DAnyone "GitHub") [🤗](https://huggingface.co/AntResearch/4DAnyone "Hugging Face") |

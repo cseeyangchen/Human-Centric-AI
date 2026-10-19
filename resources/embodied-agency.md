@@ -28,6 +28,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| λ0 | λ0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.18950 "Paper page") | [:house:](https://lambdahumanoid.github.io/ "Homepage") [:octocat:](https://github.com/LambdaHumanoid/openlambda "GitHub") |
+| TTCO | Test-Time Compute for Humanoid Behavior Foundation Models | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.14896 "Paper page") | [:house:](https://bfmttc.github.io/ "Homepage") [:octocat:](https://github.com/Gamma-Robot/bfm_ttc "GitHub") |
 | Being-M0.7 | Being-M0.7: A Latent World-Action Model for Humanoid Robots | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.11283 "Paper page") | - |
 | DIGHT | From Digital Human Interactions to Physics-Based Humanoid Skills: Physics-Grounded Post-Training of Interaction Generators | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.10322 "Paper page") | [:house:](https://1233chen.github.io/DIGHT/ "Homepage") |
 | InterMimicGen | InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.06850 "Paper page") | [:house:](https://sirui-xu.github.io/InterMimicGen/ "Homepage") |
@@ -74,6 +76,9 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| EgoJEPA | EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.20904 "Paper page") | [:house:](https://mengcaopku.github.io/EgoJEPA/ "Homepage") |
+| Hand2Robot | Hand2Robot: Object-Centric 4D Hand Reconstruction from Human Demonstrations for Robotics | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.15769 "Paper page") | - |
+| LAPT-Scale | LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.13732 "Paper page") | - |
 | Dex-One2Many | Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.12470 "Paper page") | [:house:](https://dex-one2many.github.io/ "Homepage") |
 | Ego4WAM | Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning? | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.40341 "Paper page") | [:house:](https://sunzhihao18.github.io/Ego4WAM/ "Homepage") [:octocat:](https://github.com/HorizonRobotics/Ego4WAM "GitHub") [🤗](https://huggingface.co/HorizonRobotics/Ego4WAM "Hugging Face") |
 | HuRo | HuRo: Robotizing Human Videos for Scalable VLA Pretraining | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.10706 "Paper page") | [:house:](https://3587jjh.github.io/HuRo/ "Homepage") [:octocat:](https://github.com/3587jjh/HuRo "GitHub") |

@@ -67,6 +67,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| HAPACT | Dataset + Benchmark | NeurIPS 2026 | HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies | [:page_facing_up:](https://arxiv.org/abs/2610.22895 "Paper page") | [:house:](https://hapact.hcitech.org/ "Homepage") [:octocat:](https://github.com/HCI-Tech-Lab/HAPACT "GitHub") [🤗](https://huggingface.co/datasets/HAPACT/HAPACT-Dataset "Hugging Face") |
 | HumanMoveVQA | Benchmark | arXiv 2026 | HumanMoveVQA: Can Video MLLMs Reason about Human Movement in Videos? | [:page_facing_up:](https://arxiv.org/abs/2606.27999 "Paper page") | - |
 | FineBench | Benchmark | CVPRW 2026 | FineBench: Benchmarking and Enhancing Vision-Language Models for Fine-grained Human Activity Understanding | [:page_facing_up:](https://arxiv.org/abs/2605.19846 "Paper page") | [:octocat:](https://github.com/joslefaure/FineBench_eval "GitHub") [:house:](https://joslefaure.github.io/assets/html/finebench.html "Homepage") [🤗](https://huggingface.co/datasets/FINEBENCH/FineBench "Hugging Face") |
 | HumanNet | Dataset | arXiv 2026 | HumanNet: Scaling Human-centric Video Learning to One Million Hours | [:page_facing_up:](https://arxiv.org/abs/2605.06747 "Paper page") | [:octocat:](https://github.com/DAGroup-PKU/HumanNet "GitHub") [:house:](https://dagroup-pku.github.io/HumanNet/ "Homepage") |
@@ -91,6 +92,8 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| K-Pop Stress Test | Benchmark | arXiv 2026 | A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics | [:page_facing_up:](https://arxiv.org/abs/2610.19729 "Paper page") | [:house:](https://chien90190.github.io/worldhmr-fastcam-website/ "Homepage") [:octocat:](https://github.com/chien90190/worldhmr-fastcam "GitHub") [🤗](https://huggingface.co/datasets/chien90190/worldhmr-fastcam "Hugging Face") |
+| ELMA / ELMABench | Dataset + Benchmark | NeurIPS 2026 | ELMA: Benchmarking Anaphoric Compositions for Long-Term Text-to-Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2610.13549 "Paper page") | [:house:](https://elma-dataset.github.io/ "Homepage") |
 | TimelineMotion | Dataset | arXiv 2026 | Streaming Multi-Track Timeline Control for 3D Human Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2610.03873 "Paper page") | [:house:](https://mael-zys.github.io/TimelineControl/ "Homepage") [:octocat:](https://github.com/Mael-zys/TimelineControl "GitHub") |
 | Wild-4K | Dataset + Benchmark | arXiv 2026 | FlowHMR: Physically Plausible Motion Capture from Video | [:page_facing_up:](https://arxiv.org/abs/2610.03691 "Paper page") | [:house:](https://flowhmr.github.io/ "Homepage") [:octocat:](https://github.com/flowhmr/flowhmr/tree/main/data/wild4k "GitHub") |
 | ESTHER3D | Dataset + Benchmark | arXiv 2026 | ESTHER: Egocentric Stereo Hand Estimation and Reconstruction in the Wild | [:page_facing_up:](https://arxiv.org/abs/2609.34817 "Paper page") | - |

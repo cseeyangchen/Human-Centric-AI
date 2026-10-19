@@ -36,6 +36,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| DISTRACT | Benchmark | arXiv 2026 | Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars | [:page_facing_up:](https://arxiv.org/abs/2610.23772 "Paper page") | [:house:](https://simongiebenhain.github.io/video-diffusion-avatars/ "Homepage") [:octocat:](https://github.com/SimonGiebenhain/video-diffusion-avatars "GitHub") |
 | MHPR | Benchmark | arXiv 2026 | MHPR: Multidimensional Human Perception and Reasoning Benchmark for Large Vision-Languate Models | [:page_facing_up:](https://arxiv.org/abs/2605.03485 "Paper page") | - |
 | Face-Human-Bench | Benchmark | NeurIPS 2025 | Face-Human-Bench: A Comprehensive Benchmark of Face and Human Understanding for Multi-Modal Assistants | [:page_facing_up:](https://doi.org/10.52202/085713-0322 "Paper page") | [:octocat:](https://github.com/lxq1000/Face-Human-Bench "GitHub") [:house:](https://face-human-bench.github.io/ "Homepage") |
 | FaceBench | Dataset + Benchmark | CVPR 2025 | FaceBench: A Multi-View Multi-Level Facial Attribute VQA Dataset for Benchmarking Face Perception MLLMs | [:page_facing_up:](https://doi.org/10.1109/cvpr52734.2025.00855 "Paper page") | [:octocat:](https://github.com/CVI-SZU/FaceBench "GitHub") |
@@ -57,6 +58,7 @@
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
 | M4Human | Benchmark | CVPR 2026 | M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction | [:page_facing_up:](https://doi.org/10.48550/arxiv.2512.12378 "Paper page") | [:octocat:](https://github.com/FanJunqiao/M4Human "GitHub") [:house:](https://fanjunqiao.github.io/M4Human-site/ "Homepage") |
+| mmPencil | Dataset | IMWUT 2025 | mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model | [:page_facing_up:](https://doi.org/10.1145/3749504 "Paper page") | [:octocat:](https://github.com/1YifanGuo/mmPencil "GitHub") [:house:](https://www.kaggle.com/datasets/mmpencil/mmpencil-dataset "Homepage") |
 | MMVR | Dataset + Benchmark | ECCV 2024 | MMVR: Millimeter-wave Multi-View Radar Dataset and Benchmark for Indoor Perception | [:page_facing_up:](https://doi.org/10.1007/978-3-031-72986-7_18 "Paper page") | [:house:](https://zenodo.org/records/12611978 "Homepage") |
 | RELI11D | Dataset | CVPR 2024 | RELI11D: A Comprehensive Multimodal Human Motion Dataset and Method | [:page_facing_up:](https://doi.org/10.1109/cvpr52733.2024.00219 "Paper page") | [:octocat:](https://github.com/yanmn/RELI11DandLIER "GitHub") [:house:](http://www.lidarhumanmotion.net/reli11d/ "Homepage") |
 | RT-Pose | Benchmark | ECCV 2024 | RT-Pose: A 4D Radar Tensor-based 3D Human Pose Estimation and Localization Benchmark | [:page_facing_up:](https://doi.org/10.1007/978-3-031-73036-8_7 "Paper page") | [:octocat:](https://github.com/ipl-uw/RT-POSE "GitHub") |

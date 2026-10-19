@@ -330,5 +330,132 @@
       "https://github.com/Mael-zys/TimelineControl"
     ],
     "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_elma_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "ELMA / ELMABench",
+    "title": "ELMA: Benchmarking Anaphoric Compositions for Long-Term Text-to-Motion Generation",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2610.13549",
+    "websites": [
+      "https://elma-dataset.github.io/"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_egoexplorer_data_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "EgoExplorer",
+    "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.18872",
+    "websites": [
+      "https://internrobotics.github.io/egoexplorer.github.io/",
+      "https://github.com/InternRobotics/EgoExplorer",
+      "https://huggingface.co/datasets/InternRobotics/EgoExplorer"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_humanverse_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "HumanVerse",
+    "title": "λ0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.18950",
+    "websites": [
+      "https://lambdahumanoid.github.io/",
+      "https://github.com/LambdaHumanoid/openlambda"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_kpop_stress_test_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "K-Pop Stress Test",
+    "title": "A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.19729",
+    "websites": [
+      "https://chien90190.github.io/worldhmr-fastcam-website/",
+      "https://github.com/chien90190/worldhmr-fastcam",
+      "https://huggingface.co/datasets/chien90190/worldhmr-fastcam"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_egoomniworld_2026",
+    "category": "Egocentric Procedural Activities",
+    "name": "EgoOmniWorld",
+    "title": "EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.18499",
+    "websites": [],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_distract_2026",
+    "category": "Visual Human Observation",
+    "name": "DISTRACT",
+    "title": "Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.23772",
+    "websites": [
+      "https://simongiebenhain.github.io/video-diffusion-avatars/",
+      "https://github.com/SimonGiebenhain/video-diffusion-avatars"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_hapact_2026",
+    "category": "Human Video Behavior Understanding",
+    "name": "HAPACT",
+    "title": "HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2610.22895",
+    "websites": [
+      "https://hapact.hcitech.org/",
+      "https://github.com/HCI-Tech-Lab/HAPACT",
+      "https://huggingface.co/datasets/HAPACT/HAPACT-Dataset"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_vista_2026",
+    "category": "Egocentric Procedural Activities",
+    "name": "VISTA",
+    "title": "VISTA: A Multimodal Egocentric Benchmark for Goal-Oriented Perception and Assistance to Blind and Low-Vision Users",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.22822",
+    "websites": [
+      "https://harvard-ai-and-robotics-lab.github.io/VISTA/",
+      "https://github.com/Harvard-AI-and-Robotics-Lab/VISTA",
+      "https://huggingface.co/datasets/harvardairobotics/VISTA"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_mmpencil_data_2025",
+    "category": "Multisensory Human Sensing",
+    "name": "mmPencil",
+    "title": "mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model",
+    "year": "2025",
+    "venue": "IMWUT 2025",
+    "paper_url": "https://doi.org/10.1145/3749504",
+    "websites": [
+      "https://github.com/1YifanGuo/mmPencil",
+      "https://www.kaggle.com/datasets/mmpencil/mmpencil-dataset"
+    ],
+    "type": "Dataset",
+    "month": "September"
   }
 ]

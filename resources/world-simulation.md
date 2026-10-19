@@ -55,6 +55,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| P3-WAM | Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.22363 "Paper page") | [:house:](https://p3-wam.pages.dev/ "Homepage") |
 | World Motion Models (WMM) | World Motion Models: Flexible Sequence Modeling of SE(3) Trajectories | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.01742 "Paper page") | [:house:](https://jiahuilei.com/projects/wmm/ "Homepage") [:octocat:](https://github.com/JiahuiLei/WorldMotionModels "GitHub") |
 | EgoExo-WM | EgoExo-WM: Unlocking Exo Video for Ego World Models | arXiv 2026 | [:page_facing_up:](https://arxiv.org/pdf/2605.15477v1 "Paper page") | [:house:](https://vision.cs.utexas.edu/projects/EgoExo-WM/ "Homepage") |
 | LWM | Lifting Embodied World Models for Planning and Control | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2604.26182 "Paper page") | [:octocat:](https://github.com/alexnwang/lifted-world-model "GitHub") |

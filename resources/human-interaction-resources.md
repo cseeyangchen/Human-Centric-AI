@@ -36,6 +36,8 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| VISTA | Dataset + Benchmark | arXiv 2026 | VISTA: A Multimodal Egocentric Benchmark for Goal-Oriented Perception and Assistance to Blind and Low-Vision Users | [:page_facing_up:](https://arxiv.org/abs/2610.22822 "Paper page") | [:house:](https://harvard-ai-and-robotics-lab.github.io/VISTA/ "Homepage") [:octocat:](https://github.com/Harvard-AI-and-Robotics-Lab/VISTA "GitHub") [🤗](https://huggingface.co/datasets/harvardairobotics/VISTA "Hugging Face") |
+| EgoOmniWorld | Dataset + Benchmark | arXiv 2026 | EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions | [:page_facing_up:](https://arxiv.org/abs/2610.18499 "Paper page") | - |
 | Ego2Act | Dataset + Benchmark | arXiv 2026 | Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation | [:page_facing_up:](https://arxiv.org/abs/2610.01092 "Paper page") | [:house:](https://ego2act.github.io/ "Homepage") [:octocat:](https://github.com/ego2act/ego2act "GitHub") [🤗](https://huggingface.co/datasets/ego2act/ego2act-bench "Hugging Face") |
 | Coherent4D | Dataset + Benchmark | arXiv 2026 | From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video | [:page_facing_up:](https://arxiv.org/abs/2609.08636 "Paper page") | [:house:](https://corrineqiu.github.io/from-where-to-how/ "Homepage") [:octocat:](https://github.com/CorrineQiu/from-where-to-how "GitHub") |
 | EgoSAT | Benchmark | ECCV 2026 | EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding | [:page_facing_up:](https://arxiv.org/abs/2606.24422 "Paper page") | [:house:](https://leiyj23.github.io/EgoSAT/ "Homepage") |
