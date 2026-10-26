@@ -28,6 +28,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| Xp-Data / Xp-Teleop | Dataset + Benchmark | arXiv 2026 | Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience | [:page_facing_up:](https://arxiv.org/abs/2610.26855 "Paper page") | [:house:](https://ropedia.github.io/ropedia-w0/ "Homepage") [:octocat:](https://github.com/Ropedia/ropedia-w0 "GitHub") |
 | HumanVerse | Dataset | arXiv 2026 | λ0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation | [:page_facing_up:](https://arxiv.org/abs/2610.18950 "Paper page") | [:house:](https://lambdahumanoid.github.io/ "Homepage") [:octocat:](https://github.com/LambdaHumanoid/openlambda "GitHub") |
 | EgoExplorer | Dataset | arXiv 2026 | EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ | [:page_facing_up:](https://arxiv.org/abs/2610.18872 "Paper page") | [:house:](https://internrobotics.github.io/egoexplorer.github.io/ "Homepage") [:octocat:](https://github.com/InternRobotics/EgoExplorer "GitHub") [🤗](https://huggingface.co/datasets/InternRobotics/EgoExplorer "Hugging Face") |
 | RoboTok | Dataset + Benchmark | arXiv 2026 | RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning | [:page_facing_up:](https://arxiv.org/abs/2609.03199 "Paper page") | [:house:](https://rice-robotpi-lab.github.io/RoboTok/ "Homepage") [:octocat:](https://github.com/Rice-RobotPI-Lab/RoboTok-Code "GitHub") [🤗](https://huggingface.co/Rice-RobotPI-Lab/robotok-public "Hugging Face") |
@@ -55,6 +56,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| TARSphere-Bench | Benchmark | arXiv 2026 | TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments | [:page_facing_up:](https://arxiv.org/abs/2610.30043 "Paper page") | [:house:](https://xuyicheng-zju.github.io/TARSphere/ "Homepage") [:octocat:](https://github.com/xuyicheng-zju/TARSphere "GitHub") |
 | CoHuB | Dataset + Benchmark | arXiv 2026 | CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration | [:page_facing_up:](https://arxiv.org/abs/2609.34782 "Paper page") | [:house:](https://meat124.github.io/CoHuB/ "Homepage") |
 | HiPHI | Dataset + Benchmark | arXiv 2026 | HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction | [:page_facing_up:](https://arxiv.org/abs/2608.16222 "Paper page") | [:house:](https://noitom-robotics.github.io/hiphi/ "Homepage") [:octocat:](https://github.com/noitom-robotics/hiphi "GitHub") [🤗](https://huggingface.co/datasets/noitomrobotics/HiPHI "Hugging Face") |
 | HumanTracker | Benchmark | ECCV 2026 | HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark | [:page_facing_up:](https://arxiv.org/abs/2608.13555 "Paper page") | [:octocat:](https://github.com/GalaxyGeneralRobotics/HumanTracker "GitHub") [:house:](https://dairuliu.github.io/humantracker "Homepage") [🤗](https://huggingface.co/datasets/dairuliu/HumanTracker "Hugging Face") |

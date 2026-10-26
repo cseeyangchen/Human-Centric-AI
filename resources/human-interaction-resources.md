@@ -36,6 +36,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| Holi-World-Data / Holi-World-Bench | Dataset + Benchmark | arXiv 2026 | Holi-World: Building Holistic World Intelligence from Human-Ego Experience | [:page_facing_up:](https://arxiv.org/abs/2610.26549 "Paper page") | [:house:](https://ropedia.github.io/holi-world/ "Homepage") [:octocat:](https://github.com/Ropedia/holi-world "GitHub") [🤗](https://huggingface.co/datasets/ropedia-ai/holiworld-data "Hugging Face") |
 | VISTA | Dataset + Benchmark | arXiv 2026 | VISTA: A Multimodal Egocentric Benchmark for Goal-Oriented Perception and Assistance to Blind and Low-Vision Users | [:page_facing_up:](https://arxiv.org/abs/2610.22822 "Paper page") | [:house:](https://harvard-ai-and-robotics-lab.github.io/VISTA/ "Homepage") [:octocat:](https://github.com/Harvard-AI-and-Robotics-Lab/VISTA "GitHub") [🤗](https://huggingface.co/datasets/harvardairobotics/VISTA "Hugging Face") |
 | EgoOmniWorld | Dataset + Benchmark | arXiv 2026 | EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions | [:page_facing_up:](https://arxiv.org/abs/2610.18499 "Paper page") | - |
 | Ego2Act | Dataset + Benchmark | arXiv 2026 | Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation | [:page_facing_up:](https://arxiv.org/abs/2610.01092 "Paper page") | [:house:](https://ego2act.github.io/ "Homepage") [:octocat:](https://github.com/ego2act/ego2act "GitHub") [🤗](https://huggingface.co/datasets/ego2act/ego2act-bench "Hugging Face") |
@@ -74,6 +75,10 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| BiHOI | Dataset | arXiv 2026 | DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations | [:page_facing_up:](https://arxiv.org/abs/2610.29997 "Paper page") | [:house:](https://ropedia.github.io/DONIC/ "Homepage") [:octocat:](https://github.com/Ropedia/DONIC "GitHub") |
+| EgoAIM | Benchmark | arXiv 2026 | Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting | [:page_facing_up:](https://arxiv.org/abs/2610.27877 "Paper page") | [:house:](https://gaze2hoi.github.io/ "Homepage") [:octocat:](https://github.com/gaze2hoi/Gaze2HOI "GitHub") [🤗](https://huggingface.co/datasets/gaze2hoi/EgoAIM-Demo "Hugging Face") |
+| EgoX-Data-6M / EgoX-Bench | Dataset + Benchmark | arXiv 2026 | EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience | [:page_facing_up:](https://arxiv.org/abs/2610.26625 "Paper page") | [:house:](https://ropedia.github.io/EgoXperience/ "Homepage") [:octocat:](https://github.com/Ropedia/EgoXperience "GitHub") |
+| SituHOI / FlexHOI-Bench | Dataset + Benchmark | arXiv 2026 | SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction | [:page_facing_up:](https://arxiv.org/abs/2610.23980 "Paper page") | - |
 | HOI-mix | Dataset | arXiv 2026 | World2Motion: Turning Video World Models into 3D Human Motion Generators | [:page_facing_up:](https://arxiv.org/abs/2609.37004 "Paper page") | [:house:](https://fyantu.github.io/World2Motion/ "Homepage") |
 | CrossHOI-Bench | Benchmark | CVPR 2026 | CrossHOI-Bench: A Unified Benchmark for HOI Evaluation across Vision-Language Models and HOI-Specific Methods | [:page_facing_up:](https://doi.org/10.48550/arxiv.2508.18753 "Paper page") | [:octocat:](https://github.com/ChelsieLei/CrossHOI-Bench "GitHub") |
 | HanDyVQA | Benchmark | CVPR 2026 | HanDyVQA: A Video QA Benchmark for Fine-Grained Hand-Object Interaction Dynamics | [:page_facing_up:](https://doi.org/10.48550/arxiv.2512.00885 "Paper page") | [:house:](https://masatate.github.io/HanDyVQA-project-page/ "Homepage") |
@@ -123,6 +128,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| PsycheMME | Benchmark | arXiv 2026 | PsycheMME: A Psychology-Informed Benchmark for Social Understanding and Interaction in Videos | [:page_facing_up:](https://arxiv.org/abs/2610.28625 "Paper page") | [:house:](https://psychemme.github.io/ "Homepage") [:octocat:](https://github.com/psychemme/PsycheMME "GitHub") [🤗](https://huggingface.co/datasets/psychemme/PsycheMME "Hugging Face") |
 | GLARE (Listener Reactions) | Dataset + Benchmark | NeurIPS 2026 | GLARE: Generating Listening Heads with Appropriate Reactions | [:page_facing_up:](https://arxiv.org/abs/2609.40317 "Paper page") | [:octocat:](https://github.com/lzk901372/glare "GitHub") [:octocat:](https://github.com/lzk901372/visual_reaction_annotation/tree/main "GitHub") |
 | InterHead-Bench | Dataset + Benchmark | arXiv 2026 | EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold | [:page_facing_up:](https://arxiv.org/abs/2609.35616 "Paper page") | [:house:](https://blog.evolving-avatar.com/ "Homepage") |
 | AffectMoCap | Dataset | arXiv 2026 | SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2609.33311 "Paper page") | [:house:](https://rex0191.github.io/SocialHumanoid/ "Homepage") |

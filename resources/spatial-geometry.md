@@ -28,6 +28,10 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| EgoHand | EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.30293 "Paper page") | [:octocat:](https://github.com/NVIDIA/IsaacCapture/tree/main/src/python/isaaccapture_egopost "GitHub") [🤗](https://huggingface.co/nvidia/EgoHand-v1 "Hugging Face") |
+| DewHand | DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.29936 "Paper page") | [:house:](https://narusuzuki.github.io/projects/26-dewhand/ "Homepage") |
+| V-JEPA Hand | V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.26780 "Paper page") | [:house:](https://qft-333.github.io/V-JEPA-Hand-Page/ "Homepage") [:octocat:](https://github.com/qft-333/V-JEPA-Hand "GitHub") [🤗](https://huggingface.co/spaces/qft-333/V-JEPA-Hand "Hugging Face") |
+| DePoser (PCHMR) | PCHMR: Empowering and Benchmarking Human Mesh Recovery in Privacy-Constrained Real-World Settings | TMLR 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.24841 "Paper page") | [:house:](https://people.csail.mit.edu/frankzydou/projects/PCHMR/index.html "Homepage") |
 | Dense4D | Dense4D: Pixel-Level 4D Human Correspondence | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.22325 "Paper page") | [:house:](https://alpguler.com/dense4d/ "Homepage") |
 | Closed-Form Scale Correction | A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.19729 "Paper page") | [:house:](https://chien90190.github.io/worldhmr-fastcam-website/ "Homepage") [:octocat:](https://github.com/chien90190/worldhmr-fastcam "GitHub") [🤗](https://huggingface.co/datasets/chien90190/worldhmr-fastcam "Hugging Face") |
 | EgoExplorer (C3) | EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.18872 "Paper page") | [:house:](https://internrobotics.github.io/egoexplorer.github.io/ "Homepage") [:octocat:](https://github.com/InternRobotics/EgoExplorer "GitHub") [🤗](https://huggingface.co/datasets/InternRobotics/EgoExplorer "Hugging Face") |
@@ -69,6 +73,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| HumanSkill-4D | HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.24452 "Paper page") | [:house:](https://jjunsss.github.io/HumanSkill-4D/ "Homepage") |
 | Video Diffusion Avatars (VDA) | Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.23772 "Paper page") | [:house:](https://simongiebenhain.github.io/video-diffusion-avatars/ "Homepage") [:octocat:](https://github.com/SimonGiebenhain/video-diffusion-avatars "GitHub") [🤗](https://huggingface.co/SimonGiebenhain/video-diffusion-avatars "Hugging Face") |
 | Counterfactual Route Optimization | Counterfactual Route Optimization for Gaussian Head Avatar Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.09791 "Paper page") | - |
 | SInGA | Learning Semantic Inpainting for Animatable Gaussian Head Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38343 "Paper page") | - |

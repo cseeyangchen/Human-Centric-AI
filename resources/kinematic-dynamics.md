@@ -28,6 +28,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| SMART (Learn to Modify) | Learn to Modify: Self-evolving Multi-agent Refinement Framework for Conversational Text-to-Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.28210 "Paper page") | - |
+| MOMO | MOMO: Human Motion from Moving Sounds | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.24522 "Paper page") | [:house:](https://cdlchoi.github.io/projects/MOMO/ "Homepage") |
 | Image Diffusion Models | Image Diffusion Models Are Good 3D Human Motion Generators | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.14254 "Paper page") | - |
 | Sonic-AMG | Sonic-AMG: Streaming Human Motion Generation from Spatial Audio | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.13300 "Paper page") | [:house:](https://jingchengni.com/sonic-amg/ "Homepage") |
 | CleanMDM | CleanMDM: Clean Motion Diffusion Model for Multimodal Motion Cleanup | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.05411 "Paper page") | - |
@@ -107,6 +109,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| AVE (Edit in Sync) | Edit in Sync: Unified End-to-End Audio-Visual Editing for Human-Centric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27947 "Paper page") | - |
 | Kandinsky S2V 1.0 | Kandinsky S2V 1.0: Audio-Driven Avatar Video Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.19290 "Paper page") | [:house:](https://kandinskyavatar.github.io/ "Homepage") |
 | TalkLikeYou | Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.06658 "Paper page") | [:house:](https://bq-wang0511.github.io/TalkLikeYou/ "Homepage") [:octocat:](https://github.com/BQ-Wang0511/TalkLikeYou "GitHub") [🤗](https://huggingface.co/doubi-killer/TalkLikeYou "Hugging Face") |
 | MegaAvatar | MegaAvatar: Controllable Talking Avatar Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.39273 "Paper page") | [:octocat:](https://github.com/Jeoyal/MegaAvatar "GitHub") |

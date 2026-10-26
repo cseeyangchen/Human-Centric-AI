@@ -98,6 +98,8 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| PCHMR | Benchmark | TMLR 2026 | PCHMR: Empowering and Benchmarking Human Mesh Recovery in Privacy-Constrained Real-World Settings | [:page_facing_up:](https://arxiv.org/abs/2610.24841 "Paper page") | [:house:](https://people.csail.mit.edu/frankzydou/projects/PCHMR/index.html "Homepage") |
+| ZJU-Refer-3D / ZJU-Refer-4D / HuMMan-Refer-4D | Benchmark | arXiv 2026 | HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time | [:page_facing_up:](https://arxiv.org/abs/2610.24452 "Paper page") | [:house:](https://jjunsss.github.io/HumanSkill-4D/ "Homepage") |
 | MVSign (PHOSA) | Dataset + Benchmark | ECCV 2026 | PHOSA: Photorealistic 3D Sign Avatar Modeling and Benchmark | [:page_facing_up:](https://arxiv.org/abs/2609.29292 "Paper page") | [:house:](https://naaapi.github.io/PHOSA/ "Homepage") [🤗](https://huggingface.co/datasets/naaaaapi/MVSign "Hugging Face") |
 | VolHuMe | Dataset + Benchmark | arXiv 2026 | VolHuMe: a High-Resolution Large Scale Dataset of Volumetric Human Meshes | [:page_facing_up:](https://arxiv.org/abs/2606.23062 "Paper page") | [:house:](https://giuli13.github.io/volhume-website/ "Homepage") |
 | MVHumanNet++ | Dataset | TPAMI 2026 | MVHumanNet++: A Large-scale Dataset of Multi-view Daily Dressing Human Captures with Richer Annotations for 3D Human Digitization | [:page_facing_up:](https://arxiv.org/abs/2505.01838 "Paper page") | [:house:](https://kevinlee09.github.io/research/MVHumanNet++/ "Homepage") |

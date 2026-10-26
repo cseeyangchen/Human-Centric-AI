@@ -28,6 +28,10 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| TARSphere-Harness | TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.30043 "Paper page") | [:house:](https://xuyicheng-zju.github.io/TARSphere/ "Homepage") [:octocat:](https://github.com/xuyicheng-zju/TARSphere "GitHub") |
+| REACT | VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.28523 "Paper page") | [:house:](https://yutoshibata07.github.io/REACT/ "Homepage") [:octocat:](https://github.com/YutoShibata07/REACT-HHI "GitHub") |
+| SuperMimic | SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.28480 "Paper page") | [:house:](https://supermimic.github.io/ "Homepage") |
+| BeJEPA | BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.23127 "Paper page") | [:house:](https://ylyem9x.github.io/BeJEPA-project/ "Homepage") |
 | λ0 | λ0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.18950 "Paper page") | [:house:](https://lambdahumanoid.github.io/ "Homepage") [:octocat:](https://github.com/LambdaHumanoid/openlambda "GitHub") |
 | TTCO | Test-Time Compute for Humanoid Behavior Foundation Models | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.14896 "Paper page") | [:house:](https://bfmttc.github.io/ "Homepage") [:octocat:](https://github.com/Gamma-Robot/bfm_ttc "GitHub") |
 | Being-M0.7 | Being-M0.7: A Latent World-Action Model for Humanoid Robots | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.11283 "Paper page") | - |
@@ -43,6 +47,7 @@
 | GPC | GPC: Large-Scale Generative Pretraining for Transferable Motor Control | SIGGRAPH 2026 | [:page_facing_up:](https://arxiv.org/abs/2606.29148 "Paper page") | [:house:](https://yi-shi94.github.io/gpc-page/ "Homepage") |
 | Humanoid-GPT | Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking | CVPR 2026 | [:page_facing_up:](https://arxiv.org/abs/2606.03985 "Paper page") | [:octocat:](https://github.com/GalaxyGeneralRobotics/Humanoid-GPT/ "GitHub") |
 | SCRIPT | SCRIPT: Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2605.22894 "Paper page") | [:house:](https://zhanglele12138.github.io/SCRIPT/ "Homepage") |
+| HoloMotion-1 | HoloMotion-1 Technical Report | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2605.15336 "Paper page") | [:house:](https://horizonrobotics.github.io/robot_lab/holomotion/ "Homepage") [:octocat:](https://github.com/HorizonRobotics/HoloMotion "GitHub") |
 | VGHuman | Visually-grounded Humanoid Agents | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2604.08509 "Paper page") | [:octocat:](https://github.com/alvinyh/VGHuman "GitHub") |
 | BFM-Zero | BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control Using Unsupervised Reinforcement Learning | ICLR 2026 | [:page_facing_up:](https://arxiv.org/abs/2511.04131 "Paper page") | [:octocat:](https://github.com/LeCAR-Lab/BFM-Zero "GitHub") |
 | CHOREO | CHOREO: Every Humanoid Skill as a Trajectory | Preprint 2026 | [:page_facing_up:](https://ziyisun85-ops.github.io/Project-choreo/paper.pdf "Paper page") | [:house:](https://ziyisun85-ops.github.io/Project-choreo/ "Homepage") [:octocat:](https://github.com/ziyisun85-ops/Project-choreo "GitHub") |
@@ -76,6 +81,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| ViT-H | ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.32966 "Paper page") | [:house:](https://awfuact.github.io/vit-h/ "Homepage") |
+| DONIC | DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.29997 "Paper page") | [:house:](https://ropedia.github.io/DONIC/ "Homepage") [:octocat:](https://github.com/Ropedia/DONIC "GitHub") |
 | EgoJEPA | EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.20904 "Paper page") | [:house:](https://mengcaopku.github.io/EgoJEPA/ "Homepage") |
 | Hand2Robot | Hand2Robot: Object-Centric 4D Hand Reconstruction from Human Demonstrations for Robotics | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.15769 "Paper page") | - |
 | LAPT-Scale | LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.13732 "Paper page") | - |

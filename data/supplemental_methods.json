@@ -1317,5 +1317,324 @@
       "https://www.kaggle.com/datasets/mmpencil/mmpencil-dataset"
     ],
     "month": "September"
+  },
+  {
+    "bibkey": "supp_interactagent_2026",
+    "category": "Human-Scene Interaction",
+    "name": "InteractAgent",
+    "title": "InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection",
+    "year": "2027",
+    "venue": "WACV 2027",
+    "paper_url": "https://arxiv.org/abs/2610.25649",
+    "websites": [
+      "https://github.com/AIGeeksGroup/InteractAgent"
+    ]
+  },
+  {
+    "bibkey": "supp_uliflow_2026",
+    "category": "Human-Object Interaction",
+    "name": "ULIFlow",
+    "title": "ULIFLOW: Unified Latent Human-Object Interaction Flow",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.24286",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_humanskill_4d_2026",
+    "category": "Renderable Avatar Modeling",
+    "name": "HumanSkill-4D",
+    "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.24452",
+    "websites": [
+      "https://jjunsss.github.io/HumanSkill-4D/"
+    ]
+  },
+  {
+    "bibkey": "supp_horia_2026",
+    "category": "Human-Object Interaction",
+    "name": "HORIA",
+    "title": "HORIA: 4D Human and Object Reconstruction from a Monocular Video with Interaction-Aware Re-Rendering",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.25960",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_holi_world_2026",
+    "category": "Human-Scene Interaction",
+    "name": "Holi-World",
+    "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.26549",
+    "websites": [
+      "https://ropedia.github.io/holi-world/",
+      "https://github.com/Ropedia/holi-world",
+      "https://huggingface.co/ropedia-ai/holiworld-vl"
+    ]
+  },
+  {
+    "bibkey": "supp_deposer_pchmr_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "DePoser (PCHMR)",
+    "title": "PCHMR: Empowering and Benchmarking Human Mesh Recovery in Privacy-Constrained Real-World Settings",
+    "year": "2026",
+    "venue": "TMLR 2026",
+    "paper_url": "https://arxiv.org/abs/2610.24841",
+    "websites": [
+      "https://people.csail.mit.edu/frankzydou/projects/PCHMR/index.html"
+    ]
+  },
+  {
+    "bibkey": "supp_momo_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "MOMO",
+    "title": "MOMO: Human Motion from Moving Sounds",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.24522",
+    "websites": [
+      "https://cdlchoi.github.io/projects/MOMO/"
+    ]
+  },
+  {
+    "bibkey": "supp_bejepa_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "BeJEPA",
+    "title": "BeJEPA: A Goal-Conditioned Humanoid Behavior World Model via Unsupervised RL",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.23127",
+    "websites": [
+      "https://ylyem9x.github.io/BeJEPA-project/"
+    ]
+  },
+  {
+    "bibkey": "supp_ropedia_w0_2026",
+    "category": "Actionable World Planning",
+    "name": "Ropedia W0",
+    "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.26855",
+    "websites": [
+      "https://ropedia.github.io/ropedia-w0/",
+      "https://github.com/Ropedia/ropedia-w0"
+    ]
+  },
+  {
+    "bibkey": "supp_vjepa_hand_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "V-JEPA Hand",
+    "title": "V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.26780",
+    "websites": [
+      "https://qft-333.github.io/V-JEPA-Hand-Page/",
+      "https://github.com/qft-333/V-JEPA-Hand",
+      "https://huggingface.co/spaces/qft-333/V-JEPA-Hand"
+    ]
+  },
+  {
+    "bibkey": "supp_egoxperience_2026",
+    "category": "Human-Scene Interaction",
+    "name": "EgoX (EgoXperience)",
+    "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.26625",
+    "websites": [
+      "https://ropedia.github.io/EgoXperience/",
+      "https://github.com/Ropedia/EgoXperience",
+      "https://huggingface.co/ropedia-ai/EgoX"
+    ]
+  },
+  {
+    "bibkey": "supp_touch_jepa_2026",
+    "category": "Human-Object Interaction",
+    "name": "Touch-JEPA",
+    "title": "Touch-JEPA: Tactile Representation Learning from Hand-Object Video with Limited Tactile Supervision",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.28519",
+    "websites": [
+      "https://touch-jepa.github.io/",
+      "https://github.com/mnseong/touch-jepa"
+    ]
+  },
+  {
+    "bibkey": "supp_smart_motion_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "SMART (Learn to Modify)",
+    "title": "Learn to Modify: Self-evolving Multi-agent Refinement Framework for Conversational Text-to-Motion Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.28210",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_ave_edit_in_sync_2026",
+    "category": "Human Video Animation",
+    "name": "AVE (Edit in Sync)",
+    "title": "Edit in Sync: Unified End-to-End Audio-Visual Editing for Human-Centric Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.27947",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_gaze2hoi_2026",
+    "category": "Human-Object Interaction",
+    "name": "Gaze2HOI",
+    "title": "Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.27877",
+    "websites": [
+      "https://gaze2hoi.github.io/",
+      "https://github.com/gaze2hoi/Gaze2HOI"
+    ]
+  },
+  {
+    "bibkey": "supp_world2hosi_2026",
+    "category": "Human-Scene Interaction",
+    "name": "World2HOSI",
+    "title": "World2HOSI: A Multi-Expert Harness for Long-Horizon Human-Object-Scene Interaction Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.27725",
+    "websites": [
+      "https://nintreesssss.github.io/World2HOSI/"
+    ]
+  },
+  {
+    "bibkey": "supp_bump_2026",
+    "category": "Human-Object Interaction",
+    "name": "BUMP",
+    "title": "BUMP: Body-driven Unified Multi-object Physics for HOI Synthesis",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.27066",
+    "websites": [
+      "https://wonjungwoo.github.io/BUMP/"
+    ]
+  },
+  {
+    "bibkey": "supp_react_hhi_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "REACT",
+    "title": "VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction",
+    "year": "2026",
+    "venue": "CoRL 2026",
+    "paper_url": "https://arxiv.org/abs/2610.28523",
+    "websites": [
+      "https://yutoshibata07.github.io/REACT/",
+      "https://github.com/YutoShibata07/REACT-HHI"
+    ]
+  },
+  {
+    "bibkey": "supp_dewhand_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "DewHand",
+    "title": "DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.29936",
+    "websites": [
+      "https://narusuzuki.github.io/projects/26-dewhand/"
+    ]
+  },
+  {
+    "bibkey": "supp_jointlight_2026",
+    "category": "Controllable Human Generation",
+    "name": "JointLight",
+    "title": "JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling",
+    "year": "2026",
+    "venue": "SIGGRAPH Asia 2026",
+    "paper_url": "https://arxiv.org/abs/2610.29780",
+    "websites": [
+      "https://sagileo.github.io/JointLight/",
+      "https://github.com/IGLICT/JointLight"
+    ]
+  },
+  {
+    "bibkey": "supp_donic_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "DONIC",
+    "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.29997",
+    "websites": [
+      "https://ropedia.github.io/DONIC/",
+      "https://github.com/Ropedia/DONIC"
+    ]
+  },
+  {
+    "bibkey": "supp_egohand_2026",
+    "category": "Structured Geometry Modeling",
+    "name": "EgoHand",
+    "title": "EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.30293",
+    "websites": [
+      "https://github.com/NVIDIA/IsaacCapture/tree/main/src/python/isaaccapture_egopost",
+      "https://huggingface.co/nvidia/EgoHand-v1"
+    ]
+  },
+  {
+    "bibkey": "supp_supermimic_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "SuperMimic",
+    "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+    "year": "2026",
+    "venue": "CoRL 2026",
+    "paper_url": "https://arxiv.org/abs/2610.28480",
+    "websites": [
+      "https://supermimic.github.io/"
+    ]
+  },
+  {
+    "bibkey": "supp_tarsphere_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "TARSphere-Harness",
+    "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.30043",
+    "websites": [
+      "https://xuyicheng-zju.github.io/TARSphere/",
+      "https://github.com/xuyicheng-zju/TARSphere"
+    ]
+  },
+  {
+    "bibkey": "supp_holomotion_1_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "HoloMotion-1",
+    "title": "HoloMotion-1 Technical Report",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2605.15336",
+    "websites": [
+      "https://horizonrobotics.github.io/robot_lab/holomotion/",
+      "https://github.com/HorizonRobotics/HoloMotion"
+    ]
+  },
+  {
+    "bibkey": "supp_vit_h_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "ViT-H",
+    "title": "ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.32966",
+    "websites": [
+      "https://awfuact.github.io/vit-h/"
+    ]
   }
 ]

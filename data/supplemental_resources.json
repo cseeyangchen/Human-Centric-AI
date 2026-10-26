@@ -457,5 +457,181 @@
     ],
     "type": "Dataset",
     "month": "September"
+  },
+  {
+    "bibkey": "supp_situhoi_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "SituHOI / FlexHOI-Bench",
+    "title": "SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.23980",
+    "websites": [],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_humanskill_4d_benchmarks_2026",
+    "category": "Renderable Human Geometry",
+    "name": "ZJU-Refer-3D / ZJU-Refer-4D / HuMMan-Refer-4D",
+    "title": "HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.24452",
+    "websites": [
+      "https://jjunsss.github.io/HumanSkill-4D/"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_holi_world_data_2026",
+    "category": "Egocentric Procedural Activities",
+    "name": "Holi-World-Data / Holi-World-Bench",
+    "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.26549",
+    "websites": [
+      "https://ropedia.github.io/holi-world/",
+      "https://github.com/Ropedia/holi-world",
+      "https://huggingface.co/datasets/ropedia-ai/holiworld-data"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_pchmr_benchmark_2026",
+    "category": "Renderable Human Geometry",
+    "name": "PCHMR",
+    "title": "PCHMR: Empowering and Benchmarking Human Mesh Recovery in Privacy-Constrained Real-World Settings",
+    "year": "2026",
+    "venue": "TMLR 2026",
+    "paper_url": "https://arxiv.org/abs/2610.24841",
+    "websites": [
+      "https://people.csail.mit.edu/frankzydou/projects/PCHMR/index.html"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_dysam_dysal_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "DySAM / DySAL",
+    "title": "MOMO: Human Motion from Moving Sounds",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.24522",
+    "websites": [
+      "https://cdlchoi.github.io/projects/MOMO/"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_xp_data_teleop_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "Xp-Data / Xp-Teleop",
+    "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.26855",
+    "websites": [
+      "https://ropedia.github.io/ropedia-w0/",
+      "https://github.com/Ropedia/ropedia-w0"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_egox_data_bench_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "EgoX-Data-6M / EgoX-Bench",
+    "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.26625",
+    "websites": [
+      "https://ropedia.github.io/EgoXperience/",
+      "https://github.com/Ropedia/EgoXperience"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_psychemme_2026",
+    "category": "Social Interaction Data",
+    "name": "PsycheMME",
+    "title": "PsycheMME: A Psychology-Informed Benchmark for Social Understanding and Interaction in Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.28625",
+    "websites": [
+      "https://psychemme.github.io/",
+      "https://github.com/psychemme/PsycheMME",
+      "https://huggingface.co/datasets/psychemme/PsycheMME"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_ave_dataset_2026",
+    "category": "Human Video Generation and Animation",
+    "name": "AVE-Dataset / AVE-Dataset-Bench",
+    "title": "Edit in Sync: Unified End-to-End Audio-Visual Editing for Human-Centric Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.27947",
+    "websites": [],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_egoaim_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "EgoAIM",
+    "title": "Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.27877",
+    "websites": [
+      "https://gaze2hoi.github.io/",
+      "https://github.com/gaze2hoi/Gaze2HOI",
+      "https://huggingface.co/datasets/gaze2hoi/EgoAIM-Demo"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_jointlight_data_2026",
+    "category": "Human Video Generation and Animation",
+    "name": "JointLight multi-illumination data",
+    "title": "JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling",
+    "year": "2026",
+    "venue": "SIGGRAPH Asia 2026",
+    "paper_url": "https://arxiv.org/abs/2610.29780",
+    "websites": [
+      "https://sagileo.github.io/JointLight/",
+      "https://github.com/IGLICT/JointLight"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_bihoi_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "BiHOI",
+    "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.29997",
+    "websites": [
+      "https://ropedia.github.io/DONIC/",
+      "https://github.com/Ropedia/DONIC"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_tarsphere_bench_2026",
+    "category": "Physical Humanoid Control",
+    "name": "TARSphere-Bench",
+    "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.30043",
+    "websites": [
+      "https://xuyicheng-zju.github.io/TARSphere/",
+      "https://github.com/xuyicheng-zju/TARSphere"
+    ],
+    "type": "Benchmark"
   }
 ]

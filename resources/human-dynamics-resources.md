@@ -42,6 +42,8 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| JointLight multi-illumination data | Dataset + Benchmark | SIGGRAPH Asia 2026 | JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling | [:page_facing_up:](https://arxiv.org/abs/2610.29780 "Paper page") | [:house:](https://sagileo.github.io/JointLight/ "Homepage") [:octocat:](https://github.com/IGLICT/JointLight "GitHub") |
+| AVE-Dataset / AVE-Dataset-Bench | Dataset + Benchmark | arXiv 2026 | Edit in Sync: Unified End-to-End Audio-Visual Editing for Human-Centric Videos | [:page_facing_up:](https://arxiv.org/abs/2610.27947 "Paper page") | - |
 | MotionTwin / MotionTwin-Bench | Dataset + Benchmark | arXiv 2026 | WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation | [:page_facing_up:](https://arxiv.org/abs/2609.36937 "Paper page") | [:house:](https://wl2pvideo.github.io/ "Homepage") |
 | Hi-Singers | Dataset + Benchmark | ACM MM 2026 | Hi-Singers: A Comprehensive High-Quality Dataset for Expressive Audio-Driven Singing Head Synthesis | [:page_facing_up:](https://arxiv.org/abs/2609.22264 "Paper page") | [🤗](https://huggingface.co/datasets/CharlesZhang-USTC/Hi-Singers "Hugging Face") |
 | HUG-VIS | Dataset + Benchmark | arXiv 2026 | HUG-VIS: A Multimodal Benchmark for Human-centered Understanding and Generation in Visual Intelligence | [:page_facing_up:](https://arxiv.org/abs/2608.26517 "Paper page") | [:octocat:](https://github.com/GML-MMGroup/HUG-VIS "GitHub") |
@@ -92,6 +94,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| DySAM / DySAL | Dataset + Benchmark | arXiv 2026 | MOMO: Human Motion from Moving Sounds | [:page_facing_up:](https://arxiv.org/abs/2610.24522 "Paper page") | [:house:](https://cdlchoi.github.io/projects/MOMO/ "Homepage") |
 | K-Pop Stress Test | Benchmark | arXiv 2026 | A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics | [:page_facing_up:](https://arxiv.org/abs/2610.19729 "Paper page") | [:house:](https://chien90190.github.io/worldhmr-fastcam-website/ "Homepage") [:octocat:](https://github.com/chien90190/worldhmr-fastcam "GitHub") [🤗](https://huggingface.co/datasets/chien90190/worldhmr-fastcam "Hugging Face") |
 | ELMA / ELMABench | Dataset + Benchmark | NeurIPS 2026 | ELMA: Benchmarking Anaphoric Compositions for Long-Term Text-to-Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2610.13549 "Paper page") | [:house:](https://elma-dataset.github.io/ "Homepage") |
 | TimelineMotion | Dataset | arXiv 2026 | Streaming Multi-Track Timeline Control for 3D Human Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2610.03873 "Paper page") | [:house:](https://mael-zys.github.io/TimelineControl/ "Homepage") [:octocat:](https://github.com/Mael-zys/TimelineControl "GitHub") |

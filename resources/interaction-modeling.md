@@ -31,6 +31,11 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Touch-JEPA | Touch-JEPA: Tactile Representation Learning from Hand-Object Video with Limited Tactile Supervision | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.28519 "Paper page") | [:house:](https://touch-jepa.github.io/ "Homepage") [:octocat:](https://github.com/mnseong/touch-jepa "GitHub") |
+| Gaze2HOI | Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27877 "Paper page") | [:house:](https://gaze2hoi.github.io/ "Homepage") [:octocat:](https://github.com/gaze2hoi/Gaze2HOI "GitHub") |
+| BUMP | BUMP: Body-driven Unified Multi-object Physics for HOI Synthesis | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27066 "Paper page") | [:house:](https://wonjungwoo.github.io/BUMP/ "Homepage") |
+| HORIA | HORIA: 4D Human and Object Reconstruction from a Monocular Video with Interaction-Aware Re-Rendering | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.25960 "Paper page") | - |
+| ULIFlow | ULIFLOW: Unified Latent Human-Object Interaction Flow | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.24286 "Paper page") | - |
 | MFlowHOI | MFlowHOI: Whole-Body Human-Object Interaction Generation via Part-Aware MeanFlow | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.16252 "Paper page") | - |
 | MAMHOI | MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.12416 "Paper page") | [:house:](https://leimingyuan.github.io/MAMHOI-project-page/ "Homepage") [:octocat:](https://github.com/LeiMingyuan/MAMHOI "GitHub") |
 | StableGrasp | StableGrasp: Reconstructing Physically Stable Human Hand Grasps from Single Images | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.09195 "Paper page") | - |
@@ -75,6 +80,10 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| InteractAgent | InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection | WACV 2027 | [:page_facing_up:](https://arxiv.org/abs/2610.25649 "Paper page") | [:octocat:](https://github.com/AIGeeksGroup/InteractAgent "GitHub") |
+| World2HOSI | World2HOSI: A Multi-Expert Harness for Long-Horizon Human-Object-Scene Interaction Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27725 "Paper page") | [:house:](https://nintreesssss.github.io/World2HOSI/ "Homepage") |
+| EgoX (EgoXperience) | EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.26625 "Paper page") | [:house:](https://ropedia.github.io/EgoXperience/ "Homepage") [:octocat:](https://github.com/Ropedia/EgoXperience "GitHub") [🤗](https://huggingface.co/ropedia-ai/EgoX "Hugging Face") |
+| Holi-World | Holi-World: Building Holistic World Intelligence from Human-Ego Experience | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.26549 "Paper page") | [:house:](https://ropedia.github.io/holi-world/ "Homepage") [:octocat:](https://github.com/Ropedia/holi-world "GitHub") [🤗](https://huggingface.co/ropedia-ai/holiworld-vl "Hugging Face") |
 | WildHSR | WildHSR: Metric Feed-Forward 4D People-Scene Reconstruction from a 3D Foundation Model | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.29106 "Paper page") | - |
 | RESELF | Seeing the World and the Self from Egocentric Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.01276 "Paper page") | [:house:](https://ka1guan.github.io/RESELF/ "Homepage") [:octocat:](https://github.com/Ka1Guan/RESELF "GitHub") |
 | ReViV | ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video | ECCV 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.17790 "Paper page") | [:house:](https://reviv4d.github.io/ "Homepage") [:octocat:](https://github.com/lvsean/reviv4d "GitHub") |
