@@ -81,6 +81,8 @@
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
 | InteractAgent | InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection | WACV 2027 | [:page_facing_up:](https://arxiv.org/abs/2610.25649 "Paper page") | [:octocat:](https://github.com/AIGeeksGroup/InteractAgent "GitHub") |
+| EgoMo3R | EgoMo3R: Joint Egocentric Motion and Scene Reconstruction | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.01627 "Paper page") | [:house:](https://chaitanya100100.github.io/EgoMo3R/ "Homepage") [:octocat:](https://github.com/chaitanya100100/EgoMo3R "GitHub") |
+| EgoHSI3R | EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video | CoRL 2026 Workshop (Scaling Human2Robot) | [:page_facing_up:](https://arxiv.org/abs/2610.40832 "Paper page") | [:house:](https://pmz-enterprise.github.io/egohsi3r-page/ "Homepage") [:octocat:](https://github.com/pmz-enterprise/egohsi3r "GitHub") |
 | World2HOSI | World2HOSI: A Multi-Expert Harness for Long-Horizon Human-Object-Scene Interaction Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27725 "Paper page") | [:house:](https://nintreesssss.github.io/World2HOSI/ "Homepage") |
 | EgoX (EgoXperience) | EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.26625 "Paper page") | [:house:](https://ropedia.github.io/EgoXperience/ "Homepage") [:octocat:](https://github.com/Ropedia/EgoXperience "GitHub") [🤗](https://huggingface.co/ropedia-ai/EgoX "Hugging Face") |
 | Holi-World | Holi-World: Building Holistic World Intelligence from Human-Ego Experience | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.26549 "Paper page") | [:house:](https://ropedia.github.io/holi-world/ "Homepage") [:octocat:](https://github.com/Ropedia/holi-world "GitHub") [🤗](https://huggingface.co/ropedia-ai/holiworld-vl "Hugging Face") |
@@ -112,6 +114,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| TalkFlow | TalkFlow: Structured Latent Flow Matching for Speech Driven Holistic Motion Generation | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.40972 "Paper page") | [:house:](https://xinmuwang.github.io/TalkFlow/ "Homepage") |
 | GLARE | GLARE: Generating Listening Heads with Appropriate Reactions | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.40317 "Paper page") | [:octocat:](https://github.com/lzk901372/glare "GitHub") |
 | FlowAct-R2 | FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.35728 "Paper page") | [:house:](https://bone-11.github.io/Flowact-R2/ "Homepage") [🤗](https://huggingface.co/spaces/ProAudience/FlowAct-R2 "Hugging Face") |
 | EvolvingAvatar | EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.35616 "Paper page") | [:house:](https://blog.evolving-avatar.com/ "Homepage") |

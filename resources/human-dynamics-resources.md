@@ -42,6 +42,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| ReXMo paired-triplet data | Dataset | arXiv 2026 | ReXMo: End-to-End Video Character Replacement with Expression and Motion Preservation | [:page_facing_up:](https://arxiv.org/abs/2611.04633 "Paper page") | - |
 | JointLight multi-illumination data | Dataset + Benchmark | SIGGRAPH Asia 2026 | JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling | [:page_facing_up:](https://arxiv.org/abs/2610.29780 "Paper page") | [:house:](https://sagileo.github.io/JointLight/ "Homepage") [:octocat:](https://github.com/IGLICT/JointLight "GitHub") |
 | AVE-Dataset / AVE-Dataset-Bench | Dataset + Benchmark | arXiv 2026 | Edit in Sync: Unified End-to-End Audio-Visual Editing for Human-Centric Videos | [:page_facing_up:](https://arxiv.org/abs/2610.27947 "Paper page") | - |
 | MotionTwin / MotionTwin-Bench | Dataset + Benchmark | arXiv 2026 | WeLike2Party! In-Context Motion Transfer for Multi-Human Image Animation | [:page_facing_up:](https://arxiv.org/abs/2609.36937 "Paper page") | [:house:](https://wl2pvideo.github.io/ "Homepage") |
@@ -69,6 +70,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| SOMA / SOMA-Train | Dataset + Benchmark | arXiv 2026 | SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding | [:page_facing_up:](https://arxiv.org/abs/2610.36384 "Paper page") | [:house:](https://cnai.epfl.ch/soma/ "Homepage") [:octocat:](https://github.com/amathislab/soma "GitHub") |
 | HAPACT | Dataset + Benchmark | NeurIPS 2026 | HAPACT: A Benchmark For Human-Centric Physical Impact Localization in Movies | [:page_facing_up:](https://arxiv.org/abs/2610.22895 "Paper page") | [:house:](https://hapact.hcitech.org/ "Homepage") [:octocat:](https://github.com/HCI-Tech-Lab/HAPACT "GitHub") [🤗](https://huggingface.co/datasets/HAPACT/HAPACT-Dataset "Hugging Face") |
 | HumanMoveVQA | Benchmark | arXiv 2026 | HumanMoveVQA: Can Video MLLMs Reason about Human Movement in Videos? | [:page_facing_up:](https://arxiv.org/abs/2606.27999 "Paper page") | - |
 | FineBench | Benchmark | CVPRW 2026 | FineBench: Benchmarking and Enhancing Vision-Language Models for Fine-grained Human Activity Understanding | [:page_facing_up:](https://arxiv.org/abs/2605.19846 "Paper page") | [:octocat:](https://github.com/joslefaure/FineBench_eval "GitHub") [:house:](https://joslefaure.github.io/assets/html/finebench.html "Homepage") [🤗](https://huggingface.co/datasets/FINEBENCH/FineBench "Hugging Face") |

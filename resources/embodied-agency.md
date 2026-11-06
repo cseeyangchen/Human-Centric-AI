@@ -28,6 +28,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Social Humanoid | Social Humanoid: Socially Responsive Human-Humanoid Interaction | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.08407 "Paper page") | [:house:](https://von31.github.io/social-humanoid/ "Homepage") |
+| Movens-Zero | Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.41877 "Paper page") | [:house:](https://movens-zero.github.io/ "Homepage") [:octocat:](https://github.com/wendell0218/Movens-Zero "GitHub") |
 | TARSphere-Harness | TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.30043 "Paper page") | [:house:](https://xuyicheng-zju.github.io/TARSphere/ "Homepage") [:octocat:](https://github.com/xuyicheng-zju/TARSphere "GitHub") |
 | REACT | VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.28523 "Paper page") | [:house:](https://yutoshibata07.github.io/REACT/ "Homepage") [:octocat:](https://github.com/YutoShibata07/REACT-HHI "GitHub") |
 | SuperMimic | SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model | CoRL 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.28480 "Paper page") | [:house:](https://supermimic.github.io/ "Homepage") |
@@ -81,6 +83,9 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| HumanWAM (Open-HumanWAM) | Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.06817 "Paper page") | [:house:](https://dagroup-pku.github.io/open-humanwam/ "Homepage") [:octocat:](https://github.com/DAGroup-PKU/HumanNet/tree/open-humanscale "GitHub") |
+| FloMo | FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.05062 "Paper page") | [:house:](https://flomo-wam.github.io/ "Homepage") [:octocat:](https://github.com/pairlab/flomo "GitHub") |
+| Pixel-UMI | Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.03647 "Paper page") | [:house:](https://pixel-robot.com/pixel-umi/ "Homepage") |
 | ViT-H | ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.32966 "Paper page") | [:house:](https://awfuact.github.io/vit-h/ "Homepage") |
 | DONIC | DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.29997 "Paper page") | [:house:](https://ropedia.github.io/DONIC/ "Homepage") [:octocat:](https://github.com/Ropedia/DONIC "GitHub") |
 | EgoJEPA | EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.20904 "Paper page") | [:house:](https://mengcaopku.github.io/EgoJEPA/ "Homepage") |

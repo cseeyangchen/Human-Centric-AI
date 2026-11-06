@@ -7,6 +7,7 @@
 
 | Perspective | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Human-Oriented World Model (HOWM) | Human-Oriented World Model | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.02690 "Paper page") | - |
 | ComBodied Agents | ComBodied Agents: a New Paradigm of Human-Centric Agentic AI | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.10915 "Paper page") | - |
 
 ---

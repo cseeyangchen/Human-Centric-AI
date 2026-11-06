@@ -73,6 +73,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| InstantHand | InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.08330 "Paper page") | [:house:](https://coolho1129.github.io/InstantHand-page/ "Homepage") [:octocat:](https://github.com/coolho1129/InstantHand "GitHub") |
+| CGR-GS | Complexity-guided Regularization for Generalizable Human Gaussian Splatting | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.35152 "Paper page") | [:octocat:](https://github.com/DCVL-3D/CGR-GS_release "GitHub") |
 | HumanSkill-4D | HumanSkill-4D: Training-Free Language Querying of Animatable Gaussian Avatars in Space and Time | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.24452 "Paper page") | [:house:](https://jjunsss.github.io/HumanSkill-4D/ "Homepage") |
 | Video Diffusion Avatars (VDA) | Video Diffusion Avatars: Taming Video Diffusion Models into Controllable 3D Avatars | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.23772 "Paper page") | [:house:](https://simongiebenhain.github.io/video-diffusion-avatars/ "Homepage") [:octocat:](https://github.com/SimonGiebenhain/video-diffusion-avatars "GitHub") [🤗](https://huggingface.co/SimonGiebenhain/video-diffusion-avatars "Hugging Face") |
 | Counterfactual Route Optimization | Counterfactual Route Optimization for Gaussian Head Avatar Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.09791 "Paper page") | - |

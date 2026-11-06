@@ -81,6 +81,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| ID-Flow (SynthFaces) | SynthFaces: Balanced Large Scale Human Dataset | BMVC 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.40119 "Paper page") | [:octocat:](https://github.com/ControlGenAI/SynthFaces "GitHub") |
 | JointLight | JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.29780 "Paper page") | [:house:](https://sagileo.github.io/JointLight/ "Homepage") [:octocat:](https://github.com/IGLICT/JointLight "GitHub") |
 | H-SPACE | Human-Centric Image Captioning with Subject-Centered Spatial Understanding | ACM MM 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.08300 "Paper page") | [:octocat:](https://github.com/JHang2020/SPACE-Eval "GitHub") |
 | WithEveryone | WithEveryone: Unified Planning and Identity Grounding for Group Image Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2608.20336 "Paper page") | [:house:](https://doby-xu.github.io/WithEveryone/ "Homepage") [:octocat:](https://github.com/doby-xu/WithEveryone "GitHub") |

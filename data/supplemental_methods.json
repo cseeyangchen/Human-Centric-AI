@@ -1636,5 +1636,225 @@
     "websites": [
       "https://awfuact.github.io/vit-h/"
     ]
+  },
+  {
+    "bibkey": "supp_cgr_gs_2026",
+    "category": "Renderable Avatar Modeling",
+    "name": "CGR-GS",
+    "title": "Complexity-guided Regularization for Generalizable Human Gaussian Splatting",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2610.35152",
+    "websites": [
+      "https://github.com/DCVL-3D/CGR-GS_release"
+    ]
+  },
+  {
+    "bibkey": "supp_id_flow_synthfaces_2026",
+    "category": "Controllable Human Generation",
+    "name": "ID-Flow (SynthFaces)",
+    "title": "SynthFaces: Balanced Large Scale Human Dataset",
+    "year": "2026",
+    "venue": "BMVC 2026",
+    "paper_url": "https://arxiv.org/abs/2610.40119",
+    "websites": [
+      "https://github.com/ControlGenAI/SynthFaces"
+    ]
+  },
+  {
+    "bibkey": "supp_egohsi3r_2026",
+    "category": "Human-Scene Interaction",
+    "name": "EgoHSI3R",
+    "title": "EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video",
+    "year": "2026",
+    "venue": "CoRL 2026 Workshop (Scaling Human2Robot)",
+    "paper_url": "https://arxiv.org/abs/2610.40832",
+    "websites": [
+      "https://pmz-enterprise.github.io/egohsi3r-page/",
+      "https://github.com/pmz-enterprise/egohsi3r"
+    ]
+  },
+  {
+    "bibkey": "supp_movens_zero_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "Movens-Zero",
+    "title": "Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.41877",
+    "websites": [
+      "https://movens-zero.github.io/",
+      "https://github.com/wendell0218/Movens-Zero"
+    ]
+  },
+  {
+    "bibkey": "supp_talkflow_2026",
+    "category": "Social Interaction",
+    "name": "TalkFlow",
+    "title": "TalkFlow: Structured Latent Flow Matching for Speech Driven Holistic Motion Generation",
+    "year": "2026",
+    "venue": "SIGGRAPH Asia 2026",
+    "paper_url": "https://arxiv.org/abs/2610.40972",
+    "websites": [
+      "https://xinmuwang.github.io/TalkFlow/"
+    ]
+  },
+  {
+    "bibkey": "supp_mobius_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "Möbius",
+    "title": "Möbius: A Unified Motion-Language Model Bridging Understanding and Generation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.05279",
+    "websites": [
+      "https://jiazhishu.github.io/mobius/",
+      "https://github.com/JiazhiShu/mobius-code"
+    ]
+  },
+  {
+    "bibkey": "supp_flomo_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "FloMo",
+    "title": "FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.05062",
+    "websites": [
+      "https://flomo-wam.github.io/",
+      "https://github.com/pairlab/flomo"
+    ]
+  },
+  {
+    "bibkey": "supp_rexmo_2026",
+    "category": "Human Video Animation",
+    "name": "ReXMo",
+    "title": "ReXMo: End-to-End Video Character Replacement with Expression and Motion Preservation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.04633",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_egoaction_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "EgoAction",
+    "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.03646",
+    "websites": [
+      "https://egoaction-bench.github.io/",
+      "https://github.com/player0718/EgoActionBench"
+    ]
+  },
+  {
+    "bibkey": "supp_gaitfm_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "GaitFM",
+    "title": "GaitFM: A Cross-Modal Foundation Model for Wearable Gait Assessment",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.01684",
+    "websites": [
+      "https://github.com/saiketa/GaitFM"
+    ]
+  },
+  {
+    "bibkey": "supp_egomo3r_2026",
+    "category": "Human-Scene Interaction",
+    "name": "EgoMo3R",
+    "title": "EgoMo3R: Joint Egocentric Motion and Scene Reconstruction",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2611.01627",
+    "websites": [
+      "https://chaitanya100100.github.io/EgoMo3R/",
+      "https://github.com/chaitanya100100/EgoMo3R"
+    ]
+  },
+  {
+    "bibkey": "supp_pixel_umi_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "Pixel-UMI",
+    "title": "Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.03647",
+    "websites": [
+      "https://pixel-robot.com/pixel-umi/"
+    ]
+  },
+  {
+    "bibkey": "supp_motorsense_2026",
+    "category": "Scalable Motion Modeling",
+    "name": "MotorSense",
+    "title": "MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2610.41127",
+    "websites": [
+      "https://www.cs.umd.edu/~edessale/motorsense/"
+    ]
+  },
+  {
+    "bibkey": "supp_open_humanwam_2026",
+    "category": "Human-to-Agent Skill Transfer",
+    "name": "HumanWAM (Open-HumanWAM)",
+    "title": "Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.06817",
+    "websites": [
+      "https://dagroup-pku.github.io/open-humanwam/",
+      "https://github.com/DAGroup-PKU/HumanNet/tree/open-humanscale"
+    ]
+  },
+  {
+    "bibkey": "supp_egogeneralist_2026",
+    "category": "Actionable World Planning",
+    "name": "EgoGeneralist",
+    "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.08477",
+    "websites": [
+      "https://www.neiljin.site/egogeneralist_page/"
+    ]
+  },
+  {
+    "bibkey": "supp_instanthand_2026",
+    "category": "Renderable Avatar Modeling",
+    "name": "InstantHand",
+    "title": "InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2611.08330",
+    "websites": [
+      "https://coolho1129.github.io/InstantHand-page/",
+      "https://github.com/coolho1129/InstantHand"
+    ]
+  },
+  {
+    "bibkey": "supp_fuha_2026",
+    "category": "Human Video Animation",
+    "name": "FUHA",
+    "title": "Compact Motion Embeddings for Feed-forward Unified Human Animation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.07481",
+    "websites": []
+  },
+  {
+    "bibkey": "supp_social_humanoid_responsive_2026",
+    "category": "Generalist Humanoid Control",
+    "name": "Social Humanoid",
+    "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+    "year": "2026",
+    "venue": "CoRL 2026",
+    "paper_url": "https://arxiv.org/abs/2611.08407",
+    "websites": [
+      "https://von31.github.io/social-humanoid/"
+    ]
   }
 ]

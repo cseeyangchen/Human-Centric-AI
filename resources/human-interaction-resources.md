@@ -36,6 +36,8 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| EgoActionBench | Dataset + Benchmark | arXiv 2026 | EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos | [:page_facing_up:](https://arxiv.org/abs/2611.03646 "Paper page") | [:house:](https://egoaction-bench.github.io/ "Homepage") [:octocat:](https://github.com/player0718/EgoActionBench "GitHub") [🤗](https://huggingface.co/datasets/play0718/EgoActionBench "Hugging Face") |
+| InteractiveWorld / InteractiveBench | Benchmark | arXiv 2026 | InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants | [:page_facing_up:](https://arxiv.org/abs/2610.33966 "Paper page") | [:house:](https://meta-interactiveworld.github.io/ "Homepage") [:octocat:](https://github.com/facebookresearch/InteractiveWorld "GitHub") |
 | Holi-World-Data / Holi-World-Bench | Dataset + Benchmark | arXiv 2026 | Holi-World: Building Holistic World Intelligence from Human-Ego Experience | [:page_facing_up:](https://arxiv.org/abs/2610.26549 "Paper page") | [:house:](https://ropedia.github.io/holi-world/ "Homepage") [:octocat:](https://github.com/Ropedia/holi-world "GitHub") [🤗](https://huggingface.co/datasets/ropedia-ai/holiworld-data "Hugging Face") |
 | VISTA | Dataset + Benchmark | arXiv 2026 | VISTA: A Multimodal Egocentric Benchmark for Goal-Oriented Perception and Assistance to Blind and Low-Vision Users | [:page_facing_up:](https://arxiv.org/abs/2610.22822 "Paper page") | [:house:](https://harvard-ai-and-robotics-lab.github.io/VISTA/ "Homepage") [:octocat:](https://github.com/Harvard-AI-and-Robotics-Lab/VISTA "GitHub") [🤗](https://huggingface.co/datasets/harvardairobotics/VISTA "Hugging Face") |
 | EgoOmniWorld | Dataset + Benchmark | arXiv 2026 | EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions | [:page_facing_up:](https://arxiv.org/abs/2610.18499 "Paper page") | - |
@@ -110,6 +112,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| SATE-Bench | Benchmark | WACV 2027 | Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration? | [:page_facing_up:](https://arxiv.org/abs/2610.34149 "Paper page") | [:house:](https://gtc-gh.github.io/SATE-Bench/ "Homepage") [:octocat:](https://github.com/gtc-gh/SATE-Bench "GitHub") [🤗](https://huggingface.co/datasets/gtc-hf/SATE-Bench "Hugging Face") |
 | EgoHTR | Dataset + Benchmark | CoRL 2026 | EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal | [:page_facing_up:](https://arxiv.org/abs/2607.13472 "Paper page") | [:house:](https://egohtr.github.io/ "Homepage") [🤗](https://huggingface.co/datasets/leggedrobotics/egohtr "Hugging Face") |
 | TRUMANS | Dataset | CVPR 2024 | Scaling Up Dynamic Human-Scene Interaction Modeling | [:page_facing_up:](https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_Scaling_Up_Dynamic_Human-Scene_Interaction_Modeling_CVPR_2024_paper.html "Paper page") | [:octocat:](https://github.com/jnnan/trumans_utils "GitHub") |
 | HUMANISE | Dataset | NeurIPS 2022 | HUMANISE: Language-conditioned Human Motion Generation in 3D Scenes | [:page_facing_up:](https://doi.org/10.48550/arxiv.2210.09729 "Paper page") | [:octocat:](https://github.com/Silverster98/HUMANISE "GitHub") [:house:](https://silverster98.github.io/HUMANISE/ "Homepage") |
@@ -128,6 +131,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| ReactionBench | Benchmark | NeurIPS 2026 Workshop (IAEval) | ReactionBench: A Human-Anchored Benchmark for Modeling Reactions to Video | [:page_facing_up:](https://arxiv.org/abs/2611.00050 "Paper page") | [:house:](https://yibozh.github.io/ReactionBench-page/ "Homepage") [:octocat:](https://github.com/MIT-MI/ReactionBench "GitHub") [🤗](https://huggingface.co/datasets/YiboZhaoMit/ReactionBench "Hugging Face") |
 | PsycheMME | Benchmark | arXiv 2026 | PsycheMME: A Psychology-Informed Benchmark for Social Understanding and Interaction in Videos | [:page_facing_up:](https://arxiv.org/abs/2610.28625 "Paper page") | [:house:](https://psychemme.github.io/ "Homepage") [:octocat:](https://github.com/psychemme/PsycheMME "GitHub") [🤗](https://huggingface.co/datasets/psychemme/PsycheMME "Hugging Face") |
 | GLARE (Listener Reactions) | Dataset + Benchmark | NeurIPS 2026 | GLARE: Generating Listening Heads with Appropriate Reactions | [:page_facing_up:](https://arxiv.org/abs/2609.40317 "Paper page") | [:octocat:](https://github.com/lzk901372/glare "GitHub") [:octocat:](https://github.com/lzk901372/visual_reaction_annotation/tree/main "GitHub") |
 | InterHead-Bench | Dataset + Benchmark | arXiv 2026 | EvolvingAvatar: Interactive 3D Head Generation That Adapts as Conversations Unfold | [:page_facing_up:](https://arxiv.org/abs/2609.35616 "Paper page") | [:house:](https://blog.evolving-avatar.com/ "Homepage") |

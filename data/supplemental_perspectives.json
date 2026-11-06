@@ -8,5 +8,15 @@
     "venue": "arXiv 2026",
     "paper_url": "https://arxiv.org/abs/2608.10915",
     "websites": []
+  },
+  {
+    "bibkey": "supp_human_oriented_world_model_2026",
+    "category": "Human-Centric Agentic AI",
+    "name": "Human-Oriented World Model (HOWM)",
+    "title": "Human-Oriented World Model",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.02690",
+    "websites": []
   }
 ]

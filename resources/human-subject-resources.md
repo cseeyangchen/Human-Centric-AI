@@ -57,6 +57,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| MotorSense | Dataset | NeurIPS 2026 | MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding | [:page_facing_up:](https://arxiv.org/abs/2610.41127 "Paper page") | [:house:](https://www.cs.umd.edu/~edessale/motorsense/ "Homepage") [🤗](https://huggingface.co/datasets/edessa/motorsense "Hugging Face") |
 | M4Human | Benchmark | CVPR 2026 | M4Human: A Large-Scale Multimodal mmWave Radar Benchmark for Human Mesh Reconstruction | [:page_facing_up:](https://doi.org/10.48550/arxiv.2512.12378 "Paper page") | [:octocat:](https://github.com/FanJunqiao/M4Human "GitHub") [:house:](https://fanjunqiao.github.io/M4Human-site/ "Homepage") |
 | mmPencil | Dataset | IMWUT 2025 | mmPencil: Toward Writing-Style-Independent In-Air Handwriting Recognition via mmWave Radar and Large Vision-Language Model | [:page_facing_up:](https://doi.org/10.1145/3749504 "Paper page") | [:octocat:](https://github.com/1YifanGuo/mmPencil "GitHub") [:house:](https://www.kaggle.com/datasets/mmpencil/mmpencil-dataset "Homepage") |
 | MMVR | Dataset + Benchmark | ECCV 2024 | MMVR: Millimeter-wave Multi-View Radar Dataset and Benchmark for Indoor Perception | [:page_facing_up:](https://doi.org/10.1007/978-3-031-72986-7_18 "Paper page") | [:house:](https://zenodo.org/records/12611978 "Homepage") |
@@ -80,6 +81,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| SynthFaces | Dataset | BMVC 2026 | SynthFaces: Balanced Large Scale Human Dataset | [:page_facing_up:](https://arxiv.org/abs/2610.40119 "Paper page") | [:octocat:](https://github.com/ControlGenAI/SynthFaces "GitHub") [🤗](https://huggingface.co/datasets/shredder67/synthfaces-faces-balanced "Hugging Face") |
 | AG-VPReID | Benchmark | CVPR 2025 | AG-VPReID: A Challenging Large-Scale Benchmark for Aerial-Ground Video-based Person Re-Identification | [:page_facing_up:](https://doi.org/10.1109/cvpr52734.2025.00124 "Paper page") | [:octocat:](https://github.com/agvpreid25/AG-VPReID-Net "GitHub") [:house:](https://agvpreid25.github.io/ "Homepage") |
 | L2RW | Benchmark | CVPR 2025 | From Laboratory to Real World: A New Benchmark Towards Privacy-Preserved Visible-Infrared Person Re-Identification | [:page_facing_up:](https://doi.org/10.1109/cvpr52734.2025.00825 "Paper page") | [:octocat:](https://github.com/Joey623/L2RW "GitHub") |
 | MP-ReID | Benchmark | ICCV 2025 | Multi-modal Multi-platform Person Re-Identification: Benchmark and Method | [:page_facing_up:](https://doi.org/10.1109/iccv51701.2025.00955 "Paper page") | [:house:](https://mp-reid.github.io/ "Homepage") |

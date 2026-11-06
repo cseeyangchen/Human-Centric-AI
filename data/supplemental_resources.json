@@ -633,5 +633,161 @@
       "https://github.com/xuyicheng-zju/TARSphere"
     ],
     "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_sate_bench_2027",
+    "category": "Human-Scene Interaction Data",
+    "name": "SATE-Bench",
+    "title": "Humans in Space: Can MLLMs Construct Human-Centric Spatial Understanding via Active Exocentric Exploration?",
+    "year": "2027",
+    "venue": "WACV 2027",
+    "paper_url": "https://arxiv.org/abs/2610.34149",
+    "websites": [
+      "https://gtc-gh.github.io/SATE-Bench/",
+      "https://github.com/gtc-gh/SATE-Bench",
+      "https://huggingface.co/datasets/gtc-hf/SATE-Bench"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_interactiveworld_bench_2026",
+    "category": "Egocentric Procedural Activities",
+    "name": "InteractiveWorld / InteractiveBench",
+    "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.33966",
+    "websites": [
+      "https://meta-interactiveworld.github.io/",
+      "https://github.com/facebookresearch/InteractiveWorld"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_soma_2026",
+    "category": "Human Video Behavior Understanding",
+    "name": "SOMA / SOMA-Train",
+    "title": "SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.36384",
+    "websites": [
+      "https://cnai.epfl.ch/soma/",
+      "https://github.com/amathislab/soma"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_synthfaces_data_2026",
+    "category": "Human Identity Understanding",
+    "name": "SynthFaces",
+    "title": "SynthFaces: Balanced Large Scale Human Dataset",
+    "year": "2026",
+    "venue": "BMVC 2026",
+    "paper_url": "https://arxiv.org/abs/2610.40119",
+    "websites": [
+      "https://github.com/ControlGenAI/SynthFaces",
+      "https://huggingface.co/datasets/shredder67/synthfaces-faces-balanced"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_movens_data_intent_2026",
+    "category": "Physical Humanoid Control",
+    "name": "Movens-5M / Movens-Intent",
+    "title": "Movens-Zero: Scaling Humanoid Motion Foundation Models with Large-Scale Human Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2610.41877",
+    "websites": [
+      "https://movens-zero.github.io/",
+      "https://github.com/wendell0218/Movens-Zero",
+      "https://huggingface.co/datasets/wendell0218/Movens-5M",
+      "https://huggingface.co/datasets/wendell0218/Movens-Intent"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_rexmo_data_2026",
+    "category": "Human Video Generation and Animation",
+    "name": "ReXMo paired-triplet data",
+    "title": "ReXMo: End-to-End Video Character Replacement with Expression and Motion Preservation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.04633",
+    "websites": [],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_egoactionbench_2026",
+    "category": "Egocentric Procedural Activities",
+    "name": "EgoActionBench",
+    "title": "EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.03646",
+    "websites": [
+      "https://egoaction-bench.github.io/",
+      "https://github.com/player0718/EgoActionBench",
+      "https://huggingface.co/datasets/play0718/EgoActionBench"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_reactionbench_2026",
+    "category": "Social Interaction Data",
+    "name": "ReactionBench",
+    "title": "ReactionBench: A Human-Anchored Benchmark for Modeling Reactions to Video",
+    "year": "2026",
+    "venue": "NeurIPS 2026 Workshop (IAEval)",
+    "paper_url": "https://arxiv.org/abs/2611.00050",
+    "websites": [
+      "https://yibozh.github.io/ReactionBench-page/",
+      "https://github.com/MIT-MI/ReactionBench",
+      "https://huggingface.co/datasets/YiboZhaoMit/ReactionBench"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_motorsense_data_2026",
+    "category": "Multisensory Human Sensing",
+    "name": "MotorSense",
+    "title": "MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2610.41127",
+    "websites": [
+      "https://www.cs.umd.edu/~edessale/motorsense/",
+      "https://huggingface.co/datasets/edessa/motorsense"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_open_humanwam_50k_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "Open-HumanWAM-50K",
+    "title": "Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.06817",
+    "websites": [
+      "https://dagroup-pku.github.io/open-humanwam/",
+      "https://github.com/DAGroup-PKU/HumanNet/tree/open-humanscale",
+      "https://huggingface.co/datasets/DAGroup-PKU/Open-HumanWAM-50K"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_social_humanoid_hhi_2026",
+    "category": "Physical Humanoid Control",
+    "name": "Human-Humanoid Interaction (HHI)",
+    "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+    "year": "2026",
+    "venue": "CoRL 2026",
+    "paper_url": "https://arxiv.org/abs/2611.08407",
+    "websites": [
+      "https://von31.github.io/social-humanoid/"
+    ],
+    "type": "Dataset + Benchmark"
   }
 ]

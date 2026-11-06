@@ -28,6 +28,10 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| Möbius | Möbius: A Unified Motion-Language Model Bridging Understanding and Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.05279 "Paper page") | [:house:](https://jiazhishu.github.io/mobius/ "Homepage") [:octocat:](https://github.com/JiazhiShu/mobius-code "GitHub") |
+| EgoAction | EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.03646 "Paper page") | [:house:](https://egoaction-bench.github.io/ "Homepage") [:octocat:](https://github.com/player0718/EgoActionBench "GitHub") |
+| GaitFM | GaitFM: A Cross-Modal Foundation Model for Wearable Gait Assessment | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.01684 "Paper page") | [:octocat:](https://github.com/saiketa/GaitFM "GitHub") |
+| MotorSense | MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.41127 "Paper page") | [:house:](https://www.cs.umd.edu/~edessale/motorsense/ "Homepage") |
 | SMART (Learn to Modify) | Learn to Modify: Self-evolving Multi-agent Refinement Framework for Conversational Text-to-Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.28210 "Paper page") | - |
 | MOMO | MOMO: Human Motion from Moving Sounds | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.24522 "Paper page") | [:house:](https://cdlchoi.github.io/projects/MOMO/ "Homepage") |
 | Image Diffusion Models | Image Diffusion Models Are Good 3D Human Motion Generators | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.14254 "Paper page") | - |
@@ -109,6 +113,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| FUHA | Compact Motion Embeddings for Feed-forward Unified Human Animation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.07481 "Paper page") | - |
+| ReXMo | ReXMo: End-to-End Video Character Replacement with Expression and Motion Preservation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.04633 "Paper page") | - |
 | AVE (Edit in Sync) | Edit in Sync: Unified End-to-End Audio-Visual Editing for Human-Centric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27947 "Paper page") | - |
 | Kandinsky S2V 1.0 | Kandinsky S2V 1.0: Audio-Driven Avatar Video Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.19290 "Paper page") | [:house:](https://kandinskyavatar.github.io/ "Homepage") |
 | TalkLikeYou | Talk Like You: Imitating How You Speak in Real-Time Talking Head Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.06658 "Paper page") | [:house:](https://bq-wang0511.github.io/TalkLikeYou/ "Homepage") [:octocat:](https://github.com/BQ-Wang0511/TalkLikeYou "GitHub") [🤗](https://huggingface.co/doubi-killer/TalkLikeYou "Hugging Face") |
