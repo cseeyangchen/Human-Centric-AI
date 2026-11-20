@@ -1,14 +1,14 @@
 {
-  "generated_on": "2026-11-06",
+  "generated_on": "2026-11-20",
   "summary": {
-    "unique_method_papers": 380,
-    "categorized_method_entries": 384,
+    "unique_method_papers": 402,
+    "categorized_method_entries": 406,
     "unique_perspective_papers": 2,
     "categorized_perspective_entries": 2,
     "unique_survey_papers": 16,
     "categorized_survey_entries": 16,
-    "unique_resources": 221,
-    "categorized_resource_entries": 221
+    "unique_resources": 236,
+    "categorized_resource_entries": 236
   },
   "method_papers": {
     "Visual Appearance": {
@@ -758,6 +758,41 @@
     },
     "Spatial Geometry": {
       "Structured Geometry Modeling": [
+        {
+          "bibkey": "supp_body_of_evidence_2026",
+          "name": "BoE (Body of Evidence)",
+          "title": "Body of Evidence: Triangulating 3D Human Pose with Geometry-Conditioned Depth",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.21044",
+          "websites": [],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            21044
+          ]
+        },
+        {
+          "bibkey": "supp_cisyn_hmr_2026",
+          "name": "CISyn (uncertainty-aware HMR)",
+          "title": "CISyn: Human Mesh Recovery in Close Interactions with Physics-Simulated Synthetic Data",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.18894",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/yfde/CISyn"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            18894
+          ]
+        },
         {
           "bibkey": "supp_egohand_2026",
           "name": "EgoHand",
@@ -1913,6 +1948,70 @@
     },
     "Kinematic Dynamics": {
       "Scalable Motion Modeling": [
+        {
+          "bibkey": "supp_wear_and_go_2026",
+          "name": "MOSAIC (Wear and Go)",
+          "title": "Wear and Go: Calibration Free Sparse Inertial Motion Capture via Online Sensor Setup Estimation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.22894",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://tanyuanshuo.github.io/wearandgo_page/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            22894
+          ]
+        },
+        {
+          "bibkey": "supp_bal_2026",
+          "name": "BAL",
+          "title": "BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2611.18559",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/kyotovision-public/bal"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            18559
+          ]
+        },
+        {
+          "bibkey": "supp_flashmotion_2026",
+          "name": "FlashMotion",
+          "title": "FlashMotion: Ultra-Fast Long-Term 3D Motion Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.13626",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://sun-happy-ykx.github.io/FlashMotion-Project/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Sun-Happy-YKX/FlashMotion-release"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            13626
+          ]
+        },
         {
           "bibkey": "supp_mobius_2026",
           "name": "Möbius",
@@ -3342,6 +3441,45 @@
       ],
       "Human Video Animation": [
         {
+          "bibkey": "supp_remove_2026",
+          "name": "ReMoVe",
+          "title": "ReMoVe: Refining a Video Model's Own Motion for Coherent Human Video Generation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.18666",
+          "websites": [],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            18666
+          ]
+        },
+        {
+          "bibkey": "supp_sceneshifter_2026",
+          "name": "SceneShifter",
+          "title": "SceneShifter: Training-free Multi-Scene Temporal Control for Audio-driven Human Animation",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2611.09960",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jameslong199.github.io/SceneShifter/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/JamesLong199/SceneShifter"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            9960
+          ]
+        },
+        {
           "bibkey": "supp_fuha_2026",
           "name": "FUHA",
           "title": "Compact Motion Embeddings for Feed-forward Unified Human Animation",
@@ -4075,6 +4213,105 @@
     "Interaction Modeling": {
       "Human-Object Interaction": [
         {
+          "bibkey": "supp_corelate_2026",
+          "name": "CoRelate",
+          "title": "CoRelate: Coordinated Human-Object Motion Synthesis through Interaction Relations",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.25166",
+          "websites": [],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            25166
+          ]
+        },
+        {
+          "bibkey": "supp_hoforce_2026",
+          "name": "HOForce",
+          "title": "HOForce: Motion and Force Reconstruction of Hand-Object Interaction Using a Single-View RGB-D Video",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.23871",
+          "websites": [
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/spaces/fnoi16wjhui/HOForce"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            23871
+          ]
+        },
+        {
+          "bibkey": "supp_touchtwin_2026",
+          "name": "TouchTwin",
+          "title": "TouchTwin: Scaling Human Touch Data via Real-to-Sim-to-Real",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.17619",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://touchtwin.github.io/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            17619
+          ]
+        },
+        {
+          "bibkey": "supp_grasping_the_future_2026",
+          "name": "Grasping the Future",
+          "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.12879",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://grasping-the-future.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/RustinS/grasping-the-future"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            12879
+          ]
+        },
+        {
+          "bibkey": "supp_infcoil_2026",
+          "name": "InfCoiL",
+          "title": "InfCoiL: Coordinated Planner-Controller Learning for Closed-Loop Physics-Based Human-Object Interaction",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2611.11517",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://infcoil.github.io/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            11517
+          ]
+        },
+        {
           "bibkey": "supp_touch_jepa_2026",
           "name": "Touch-JEPA",
           "title": "Touch-JEPA: Tactile Representation Learning from Hand-Object Video with Limited Tactile Supervision",
@@ -4800,6 +5037,41 @@
           ]
         },
         {
+          "bibkey": "supp_inhabitant_2026",
+          "name": "Inhabitant",
+          "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.25005",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ryenhails.github.io/Inhabitant/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            25005
+          ]
+        },
+        {
+          "bibkey": "supp_egohmp_2026",
+          "name": "EgoHMP",
+          "title": "EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2611.13654",
+          "websites": [],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            13654
+          ]
+        },
+        {
           "bibkey": "supp_egomo3r_2026",
           "name": "EgoMo3R",
           "title": "EgoMo3R: Joint Egocentric Motion and Scene Reconstruction",
@@ -5214,6 +5486,30 @@
       ],
       "Social Interaction": [
         {
+          "bibkey": "supp_duoflow_2026",
+          "name": "DuoFlow",
+          "title": "DuoFlow: Towards Synchronized Speech and Motion Generation with Fine-Grained Control",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.21530",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jundong-dev.github.io/DuoFlow-project-page/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/JunDong-dev/DuoFlow"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            21530
+          ]
+        },
+        {
           "bibkey": "supp_talkflow_2026",
           "name": "TalkFlow",
           "title": "TalkFlow: Structured Latent Flow Matching for Speech Driven Holistic Motion Generation",
@@ -5602,6 +5898,30 @@
     "World Simulation": {
       "Human-Centered World Generation": [
         {
+          "bibkey": "supp_lynnreal_hand_2026",
+          "name": "LynnReal-Hand",
+          "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.21479",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/LynnReal-AI/LynnReal"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/shaohao011/LynnReal-Hand-Base-1.0"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            21479
+          ]
+        },
+        {
           "bibkey": "supp_me_world_2026",
           "name": "ME-World",
           "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
@@ -5895,6 +6215,21 @@
         }
       ],
       "Actionable World Planning": [
+        {
+          "bibkey": "supp_egohandwam_2026",
+          "name": "EgoHandWAM",
+          "title": "EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.22151",
+          "websites": [],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            22151
+          ]
+        },
         {
           "bibkey": "supp_egogeneralist_2026",
           "name": "EgoGeneralist",
@@ -6203,6 +6538,50 @@
     "Embodied Agency": {
       "Generalist Humanoid Control": [
         {
+          "bibkey": "supp_mixreact_2026",
+          "name": "MixReact",
+          "title": "MixReact: Physics-Based Reactive Humanoid Control from Multimodal Cues via a Discrete-Continuous Mixture of Transformers",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.26218",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://binlee26.github.io/MixReact_Page/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            26218
+          ]
+        },
+        {
+          "bibkey": "supp_kimodo_policy_2026",
+          "name": "Kimodo-Policy",
+          "title": "Kimodo-Policy: Learning Kinematic Action Models for Humanoid Loco-Manipulation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.11554",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://kimodo-policy.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/kimodo-policy/kimodo-policy"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            11554
+          ]
+        },
+        {
           "bibkey": "supp_social_humanoid_responsive_2026",
           "name": "Social Humanoid",
           "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
@@ -6244,6 +6623,26 @@
             10,
             0,
             41877
+          ]
+        },
+        {
+          "bibkey": "supp_metatron_2026",
+          "name": "METATRON",
+          "title": "METATRON: A Promptable Whole-Body Execution Layer for Humanoids",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2610.38027",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://research.nvidia.com/labs/par/projects/metatron/"
+            }
+          ],
+          "sort_order": [
+            2026,
+            10,
+            0,
+            38027
           ]
         },
         {
@@ -7069,6 +7468,45 @@
         }
       ],
       "Human-to-Agent Skill Transfer": [
+        {
+          "bibkey": "supp_awaken_hi_2026",
+          "name": "Awaken-HI",
+          "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.26420",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://engineai-robotics.github.io/Awaken-HI/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/engineai-robotics/Awaken-HI"
+            }
+          ],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            26420
+          ]
+        },
+        {
+          "bibkey": "supp_ego2x_2026",
+          "name": "Ego2X",
+          "title": "Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.24138",
+          "websites": [],
+          "sort_order": [
+            2026,
+            11,
+            0,
+            24138
+          ]
+        },
         {
           "bibkey": "supp_open_humanwam_2026",
           "name": "HumanWAM (Open-HumanWAM)",
@@ -8948,6 +9386,31 @@
     "Human Dynamics Resources": {
       "Human Video Generation and Animation": [
         {
+          "bibkey": "supp_sceneshifterbench_2026",
+          "name": "SceneShifterBench",
+          "title": "SceneShifter: Training-free Multi-Scene Temporal Control for Audio-driven Human Animation",
+          "year": "2026",
+          "venue": "NeurIPS 2026",
+          "paper_url": "https://arxiv.org/abs/2611.09960",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jameslong199.github.io/SceneShifter/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/JamesLong199/SceneShifter"
+            }
+          ],
+          "type": "Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            9960
+          ]
+        },
+        {
           "bibkey": "supp_rexmo_data_2026",
           "name": "ReXMo paired-triplet data",
           "title": "ReXMo: End-to-End Video Character Replacement with Expression and Motion Preservation",
@@ -9583,6 +10046,31 @@
         }
       ],
       "Human Kinematic Motion Resources": [
+        {
+          "bibkey": "supp_forcebody_2026",
+          "name": "ForceBody",
+          "title": "ForceBody: Force-Paired Parametric Body Motion with Torque Uncertainty",
+          "year": "2026",
+          "venue": "NeurIPS 2026 (Evaluations & Datasets)",
+          "paper_url": "https://arxiv.org/abs/2611.22769",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/DominoAI-Lab/ForceBody-NeurIPS-ED-2026"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/kwonjoon/ForceBody"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            22769
+          ]
+        },
         {
           "bibkey": "supp_dysam_dysal_2026",
           "name": "DySAM / DySAL",
@@ -10556,6 +11044,35 @@
       ],
       "Virtual Try-On": [
         {
+          "bibkey": "supp_curvton_205k_2027",
+          "name": "CURVTON-205K",
+          "title": "CURVTON-205K: A Mask-Free Difficulty-Stratified Synthetic Dataset for Robust and Scalable Virtual Try-On",
+          "year": "2027",
+          "venue": "WACV 2027",
+          "paper_url": "https://arxiv.org/abs/2611.24042",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://curvton2.github.io/curvton/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/curvton2/CURVTON_205K"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/curvton2/curvton2"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2027,
+            0,
+            0,
+            0
+          ]
+        },
+        {
           "bibkey": "shao2026tripvvt",
           "name": "TripVVT",
           "title": "TripVVT: A Large-Scale Triplet Dataset and a Coarse-Mask Baseline for In-the-Wild Video Virtual Try-On",
@@ -10705,6 +11222,31 @@
     },
     "Human Interaction Resources": {
       "Egocentric Procedural Activities": [
+        {
+          "bibkey": "supp_humancoin_2026",
+          "name": "HumanCOIN",
+          "title": "HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.26434",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://flagopen.github.io/HumanCOIN/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/HumanCOIN"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            26434
+          ]
+        },
         {
           "bibkey": "supp_egoactionbench_2026",
           "name": "EgoActionBench",
@@ -11330,6 +11872,102 @@
       ],
       "Human-Object Interaction Data": [
         {
+          "bibkey": "supp_handworldbench_2026",
+          "name": "HandWorldBench / HandWorldBench-Corpus",
+          "title": "HandWorldBench: A Unified Benchmark for Hand-Centric World Models",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.24731",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://embodiedcity.github.io/HandWorldBench/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/EmbodiedCity/HandWorldBench"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/EmbodiedCity/HandWorldBench-Corpus"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            24731
+          ]
+        },
+        {
+          "bibkey": "supp_hoforce_data_2026",
+          "name": "HOForce Processed Data Archive",
+          "title": "HOForce: Motion and Force Reconstruction of Hand-Object Interaction Using a Single-View RGB-D Video",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.23871",
+          "websites": [
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/fnoi16wjhui/HOForce-data"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            23871
+          ]
+        },
+        {
+          "bibkey": "supp_lynnreal_hand_data_2026",
+          "name": "LynnReal-Hand interaction data / HandBench",
+          "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.21479",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/LynnReal-AI/LynnReal"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            21479
+          ]
+        },
+        {
+          "bibkey": "supp_grasping_the_future_data_2026",
+          "name": "Grasping the Future trajectories / benchmark",
+          "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.12879",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://grasping-the-future.github.io/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/RustinS/grasping-the-future"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            12879
+          ]
+        },
+        {
           "bibkey": "supp_bihoi_2026",
           "name": "BiHOI",
           "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
@@ -11850,6 +12488,27 @@
           ]
         },
         {
+          "bibkey": "supp_inhabit_bench_2026",
+          "name": "Inhabit",
+          "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.25005",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ryenhails.github.io/Inhabitant/"
+            }
+          ],
+          "type": "Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            25005
+          ]
+        },
+        {
           "bibkey": "supp_egohtr_2026",
           "name": "EgoHTR",
           "title": "EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal",
@@ -11972,6 +12631,60 @@
         }
       ],
       "Social Interaction Data": [
+        {
+          "bibkey": "supp_motionspeech_2026",
+          "name": "MotionSpeech",
+          "title": "DuoFlow: Towards Synchronized Speech and Motion Generation with Fine-Grained Control",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.21530",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://jundong-dev.github.io/DuoFlow-project-page/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/JunDong-dev/DuoFlow"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/JunDong-dev/motionspeech"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            21530
+          ]
+        },
+        {
+          "bibkey": "supp_cisyn_data_2026",
+          "name": "CISyn",
+          "title": "CISyn: Human Mesh Recovery in Close Interactions with Physics-Simulated Synthetic Data",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.18894",
+          "websites": [
+            {
+              "kind": "github",
+              "url": "https://github.com/yfde/CISyn"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/cisyn/cisyn"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            18894
+          ]
+        },
         {
           "bibkey": "supp_reactionbench_2026",
           "name": "ReactionBench",
@@ -12472,6 +13185,105 @@
     },
     "Human Embodiment Resources": {
       "Human Data for Embodied AI": [
+        {
+          "bibkey": "supp_awaken_human_2026",
+          "name": "Awaken-Human",
+          "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.26420",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://engineai-robotics.github.io/Awaken-HI/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/engineai-robotics/Awaken-HI"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/EngineAI-Embodied/Awaken-Human"
+            }
+          ],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            26420
+          ]
+        },
+        {
+          "bibkey": "supp_ego2x_core_data_2026",
+          "name": "Ego2X CORE-annotated demonstrations",
+          "title": "Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.24138",
+          "websites": [],
+          "type": "Dataset",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            24138
+          ]
+        },
+        {
+          "bibkey": "supp_ropedia_xperience_2_2026",
+          "name": "Ropedia Xperience 2",
+          "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.17060",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://ropedia.com/xperience/2-research/"
+            },
+            {
+              "kind": "github",
+              "url": "https://github.com/Ropedia/Ropedia-Xperience-2"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/ropedia-ai/Ropedia-Xperience-2"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            17060
+          ]
+        },
+        {
+          "bibkey": "supp_robomocap_2026",
+          "name": "RoboMoCap",
+          "title": "RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning",
+          "year": "2026",
+          "venue": "arXiv 2026",
+          "paper_url": "https://arxiv.org/abs/2611.10994",
+          "websites": [
+            {
+              "kind": "homepage",
+              "url": "https://bitrobot-foundation.github.io/robomocap/"
+            },
+            {
+              "kind": "huggingface",
+              "url": "https://huggingface.co/datasets/BitRobot/robomocap"
+            }
+          ],
+          "type": "Dataset + Benchmark",
+          "sort_order": [
+            2026,
+            11,
+            0,
+            10994
+          ]
+        },
         {
           "bibkey": "supp_open_humanwam_50k_2026",
           "name": "Open-HumanWAM-50K",

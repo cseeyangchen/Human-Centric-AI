@@ -42,6 +42,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| SceneShifterBench | Benchmark | NeurIPS 2026 | SceneShifter: Training-free Multi-Scene Temporal Control for Audio-driven Human Animation | [:page_facing_up:](https://arxiv.org/abs/2611.09960 "Paper page") | [:house:](https://jameslong199.github.io/SceneShifter/ "Homepage") [:octocat:](https://github.com/JamesLong199/SceneShifter "GitHub") |
 | ReXMo paired-triplet data | Dataset | arXiv 2026 | ReXMo: End-to-End Video Character Replacement with Expression and Motion Preservation | [:page_facing_up:](https://arxiv.org/abs/2611.04633 "Paper page") | - |
 | JointLight multi-illumination data | Dataset + Benchmark | SIGGRAPH Asia 2026 | JointLight: Human-Centric Video Relighting with Asynchronous RGB-Irradiance Joint Modeling | [:page_facing_up:](https://arxiv.org/abs/2610.29780 "Paper page") | [:house:](https://sagileo.github.io/JointLight/ "Homepage") [:octocat:](https://github.com/IGLICT/JointLight "GitHub") |
 | AVE-Dataset / AVE-Dataset-Bench | Dataset + Benchmark | arXiv 2026 | Edit in Sync: Unified End-to-End Audio-Visual Editing for Human-Centric Videos | [:page_facing_up:](https://arxiv.org/abs/2610.27947 "Paper page") | - |
@@ -96,6 +97,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| ForceBody | Dataset + Benchmark | NeurIPS 2026 (Evaluations &amp; Datasets) | ForceBody: Force-Paired Parametric Body Motion with Torque Uncertainty | [:page_facing_up:](https://arxiv.org/abs/2611.22769 "Paper page") | [:octocat:](https://github.com/DominoAI-Lab/ForceBody-NeurIPS-ED-2026 "GitHub") [🤗](https://huggingface.co/datasets/kwonjoon/ForceBody "Hugging Face") |
 | DySAM / DySAL | Dataset + Benchmark | arXiv 2026 | MOMO: Human Motion from Moving Sounds | [:page_facing_up:](https://arxiv.org/abs/2610.24522 "Paper page") | [:house:](https://cdlchoi.github.io/projects/MOMO/ "Homepage") |
 | K-Pop Stress Test | Benchmark | arXiv 2026 | A Diagnostic Study of World-Space Human Recovery Under High Camera Dynamics | [:page_facing_up:](https://arxiv.org/abs/2610.19729 "Paper page") | [:house:](https://chien90190.github.io/worldhmr-fastcam-website/ "Homepage") [:octocat:](https://github.com/chien90190/worldhmr-fastcam "GitHub") [🤗](https://huggingface.co/datasets/chien90190/worldhmr-fastcam "Hugging Face") |
 | ELMA / ELMABench | Dataset + Benchmark | NeurIPS 2026 | ELMA: Benchmarking Anaphoric Compositions for Long-Term Text-to-Motion Generation | [:page_facing_up:](https://arxiv.org/abs/2610.13549 "Paper page") | [:house:](https://elma-dataset.github.io/ "Homepage") |
@@ -180,6 +182,7 @@
 
 | Resource | Type | Venue | Paper | Paper Page | Website |
 |---|:---:|:---:|---|:---:|:---:|
+| CURVTON-205K | Dataset | WACV 2027 | CURVTON-205K: A Mask-Free Difficulty-Stratified Synthetic Dataset for Robust and Scalable Virtual Try-On | [:page_facing_up:](https://arxiv.org/abs/2611.24042 "Paper page") | [:house:](https://curvton2.github.io/curvton/ "Homepage") [:octocat:](https://github.com/curvton2/CURVTON_205K "GitHub") [🤗](https://huggingface.co/datasets/curvton2/curvton2 "Hugging Face") |
 | TripVVT | Dataset | ECCV 2026 | TripVVT: A Large-Scale Triplet Dataset and a Coarse-Mask Baseline for In-the-Wild Video Virtual Try-On | [:page_facing_up:](https://arxiv.org/abs/2604.27958 "Paper page") | [:house:](https://shaodingbao.github.io/TripVVT/ "Homepage") |
 | Tstars-Tryon 1.0 | Dataset | arXiv 2026 | Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items | [:page_facing_up:](https://arxiv.org/abs/2604.19748 "Paper page") | [🤗](https://huggingface.co/datasets/TaobaoTmall-AlgorithmProducts/Tstars-VTON "Hugging Face") |
 | ShoeFit | Dataset | NeurIPS 2025 | ShoeFit: A New Dataset and Dual-image-stream DiT Framework for Virtual Footwear Try-On | [:page_facing_up:](https://doi.org/10.52202/085713-1088 "Paper page") | - |

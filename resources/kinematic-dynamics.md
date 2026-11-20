@@ -28,6 +28,9 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| MOSAIC (Wear and Go) | Wear and Go: Calibration Free Sparse Inertial Motion Capture via Online Sensor Setup Estimation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.22894 "Paper page") | [:house:](https://tanyuanshuo.github.io/wearandgo_page/ "Homepage") |
+| BAL | BAL: Bidirectional Autoregression in Latent Space for Learning Human Movement Representations | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.18559 "Paper page") | [:octocat:](https://github.com/kyotovision-public/bal "GitHub") |
+| FlashMotion | FlashMotion: Ultra-Fast Long-Term 3D Motion Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.13626 "Paper page") | [:house:](https://sun-happy-ykx.github.io/FlashMotion-Project/ "Homepage") [:octocat:](https://github.com/Sun-Happy-YKX/FlashMotion-release "GitHub") |
 | Möbius | Möbius: A Unified Motion-Language Model Bridging Understanding and Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.05279 "Paper page") | [:house:](https://jiazhishu.github.io/mobius/ "Homepage") [:octocat:](https://github.com/JiazhiShu/mobius-code "GitHub") |
 | EgoAction | EgoActionBench: Benchmarking Dense Action Captioning for Egocentric Human Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.03646 "Paper page") | [:house:](https://egoaction-bench.github.io/ "Homepage") [:octocat:](https://github.com/player0718/EgoActionBench "GitHub") |
 | GaitFM | GaitFM: A Cross-Modal Foundation Model for Wearable Gait Assessment | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.01684 "Paper page") | [:octocat:](https://github.com/saiketa/GaitFM "GitHub") |
@@ -113,6 +116,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| ReMoVe | ReMoVe: Refining a Video Model's Own Motion for Coherent Human Video Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.18666 "Paper page") | - |
+| SceneShifter | SceneShifter: Training-free Multi-Scene Temporal Control for Audio-driven Human Animation | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.09960 "Paper page") | [:house:](https://jameslong199.github.io/SceneShifter/ "Homepage") [:octocat:](https://github.com/JamesLong199/SceneShifter "GitHub") |
 | FUHA | Compact Motion Embeddings for Feed-forward Unified Human Animation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.07481 "Paper page") | - |
 | ReXMo | ReXMo: End-to-End Video Character Replacement with Expression and Motion Preservation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.04633 "Paper page") | - |
 | AVE (Edit in Sync) | Edit in Sync: Unified End-to-End Audio-Visual Editing for Human-Centric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27947 "Paper page") | - |

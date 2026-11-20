@@ -789,5 +789,214 @@
       "https://von31.github.io/social-humanoid/"
     ],
     "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_robomocap_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "RoboMoCap",
+    "title": "RoboMoCap: A Large-Scale Whole-Body Motion Capture Dataset with Egocentric Vision for Robot Learning",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.10994",
+    "websites": [
+      "https://bitrobot-foundation.github.io/robomocap/",
+      "https://huggingface.co/datasets/BitRobot/robomocap"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_grasping_the_future_data_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "Grasping the Future trajectories / benchmark",
+    "title": "Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.12879",
+    "websites": [
+      "https://grasping-the-future.github.io/",
+      "https://github.com/RustinS/grasping-the-future"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_sceneshifterbench_2026",
+    "category": "Human Video Generation and Animation",
+    "name": "SceneShifterBench",
+    "title": "SceneShifter: Training-free Multi-Scene Temporal Control for Audio-driven Human Animation",
+    "year": "2026",
+    "venue": "NeurIPS 2026",
+    "paper_url": "https://arxiv.org/abs/2611.09960",
+    "websites": [
+      "https://jameslong199.github.io/SceneShifter/",
+      "https://github.com/JamesLong199/SceneShifter"
+    ],
+    "type": "Benchmark"
+  },
+  {
+    "bibkey": "supp_ropedia_xperience_2_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "Ropedia Xperience 2",
+    "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.17060",
+    "websites": [
+      "https://ropedia.com/xperience/2-research/",
+      "https://github.com/Ropedia/Ropedia-Xperience-2",
+      "https://huggingface.co/datasets/ropedia-ai/Ropedia-Xperience-2"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_motionspeech_2026",
+    "category": "Social Interaction Data",
+    "name": "MotionSpeech",
+    "title": "DuoFlow: Towards Synchronized Speech and Motion Generation with Fine-Grained Control",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.21530",
+    "websites": [
+      "https://jundong-dev.github.io/DuoFlow-project-page/",
+      "https://github.com/JunDong-dev/DuoFlow",
+      "https://huggingface.co/datasets/JunDong-dev/motionspeech"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_lynnreal_hand_data_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "LynnReal-Hand interaction data / HandBench",
+    "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.21479",
+    "websites": [
+      "https://github.com/LynnReal-AI/LynnReal"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_cisyn_data_2026",
+    "category": "Social Interaction Data",
+    "name": "CISyn",
+    "title": "CISyn: Human Mesh Recovery in Close Interactions with Physics-Simulated Synthetic Data",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.18894",
+    "websites": [
+      "https://github.com/yfde/CISyn",
+      "https://huggingface.co/datasets/cisyn/cisyn"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_forcebody_2026",
+    "category": "Human Kinematic Motion Resources",
+    "name": "ForceBody",
+    "title": "ForceBody: Force-Paired Parametric Body Motion with Torque Uncertainty",
+    "year": "2026",
+    "venue": "NeurIPS 2026 (Evaluations & Datasets)",
+    "paper_url": "https://arxiv.org/abs/2611.22769",
+    "websites": [
+      "https://github.com/DominoAI-Lab/ForceBody-NeurIPS-ED-2026",
+      "https://huggingface.co/datasets/kwonjoon/ForceBody"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_handworldbench_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "HandWorldBench / HandWorldBench-Corpus",
+    "title": "HandWorldBench: A Unified Benchmark for Hand-Centric World Models",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.24731",
+    "websites": [
+      "https://embodiedcity.github.io/HandWorldBench/",
+      "https://huggingface.co/datasets/EmbodiedCity/HandWorldBench",
+      "https://huggingface.co/datasets/EmbodiedCity/HandWorldBench-Corpus"
+    ],
+    "type": "Dataset + Benchmark"
+  },
+  {
+    "bibkey": "supp_curvton_205k_2027",
+    "category": "Virtual Try-On",
+    "name": "CURVTON-205K",
+    "title": "CURVTON-205K: A Mask-Free Difficulty-Stratified Synthetic Dataset for Robust and Scalable Virtual Try-On",
+    "year": "2027",
+    "venue": "WACV 2027",
+    "paper_url": "https://arxiv.org/abs/2611.24042",
+    "websites": [
+      "https://curvton2.github.io/curvton/",
+      "https://github.com/curvton2/CURVTON_205K",
+      "https://huggingface.co/datasets/curvton2/curvton2"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_ego2x_core_data_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "Ego2X CORE-annotated demonstrations",
+    "title": "Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.24138",
+    "websites": [],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_hoforce_data_2026",
+    "category": "Human-Object Interaction Data",
+    "name": "HOForce Processed Data Archive",
+    "title": "HOForce: Motion and Force Reconstruction of Hand-Object Interaction Using a Single-View RGB-D Video",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.23871",
+    "websites": [
+      "https://huggingface.co/datasets/fnoi16wjhui/HOForce-data"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_humancoin_2026",
+    "category": "Egocentric Procedural Activities",
+    "name": "HumanCOIN",
+    "title": "HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.26434",
+    "websites": [
+      "https://flagopen.github.io/HumanCOIN/",
+      "https://huggingface.co/HumanCOIN"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_awaken_human_2026",
+    "category": "Human Data for Embodied AI",
+    "name": "Awaken-Human",
+    "title": "Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.26420",
+    "websites": [
+      "https://engineai-robotics.github.io/Awaken-HI/",
+      "https://github.com/engineai-robotics/Awaken-HI",
+      "https://huggingface.co/datasets/EngineAI-Embodied/Awaken-Human"
+    ],
+    "type": "Dataset"
+  },
+  {
+    "bibkey": "supp_inhabit_bench_2026",
+    "category": "Human-Scene Interaction Data",
+    "name": "Inhabit",
+    "title": "Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback",
+    "year": "2026",
+    "venue": "arXiv 2026",
+    "paper_url": "https://arxiv.org/abs/2611.25005",
+    "websites": [
+      "https://ryenhails.github.io/Inhabitant/"
+    ],
+    "type": "Benchmark"
   }
 ]

@@ -31,6 +31,11 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| CoRelate | CoRelate: Coordinated Human-Object Motion Synthesis through Interaction Relations | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.25166 "Paper page") | - |
+| HOForce | HOForce: Motion and Force Reconstruction of Hand-Object Interaction Using a Single-View RGB-D Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.23871 "Paper page") | [🤗](https://huggingface.co/spaces/fnoi16wjhui/HOForce "Hugging Face") |
+| TouchTwin | TouchTwin: Scaling Human Touch Data via Real-to-Sim-to-Real | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.17619 "Paper page") | [:house:](https://touchtwin.github.io/ "Homepage") |
+| Grasping the Future | Grasping the Future: Joint 3D Hand-Object Forecasting From Internet Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.12879 "Paper page") | [:house:](https://grasping-the-future.github.io/ "Homepage") [:octocat:](https://github.com/RustinS/grasping-the-future "GitHub") |
+| InfCoiL | InfCoiL: Coordinated Planner-Controller Learning for Closed-Loop Physics-Based Human-Object Interaction | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.11517 "Paper page") | [:house:](https://infcoil.github.io/ "Homepage") |
 | Touch-JEPA | Touch-JEPA: Tactile Representation Learning from Hand-Object Video with Limited Tactile Supervision | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.28519 "Paper page") | [:house:](https://touch-jepa.github.io/ "Homepage") [:octocat:](https://github.com/mnseong/touch-jepa "GitHub") |
 | Gaze2HOI | Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27877 "Paper page") | [:house:](https://gaze2hoi.github.io/ "Homepage") [:octocat:](https://github.com/gaze2hoi/Gaze2HOI "GitHub") |
 | BUMP | BUMP: Body-driven Unified Multi-object Physics for HOI Synthesis | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27066 "Paper page") | [:house:](https://wonjungwoo.github.io/BUMP/ "Homepage") |
@@ -81,6 +86,8 @@
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
 | InteractAgent | InteractAgent: Agentic Human Motion Interaction with Memory-Augmented Reflection | WACV 2027 | [:page_facing_up:](https://arxiv.org/abs/2610.25649 "Paper page") | [:octocat:](https://github.com/AIGeeksGroup/InteractAgent "GitHub") |
+| Inhabitant | Inhabitant: An Agent Framework for Long-Horizon Human-Scene Interaction with Spatial Control and Quantitative Feedback | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.25005 "Paper page") | [:house:](https://ryenhails.github.io/Inhabitant/ "Homepage") |
+| EgoHMP | EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.13654 "Paper page") | - |
 | EgoMo3R | EgoMo3R: Joint Egocentric Motion and Scene Reconstruction | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.01627 "Paper page") | [:house:](https://chaitanya100100.github.io/EgoMo3R/ "Homepage") [:octocat:](https://github.com/chaitanya100100/EgoMo3R "GitHub") |
 | EgoHSI3R | EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video | CoRL 2026 Workshop (Scaling Human2Robot) | [:page_facing_up:](https://arxiv.org/abs/2610.40832 "Paper page") | [:house:](https://pmz-enterprise.github.io/egohsi3r-page/ "Homepage") [:octocat:](https://github.com/pmz-enterprise/egohsi3r "GitHub") |
 | World2HOSI | World2HOSI: A Multi-Expert Harness for Long-Horizon Human-Object-Scene Interaction Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.27725 "Paper page") | [:house:](https://nintreesssss.github.io/World2HOSI/ "Homepage") |
@@ -114,6 +121,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| DuoFlow | DuoFlow: Towards Synchronized Speech and Motion Generation with Fine-Grained Control | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.21530 "Paper page") | [:house:](https://jundong-dev.github.io/DuoFlow-project-page/ "Homepage") [:octocat:](https://github.com/JunDong-dev/DuoFlow "GitHub") |
 | TalkFlow | TalkFlow: Structured Latent Flow Matching for Speech Driven Holistic Motion Generation | SIGGRAPH Asia 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.40972 "Paper page") | [:house:](https://xinmuwang.github.io/TalkFlow/ "Homepage") |
 | GLARE | GLARE: Generating Listening Heads with Appropriate Reactions | NeurIPS 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.40317 "Paper page") | [:octocat:](https://github.com/lzk901372/glare "GitHub") |
 | FlowAct-R2 | FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.35728 "Paper page") | [:house:](https://bone-11.github.io/Flowact-R2/ "Homepage") [🤗](https://huggingface.co/spaces/ProAudience/FlowAct-R2 "Hugging Face") |

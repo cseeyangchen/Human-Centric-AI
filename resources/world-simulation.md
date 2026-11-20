@@ -28,6 +28,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| LynnReal-Hand | LynnReal-Hand: Unlocking World Interaction with Hand Control | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.21479 "Paper page") | [:octocat:](https://github.com/LynnReal-AI/LynnReal "GitHub") [🤗](https://huggingface.co/shaohao011/LynnReal-Hand-Base-1.0 "Hugging Face") |
 | ME-World | Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.12299 "Paper page") | [:house:](https://cvlab-kaist.github.io/ME-World/ "Homepage") [:octocat:](https://github.com/cvlab-kaist/ME-World "GitHub") |
 | Exo2EgoHOI | Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2609.38615 "Paper page") | [:house:](https://rcl-robotics.github.io/Exo2EgoHOI/ "Homepage") [:octocat:](https://github.com/RCL-Robotics/Exo2EgoHOI "GitHub") |
 | EgoGenesis | EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2607.28243 "Paper page") | [:house:](https://egogenesis.github.io/ "Homepage") |
@@ -55,6 +56,7 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| EgoHandWAM | EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.22151 "Paper page") | - |
 | EgoGeneralist | EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.08477 "Paper page") | [:house:](https://www.neiljin.site/egogeneralist_page/ "Homepage") |
 | Ropedia W0 | Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.26855 "Paper page") | [:house:](https://ropedia.github.io/ropedia-w0/ "Homepage") [:octocat:](https://github.com/Ropedia/ropedia-w0 "GitHub") |
 | P3-WAM | Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.22363 "Paper page") | [:house:](https://p3-wam.pages.dev/ "Homepage") |

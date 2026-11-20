@@ -28,6 +28,8 @@
 
 | Method | Paper | Venue | Paper Page | Website |
 |---|---|:---:|:---:|:---:|
+| BoE (Body of Evidence) | Body of Evidence: Triangulating 3D Human Pose with Geometry-Conditioned Depth | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.21044 "Paper page") | - |
+| CISyn (uncertainty-aware HMR) | CISyn: Human Mesh Recovery in Close Interactions with Physics-Simulated Synthetic Data | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2611.18894 "Paper page") | [:octocat:](https://github.com/yfde/CISyn "GitHub") |
 | EgoHand | EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.30293 "Paper page") | [:octocat:](https://github.com/NVIDIA/IsaacCapture/tree/main/src/python/isaaccapture_egopost "GitHub") [🤗](https://huggingface.co/nvidia/EgoHand-v1 "Hugging Face") |
 | DewHand | DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.29936 "Paper page") | [:house:](https://narusuzuki.github.io/projects/26-dewhand/ "Homepage") |
 | V-JEPA Hand | V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos | arXiv 2026 | [:page_facing_up:](https://arxiv.org/abs/2610.26780 "Paper page") | [:house:](https://qft-333.github.io/V-JEPA-Hand-Page/ "Homepage") [:octocat:](https://github.com/qft-333/V-JEPA-Hand "GitHub") [🤗](https://huggingface.co/spaces/qft-333/V-JEPA-Hand "Hugging Face") |
